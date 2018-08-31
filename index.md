@@ -1,10 +1,12 @@
 ---
 layout: home
 title: Home
-landing-title: 'Hi, my name is Forty'
+landing-title: 'cdf1982.com'
 description: null
 image: null
 author: null
 ---
 
-Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.
+Ciao, I'm Cesare. Thanks for visiting my website!
+This is the home of my macOS applications, GlanceCam and ContactsAMI, and of my iOS apps: Tasktic, Walk More, Always There and Weightrack.
+It's also where I sometimes blog about software development, Apple and other things that I find interesting.
