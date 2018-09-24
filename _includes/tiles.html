@@ -1,3 +1,4 @@
+<!--
 <section id="one" class="tiles">
   {% for post in site.posts limit:site.tiles-count %}
   {% if site.tiles-source == 'posts' %}
@@ -25,4 +26,84 @@
   </article>
   {% endif %}
   {% endfor %}
+</section>
+-->
+
+<!-- My manual approach to list all the pages in the desired order -->
+<section id="one" class="tiles">
+    <article>
+      <span class="image">
+        <img src="" alt="" />
+      </span>
+      <header class="major">
+        <h3><a href="{{ site.baseurl }}/all_posts.html" class="link">Blog</a></h3>
+        <p>Occasional posts, mostly about technology and iOS / macOS development</p>
+      </header>
+    </article>
+
+    <article>
+      <span class="image">
+        <img src="{{ site.baseurl }}/assets/images/glancecam/glancecam.jpg" alt="" />
+      </span>
+      <header class="major">
+        <h3><a href="{{ site.baseurl }}/glancecam.html" class="link">GlanceCam</a></h3>
+        <p>IP camera viewer</p>
+		<p>[Mac]</p>
+      </header>
+    </article>
+	
+    <article>
+      <span class="image">
+        <img src="{{ site.baseurl }}/assets/images/tasktic/tasktic.jpg" alt="" />
+      </span>
+      <header class="major">
+        <h3><a href="{{ site.baseurl }}/tasktic.html" class="link">Tasktic</a></h3>
+        <p>Manage your tasks, not your task manager</p>
+		<p>[iPhone, iPad, Apple Watch]</p>
+      </header>
+    </article>
+	
+    <article>
+      <span class="image">
+        <img src="{{ site.baseurl }}/assets/images/walk-more/walk-more.jpg" alt="" />
+      </span>
+      <header class="major">
+        <h3><a href="{{ site.baseurl }}/walk-more.html" class="link">Walk More</a></h3>
+        <p>Powerful pedometer</p>
+		<p>[iPhone]</p>
+      </header>
+    </article>
+	
+    <article>
+      <span class="image">
+        <img src="{{ site.baseurl }}/assets/images/contactsami/contactsami.png" alt="" />
+      </span>
+      <header class="major">
+        <h3><a href="{{ site.baseurl }}/contactsami.html" class="link">ContactsAMI</a></h3>
+        <p>Never type a phone number again</p>
+		<p>[Mac]</p>
+      </header>
+    </article>
+	
+    <article>
+      <span class="image">
+        <img src="{{ site.baseurl }}/assets/images/always-there/always-there.png" alt="" />
+      </span>
+      <header class="major">
+        <h3><a href="{{ site.baseurl }}/always-there.html" class="link">Always There</a></h3>
+        <p>Your most precious photo in Notification Center</p>
+		<p>[iPhone, iPad]</p>
+      </header>
+    </article>
+	
+    <article>
+      <span class="image">
+        <img src="{{ site.baseurl }}/assets/images/weightrack/weightrack.jpg" alt="" />
+      </span>
+      <header class="major">
+        <h3><a href="{{ site.baseurl }}/weightrack.html" class="link">Weightrack</a></h3>
+        <p>Record your weight, track your progress</p>
+		<p>[iPhone]</p>
+      </header>
+    </article>
 </section>
