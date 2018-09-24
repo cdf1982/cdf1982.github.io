@@ -2,7 +2,7 @@
 layout: post
 title: Touch ID for app reviews
 description:
-image: 
+image: /assets/images/blog/2016-03-28-touch_id_for_app_reviews/touch_id_stars.png
 tags:
 ---
 There's an ongoing discussion about how Apple could improve the App Store for users and, yes, developers.
@@ -19,8 +19,6 @@ I then tweeted:
 
 And that's my whole point, but a tweet is easily missed: long and complicated passwords are important, and hopefully more users adopt them every day, but safe passwords are a pain to type, and Apple already has a secure system to avoid that annoyance.\
 **Touch ID is safe to authenticate your device and your online and offline purchases, so it sure can be used for confirming one's identity before leaving a review**.
-
-![]({{ site.baseurl }}/assets/images/blog/2016-03-28-touch_id_for_app_reviews/touch_id_stars.png)
 
 Removing any pain point in the users' evaluation process could lead to more reviews, and we all know **more reviews are good for users and, yes, again, developers, since they impact the app ranking in the search results**... I sure know I'd love more (hopefully good) reviews for [Tasktic](https://geo.itunes.apple.com/us/app/tasktic-manage-your-tasks/id1036139076?mt=8&at=1000l3L9&ct=website).
 

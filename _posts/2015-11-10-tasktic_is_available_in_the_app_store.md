@@ -2,14 +2,12 @@
 layout: post
 title: Tasktic launches today!
 description:
-image:
+image: /assets/images/blog/2015-11-10-tasktic_is_available_in_the_app_store/tasktic_launch.jpg
 tags: [tasktic]
 ---
 Well, it took a few days [longer]({{ site.baseurl }}/2015/11/05/being_too_optimistic.html) than I initially planned, but starting today you can **become a more organized person** with a little help from [Tasktic]({{ site.baseurl }}/tasktic.html), our powerful and easy to use task manager!
 
 **[Download Tasktic now](https://geo.itunes.apple.com/us/app/tasktic-manage-your-tasks/id1036139076?mt=8&at=1000l3L9&ct=blog)**, free on the App Store for your iPhone and iPad, and manage your tasks to accomplish more!
-
-[![]({{ site.baseurl }}/assets/images/blog/2015-11-10-tasktic_is_available_in_the_app_store/tasktic_launch.jpg)](https://geo.itunes.apple.com/us/app/tasktic-manage-your-tasks/id1036139076?mt=8&at=1000l3L9&ct=blog)
 
 Tasktic offers many advanced functionalities usually available only in expensive productivity apps:
 

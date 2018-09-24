@@ -2,7 +2,7 @@
 layout: post
 title: GlanceCam 1.3 and the road ahead
 description:
-image:
+image: /assets/images/blog/2018-04-07-glancecam_1_3_and_the_road_ahead/review.png
 tags: [glancecam]
 ---
 GlanceCam launch went so much better than I expected, confirming that an app I [built out of lazyness]({{ site.baseurl }}/2018/03/29/glancecam_is_here.html) is actually proving useful to others (which is simply *the best thing* for an app developer).
@@ -10,8 +10,6 @@ GlanceCam launch went so much better than I expected, confirming that an app I [
 So, it's time to take stock and plan for the future.
 
 First and foremost,** I want to thank you for the support and kind words**. Users' [feedback](mailto:support@cdf1982.com), word of mouth and App Store reviews (reviews that, with the new version, you can leave directly from the Support menu inside the app) are essential, and you're helping on all fronts! Please, don't stop...
-
-![review.png]({{ site.baseurl }}/assets/images/blog/2018-04-07-glancecam_1_3_and_the_road_ahead/review.png)
 
 Starting today, **GlanceCam 1.3 is [available in the App Store](https://itunes.apple.com/us/app/glancecam-ip-webcam-viewer/id1360797896?l=it&ls=1&mt=12)** with the following changes:
 

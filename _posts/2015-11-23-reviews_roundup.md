@@ -2,12 +2,10 @@
 layout: post
 title: Reviews roundup
 description:
-image:
+image: /assets/images/blog/2015-11-23-reviews_roundup/apprecap_tasktic_review.jpg
 tags: [tasktic]
 ---
 I'm a bit late with this post... [Taskic 1.1]({{ site.baseurl }}/2015/11/15/tasktic_1_1_coming_soon.html) is already [available in the Store](https://geo.itunes.apple.com/us/app/tasktic-manage-your-tasks/id1036139076?mt=8&at=1000l3L9&ct=website) and I'm already working on version 1.2 (it might actually take a few weeks to ship it, though), but **I really want to aknowledge the time a few reviewers took to try Tasktic and write about it**. Thanks, I really appreciate every kind word!
-
-![review.png]({{ site.baseurl }}/assets/images/blog/2015-11-23-reviews_roundup/apprecap_tasktic_review.jpg)
 
 A few highlights from the first reviews:
 

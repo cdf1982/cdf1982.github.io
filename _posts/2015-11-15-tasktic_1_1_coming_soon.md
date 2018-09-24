@@ -2,7 +2,7 @@
 layout: post
 title: Tasktic 1.1 coming soon
 description:
-image:
+image: /assets/images/blog/2015-11-15-tasktic_1_1_coming_soon/tasktic_rename_project_and_tags.png
 tags: [tasktic]
 ---
 Just a quick update, before a longer post I plan to write in a couple of days to tell you everything about Tasktic's launch and to link to the amazing reviews it has received so far.
@@ -11,8 +11,6 @@ Just a quick update, before a longer post I plan to write in a couple of days to
 
 -   You can now **change the name of projects and tags** after you've created them: go to Projects & Tags and swipe from left to right on the cell containing the project or tag you want to rename, then tap Edit name.
 -   Minor bugs have ben squashed.
-
-![With Tasktic 1.1 you can change your mind about the name of your projects and tags. How amazing!]({{ site.baseurl }}/assets/images/blog/2015-11-15-tasktic_1_1_coming_soon/tasktic_rename_project_and_tags.png)
 
 Tasktic 1.1 has been submitted to Apple just 5 days after Tasktic 1.1 launched. Too soon? I don't think so: I'm going to release new versions as soon as the features and improvements I'm working on are ready; this means that some updates will be released in a short window of time, and others will sometimes take a little longer.
 

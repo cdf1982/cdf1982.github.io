@@ -2,14 +2,12 @@
 layout: post
 title: Tasktic 1.4 with recurring tasks
 description:
-image:
+image: /assets/images/blog/2016-06-15-tasktic_1_4_with_recurring_tasks/tasktic_recurring_tasks.jpg
 tags: [tasktic]
 ---
 Since launch, the most requested feature for Tasktic has been the possibility to **repeat tasks**. I assume this is because we all want to pay our bills on time, and maybe reinforce a few good habits.
 
 I'm happy to announce that **Tasktic 1.4 is now available in the [App Store](https://geo.itunes.apple.com/us/app/tasktic-manage-your-tasks/id1036139076?mt=8&at=1000l3L9&ct=website), and it finally introduces recurring tasks** for Tasktic Pro and Tasktic Pro Big Supporter.
-
-![tasktic_recurring_tasks]({{ site.baseurl }}/assets/images/blog/2016-06-15-tasktic_1_4_with_recurring_tasks/tasktic_recurring_tasks.jpg)
 
 Recurring tasks are conceptually harder than they seem: *do you want them to repeat forever, or until a certain date?* *Is the repetition frequency set in hours, days, weeks or months?* *Do you want to repeat a task every Friday and Sunday on odd weeks?* *Does a task repeat if its previous instance hasn't been completed yet, or it stays overdue and does not notify you again?*
 

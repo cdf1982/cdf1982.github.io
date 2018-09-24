@@ -2,12 +2,10 @@
 layout: post
 title: Do we really want big data peeking into our to-do lists?
 description:
-image:
+image: /assets/images/blog/2015-12-20-do_we_really_want_big_data_peeking_into_our_todo_lists/wlyr.png
 tags:
 ---
-Yesterday I saw [this](https://www.wunderlist.com/blog/your-year-in-review-with-wunderlist/) on [ProductHunt](https://www.producthunt.com/tech/wunderlist-year-in-review):
-
-![]({{ site.baseurl }}/assets/images/blog/2015-12-20-do_we_really_want_big_data_peeking_into_our_todo_lists/wlyr.png)
+Yesterday I saw [the image above](https://www.wunderlist.com/blog/your-year-in-review-with-wunderlist/) on [ProductHunt](https://www.producthunt.com/tech/wunderlist-year-in-review).
 
 It made me wonder: **do we really want our personal informations aggregated this way? Do we need to? Do we really benefit from it, or someone else does?**
 
