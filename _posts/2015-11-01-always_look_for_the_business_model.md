@@ -1,0 +1,77 @@
+---
+layout: post
+title: Always look for the business model
+description:
+image:
+tags: [tasktic]
+---
+This post probably won't reveal you anything you didn't already know, but you should read it anyway and, maybe, share it with your loved ones: no matter if you plan to download my new app [Tasktic](https://geo.itunes.apple.com/us/app/tasktic-manage-your-tasks/id1036139076?mt=8&at=1000l3L9&ct=blog) or even if you don't care about what that is or [why I made a task manager](http://www.cdf1982.com/blog/2015/10/27/building-tasktic) when many alternatives already exist, the stuff we're going to talk about matters a lot for every app you start using or online service you subscribe to, and not everybody knows it.
+
+In today's world, you can expect an app or an online service to have one of the following business models:
+
+-   **Paid upfront**, you pay before downloading (on iOS, this means opening your wallet before even having a chance to try if the app actually does what you need);
+-   **Free, ad supported**;
+-   **Free with in-app purchases** (IAP) to unlock advanced features or more contents (once-and-forever or for a given amount of time, via recurring subscriptions);
+-   **Free with consumable IAP** (you buy a certain amount of a virtual resource, let's say gems in a game, and then spend it on items and improvements; just like the real money you used to buy them, virtual currencies stop being available to you after you spent them to upgrade some weapon or to avoid waiting for something to happen);
+-   **Free with no form of revenue** (have yet to figure it out, it's just a hobby, a venture capitalist was passing by...);
+-   **Crowdfunded** (Kickstarter, Indiegogo, etc).
+
+As you know, the frequency of the models listed above changes widely depending on the category of app you consider:
+
+-   Many games rely on the consumable IAP model (you purchase and spend virtual currency to avoid artificially-inserted waiting times, or to improve your skills) and make a lot of money while they're at it.
+-   Ads are also very common in games, while it looks to me they're much less frequent in "normal" apps than a few years ago, with the exception of social networks (Facebook, Twitter, etc. business model is actually selling adverts against the information they collect about their users).
+-   Professional apps are (decreasingly) paid upfront or (increasingly) free with limited functionality that can be extended through single or recurring IAP.
+-   In many cases, *Uber-for-bathing-cats* apps that are venture capital funded are free and have no idea whatsoever about how they'll make money (except with the textbook exit strategy: sell to someone else who also doesn't have a clue and buy a private island)... of course, having landed the vc money in the first place, these are the smart guys.
+-   Crowdfunding, while nice and growing in popularity, at the moment is not very common for apps and online services, so I won't explore it in detail today.
+
+Many business models, one main difference: **the product for sale can actually be the app or service itself, or it can be the user**.\
+By now, chances are you already know that if you're not paying for the product, you *are* the product.
+
+[![]({{ site.baseurl }}/assets/images/blog/2015-11-01-always_look_for_the_business_model/the_free_model.jpg)](http://geek-and-poke.com/geekandpoke/2010/12/21/the-free-model.html)
+
+How does this recap of the most common revenue models for apps and online services relate to task management / GTD apps in general and with my own app [Tasktic](https://geo.itunes.apple.com/us/app/tasktic-manage-your-tasks/id1036139076?mt=8&at=1000l3L9&ct=blog) in particular?
+
+If you're looking for apps in this category today, you'll encounter 4 different business models:
+
+**Approach #1: you pay upfront for the app**, usually quite a sum. 30 / 40 bucks is not an unusual price (in some cases you have to make separate purchases for every kind of device you want to use the app on, spending even more) and, while this isn't much IRL, sadly for developers it is Ferrari-price in the App Store.\
+If you go down this route, you'll have a probably good (and in a couple of cases even great) app that you couldn't try before buying, and you will be lighter of a significant amount of 💵. This isn't the cheap approach, but it's a good one if you're willing to pay the price. Another upside, in this case, is that there's a very high chance that since you paid, you and your data are *not* the product.\
+I love the paid upfront model made in a serious way (meaning: if the user paid you good money, there's no way in the world that you get her data while syncing and then sell it), and most developers do it just right, asking prices that are adequate for excellent apps targeted to power users.\
+We can't deny, though, that **such prices are a huge barrier for discovery, especially for regular users who don't know (yet) how useful a task manager can be**. Not everybody is a power user, but everyone has things to do and can use a little help staying organized and focused, so a less expensive solution is very much needed.
+
+**Approach ****#****2: you don't pay at all**. Since I'm not aware of a major free GTD app that is ad supported, the free tag price means that you are not paying for the product directly in any way.\
+Congratulations, dear friend: this is a textbook case in which it's very likely that *you are the product*. This might be a less expensive solution, it's actually free and *free is good*, but I personally don't believe is a safe one for anybody.\
+Maybe you think your data will be alright and private because the app or service is from a heavily-fundend start-up with noble ideas, but what happens to your informations and metadata if the founders decide that they really *need* the private island I mentioned above and therefore sell their company to SomeEvilConglomerate?
+
+**Approach ****#****3: you can download and use the app for free, but you can subscribe to a pro, fully-featured version for a monthly / yearly fee**.\
+This is a very common model these days. I must admit that as a user I'm OK with this approach, but I don't *love* it: recurring revenue is great for the creator as it can support steady development over time, but the customer needs to be aware that she's going to pay a small amount for a very long time, if she likes the app, probably ending up spending more than in a single transaction as in the case described in the approach #1 above.\
+On top of that, some users aren't often aware of what happens to their data when they decide to let the subscription expire: will the data be completely accessible, editable and exportable? From the moment the subscription expires, is it ok for the app creator or service provider to use data saved by the users, while they were paying, for data-mining and commercial purposes? You guessed my opinion, no, it's never ok, but how many persons do you know who carefully read the Terms and Conditions to check that's the case before they start using a service?
+
+**Approach ****#****4: you can download and use the app without spending any money upfront, but to unlock its full potential you can pay a single in-app purchase**, spending a clear, final amount once to get access to the features you want forever.\
+As a user, this is **my favorite model** for every kind of app (not just productivity, but also games... oh, videogames were so much better when people actually paid for them upfront instead of rewarding developers for adding thousands of pain points as incentive for micro-transactions, but I'm digressing...), and is also the one I, as a developer, chose for my new app [Tasktic](https://geo.itunes.apple.com/us/app/tasktic-manage-your-tasks/id1036139076?mt=8&at=1000l3L9&ct=blog).\
+I love this approach because **you can try as many apps as you'd like**, until you find the perfect one that fits exactly your needs, but I also like it because it is not a trial in the old, shareware-like sense: the free app doesn't *expire* after a certain amount of time, instead it must *provide real value* in order to compel the most passionate users to want "more" and therefore pay for the full, most advanced version.\
+I, for one and after many years of discussions in the development community, applaude Apple for not allowing trials in the App Store: the audience there is so broad and diverse that you can't expect everyone to understand exactly the limits of a trial version (risking people to input data into apps that stop working after a few days), but it's very simple to understand that a free app is providing certain functionalities and will keep having them forever, and that if you want more, or if you really enjoy the product and intend to support its future growth, you can pay for it.\
+Of course, there are cases where you need to show the user how a complex functionality actually works and that are therefore better suited for time-limited trials that give access to all the features the app can offer. This isn't common on iOS, but it can still be achieved in free apps with IAP: for instance, [Marco Arment](https://twitter.com/marcoarment) allowed a brief "demo" of Smart Speed and Voice Boost in version 1 of his awesome podcatcher [Overcast](http://www.overcast.fm/), before moving to a different, highly innovative model, [patronage](http://www.marco.org/2015/10/09/overcast2) (I sadly don't have much time to comment on this new model of support - this is already going to be a long post - except for saying that it looks really promising and that I, as many other developers, look forward to know from Marco Arment how this "experiment" will work for him).
+
+Having stated my preference for free apps with a single, non-recurring IAP, I also have to say that users who look at apps built around this business model should also be inquisitive about two more aspects :
+
+1.  It must be clear - written in plain english - that **free users' data are as sacred as those from paying customers** (meaning: it's not that, since a user isn't paying yet, the developer can data-mine his data like it's Christmas morning at Google's HQ).
+2.  If the free model is supported by advertising, these **ads must come from a reliable source**, not one that collects information to build a profile of the user; I personally believe that **this can only be said for Apple's own iAd platform**, since Apple has "a few" others sources of revenue that are more significant to its bottom line than ads and since it has publicly declared, in [unequivocal words](http://techcrunch.com/2015/06/02/apples-tim-cook-delivers-blistering-speech-on-encryption-privacy/) from its CEO and in a [clear policy](http://www.apple.com/privacy/) regarding users' privacy, that it doesn't want any more informations about its users than those strictly needed to operate its devices and services. If you're interested in the subject, I plan to write more on iAd, even if Tasktic doesn't have any ads, in the next few weeks; subscribe to our [RSS](http://www.cdf1982.com/blog/?format=rss) feed if you don't want to miss it.\
+By now, you have a pretty clear picture of what I believe and want as a user: I have issues, a lot of them, in *being the product*, so **I don't like apps and services that are free and that I can't pay for with a direct, transparent, transaction**. Free with IAP? Great. Free with generic ads? Fine by me as long as those ads aren't chisel-targeted to me. Free because you're data-mining the hell out of what I'm doing and selling it to shady advertisers? Nope, no way, not a chance in this life.
+
+Even before I began developing [Tasktic](https://geo.itunes.apple.com/us/app/tasktic-manage-your-tasks/id1036139076?mt=8&at=1000l3L9&ct=blog) last February, I wanted my new app's business model to reflect my beliefs as user:
+
+1.  I wanted to make an **easy to approach, and yet powerful, task manager for everyone**;
+2.  I wanted to make it **free**, because free apps are more convenient for users to discover and try;
+3.  I wanted **an app that absolutely doesn't make its users the end product**: privacy means a lot to me, so Tasktic business model had to have user [privacy](https://www.cdf1982.com/privacy) front and center.
+4.  For a business model to be a business model, of course it also had to be sustainable: I wanted to offer **pro features for a single, non-recurring and not expensive in-app purchase**, also giving the most passionate users an opportunity to show their love by paying a little more (more on this in the next, way shorter post). I initially thought to support the free version with ads done the right, privacy-respectful way (meaning, using iAd), but then I opted for the best experience possible for every user.
+
+Is well known that being free is a necessity if you want a lot of people to try your app and, maybe, love it and use it every day in their busy lives. But after all that I've written about free products, let me be crystal clear on my purpose in making Tasktic available for free: my hope is to *"lure"* a lot of users into installing Tasktic and, after trying it out and evaluating if its features and design pattern fit their needs, maybe pay to unlock it's more powerful features.\
+**My goal as a developer is to convert free users to Pro users, I want to be completely straightforward on this**. You want developers to be straightforward on this.
+
+Having said that, I hope a lot of people will buy the Pro versions of [Tasktic](https://geo.itunes.apple.com/us/app/tasktic-manage-your-tasks/id1036139076?mt=8&at=1000l3L9&ct=blog) when it launches in a few days, but I know that there's a certain number of users who will like the app, but are never going to pay.\
+This is fine by me, I intend to preserve the trust of those free users no less than of the paying customers; I can't be sure I won't change anything in Tasktic business model in the future, after seeing how the launch goes (I'm talking specifically about iAd in the free version). But this won't change: **users' data, even if they don't pay a dime, belong to them**. The pillars upon which Tasktic is built are, and forever will be, **1\. only you can access your own data** and **2\. your data syncs exclusively via iCloud** (again, only accessible by you).
+
+If you got this far, chances are you care about privacy and data protection, and you're absolutely right because, as I said at the beginning of this long post, **this stuff matters a lot**.\
+I hope you'll think about it, in the future, when you download any app or subscribe to an online service: **always, always look for the business model!**\
+I also hope that **you'll consider giving [Tasktic](https://geo.itunes.apple.com/us/app/tasktic-manage-your-tasks/id1036139076?mt=8&at=1000l3L9&ct=blog) a try when it launches on the App Store, next November 5**. It's free, you know? And it keeps your privacy safe. Also, it's [fanTasktic](https://www.cdf1982.com/accomplish-more-with-fantasktic-button) because I made it with love and I'm better at app development than at puns like this.\
+But, most important, I ask you to **consider sharing this post with people you care about, but that you know aren't always as tech-savvy as you are**: they won't like you implied they're not tech experts, but they can use these informations to make better, safer choices.
