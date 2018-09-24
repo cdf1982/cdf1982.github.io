@@ -2,7 +2,7 @@
 title: GlanceCam
 layout: landing
 description: 'IP camera viewer for Mac'
-image: assets/images/glancecam/glancecam_01.jpg
+image: assets/images/glancecam/glancecam.jpg
 nav-menu: true
 ---
 
