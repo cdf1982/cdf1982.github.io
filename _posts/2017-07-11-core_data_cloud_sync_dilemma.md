@@ -13,11 +13,11 @@ Here lies her dilemma. And my dilemma. And many developers' dilemma... **There's
 
 ![sync_is_hard.jpg]({{ site.baseurl }}/assets/images/blog/2017-07-11-core_data_cloud_sync_dilemma/sync_is_hard.jpg)
 
-Becky doesn't want to use Core Data + iCloud since it's deprecated. I might add, I don't want a friend to use it, because I value her sanity... when I was setting up [Tasktic](https://www.cdf1982.com/tasktic)'s sync mechanism, I spent 4 months and 3 complete rewrites before realizing my code wasn't the problem: it was the actual API that was an almost un-debuggable black box that sometimes, very rarely but still too often, lost an object during the sync process with apparently no reason, and no way to get it back.
+Becky doesn't want to use Core Data + iCloud since it's deprecated. I might add, I don't want a friend to use it, because I value her sanity... when I was setting up [Tasktic]({{ site.baseurl }}/tasktic.html)'s sync mechanism, I spent 4 months and 3 complete rewrites before realizing my code wasn't the problem: it was the actual API that was an almost un-debuggable black box that sometimes, very rarely but still too often, lost an object during the sync process with apparently no reason, and no way to get it back.
 
 A few weeks ago, I suggested [Ensembles](http://www.ensembles.io/) to Becky, since it was the solution I adopted for Tasktic and given how well it behaved for me, restoring my sanity after those awful 4 months. But the free version of Ensembles still uses Core Data + iCloud under the hood***, so it's not very future proof given the deprecation mentioned above, and on top of that there's a more modern, faster solution provided by Apple that everybody want to use: CloudKit.
 
-CloudKit is very tempting because everyone has experienced how fast and reliable it is with Notes.app and Photos.app for macOS and iOS; the most important thing for an app that sync is to never, ever lose users' data, and CloudKit passes that test with flying colors.\
+CloudKit is very tempting because everyone has experienced how fast and reliable it is with Notes.app and Photos.app for macOS and iOS; the most important thing for an app that sync is to never, ever lose users' data, and CloudKit passes that test with flying colors.
 It is also very modern, with private/public data, web support via CloudKitJS, and most important, it is what Apple has chosen for the future, and following Apple's lead is always a good idea.
 
 The thing is, **in order to get CloudKit to play nice with Core Data, you have to write most of the sync logic yourself**, converting NSManagedObjects to CKRecords, handling updates, reacting to duplication, etc. It can be done, and many developers do it "by hand".
@@ -36,4 +36,4 @@ This is a step they really should take: while it's great that they provide sampl
 
 So, if you have a friend who works at the best fruit company in the world, pass along the message: **the indie developer community, and especially us beginners, would love some help in this area!**
 
-** This is true only if you want to stick with native cloud solutions, like I prefer, otherwise you can also pair Ensembles with your own backend or use Dropbox: the great thing about Ensembles is that it's actually backend agnostic, but for CloudKit you need Ensembles 2, which isn't free and so it's not an option for most indie developers like myself.*
+** This is true only if you want to stick with native cloud solutions, like I prefer, otherwise you can also pair Ensembles with your own backend or use Dropbox: the great thing about Ensembles is that it's actually backend agnostic, but for CloudKit you need Ensembles 2, which isn't free and so it's not an option for most indie developers like myself.

@@ -13,13 +13,13 @@ In the days leading to the launch, I'd like to share with you some thoughts abou
 
 Let's start today with the elephant in the room: why did I feel the need of another task manager app and how do I think Tasktic can gain traction in such a *crowded market*?
 
-![Well, at least we aren't all going with the same idea for our icons...]({{ site.baseurl }}/assets/images/blog/2015-10-27-building_tasktic/such_fantasy_in_taskmanager_icons.jpg)
+![Well, at least we aren't all going with the same idea for our icons...]({{ site.baseurl }}/assets/images/blog/2015-10-27-building_tasktic/such_fantasy_in_taskmanager_icons.png)
 
 *Well, at least we aren't all going with the same idea for our icons...*
 
 It's true that there are a lot of task manager / GTD / to-do list apps out there, and some of them are really great and fully-featured products. But the good and most powerful apps in this category are often rather expensive and **not many people want to spend 30 or 40 bucks on an app**, so they're stuck with built-in options that are quite basic or, worse, with fully-featured apps that are only apparently* "free"*, but instead collect and analyze users data (more on this in one of the next posts).
 
-So, I thought that a task manager with a really **friendly learning curve**, but many **advanced features**, and with **no entry price** (but with absolutely **no access to users data**) could make a lot of sense for a lot of people.\
+So, I thought that a task manager with a really **friendly learning curve**, but many **advanced features**, and with **no entry price** (but with absolutely **no access to users data**) could make a lot of sense for a lot of people.
 Not everybody with a smartphone is using a to-do list or a task manager, but **almost everyone needs one**. So, the market can be crowded of apps, but people buy new iPhones and iPads every second of every day and **not every potential user is well served by the current options**.
 
 I think **there's still lot of potential for productivity apps**, and I believe Tasktic has a place in this crowded category because:

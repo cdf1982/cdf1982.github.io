@@ -17,10 +17,10 @@ I'm not here to tell you that you shouldn't keep your lists up to date, obviousl
 
 Me too, but I know people who do just the opposite and that works magic for them. **Just find what seems to fit you the best, be sure it's fast and unobtrusive and go for it**.
 
-The best solution for you might be pen and paper on the bedside table, it might be the preinstalled basic app on your phone, or maybe it will be [Tasktic](https://www.cdf1982.com/tasktic) on all your mobile devices...
+The best solution for you might be pen and paper on the bedside table, it might be the preinstalled basic app on your phone, or maybe it will be [Tasktic]({{ site.baseurl }}/tasktic.html) on all your mobile devices...
 
 ![review.png]({{ site.baseurl }}/assets/images/blog/2015-11-24-just_start_over/whateverworksbest.jpg)
 
 After a while you notice that you haven't had time to look at your lists in days? **No problem**, just bring them up to date and **start over**, maybe adjusting some details you think didn't help you being effective last time (don't have time to look at your list in the morning? try doing it last thing before leaving the office, etc...).
 
-You won't form a habit in a day, but **it's not worth it to give up a great organization method just because once in a while you find yourself ****temporarily** **abandoning it**.
+You won't form a habit in a day, but **it's not worth it to give up a great organization method just because once in a while you find yourself temporarily abandoning it**.

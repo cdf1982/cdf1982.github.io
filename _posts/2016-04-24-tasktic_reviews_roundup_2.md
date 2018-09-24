@@ -5,14 +5,14 @@ description:
 image: /assets/images/blog/2016-04-24-tasktic_reviews_roundup_2/torre_del_mare.jpg
 tags: [tasktic]
 ---
-This is a post I have postponed for a while... I'm not sure if I was trying to be humble or if I was too absorbed by a couple of projects (recurring tasks coming soon in Tasktic 1.4 and the new app we just launched, [Always There](https://www.cdf1982.com/always-there)), but here we are...\
-I want to take a moment and **tell you about the amazing feedback Tasktic received in the last few months**, after the [first reviews roundup](http://www.cdf1982.com/blog/2015/11/23/reviews-roundup) I published last November:
+This is a post I have postponed for a while... I'm not sure if I was trying to be humble or if I was too absorbed by a couple of projects (recurring tasks coming soon in Tasktic 1.4 and the new app we just launched, [Always There]({{ site.baseurl }}/always-there.html)), but here we are...\
+I want to take a moment and **tell you about the amazing feedback Tasktic received in the last few months**, after the [first reviews roundup]({{ site.baseurl }}/2016/04/24/tasktic_reviews_roundup_2.html) I published last November:
 
--   As you might have [read before](http://www.cdf1982.com/blog/2015/12/28/the-producthunt-effect), last Christmas was very special for us, since [Tasktic made it into the Top 10 Tech section of ](https://www.producthunt.com/tech/tasktic)**[Product Hunt](https://www.producthunt.com/tech/tasktic)**. We're still amazed, proud and motivated by this acknowledgement.
+-   As you might have [read before]({{ site.baseurl }}/2015/12/28/the_product_hunt_effect.html), last Christmas was very special for us, since [Tasktic made it into the Top 10 Tech section of ](https://www.producthunt.com/tech/tasktic)**[Product Hunt](https://www.producthunt.com/tech/tasktic)**. We're still amazed, proud and motivated by this acknowledgement.
 
 -   On December 28, 2015 [**AppGratis.com** team chose Tasktic as the app of the day](https://appgratis.com/en-be/2015/12/28/tasktic) and wrote that "*luckily there's Tasktic, a powerful task manager set to turn your productivity up to 11*" by creating tasks that can be "*as mundane as a reminder to water a plant or as long-term as investigating the rise of the robots. Either way Tasktic is the app for the job*".
 
--   **The Daily Telegraph Sidney** wrote about Tasktic in the [newspaper](https://www.cdf1982.com/s/daily_telegraph_sidney_tasktic_review.jpg) published January 13, 2016: "*If 'being more organised' is one of your resolutions, this could get you started*": Tasktic "*stands out of its simplicity*". Seeing Tasktic in an actual newspaper was a moment of true joy!
+-   **The Daily Telegraph Sidney** wrote about Tasktic in the [newspaper]({{ site.baseurl }}/downloads/daily_telegraph_sidney_tasktic_review.jpg) published January 13, 2016: "*If 'being more organised' is one of your resolutions, this could get you started*": Tasktic "*stands out of its simplicity*". Seeing Tasktic in an actual newspaper was a moment of true joy!
 
 -   [**ILoveFreeSoftware** reviewed Tasktic](http://www.ilovefreesoftware.com/16/iphone/iphone-task-manager-app-add-tasks-via-siri-tasktic.html) on January 16, 2016 highlighting how it is "*an amazing free iPhone app to add tasks via Siri*" and pointing out that "*Tasktic also comes with a beautiful and intuitive interface for managing your daily tasks*".
 

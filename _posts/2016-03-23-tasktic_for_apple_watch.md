@@ -13,4 +13,4 @@ Tasktic for Apple Watch is a simple app, designed for quick interactions on the 
 
 Tasktic Pro and Pro Big Supporter users can also view overdue tasks directly from Tasktic for Apple Watch by enabling the option inside Tasktic for iOS Settings.
 
-Tasktic for Apple Watch is the first in **a series of new features we're working on and plan to introduce this spring**... follow us on [Twitter](https://twitter.com/taskticapp) and subscribe to our [RSS feed](http://www.cdf1982.com/blog/?format=rss) to never miss an update! And if you have any question, please don't hesitate to send us an [email](http://tasktic@cdf1982.com/)!
+Tasktic for Apple Watch is the first in **a series of new features we're working on and plan to introduce this spring**... follow us on [Twitter](https://twitter.com/taskticapp) and subscribe to our [RSS feed]({{ site.baseurl }}/feed.xml) to never miss an update! And if you have any question, please don't hesitate to send us an [email](http://tasktic@cdf1982.com/)!

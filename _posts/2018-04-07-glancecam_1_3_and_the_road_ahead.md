@@ -5,7 +5,7 @@ description:
 image:
 tags: [glancecam]
 ---
-GlanceCam launch went so much better than I expected, confirming that an app I [built out of lazyness](https://www.cdf1982.com/blog/2018/3/29/glancecam-is-here) is actually proving useful to others (which is simply *the best thing* for an app developer).
+GlanceCam launch went so much better than I expected, confirming that an app I [built out of lazyness]({{ site.baseurl }}/2018/03/29/glancecam_is_here.html) is actually proving useful to others (which is simply *the best thing* for an app developer).
 
 So, it's time to take stock and plan for the future.
 
@@ -21,10 +21,10 @@ Starting today, **GlanceCam 1.3 is [available in the App Store](https://itunes.a
 
 With this update, the basics of a single-camera, single-action app are mostly covered. So **it's time to start thinking, and building, GlanceCam 2.0**.
 
-The next logical step, and I have already heard some feedback confirming this, is to go from one camera to **multiple webcams**.\
+The next logical step, and I have already heard some feedback confirming this, is to go from one camera to **multiple webcams**.
 Doing so requires some *deep* rewriting, which I started yesterday, but expect this change to take a while before showing up in the App Store app.
 
-Since I'm in the starting phase of the redesign process, there are a few decision to make, and** I'll really appreciate your opinion about 3 possible approaches to multi-camera**:
+Since I'm in the starting phase of the redesign process, there are a few decision to make, and **I'll really appreciate your opinion about 3 possible approaches to multi-camera**:
 
 1.  *Would you like GlanceCam to remain a single-window application, showing one camera at a time, and switch between cameras with buttons / keyboard shortcuts?*
 2.  *Do you prefer to be able to open a separate GlanceCam window for each camera, rearranging and resizing them separately?*

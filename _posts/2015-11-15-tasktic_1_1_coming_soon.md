@@ -16,6 +16,6 @@ Just a quick update, before a longer post I plan to write in a couple of days to
 
 Tasktic 1.1 has been submitted to Apple just 5 days after Tasktic 1.1 launched. Too soon? I don't think so: I'm going to release new versions as soon as the features and improvements I'm working on are ready; this means that some updates will be released in a short window of time, and others will sometimes take a little longer.
 
-Of course, **Tasktic evolution will benefit greatly from Users' feedback**. Please, [get it touch](https://www.cdf1982.com/support) if you have any suggestions or - let's hope not, but nobody's perfect - any issues.
+Of course, **Tasktic evolution will benefit greatly from Users' feedback**. Please, [get it touch]({{ site.baseurl }}/support.html) if you have any suggestions or - let's hope not, but nobody's perfect - any issues.
 
 **You can expect to receive the update to Tasktic 1.1 in about 10 - 12 days**, after the review process from Apple will be completed.

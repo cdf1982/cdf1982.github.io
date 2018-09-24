@@ -5,7 +5,7 @@ description:
 image:
 tags: [tasktic]
 ---
-Well, it took a few days [longer](http://www.cdf1982.com/blog/2015/11/5/being-too-optimistic) than I initially planned, but starting today you can **become a more organized person** with a little help from [Tasktic](https://www.cdf1982.com/tasktic), our powerful and easy to use task manager!
+Well, it took a few days [longer]({{ site.baseurl }}/2015/11/05/being_too_optimistic.html) than I initially planned, but starting today you can **become a more organized person** with a little help from [Tasktic]({{ site.baseurl }}/tasktic.html), our powerful and easy to use task manager!
 
 **[Download Tasktic now](https://geo.itunes.apple.com/us/app/tasktic-manage-your-tasks/id1036139076?mt=8&at=1000l3L9&ct=blog)**, free on the App Store for your iPhone and iPad, and manage your tasks to accomplish more!
 
@@ -20,4 +20,4 @@ Tasktic offers many advanced functionalities usually available only in expensive
 -   Siri and Reminders for Mac integration
 -   Statistics and achievements
 
-[Try it for free](https://geo.itunes.apple.com/us/app/tasktic-manage-your-tasks/id1036139076?mt=8&at=1000l3L9&ct=blog), share it with family and friends and subscribe to our [RSS](http://www.cdf1982.com/blog/?format=rss) feed to never miss an update about Tasktic and for a few [more](https://www.cdf1982.com/blog) posts about its development and launch that are coming in the next weeks!
+[Try it for free](https://geo.itunes.apple.com/us/app/tasktic-manage-your-tasks/id1036139076?mt=8&at=1000l3L9&ct=blog), share it with family and friends and subscribe to our [RSS]({{ site.baseurl }}/feed.xml) feed to never miss an update about Tasktic and for a few [more]({{ site.baseurl }}/all_posts.html) posts about its development and launch that are coming in the next weeks!

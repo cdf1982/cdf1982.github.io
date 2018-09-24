@@ -5,7 +5,7 @@ description:
 image:
 tags: [walk more]
 ---
-After an amazingly quick Sunday app review, Walk More 1.2 is here. Download it for free and tell your friends about it!
+After an amazingly quick Sunday app review, Walk More 1.2 is here. **[Download it](https://geo.itunes.apple.com/us/app/walk-more-powerful-pedometer-for-step-counting/id1198077980?mt=8&at=1000l3L9&ct=website)** for free and tell your friends about it!
 
 This new version introduces two localizations, Simplified Chinese and Italian, and the possibility to brag about your steps count via the iOS share sheet.
 

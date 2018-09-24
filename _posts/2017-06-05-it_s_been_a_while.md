@@ -5,7 +5,7 @@ description:
 image:
 tags:
 ---
-The last post here on cdf1982.com was appropriately named "[Cultivate bad ideas](https://www.cdf1982.com/blog/2016/8/17/cultivate-bad-ideas)", and I have indeed pursued a lot of ideas in the last 8 months.
+The last post here on cdf1982.com was appropriately named "[Cultivate bad ideas]({{ site.baseurl }}/2016/08/17/cultivate_bad_ideas.html)", and I have indeed pursued a lot of ideas in the last 8 months.
 
 One (me) might actually say that I have bitten off more than I can chew, considering my day job and other personal commitments...
 
@@ -19,7 +19,7 @@ To be specific, I have worked on - and skillfully avoided completion of:
 
 I believe that all those ideas are good and worth pursuing, just not *all at the same time*.
 
-So, today I submitted [**Walk More**](https://www.cdf1982.com/walk-more) to the App Store; I would have liked to add a couple more features to version 1.0, but tbh the core functionality is there (and has been for months), as is the overall look and feel of the app (which I very much like), and it's time to start shipping products again.
+So, today I submitted [**Walk More**]({{ site.baseurl }}/walk-more.html) to the App Store; I would have liked to add a couple more features to version 1.0, but tbh the core functionality is there (and has been for months), as is the overall look and feel of the app (which I very much like), and it's time to start shipping products again.
 
 Reaching the release of an app, and placing another (the media player) in the parking lot, will free up a bit of mental space and, also important, should stop me from feeling guilty every time I think of opening TextMate instead of Xcode: I completely stopped blogging in the last months because I tried to prioritize software development, but writing more commentary posts about tech news was one of my goals for 2017.
 
