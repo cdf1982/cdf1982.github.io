@@ -3,7 +3,7 @@ title: cdf1982
 subtitle:
 email: support@cdf1982.com
 description: Ciao, I’m Cesare. Thanks for visiting my website!<br />Here you’ll find information about my macOS and iOS applications, and it’s also where I sometimes blog about software development, Apple and other things that I find interesting.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: https://www.cdf1982.com
 author: Cesare Forelli
 street_address:
