@@ -1,9 +1,8 @@
 ---
 title: ContactsAMI
 layout: landing
-description: Lorem Ipsum
+description: ContactsAMI minisite is currently under construction.
 image:
 nav-menu: true
 ---
-
-Lorem Ipsum
+In the meantime, you can [download ContactsAMI free trial]({{ site.baseurl }}/downloads/ContactsAMI.zip) for macOS.
