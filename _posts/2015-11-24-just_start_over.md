@@ -2,7 +2,7 @@
 layout: post
 title: Just start over
 description:
-image: /assets/images/blog/2015-11-24-just_start_over/whateverworksbest.jpg
+image: assets/images/blog/2015-11-24-just_start_over/whateverworksbest.jpg
 tags:
 ---
 [Insightful post](http://leancrew.com/all-this/2015/11/unlisted/) from Dr. Drang:

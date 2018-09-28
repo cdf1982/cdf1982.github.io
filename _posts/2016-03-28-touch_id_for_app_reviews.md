@@ -2,7 +2,7 @@
 layout: post
 title: Touch ID for app reviews
 description:
-image: /assets/images/blog/2016-03-28-touch_id_for_app_reviews/touch_id_stars.png
+image: assets/images/blog/2016-03-28-touch_id_for_app_reviews/touch_id_stars.png
 tags:
 ---
 There's an ongoing discussion about how Apple could improve the App Store for users and, yes, developers.

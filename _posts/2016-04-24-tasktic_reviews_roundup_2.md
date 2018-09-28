@@ -2,7 +2,7 @@
 layout: post
 title: Tasktic reviews roundup #2
 description:
-image: /assets/images/blog/2016-04-24-tasktic_reviews_roundup_2/torre_del_mare.jpg
+image: assets/images/blog/2016-04-24-tasktic_reviews_roundup_2/torre_del_mare.jpg
 tags: [tasktic]
 ---
 This is a post I have postponed for a while... I'm not sure if I was trying to be humble or if I was too absorbed by a couple of projects (recurring tasks coming soon in Tasktic 1.4 and the new app we just launched, [Always There]({{ site.baseurl }}/always-there.html)), but here we are...\

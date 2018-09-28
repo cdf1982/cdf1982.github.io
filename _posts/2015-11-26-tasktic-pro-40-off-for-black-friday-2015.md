@@ -2,7 +2,7 @@
 layout: post
 title: A sweet, sweet deal
 description:
-image: /assets/images/blog/2015-11-26-tasktic-pro-40-off-for-black-friday-2015/tasktic_black_friday.jpg
+image: assets/images/blog/2015-11-26-tasktic-pro-40-off-for-black-friday-2015/tasktic_black_friday.jpg
 tags: [tasktic]
 ---
 **Tasktic Pro is 40% off for Bla****ck Friday 2015 🎉!**

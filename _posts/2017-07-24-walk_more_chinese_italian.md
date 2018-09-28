@@ -2,7 +2,7 @@
 layout: post
 title: Nǐ hǎo Walk More 1.2
 description:
-image: /assets/images/blog/2017-07-24-walk_more_chinese_italian/walk_more_chinese_italian.jpg
+image: assets/images/blog/2017-07-24-walk_more_chinese_italian/walk_more_chinese_italian.jpg
 tags: [walk more]
 ---
 After an amazingly quick Sunday app review, Walk More 1.2 is here. **[Download it](https://geo.itunes.apple.com/us/app/walk-more-powerful-pedometer-for-step-counting/id1198077980?mt=8&at=1000l3L9&ct=website)** for free and tell your friends about it!

@@ -2,7 +2,7 @@
 layout: post
 title: Do we really want big data peeking into our to-do lists?
 description:
-image: /assets/images/blog/2015-12-20-do_we_really_want_big_data_peeking_into_our_todo_lists/wlyr.png
+image: assets/images/blog/2015-12-20-do_we_really_want_big_data_peeking_into_our_todo_lists/wlyr.png
 tags:
 ---
 Yesterday I saw [the image above](https://www.wunderlist.com/blog/your-year-in-review-with-wunderlist/) on [ProductHunt](https://www.producthunt.com/tech/wunderlist-year-in-review).

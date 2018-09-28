@@ -2,7 +2,7 @@
 layout: post
 title: Tasktic launches today!
 description:
-image: /assets/images/blog/2015-11-10-tasktic_is_available_in_the_app_store/tasktic_launch.jpg
+image: assets/images/blog/2015-11-10-tasktic_is_available_in_the_app_store/tasktic_launch.jpg
 tags: [tasktic]
 ---
 Well, it took a few days [longer]({{ site.baseurl }}/2015/11/05/being_too_optimistic.html) than I initially planned, but starting today you can **become a more organized person** with a little help from [Tasktic]({{ site.baseurl }}/tasktic.html), our powerful and easy to use task manager!

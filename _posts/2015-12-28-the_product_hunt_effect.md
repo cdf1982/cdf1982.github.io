@@ -2,7 +2,7 @@
 layout: post
 title: The PH effect
 description:
-image: /assets/images/blog/2015-12-28-the_product_hunt_effect/tasktic_kittens.jpg
+image: assets/images/blog/2015-12-28-the_product_hunt_effect/tasktic_kittens.jpg
 tags: [tasktic]
 ---
 > "'Twas the night before Christmas, when all through the house\
