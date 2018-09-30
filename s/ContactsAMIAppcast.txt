@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>ContactsAMI release notes</title>
+        <description>Most recent changes with links to updates.</description>
+        <language>en</language>
+		
+        <item>
+            <title>Version 1.0</title>
+            <sparkle:releaseNotesLink>
+                https://www.cdf1982.com/contactsami-release-notes
+            </sparkle:releaseNotesLink>
+            <pubDate>Tue, 30 Jan 2018 07:47:00 +0000</pubDate>
+            <enclosure url="https://www.cdf1982.com/s/ContactsAMI-1_0pkg.zip" sparkle:version="500" sparkle:shortVersionString="1.0" length="9058712" type="application/octet-stream" sparkle:dsaSignature="MCwCFDJErJOrVZLajrqNKwB6SsNqljUvAhRBGXIaHn7jvLIhWEVOu7YkGw3VVg==" />
+            <sparkle:minimumSystemVersion>10.12</sparkle:minimumSystemVersion>
+        </item>
+		
+    </channel>
+</rss>
