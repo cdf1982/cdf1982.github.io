@@ -4,7 +4,7 @@ subtitle:
 email: support@cdf1982.com
 description: Ciao, I’m Cesare. Thanks for visiting my website!<br />Here you’ll find information about my Mac and iOS applications, and it’s also where I sometimes blog about software development, Apple and other things I find interesting.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: cdf1982.github.io
+url: cdf1982.com
 author: Cesare Forelli
 street_address:
 city:
@@ -17,7 +17,7 @@ plugins:
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 7
+tiles-count: 8
 
 # social settings
 500px_url:
