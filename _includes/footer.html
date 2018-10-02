@@ -1,4 +1,5 @@
 <!-- Contact -->
+{% if page.layout != "post" %}
 <section id="contact">
 	<div class="inner">
 		<section>
@@ -30,40 +31,41 @@
 				</div>
 			</section>
 			<!--
-			<section>
+				<section>
 				<div class="contact-method">
-					<span class="icon alt fa-phone"></span>
-					<h3>Phone</h3>
-					<span>{{ site.phone }}</span>
+				<span class="icon alt fa-phone"></span>
+				<h3>Phone</h3>
+				<span>{{ site.phone }}</span>
 				</div>
+				</section>
+				-->
+				<section>
+					<div class="contact-method">
+						<span class="icon alt fa-home"></span>
+						<h3>Where am I?</h3>
+						<span>
+							{% if site.street_address %}
+							{{ site.street_address }}<br />
+							{% endif %}
+							{% if site.city %}
+							{{ site.city }},
+							{% endif %}
+							{% if site.state %}
+							{{ site.state }} 
+							{% endif %}
+							{% if site.zip_code %}
+							{{ site.zip_code }}<br />
+							{% endif %}
+							{% if site.country %}
+							{{ site.country }}
+							{% endif %}
+						</span>
+					</div>
+				</section>
 			</section>
-			-->
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-home"></span>
-					<h3>Where am I?</h3>
-					<span>
-					{% if site.street_address %}
-					    {{ site.street_address }}<br />
-					{% endif %}
-					{% if site.city %}
-					    {{ site.city }},
-					{% endif %}
-					{% if site.state %}
-					    {{ site.state }} 
-					{% endif %}
-					{% if site.zip_code %}
-					    {{ site.zip_code }}<br />
-					{% endif %}
-					{% if site.country %}
-					    {{ site.country }}
-					{% endif %}
-					</span>
-				</div>
-			</section>
-		</section>
-	</div>
-</section>
+		</div>
+	</section>
+	{% endif %}
 
 <!-- Footer -->
 	<footer id="footer">
