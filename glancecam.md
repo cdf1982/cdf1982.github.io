@@ -15,7 +15,7 @@ nav-menu: true
 		<p>GlanceCam is a highly configurable app that lets you <b>keep an eye on IP cameras (webcams) and optionally perform some actions via HTTP(s) requests.</b><br>GlanceCam is a bit nerdy, but very useful if you want to take full advantage of cheap webcams and maybe combine them to the automation capabilities of the Internet of Things (IoT); it works on your LAN or via Internet (please see the requirements below) and, while it's not the most <i>"works out-of-the-box"</i> home or business automation solution to configure (you'll need to type in a few network parameters, as detailed in the following description), it's completely flexible.</p>
 		<p style="text-align:center">
 			<a href="https://itunes.apple.com/us/app/glancecam-ip-webcam-viewer/id1360797896?l=it&ls=1&mt=12" class="image" target="new">
-				<img src="assets/download_mac_app_store.svg" alt="Download on the Mac App Store" data-position="center center" />
+				<img src="assets/images/download_mac_app_store_white_bg.svg" alt="Download on the Mac App Store" data-position="center center" />
 			</a>
 		</p>
 	</div>
