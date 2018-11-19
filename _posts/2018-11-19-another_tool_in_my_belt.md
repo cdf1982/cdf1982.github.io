@@ -21,6 +21,6 @@ I actually made two alternatives, spending less than 10 minutes total: one [save
 Every time I have the chance to use it, Siri Shortcuts stands out as an amazing tool for automation, with great flexibility and an outstanding approachability.
 It truly deserves a spot in my tool belt, and you should think of it more often too!
 
-P.S. In the ongoing effort to add tools to my belt, I should point out that this post has been written, committed and published using only an iPad and an iPhone. This includes the screenshots framed in the device fra,es, made using [this Shortcut made by Viticci](https://www.macstories.net/ios/apple-frames-a-shortcut-for-framing-screenshots-from-every-apple-device/) that is pure witchcraft.
+P.S. In the ongoing effort to add tools to my belt, I should point out that this post has been written, committed and published using only an iPad and an iPhone. This includes [the screenshots]({{ site.baseurl }}/assets/images/blog/2018-11-19-another_tool_in_my_belt/sirishortcutsforaudio.png) placed in the device frames, made using [this Shortcut made by Viticci](https://www.macstories.net/ios/apple-frames-a-shortcut-for-framing-screenshots-from-every-apple-device/) that is pure witchcraft.
 
 P.P.S. The more I work on an iPad, the more I believe the worst limit to productivity here is not iOS, it is the Smart Keyboard not having backlighting and switching between locales by accidentally pressing the dedicated button... but this is a post for another day.
