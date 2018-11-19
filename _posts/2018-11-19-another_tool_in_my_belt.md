@@ -9,7 +9,7 @@ Today I was asked for a way, maybe a small custom iOS app with bonus points if i
 The path for the file is known and remains the same, but the file name changes every day and it corresponds to the date in yyyyMMdd format.
 No need to archive the file for posterity or retrieve previous days, the goal was just a quick way to fetch this MP3 and treat it like a podcast while being on the move.
 
-Since I remembered CarPlay apps being limited by Apple to specific use cases, I immediately gave up the bonus points and focused on the quickest way to achieve the goal. I should also confess I'm also trying to reduce the number of new apps to work on concurrently, so I wasn't excited by the idea of opening Xcode for this...
+Since I remembered CarPlay apps being limited by Apple to specific use cases, I immediately gave up the bonus points and focused on the quickest way to achieve the goal. I should also confess I'm trying to reduce the number of new apps I work on concurrently, so I wasn't excited by the prospect of opening Xcode for this...
 
 The next idea involved a cron job, Apple Script and iTunes, plus the existing Apple Music subscription of the person requesting my suggestion: I began imagining to write a script, schedule it for running every day and either add the file as a song to iTunes and have it uploaded to the Music library in the cloud or copy the file to iCloud to play it directly from the Files app when needed.
 Maybe Overcast Premium could have been a part for this and resurrect the CarPlay part, but it seemed overly complicated: I was thinking of repeating an operation every day on a different device for just an occasional need.
@@ -22,3 +22,5 @@ Every time I have the chance to use it, Siri Shortcuts stands out as an amazing 
 It truly deserves a spot in my tool belt, and you should think of it more often too!
 
 P.S. In the ongoing effort to add tools to my belt, I should point out that this post has been written, committed and published using only an iPad and an iPhone. This includes the screenshots framed in the device fra,es, made using [this Shortcut made by Viticci](https://www.macstories.net/ios/apple-frames-a-shortcut-for-framing-screenshots-from-every-apple-device/) that is pure witchcraft.
+
+P.P.S. The more I work on an iPad, the more I believe the worst limit to productivity here is not iOS, it is the Smart Keyboard not having backlighting and switching between locales by accidentally pressing the dedicated button... but this is a post for another day.
