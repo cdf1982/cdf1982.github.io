@@ -37,6 +37,7 @@ nav-menu: true
 						<li>You mounted a webcam pointed at your front gate and would like to open it to visitors directly from your Mac, by activating an Ethernet connected relay.</li>
 					</ul>
 						In order to take advantage of GlanceCam you'll need third party hardware (one or more webcams, optionally IoT enabled devices) and a little knowledge about your network; please, check the requirements below, or <a href="mailto:support@cdf1982.com">get in touch</a> before purchasing.</p>
+						GlanceCam is very respectful of your data. Please read its <a href="{{ site.baseurl }}/privacy/glancecam_privacy_policy.html">Privacy Policy</a> to know more about it.</p>
 			</div>
 		</div>
 	</section>
