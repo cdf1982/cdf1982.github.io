@@ -33,6 +33,7 @@ twitter_url: https://twitter.com/cdf1982
 
 # build settings
 markdown: kramdown
+highlighter: rouge
 exclude: [/_workingfiles]
 
 sass:
