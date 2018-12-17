@@ -2,7 +2,7 @@
 title: ContactsAMI
 layout: landing
 description: Never type a phone number again
-image: assets/images/contactsami/contactsami.png
+image: assets/images/contactsami/contactsami.jpg
 nav-menu: true
 ---
 <!-- Main -->
