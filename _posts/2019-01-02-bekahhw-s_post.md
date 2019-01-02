@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Link\: \“I\'ve Coded 365 Days Straight and Here\'s What I\'ve Learned\”
+title: ! Link\: \“I\'ve Coded 365 Days Straight and Here\'s What I\'ve Learned\”
 description:
 image:
 tags: [link]
