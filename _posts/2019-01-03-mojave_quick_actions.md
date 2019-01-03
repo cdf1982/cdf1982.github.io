@@ -20,7 +20,7 @@ Here’s one I made for moving video files to my NAS; the notification is there 
 ![mojave_quick_actions_2.png]({{ site.baseurl }}/assets/images/blog/2019-01-03-mojave_quick_actions/mojave_quick_actions_2.png)
  
 After saving the action in Automator, it appears in Finder; the cool thing is that the action is only shown when appropriate (meaning, when the file type matches what you did set in Automator), so you can have specific Quick Actions for different kind of files:
-![mojave_quick_actions_3.png]({{ site.baseurl }}/assets/images/blog/2019-01-03-mojave_quick_actions/ mojave_quick_actions_3.png)
+![mojave_quick_actions_3.png]({{ site.baseurl }}/assets/images/blog/2019-01-03-mojave_quick_actions/mojave_quick_actions_3.png)
 
 I already made multiple actions for other operations, like retrieving subtitles for video files, and I’m very happy with this addition to Finder, so if you also didn’t look at it twice in September, maybe take another look at it.
 
