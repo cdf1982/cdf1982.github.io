@@ -1,7 +1,7 @@
 ---
 title: GlanceCam
 layout: landing
-description: 'IP camera viewer for Mac'
+description: 'A modern IP camera viewer loved by Mac Users: "Finally, A Cam Viewer that Works!" - "I use GlanceCam pretty much all day" - "This app makes viewing all of my cameras possible from one interface and I LOVE THAT" - "Remarkable and instant support"'
 image: assets/images/glancecam/glancecam.jpg
 nav-menu: true
 ---
