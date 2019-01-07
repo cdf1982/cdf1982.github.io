@@ -1,7 +1,7 @@
 ---
 title: Walk More
 layout: landing
-description: Powerful pedometer
+description: Activity pedometer
 image: assets/images/walk-more/walk-more.jpg
 nav-menu: true
 ---
