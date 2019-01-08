@@ -2,7 +2,7 @@
 title: Always There
 layout: landing
 description: Your most precious photo in Notification Center
-image: assets/images/always-there/always-there.png
+image: assets/images/always-there/always-there.jpg
 nav-menu: true
 ---
 <!-- Main -->
