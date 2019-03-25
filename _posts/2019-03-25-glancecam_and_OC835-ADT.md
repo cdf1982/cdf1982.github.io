@@ -7,10 +7,10 @@ tags: [glancecam]
 ---
 So, there’s only little chance that this post will be seen by the person requesting informations about it, but since I have no email to reply to it's worth a try...
 
-*Mindy, I believe there is a good chance your OC835-ADT camera will be compatible with GlanceCam using a string like the following:
-http://USER:PASSWORD@IP_ADDRESS/img/video.mjpeg
+   *Mindy, I believe there is a good chance your OC835-ADT camera will be compatible with GlanceCam using a string like the following:*
+   *http://USER:PASSWORD@IP_ADDRESS/img/video.mjpeg*
 
-If, by any chance, it would prove not be compatible, then I will be able to point you in the right direction to get a refund from Apple.
-I am sorry I can't give you 100% confirmation, but every camera model and manufacturer does things a little different, and the only certain way to know is to try.
+   *If, by any chance, it would prove not be compatible, then I will be able to point you in the right direction to get a refund from Apple.*
+   *I am sorry I can't give you 100% confirmation, but every camera model and manufacturer does things a little different, and the only certain way to know is to try.*
 
-I'm here if you need any further informations... thank you for your interest in GlanceCam!*
+   *I'm here if you need any further informations... thank you for your interest in GlanceCam!*
