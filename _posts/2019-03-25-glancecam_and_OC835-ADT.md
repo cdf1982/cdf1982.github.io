@@ -7,7 +7,7 @@ tags: [glancecam]
 ---
 So, there’s only little chance that this post will be seen by the person requesting informations about it, but since I have no email to reply to it's worth a try...
 
-![mindy_support_request.jpg]({{ site.baseurl }}/images/blog/2019-03-25-glancecam_and_OC835-ADT/mindy_support_request.jpg)
+![mindy_support_request.jpg]({{ site.baseurl }}/assets/images/blog/2019-03-25-glancecam_and_OC835ADT/mindy_support_request.jpg)
 
 >*Mindy, I believe there is a good chance your OC835-ADT camera will be compatible with GlanceCam using a string like the following:*
 >*http://USER:PASSWORD@IP_ADDRESS/img/video.mjpeg*
