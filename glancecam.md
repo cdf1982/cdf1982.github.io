@@ -55,7 +55,7 @@ nav-menu: true
 						<li>You can add as many webcams as you like to GlanceCam and switch between them (currently, you can see only one camera at a time).</li>
 						<li>For every camera, you can also configure up to 2 optional buttons, visible when you hover your mouse on GlanceCam window, to perform some actions via a customizable HTTP GET action URLs.</li>
 						<li>GlanceCam window can be configured to be always on top and visible in every Space, or to behave like a normal window; it can also be configured to auto-launch at login. You can also control GlanceCam from your MacBook's TouchBar</li>
-						<li>while the app is running, any custom application or AppleScript can call the glancecam://?camera=17 URL and switch to that video stream; just replace “17” in the example URL with the camera number you want to switch to (as listed, counting from 1, in the app Preferences)</li>
+						<li>While the app is running, any custom application or AppleScript can call the <i>glancecam://?camera=17</i> URL and switch to that video stream; just replace “17” in the example URL with the camera number you want to switch to (as listed, counting from 1, in the app Preferences)</li>
 					</ul>
 				</p>
 			</div>
