@@ -8,13 +8,17 @@ tags: [glancecam]
 One year ago today [GlanceCam]({{ site.baseurl }}/glancecam.html) debuted in the Mac App Store, after just 3 weeks of very intense development at the most improbable hours (I have a day job, so most of my coding has to happen *very, very* early in the morning).
 
 As I [wrote back then]({{ site.baseurl }}/2018/03/29/glancecam_is_here.html), my second Mac app saw the light out of laziness:
-> *one day I found myself alone at the office and I had to get up from my chair a bazillion times, like an animal, to open the front gate. So, the most “straightforward” thing to do was to get ourselves a nice IP camera and an ethernet relay, and make them work together in a well made macOS app, so that we can keep a small window showing the gate video stream on our desktops, and open to visitors with just one clic.*
+> *...one day I found myself alone at the office and I had to get up from my chair a bazillion times, like an animal, to open the front gate. So, the most “straightforward” thing to do was to get ourselves a nice IP camera and an ethernet relay, and make them work together in a well made macOS app, so that we can keep a small window showing the gate video stream on our desktops, and open to visitors with just one clic.*
 
 I honestly did not expect many people to be interested in such a niche app, and by all means GlanceCam's audience has not been large, but surprisingly (at least *to me*), there are Users out there who are looking for a well made, native Mac camera viewer: since the beginning and with no marketing on my part (*I know, I know...* more on this later), a few people have been buying the app almost every day and, from the feedback I receive via email, the occasional in-app tip and the reviews, they are very happy to have found an app that really solves a problem they had:
 > *"The perfect app for keeping an eye on a webcam"*
+
 > *"Very nice app, works flawlessly and exelent and very quick support if needed!!"*
+
 > *"Finally, A Cam Viewer that Works!"*
+
 > *"no more stupid web interface"*
+
 > *"Great app and great support!"*
 
 **That enthusiasm translates into a 4.0 stars overall average from 45 ratings in the App Store, and 4.2 stars in the US store.** Not bad 😜 for an app that, in order to be useful, requires you to know the specific custom string and credentials to access the video stream of your camera!
