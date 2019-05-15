@@ -2,10 +2,12 @@
 layout: post
 title: Snapthread 2.0
 description:
-image: assets/images/blog/2019-05-15-snapthread/snapthread-screenshot.jpg
+image:
 tags: []
 ---
 A couple of days ago **[Snapthread](https://itunes.apple.com/app/id1277445843), my go-to app for sharing short video montages, has been update to version 2.0.**
+
+![]({{ site.baseurl }}/assets/images/blog/2019-05-15-snapthread/snapthread-screenshot.jpg)
 
 As described on its [new website](https://snapthread.app), *"Snapthread is a simple, casual video editor and slideshow maker for iOS that works with videos, still images, and Live Photos."*
 
