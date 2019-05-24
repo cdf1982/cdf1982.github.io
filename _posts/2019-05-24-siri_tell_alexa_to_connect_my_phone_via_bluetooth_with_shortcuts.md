@@ -23,6 +23,7 @@ For a while now I have had the second part automated in Shortcuts, inside a nigh
 Yesterday, a miraculous over-the-air update to the Echo fixed this annoyance, and the phone now connects at first try.
 
 The resulting joy motivated me to walk the final line and automate the Bluetooth connection with Shortcuts too... *#thefuture*
+
 It wouldn't make much sense to share the actual shortcut, because it is personalized with my apps and needs, but here are the steps, in case you want to make your ladies in the tubes talk to each other:
 
 1. Record yourself saying "Alexa, connect my phone";
