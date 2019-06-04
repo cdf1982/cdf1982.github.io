@@ -18,4 +18,4 @@ The possibility are endless, because there are already lots of different trigger
 
 I could go on forever on the most implausible automations... it's so freaking cool that we will finally have access to all that power without the need to manually start any action.
 
-For now I can only drea, though: Shortcuts comes preinstalled with iOS 13 but I don't plan to rush with the new operating system on my phone, so I tried playing with automatic triggers in the Simulator, but they don't seem to cause any actions yet.
+For now I can only dream, though: Shortcuts comes preinstalled with iOS 13 but I don't plan to rush with the new operating system on my phone, so I tried playing with automatic triggers in the Simulator, where they don't seem to cause any actions yet.
