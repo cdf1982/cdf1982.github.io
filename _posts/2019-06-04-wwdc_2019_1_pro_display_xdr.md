@@ -30,6 +30,6 @@ One thing I don't love: the inputs are not placed in an elegant way, and I find 
 	<img src="{{ site.baseurl }}/assets/images/blog/2019-06-04-wwdc_2019/pro-display-xdr.jpg" alt="" data-position="center center" />
 </p>
 
-This product brings at least a little closer a similar-resolution, aspect-ratio and size "consumer" dispaly, maybe not from Apple, so - even though I'll never be able to buy the Apple Cheesegrater Display - I am so happy it exists in the world.
+This product brings at least a little closer a similar-resolution, aspect-ratio and size "consumer" display, maybe not from Apple, so - even though I'll never be able to buy the Apple Cheesegrater Display - I am so happy it exists in the world.
 
 And, now, speaking of unaffordable things... [my next post]({{ site.baseurl }}/2019/06/04/wwdc_2019_2_mac_pro.html).
