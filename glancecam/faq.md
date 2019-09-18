@@ -1,6 +1,6 @@
 ---
 layout: post
-title: FAQs regarding GlanceCam compatibility with macOS 10.15 Catalina
+title: FAQs regarding GlanceCam and macOS 10.15 Catalina
 description:
 image:
 tags: [glancecam]
