@@ -8,17 +8,18 @@ tags: [glancecam]
 **Update 2 - Wednesday, September 18**<br>
 I have updates on multiple fronts about the crash described in the original post below:<br><br>
 First, I am aware of multiple Bug Reports filed to Apple in addition of mine (FB7276584): FB7253859, FB7283002, FB7265136, FB7281945. One of these reports yesterday received the following, somewhat encouraging, comment in Feedback Assistant:
->Recent Similar Reports:More than 10
+>Recent Similar Reports:More than 10<br>
 >Resolution:Potential fix identified - For a future OS update
-So, Apple should be aware of the issue and it is possible that a fix is coming, though it is unclear when (next beta? later?). It's an encouraging development, but I still need to figure out something myself (VLCKit team, on their forum, also seemed "in stand-by" for a solution from Apple) in case the "future OS update" is too much in the future for my Users.<br><br>
+
+From that feedback we can think that Apple is aware of the issue and it is possible that a fix is coming, though it is unclear when *(next beta? later?)*. It's an encouraging development, but I still need to figure out something myself (VLCKit team, on their forum, also seemed "in stand-by" for a solution from Apple) in case the "future OS update" is too much in the future for my Users.<br><br>
 So, tonight I submitted GlanceCam 2.7.1 to App Review, which contains an explicit alert to users in the app description, the release notes and, most important, inside an in-app warning that will appear the first time users will launch GlanceCam after updating:
 <p align="center">
 	<img src="{{ site.baseurl }}/assets/images/blog/2019-09-14-glancecam_compatibility_issues_with_beta_8_of_macos_catalina/catalina-inapp-warning.png" alt="" data-position="center center" />
 </p>
-I am not sure App Review will approve an app that a) acknowledges the existence a future version of macOS and b) mentions the fact that it is currently incompatible with it. But I had to try, at least to start the conversation with the App Review Team (who, in my experience, is very much from the Users / Developers side) and will let you know how it goes.<br><br>
-Third, I'm moving my first, timid steps with [SGPlayer](https://github.com/libobjc/SGPlayer), the ffmpeg and Metal library that was recommended to me and seems very promising; a couple of days ago I have built a small prototype working with local videos, but not with RTSP yet, so there's still a lot of work to do before I can know if this is a viable replacement of VLC.<br><br>
-Last thing, I'm extracting the FAQs at the bottom of the original post below and move them, updated accordingly to the new informations that became available in the last few days, to a [specific FAQs page]({{ site.baseurl }}/glancecam/faq.html), which is also linked to from [GlanceCam's product page]({{ site.baseurl }}/glancecam), so that prospective customers are informed in advance of the pending issue, before making a purchase.<br><br>
-The next update will probably be published after Apple reviews version 2.7.1. As always, please don't hesitate getting in touch at [support@cdf1982.com](mailto:support@cdf1982.com).
+I am not sure App Review will approve an app that a) acknowledges the existence a future version of macOS and b) mentions the fact that it is currently incompatible with it. But I had to try, at least to start the conversation with the always kind and open to communication, in my experience, App Review Team and will let you know how it goes.<br><br>
+Third, I'm moving my first, timid steps with [SGPlayer](https://github.com/libobjc/SGPlayer), the ffmpeg and Metal library that was recommended to me and seems very promising; a couple of days ago I did build a small prototype working with local videos, but not with RTSP yet, so there's still a lot of work to do before I can know if this is a viable replacement of VLC, and honestly I wanted to get 2.7.1 out of the door first.<br><br>
+Last thing, I'm extracting the FAQs at the bottom of the original post below and move them, updated accordingly to the new informations that became available in the last few days, to a [specific FAQs page]({{ site.baseurl }}/glancecam/faq.html), which is now also explicitly mentioned inside [GlanceCam's product page]({{ site.baseurl }}/glancecam), so that prospective customers are informed in advance of the pending issue, before making a purchase.<br><br>
+The next update to this post will probably be published after Apple reviews version 2.7.1. As always, please don't hesitate getting in touch at [support@cdf1982.com](mailto:support@cdf1982.com).
 
 
 ---
@@ -29,7 +30,7 @@ Also important, given how soon Catalina will be in the hands of end-users, I've 
 
 ---
 
-*TLDR: Yesterday I found out that, **in the latest beta 8 of macOS 10.15, my app GlanceCam crashes when switching camera stream**. My tests show that this is **caused by Catalina's OpenGL support**; I read online that the same crash is happening to other apps using OpenGL.<br>Below I try to describe all details of this complex situation in the most transparent way I'm capable of, and **at the bottom of the post there's a [FAQ](#faq) that every GlanceCam user or prospective customer should read**.<br>This post and the FAQ will be updated whenever new details are available.<br>**Hopefully I'll be able to find a solution soon**. In the meantime, **I deeply apologize to all GlanceCam users**. Please know that **I am trying my best to resolve the issue, but it's not clear to me how and when (days? weeks? worse?) I'll be able to** if Apple did actually intentionally disrupt OpenGL support and won't fix it in the next release.<br>For any questions you might still have after reading this post, please get in touch at [support@cdf1982.com](mailto:support@cdf1982.com).*
+*TLDR: Yesterday I found out that, **in the latest beta 8 of macOS 10.15, my app GlanceCam crashes when switching camera stream**. My tests show that this is **caused by Catalina's OpenGL support**; I read online that the same crash is happening to other apps using OpenGL.<br>Below I try to describe all details of this complex situation in the most transparent way I'm capable of, and **at the bottom of the post there's a [FAQ]({{ site.baseurl }}/glancecam/faq.html) that every GlanceCam user or prospective customer should read**.<br>This post and the FAQ will be updated whenever new details are available.<br>**Hopefully I'll be able to find a solution soon**. In the meantime, **I deeply apologize to all GlanceCam users**. Please know that **I am trying my best to resolve the issue, but it's not clear to me how and when (days? weeks? worse?) I'll be able to** if Apple did actually intentionally disrupt OpenGL support and won't fix it in the next release.<br>For any questions you might still have after reading this post, please get in touch at [support@cdf1982.com](mailto:support@cdf1982.com).*
 
 ---
 
@@ -73,7 +74,6 @@ More important, I ~~started drafting a Radar for Apple that will also include th
 A personal note: **it is possible that I am overreacting** – I've only been aware of this issue for less than 48 hours and I am now quite tired, so maybe I'll figure something out soon and we'll laught at this post – but at the time of this writing the problem appears to be quite complex: it touches the basic architecture of the operating system, not only of my app, and it seems caused by technical decisions / bugs mostly out of my control, so **I feel the right thing to do is to publish this post right away, and maybe have soon good news to follow up with**.
 
 ---
-### <a name="faq"></a>
 Having taken stock of the situation without sugarcoating things, the very last thing I'm doing today is to write an exhaustive **disclaimer / FAQs document** ~~(that I am now posting only here on the blog, but in a few days will go on the GlanceCam product page as well if the situation does not improve)~~ that is available and kept updated [here]({{ site.baseurl }}/glancecam/faq.html).
 
 ---
