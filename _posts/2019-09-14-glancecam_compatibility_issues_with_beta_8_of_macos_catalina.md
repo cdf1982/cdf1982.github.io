@@ -5,6 +5,25 @@ description:
 image:
 tags: [glancecam]
 ---
+**Update 3 - Tuesday, September 24**<br>
+Great news! **macOS 10.15 Catalina beta 9**, launched yesterday, **completely fixed the compatibility issue that affected GlanceCam and other apps relying on OpenGL since with the previous beta 8**.
+
+Everything is fine as **the currently shipping version of GlanceCam, 2.7, is already 100% compatible with macOS 10.15 Catalina**; I'm so happy that the post below is now obsolete... 🥳
+
+The past two weeks were a bit of a rollecoaster 🎢, but thanks to Apple fixing that scary beta 8 bug in no time, and also the help of friends old and new (a special thanks to Steve 🙏, he knows why), not only my app is now back to the usual reliability and compatibility *(and I am proud that GlanceCam is compatible not only with the latest - even future - OSes, but that it also keeps support back to OS X 10.11)*, but it is in a much better position to leave behind OpenGL in a future release.
+
+Just this morning, before knowing that beta 9 resolved the crash at its root, I had a breakthrough in the implementation of an alternative, Metal-based, engine for GlanceCam. I will keep working on this major migration, thankfully without the pressure of an upcoming crisis, but keeping it at high priority: I still see great value in leaving OpenGL behind before Apple decides that it really is time to let it go.
+
+The fact that my app is 100% ready for Catalina is what I am here to write about, but there are a couple more thoughts I'd like to share:
+
+- Friends, **file ~~radars~~ Bug Reports!** I wasn't very hopeful that a 🐛 appeared in beta 8 was going to be resolved before the official launch of Catalina, and obviously the fact that Apple applications were crashing helped *a lot*, but I'm sure that my report, together with the many others I've seen filed in the last ten days or so, helped significantly in escalating the priority of this crash.
+
+- Since in my previous update I mentioned an emergency app update I submitted to Apple to warn users before the launch of Catalina, I think it's only fair to let you know that it did *not* pass App Review, as I honestly expected even before submitting it: you can't mention a future release of macOS, no exceptions; you also can't wait for the new OS to ship, because an app would not be approved if it crashes with the shipping version of macOS. Quite a catch 22, uh? But the App Review person I interacted with was very kind *(dare I say he or she felt my pain? I dare, because they clearly did!)* during the whole process, and it sparked an extended and helpful conversation 💯.
+
+I'm leaving the original post and update 1 and 2 "for archive purposes", but below this line, **everything is now obsolete**.
+
+---
+
 **Update 2 - Wednesday, September 18**<br>
 I have updates on multiple fronts about the crash described in the original post below:<br><br>
 First, I am aware of multiple Bug Reports filed to Apple in addition of mine (FB7276584): FB7253859, FB7283002, FB7265136, FB7281945. One of these reports yesterday received the following, somewhat encouraging, comment in Feedback Assistant:
@@ -20,7 +39,6 @@ I am not sure App Review will approve an app that a) acknowledges the existence 
 Third, I'm moving my first, timid steps with [SGPlayer](https://github.com/libobjc/SGPlayer), the ffmpeg and Metal library that was recommended to me and seems very promising; a couple of days ago I did build a small prototype working with local videos, but not with RTSP yet, so there's still a lot of work to do before I can know if this is a viable replacement of VLC, and honestly I wanted to get 2.7.1 out of the door first.<br><br>
 Last thing, I'm extracting the FAQs at the bottom of the original post below and move them, updated accordingly to the new informations that became available in the last few days, to a [specific FAQs page]({{ site.baseurl }}/glancecam/faq.html), which is now also explicitly mentioned inside [GlanceCam's product page]({{ site.baseurl }}/glancecam), so that prospective customers are informed in advance of the pending issue, before making a purchase.<br><br>
 The next update to this post will probably be published after Apple reviews version 2.7.1. As always, please don't hesitate getting in touch at [support@cdf1982.com](mailto:support@cdf1982.com).
-
 
 ---
 
