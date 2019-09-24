@@ -20,7 +20,7 @@ The fact that my app is 100% ready for Catalina is what I am here to write about
 
 - Since in my previous update I mentioned an emergency app update I submitted to Apple to warn users before the launch of Catalina, I think it's only fair to let you know that it did *not* pass App Review, as I honestly expected even before submitting it: you can't mention a future release of macOS, no exceptions; you also can't wait for the new OS to ship, because an app would not be approved if it crashes with the shipping version of macOS. Quite a catch 22, uh? But the App Review person I interacted with was very kind *(dare I say he or she felt my pain? I dare, because they clearly did!)* during the whole process, and it sparked an extended and helpful conversation 💯.
 
-I'm leaving the original post and update 1 and 2 "for archive purposes", but below this line, **everything is now obsolete**.
+I'm leaving the original post and update 1 and 2 "for archive purposes", but **below this line, everything is now obsolete**.
 
 ---
 
