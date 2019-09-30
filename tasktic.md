@@ -14,6 +14,7 @@ nav-menu: true
 		</div>
 		<div class="content">
 			<div class="inner">
+				<p><i>Warning: Tasktic has been retired and has been removed from the iOS App Store. We're keeping this page online, without modifications, for historic (nostalgic) reasons...</i></p><br><br>
 				<p>Tasktic is our <b>ideal task manager for iPhone, iPad and Apple Watch.</b> and we're confident soon it will be yours too: many productivity apps are expensive and yet offer little functionality or too many useless complications. We worked hard to get just the right balance.<br><br>Tasktic is <b>lightning-fast</b> to launch and use: it immediately <b>focus on what you planned to get done</b> today - and that thing you scheduled for last week but slipped because it's not like you enjoy doing it - and lets you <b>quickly add new tasks</b> (and even <b>repeat them</b> every <i>n</i> hours, days, weekdays or months). Everything you add <b>syncs auto-magically on all your mobile devices</b>, thanks to iCloud.<br><br>We built Tasktic to be the fastest, easiest and most enjoyable way to free your mind of all the things you want and maybe <i>have</i> to do.<br><br><b>Your next task?<a href="https://geo.itunes.apple.com/us/app/tasktic-manage-your-tasks/id1036139076?mt=8&at=1000l3L9&ct=website" class="link" target="new"> Try Tasktic</a> for free and start accomplishing more!</b></p>
 				<br>
 				<br>
