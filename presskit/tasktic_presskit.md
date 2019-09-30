@@ -5,6 +5,8 @@ description:
 image:
 nav-menu: false
 ---
+_Warning: Tasktic has been retired and has been removed from the iOS App Store. We're keeping this page online, without modifications, for historic (nostalgic) reasons..._
+
 **Tasktic is a powerful, yet easy to use task manager app for iPhone, iPad and Apple Watch**.
 
 It offers many advanced functionalities usually available only in expensive productivity apps:
