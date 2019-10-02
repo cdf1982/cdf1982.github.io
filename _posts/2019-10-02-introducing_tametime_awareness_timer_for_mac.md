@@ -24,7 +24,7 @@ I'll let the [product page]({{ site.baseurl }}/tametime) describe my new app in 
 - **No manual interactions are required**: TameTime detects pauses after a customisable delay and automatically resets its timers.
 - Obviously the app can **launch at login**, is compatible with macOS 10.15 Catalina including support for Dark Mode (but also works on older versions of Mac OS X), and doesn't do nasty stuff: no analytics, no network connections, no special permissions... **it's completely sandboxed**; it is also **very light**, using almost no CPU or memory resources.
 
-**TameTime [is available in the Mac App Store](https://itunes.apple.com/us/app/tametime-awareness-timer/id1479326723?l=it&ls=1&mt=12) starting today.** It's a one-time purchase for $ 3.99, no IAPs, no subscriptions.
+**TameTime [is available in the Mac App Store](https://apps.apple.com/us/app/tametime-awareness-timer/id1479326723?l=it&ls=1&mt=12) starting today.** It's a one-time purchase for $ 3.99, no IAPs, no subscriptions.
 
 My app is obviously **not a medical device**, and I am not a doctor (just like Siracusa recommended in ATP's episode mentioned above, **please talk to a good doctor if you're having pain or any kind of discomfort!**) but I think **it can help you become more aware of the time you spend at your computer**, which is an important first step for reducing RSI, CVS and other causes of discomfort and pain that are caused or worsened by sitting for too long in front of a screen. It certainly is helping my back, making it the perfect kind of app to build: *one that you need yourself!*
 

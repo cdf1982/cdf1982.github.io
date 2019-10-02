@@ -14,7 +14,7 @@ nav-menu: true
 	<div class="inner">
 		<p><b>TameTime reminds you of taking regular breaks, so that you don't spend too much time sitting at your computer and risk compromising your health.</b> You can customize how and when TameTime will alert you, making you aware that it's time to move around, drink a glass of water or relax.<br><br>RSI <i>(repetitive strain injuries)</i>, CVS <i>(computer vision syndrome)</i> and other computer-related stress are actual risk factors for modern workers and <b>taking regular breaks is very important for the well-being of your back, eyes, cardio-circulatory system, neck, muscles</b> and so on; pauses are also essential for refreshing your mind and <b>boost focus and productivity</b> throughout the day.<br><br>TameTime can help you build healthier habits!</p>
 		<p style="text-align:center">
-			<a href="https://itunes.apple.com/us/app/tametime-awareness-timer/id1479326723?l=it&ls=1&mt=12" class="image" target="new">
+			<a href="https://apps.apple.com/us/app/tametime-awareness-timer/id1479326723?l=it&ls=1&mt=12" class="image" target="new">
 				<img src="assets/images/download_mac_app_store_white_bg.svg" alt="Download on the Mac App Store" data-position="center center" />
 			</a>
 		</p>
