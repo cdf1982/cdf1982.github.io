@@ -12,7 +12,13 @@ nav-menu: true
 <!-- One -->
 <section id="one">
 	<div class="inner">
-		<p>GlanceCam is a highly configurable app that lets you <b>keep an eye on IP cameras (webcams) and optionally perform some actions via HTTP(s) requests.</b><br>GlanceCam is a bit nerdy, but very useful if you want to take full advantage of cheap webcams and maybe combine them to the automation capabilities of the Internet of Things (IoT); it works on your LAN or via Internet (please see the requirements below) and, while it's not the most <i>"works out-of-the-box"</i> home or business automation solution to configure (you'll need to type in a few network parameters, as detailed in the following description), it's completely flexible.</p>
+		<p>GlanceCam is a highly configurable app that lets you <b>keep an eye on IP cameras (webcams) and optionally perform some actions via HTTP(s) requests;</b> it is <b>100% compatible with macOS 10.15 Catalina</b> and there's almost no limit on how you can use it for realtime streaming and automation:
+		<ul>
+			<li>Install cameras from different manufacturers and avoid their cumbersome web interfaces and proprietary apps.</li>
+			<li>Install webcams in your living room, kitchen and garden to check on your cat when you're away, maybe turning on a light at night or taking a snapshot when kitty does something funny.</li>
+			<li>Mount a camera pointed at your front gate and let visitors in directly from your Mac, by activating an Ethernet connected relay.</li>
+		</ul>
+		</p>
 		<p style="text-align:center">
 			<a href="https://itunes.apple.com/us/app/glancecam-ip-webcam-viewer/id1360797896?l=it&ls=1&mt=12" class="image" target="new">
 				<img src="assets/images/download_mac_app_store_white_bg.svg" alt="Download on the Mac App Store" data-position="center center" />
@@ -25,38 +31,34 @@ nav-menu: true
 <section id="two" class="spotlights">
 	<section>
 		<div class="content">
-			<a href="assets/images/glancecam/glancecam_02.jpg" class="image" target="new">
-				<img src="assets/images/glancecam/glancecam_02.jpg" alt="" data-position="center center" />
-			</a>
-		</div>
-		<div class="content">
-			<div class="inner">
-				<p>There's no limit on how you can configure GlanceCam; here are a couple of use cases:
-					<ul>
-						<li>You want to install webcams in your living room, your kitchen and your garden to check on your cat when you're away, maybe turning on a light at night or taking a snapshot when kitty does something funny.</li>
-						<li>You mounted a webcam pointed at your front gate and would like to open it to visitors directly from your Mac, by activating an Ethernet connected relay.</li>
-					</ul>
-						In order to take advantage of GlanceCam you'll need third party hardware (one or more webcams, optionally IoT enabled devices) and a little knowledge about your network; please, check the requirements below, or <a href="mailto:support@cdf1982.com">get in touch</a> before purchasing.</p>
-						GlanceCam is very respectful of your data. Please read its <a href="{{ site.baseurl }}/privacy/glancecam_privacy_policy.html">Privacy Policy</a> to know more about it.
-			</div>
-		</div>
-	</section>
-	<section>
-		<div class="content">
 			<a href="assets/images/glancecam/glancecam_03.jpg" class="image" target="new">
 				<img src="assets/images/glancecam/glancecam_03.jpg" alt="" data-position="center center" />
 			</a>
 		</div>
 		<div class="content">
 			<div class="inner">
-				<p>Here's how GlanceCam works:
+				<p>Here's a short list of what GlanceCam can do:
 					<ul>
-						<li>With most IP webcams, you can receive the video stream via RTSP or HTTP, without opening a browser; GlanceCam shows you that feed in a resizable window that you can keep always visible on your Desktop, without opening a browser.</li>
-						<li>You can add as many webcams as you like to GlanceCam and switch between them (currently, you can see only one camera at a time).</li>
-						<li>For every camera, you can also configure up to 2 optional buttons, visible when you hover your mouse on GlanceCam window, to perform some actions via a customizable HTTP GET action URLs.</li>
-						<li>GlanceCam window can be configured to be always on top and visible in every Space, or to behave like a normal window; it can also be configured to auto-launch at login. You can also control GlanceCam from your MacBook's TouchBar</li>
-						<li>While the app is running, any custom application or AppleScript can call the <i>glancecam://?camera=17</i> URL and switch to that video stream; just replace “17” in the example URL with the camera number you want to switch to (as listed, counting from 1, in the app Preferences)</li>
+						<li>With most IP webcams, you can receive the video stream via RTSP, HTTP or RTMP, without opening a browser; GlanceCam shows you those feeds in a resizable window you can keep always visible on your Desktop.</li>
+						<li>You can add as many cameras as you like and switch between them (currently, you can see only one camera at a time).</li>
+						<li>For every camera, you can also configure up to 2 optional buttons, visible when you hover your mouse on the app window, to perform actions via customizable HTTP GET action URLs (PUT is not supported).</li>
+						<li>GlanceCam window can be configured to be always on top and visible in every Space, or to behave like a normal window; the app can also be configured to auto-launch at login.</li>
+						<li>If your camera streams audio, you can easily enable or mute it.</li>
+						<li>GlanceCam offers many keyboard shortcuts and is great for automation: it has a URL scheme and supports Apple Script for switching cameras and toggling full-screen mode; you can even control it from your MacBook's TouchBar</li>
 					</ul>
+				</p>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="content">
+			<a href="assets/images/glancecam/glancecam_02.jpg" class="image" target="new">
+				<img src="assets/images/glancecam/glancecam_02.jpg" alt="" data-position="center center" />
+			</a>
+		</div>
+		<div class="content">
+			<div class="inner">
+				<p>GlanceCam is a bit nerdy, but very useful if you want to take full advantage of cheap webcams and maybe combine them to the automation capabilities of the Internet of Things (IoT); it works on your LAN or via Internet (please see the requirements below) and, while it's not the most "works out-of-the-box" home or business automation solution to configure, it's very flexible and brand-agnostic.<br><br>In order to take advantage of GlanceCam you'll need third party hardware (one or more webcams, optionally IoT enabled devices) and a little knowledge about your network and cameras; please, check the requirements below, or <a href="mailto:support@cdf1982.com">get in touch</a> before purchasing.<br><br><b>Please be advised that GlanceCam is designed for realtime playback and does not support DVRs/NVRs, proprietary cloud services, recording (nor playing back previous recordings), PTZ cameras and motion detection/notifications</b>.<br><br>Finally, with many sketchy camera apps out there, <b>it is important that you know that GlanceCam is 100% respectful of your data</b>; you can find more about it in its <a href="{{ site.baseurl }}/privacy/glancecam_privacy_policy.html">Privacy Policy</a>.
 				</p>
 			</div>
 		</div>
@@ -74,15 +76,14 @@ nav-menu: true
 				</header>
 				<p>
 					<ul>
-						<li>A Mac running OS X 10.11 or a newer version of macOS, including 10.15 Catalina.</li>
-						<li>One or more IP cameras capable of broadcasting its stream via RTSP or HTTP; you'll need to know the webcam IP address, the protocol of its video stream, the login credentials and port for the connection. For example, the following is the URL format you'll have to enter into GlanceCam preferences to view a Foscam webcam stream: rtsp://username:password@192.168.0.7:88/videoSub. You can check if your camera provides an RTSP or HTTP stream by searching the web, usually on the manufacturer website.</li>
-						<li>Optionally, for triggering an action by pressing the customizable button, you'll need a device or appliance that can react to an HTTP GET call. For example, the following is the URL format you'll have to enter into GlanceCam preferences in order to activate a Robot Electronics Ethernet relay: http://username:password@192.168.0.7:17494/io.cgi?DOA1=10</li>
-						<li>To work over the Internet, you'll need a static public IP address (or a dynamic DNS service) and to configure port forwarding for the webcam stream and, optionally, for the action button.</li>
+						<li>A Mac running macOS Catalina, Mojave or a previous version of OS X (compatibility goes back to 10.11).</li>
+						<li>One or more IP cameras capable of broadcasting its stream via RTSP, HTTP or RTMP; <b>you'll need to know the webcam IP address, the protocol of its video stream, the login credentials and port for the connection</b>. For example, the following is the URL format you'll have to enter into GlanceCam preferences to view a Foscam webcam stream: rtsp://username:password@192.168.0.7:88/videoSub. You can check if your camera provides a RTSP, HTTP or RTMP stream by searching the web, usually on the manufacturer website; since there is no standard for the stream URL format, you'll need to retrieve the proper string on your camera's manual or website. If you can't find it, <b>gdon't hesitate getting in touch at <a href="mailto:support@cdf1982.com">support@cdf1982.com</a>: I always try to help, and often succeed</b>, but can't promise to be able to figure out the right URL for every model out there.</li>
+						<li>For triggering actions by pressing the customizable buttons, you'll need devices or appliances that can react to HTTP GET calls. For example, the following is the URL format you'll have to enter into GlanceCam preferences in order to activate a Robot Electronics Ethernet relay: http://username:password@192.168.0.7:17494/io.cgi?DOA1=10 </li>
+						<li>To work over the Internet, you'll need a static public IP address (or a dynamic DNS service) and to configure port forwarding for each webcam stream and, optionally, for the action button; I recommend to start testing the video stream in LAN.</li>
 					</ul>
 				</p>
 			</div>
 		</div>
 	</section>
 </section>
-
 </div>
