@@ -38,6 +38,8 @@ nav-menu: true
 						<li>You can set <b>two thresholds for alerts</b> (for instance, after 45 minutes and 1 hour), each one independent from the other.</li>
 						<br>
 						<li>When the time limit is reached for a specific threshold, the app can play a <b>sound</b> (select one of TameTime's custom tones or a system sound), fire a <b>notification</b> and even display a <b>3-seconds full-screen overlay</b>; you can choose any combination of those alerts, or none at all.</li>
+						<br>
+						<li>You can also have the app repeat the notifications at multiples of your thresholds, for those time when you are so focused, you sit for 3 hours straight...</li>
 					</ul>
 				</p>
 			</div>
