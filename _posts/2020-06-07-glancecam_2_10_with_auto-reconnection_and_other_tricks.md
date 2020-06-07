@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GlanceCam 2.10 with auto-reconnection and other neat tricks
+title: GlanceCam 2.10 with auto-reconnection & other neat tricks
 description:
 image:
 tags: [automation]
