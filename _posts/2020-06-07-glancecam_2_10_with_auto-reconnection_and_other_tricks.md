@@ -5,7 +5,7 @@ description:
 image:
 tags: [automation]
 ---
-I really need to start writing my announcement posts as soon as I hit submit in App Store Connect, because App Review [did it again](%20site.baseurl%20/2020/06/06/tametime_1_1.html): [GlanceCam 2.10](%20site.baseurl%20/glancecam), which I finished working on Saturday night, is [already available for download](https://itunes.apple.com/us/app/glancecam-ip-webcam-viewer/id1360797896?l=it&ls=1&mt=12) as a free update.
+I really need to start writing my announcement posts as soon as I hit submit in App Store Connect, because App Review [did it again]({{ site.baseurl }}/2020/06/06/tametime_1_1.html): [GlanceCam 2.10]({{ site.baseurl }}/glancecam), which I finished working on Saturday night, is [already available for download](https://itunes.apple.com/us/app/glancecam-ip-webcam-viewer/id1360797896?l=it&ls=1&mt=12) as a free update.
 
 I know this is not the multi-windows upgrade many Users are waiting for (I am very sorry, GlanceCam 3.0 is not 100% ready yet), but I didn't want to hold back on some helpful features:
 
