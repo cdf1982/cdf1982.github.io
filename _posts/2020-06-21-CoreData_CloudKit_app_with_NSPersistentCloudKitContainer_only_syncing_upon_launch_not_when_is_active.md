@@ -7,7 +7,7 @@ tags: [dev,sync]
 ---
 Hello visitor from Google, I hope you are well, but most likely you are not, because you are fighting with syncing issues.
 
-I actually posted this on [Stack Overflow](https://stackoverflow.com/a/62501390/3765705) earlier today, but it actually also makes sense to have it here on my blog.
+I posted this on [Stack Overflow](https://stackoverflow.com/a/62501390/3765705) earlier today, but it actually also makes sense to have it here on my blog.
 
 In a new app I'm working on, I had **syncing issues (not upon launch, when it synced fine, but only during the app being active but idle)** in a project that uses Core Data + CloudKit with `NSPersistentCloudKitContainer`.
 
