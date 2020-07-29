@@ -24,4 +24,5 @@ nav-menu: true
 		
 	</div>
 </section>
+<img src="assets/images/link-hub/link-hub-screenshots.png" alt="" data-position="center center"/>
 </div>
