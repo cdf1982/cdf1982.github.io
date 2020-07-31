@@ -16,7 +16,9 @@ And because haste makes waste, my rushed tweet actually bit me, because I promot
 
 And from there, my day spiralled in *a bit of a mess* between my day job, errands to run while outside there were 38° C (100° F) but still wearing a mask (obviously, only a crazy and irresponsible person wouldn't), replying to a couple of support emails and submitting version 1.1 of the app to add duplication of items (Link HUB's first feature request... thank you Scott!), fix a small bug and correct something that was really, really painful for me to see... I can honestly say that the "best" moment of the day was when I realised that I had a typo *literally in the first screen* of the onboarding:
 
-![]({{ site.baseurl }}/assets/images/blog/2020-07-31-introducing-linkhub/typo.png)
+<p align="center">
+	<img src="{{ site.baseurl }}/assets/images/blog/2020-07-31-introducing-linkhub/typo.png" alt="" data-position="center center" />
+</p>
 
 Now that my day has settled a bit (I'm home, in front of a fan running at its max speed, eating watermelon 🍉 with Milla 🐺 while Link HUB 1.1 is waiting for review, and the in-app purchase is *finally* appearing for Users around the world... I even have my first subscriber!), I thought I'd share today's story as a warning to myself, and maybe other developers: as you probably figured out by yourself, **this is NOT how you launch an app**.
 
