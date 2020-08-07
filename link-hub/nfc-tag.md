@@ -18,7 +18,7 @@ nav-menu: true
 		
 				<p style="text-align:center">
 			<a href="https://apps.apple.com/us/app/id1524351956" class="image" target="new">
-				<img src="assets/images/download_ios_app_store_white_bg.svg" alt="Download on the App Store" data-position="center center" />
+				<img src="/assets/images/download_ios_app_store_white_bg.svg" alt="Download on the App Store" data-position="center center" />
 			</a>
 		</p>
 		
