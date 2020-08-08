@@ -10,16 +10,10 @@ The 4th update to [Link HUB](https://cdf1982.com/link-hub.html), my iOS and iPad
 A short video is worth a thousand words:
 
 <p align="center">
-	<body>
-	  <video src="{{ site.baseurl }}/assets/images/link-hub/link-hub-nfc-demo.mp4" controls loop></video>
-	</body>
+	<video width="720" height="1280" controls>
+	  <source src="{{ site.baseurl }}/assets/images/link-hub/link-hub-nfc-demo.mp4" type="video/mp4">
+	</video>
 </p>
-video {
-  height: 100vh;
-  width: 100%;
-  object-fit: fill;
-  position: absolute;
-}
 
 As you can see, this enables **all kinds of automations**: Link HUB can **write cheap NFC stickers for you, to associate them to specific links**.
 After Link HUB writes a tag with the specific informations it needs to recognise it later (and this procedure is very easy and completely automatic!), **scanning it from inside the app will immediately launch the link**; even better, **tag reading even works when the app is not running**, if your iPhone supports background NFC reading: for recent iPhone models you'll receive a notification and, as soon as you'll tap it, your link will be immediately launched.
