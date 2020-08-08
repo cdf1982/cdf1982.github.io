@@ -10,9 +10,9 @@ The 4th update to [Link HUB](https://cdf1982.com/link-hub.html), my iOS and iPad
 A short video is worth a thousand words:
 
 <p align="center">
-	<video width="607" height="1080" controls>
-	  <source src="{{ site.baseurl }}/assets/images/link-hub/link-hub-nfc-demo.mp4" type="video/mp4">
-	</video>
+	<body>
+	  <video src="{{ site.baseurl }}/assets/images/link-hub/link-hub-nfc-demo.mp4" controls loop></video>
+	</body>
 </p>
 
 As you can see, this enables **all kinds of automations**: Link HUB can **write cheap NFC stickers for you, to associate them to specific links**.
