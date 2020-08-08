@@ -10,7 +10,7 @@ The 4th update to [Link HUB](https://cdf1982.com/link-hub.html), my iOS and iPad
 A short video is worth a thousand words:
 
 <p align="center">
-	<video width="320" height="240" controls>
+	<video width="607" height="1080" controls>
 	  <source src="{{ site.baseurl }}/assets/images/link-hub/link-hub-nfc-demo.mp4" type="video/mp4">
 	</video>
 </p>
