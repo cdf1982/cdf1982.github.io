@@ -23,10 +23,10 @@ Writing requires 3 things:
 3. A phone that support NFC writing and a specific app that does the "encoding" (writing) work.
 <br>
 
-*Which iPhones and iPads do support NFC tag reading and writing?*<br>
+*Which iPhones, iPads and Macs do support NFC tag reading and writing?*<br>
 **iPhone 7, 8 and X running iOS 11 or later can read and write NFC tags, but require an app to do so and can't read tags in background**, when that app is not running.<br>
 **iPhone XS, XS Max, XR, 11, 11 Pro and SE (the new, big one) can read tags even without an app, in background**; they obviously can write tags too, but that requires an app.<br>
-Currently, **no iPad model supports NFC tag reading and writing**.
+Currently, **no iPad and Mac model supports NFC tag reading and writing**.
 <br>
 
 *What's the role of Link HUB in all this?*<br>
