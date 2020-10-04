@@ -35,11 +35,14 @@ nav-menu: true
 					<ul>
 						<li>TameTime <b>sits in your menu bar displaying the current session duration</b> in minutes and hours, with optional emojis 😊 that show at a glance how you're doing.</li>
 						<br>
-						<li>You can set <b>two thresholds for alerts</b> (for instance, after 45 minutes and 1 hour), each one independent from the other.</li>
+						<li>You can set <b>two thresholds for alerts</b> (for instance, after 25 minutes and 1 hour), each one independent from the other.</li>
 						<br>
 						<li>When the time limit is reached for a specific threshold, the app can play a <b>sound</b> (select one of TameTime's custom tones or a system sound), fire a <b>notification</b> and even display a <b>3-seconds full-screen overlay</b>; you can choose any combination of those alerts, or none at all.</li>
 						<br>
 						<li>You can also have the app repeat the notifications at multiples of your thresholds, for those time when you are so focused, you sit for 3 hours straight...</li>
+						<li>TameTime detects the breaks you take naturally during the day and resets its timers automatically after a customizable delay: you never need to interact directly with the app to say that you're taking a pause or that you have resumed your work.</li>
+						<li>TameTime never locks you out of your computer: it's up to you to take advantage of the awareness it provides, or to keep working hard for a little longer.</li>
+						<li>When you don't want to be distracted by TameTime's alerts, for instance while making conference calls, you can manually pause the alerts while keeping the timer running, so that you don't lose track of the time spent even while using Zoom!</li>
 					</ul>
 				</p>
 			</div>
