@@ -3,7 +3,7 @@ title: <b>Link HUB</b>
 layout: landing
 description: <b>You are probably here because you scanned a NFC tag encoded by Link HUB, but don't have the app installed on your device...</b>
 image: assets/images/link-hub/link-hub-iphone-ipad-mac.jpg
-nav-menu: true
+nav-menu: false
 ---
 
 <!-- Main -->
