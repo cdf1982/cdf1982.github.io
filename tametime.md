@@ -78,7 +78,7 @@ nav-menu: true
 		<div class="content">
 			<div class="inner">
 				<p>
-					TameTime can launch automatically when your Mac starts, does not require special permissions, uses almost no CPU or memory resources, and is very modern: it is compatible and fully at home on the latest release of macOS 10.15 Catalina (including support for Dark Mode), but also works on older versions of Mac OS X up to 10.11 El Capitan; the app is native, built with the latest version of Swift, and does not include any analytics framework or other privacy-invading stuff (please see the <a href="{{ site.baseurl }}/privacy/tametime_privacy_policy.html">Privacy Policy</a>).<br><br>
+					TameTime can launch automatically when your Mac starts, does not require special permissions, uses almost no CPU or memory resources, and is very modern: it is compatible and fully at home on the latest release of macOS 11 Big Sur (including support for Dark Mode and native compatibility with Apple Silicon), but also works on older versions of Mac OS X up to 10.11 El Capitan; the app is native, built with the latest version of Swift, and does not include any analytics framework or other privacy-invading stuff (please see the <a href="{{ site.baseurl }}/privacy/tametime_privacy_policy.html">Privacy Policy</a>).<br><br>
 					Please be advised that <b>TameTime is not a medical device and does not offer medical advice</b>; <b>if you're experiencing discomfort or pain, please don't hesitate to consult a doctor.</b>
 				</p>
 			</div>
