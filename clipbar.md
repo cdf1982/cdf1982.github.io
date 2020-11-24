@@ -1,7 +1,7 @@
 ---
 title: ClipBar&#58; Pasteboard Viewer
 layout: landing
-description: 'Quickly check what you're going to paste'
+description: 'Check before pasting a be more accurate'
 image: assets/images/clipbar/clipbar_banner.jpg
 nav-menu: true
 ---
