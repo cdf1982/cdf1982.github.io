@@ -3,7 +3,7 @@ layout: post
 title: A small new Mac app, ClipBar&#58; Pasteboard Viewer
 description:
 image: assets/images/clipbar/clipbar_banner.jpg
-tags: [linkhub]
+tags: [clipbar]
 ---
 As I [mentioned on Twitter](https://twitter.com/cdf1982/status/1330171075456536580) a few days ago, my brain has found a creative way to sabotage the work on my main app [GlanceCam]({{ site.baseurl }}/glancecam): instead of being plain unproductive, 🧠 screams 🐿 in different directions, knowing that I will eventually start the chase.
 
