@@ -12,7 +12,7 @@ nav-menu: true
 <!-- One -->
 <section id="one">
 	<div class="inner">
-		<p><b>ClipBar lives in the upper right corner of your Mac and shows what's currently in your pasteboard.</b><br><br>If you have ever put your fingers on the CMD-V keys and stopped wondering what you were going to paste, ClipBar is the small menu bar utility for you.<br><br>The app main purpose is to allow you to <b>quickly check the text you're going to paste</b>, but ClipBar also shows if the pasteboard is currently holding an image (giving you its size) or a file (showing you the path).<br><br>We copy and paste stuff so many times every day, and yet having the ability to see at a glance what's in the pasteboard before actually pasting it <b>will make you faster and more accurate</b>.</p>
+		<p><b>ClipBar lives in the upper right corner of your Mac and shows what's currently in your pasteboard.</b><br><br>If you have ever put your fingers on the CMD-V keys and stopped wondering what you were going to paste, ClipBar is the small menu bar utility for you.<br><br>The app main purpose is to allow you to <b>quickly check the text you're going to paste</b>, but ClipBar also shows if the pasteboard is currently holding an image (giving you its size) or a file (showing you the path). And when you click on ClipBar, a popover will appear for viewing a larger preview of your untruncated clipboard's content (from which you can extract part of the text or file path), or to actually view the image currently in your pasteboard.<br><br>We copy and paste stuff so many times every day, and yet having the ability to see at a glance what's in the pasteboard before actually pasting it <b>will make you faster and more accurate</b>.</p>
 		<p style="text-align:center">
 			<a href="https://apps.apple.com/us/app/clipbar-pasteboard-viewer/id1541739143" class="image" target="new">
 				<img src="assets/images/download_mac_app_store_white_bg.svg" alt="Download on the Mac App Store" data-position="center center" />
@@ -47,7 +47,7 @@ nav-menu: true
 		<div class="content">
 			<div class="inner">
 				<p>
-					ClipBar is not a clipboard manager – there's a lot of great apps that do that well already – but it can complement any third party solution you use to manage your pasteboard.<br><br>The app can <b>launch automatically at login</b> and you can <b>configure the maximum length of the text preview, and if longer strings should be truncated at the beginning, in the middle or the end</b>.<br><br>ClipBar is at home on <b>Big Sur</b> and is built natively for <b>Apple Silicon</b>, but it is also compatible with previous versions of macOS (it requires version <b>10.13 High Sierra or newer</b>) and <b>any Intel Mac</b>.
+					ClipBar is not a clipboard manager – there's a lot of great apps that do that well already – but it can complement any third party solution you use to manage your pasteboard.<br><br>The app can <b>launch automatically at login</b> and you can <b>configure the maximum length of the text preview, and if longer strings should be truncated at the beginning, in the middle or the end</b>. If you hover your mouse on the Menu Bar item, you will get a full, untruncated preview even for longer texts and file paths.<br><br>ClipBar is at home on <b>Big Sur</b> and is built natively for <b>Apple Silicon</b>, but it is also compatible with previous versions of macOS (it requires version <b>10.13 High Sierra or newer</b>) and <b>any Intel Mac</b>.
 				</p>
 			</div>
 		</div>
