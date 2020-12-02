@@ -39,6 +39,8 @@ And indeed, a **truly clean slate with a fresh Development Environment, newly in
 
 ---
 *2020.12.02 - Update for Users who set `NSPersistentStoreDescription` to interact with public databases and are noticing delays in the updates.*
+
 A few days ago, [Ben Radler](https://twitter.com/benradler) brought to my attention a behavior that those who use public databases with CloudKit (I was using the private database in the original post) need to take into account when testing:
 > If you are setting the `NSPersistentStoreDescription` to interact with the public database rather than the private database (previous default before iOS 14 I believe) via `description.cloudKitContainerOptions?.databaseScope = .public`, it will only poll for changes from cloudkit every 30 minutes by design (see 10:30 into the [WWDC 2020 session video on this topic](http://developer.apple.com/videos/play/wwdc2020/10650)).
+
 I want to **thank Ben for pointing this out**, since it might also be a cause for head-scratching when testing CloudKit sync!
