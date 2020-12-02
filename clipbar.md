@@ -58,7 +58,6 @@ nav-menu: true
 		<a href="assets/images/clipbar/clipbar3.jpg" class="image" target="new">
 			<img src="assets/images/clipbar/clipbar3.jpg" alt="" data-position="center center" />
 		</a>
-	</div>
 		<div class="content">
 				<div class="inner">
 					<p>
