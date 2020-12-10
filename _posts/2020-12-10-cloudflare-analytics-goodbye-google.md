@@ -11,8 +11,8 @@ While I've always been pretty straighforward with the cookie-consent message (*T
 
 Following the lead of my friend [Chris](https://twitter.com/chrishannah/status/1336722601016700929), I've just switched to [CloudFlare Analytics](https://blog.cloudflare.com/privacy-first-web-analytics/), which only provides aggregated, user-first and privacy focused anonymous informations; I always only cared about page views, which is basically most of what CloudFlare is providing and now it's all I got from a company that actually has a good track record and no involvement in advertising (they also give you device groups and countries of origin, but I find that of no interest).
 
-Bonus points, Safari's "shield" is now happy because my website did not contact any tracker.
+Bonus points, Safari's "shield" is now happy because my website does not contact any tracker.
 
 I've also just requested the deletion of my Google Analytics "property", which will be completed in 35 days, without even looking at it one last time or downloading it. Which tells you a lot about how much I really care about those data...
 
-If you have a website, I encourage you to look into this.
+If you have a website, I encourage you to look into CloudFlare's solution, the blog post I linked above is a good starting point, as it describes how they accomplish analytics without cookies or fingerprinting.
