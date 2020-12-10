@@ -13,4 +13,6 @@ Following the lead of my friend [Chris](https://twitter.com/chrishannah/status/1
 
 Bonus points, Safari's "shield" is now happy because my website did not contact any tracker.
 
+I've also just requested the deletion of my Google Analytics "property", which will be completed in 35 days, without even looking at it one last time or downloading it. Which tells you a lot about how much I really care about those data...
+
 If you have a website, I encourage you to look into this.
