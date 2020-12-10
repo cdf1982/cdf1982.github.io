@@ -1,20 +1,16 @@
 ---
 layout: post
-title: New website (still under construction)
+title: Goodbye Google Analytics, you won't be missed
 description:
 image:
 tags:
 ---
-This is a post I should have written about two months ago, and I kept postponing because life, work, Xcode and Milla...
+In November 2018 I added Google Analytics to gain some aggregated insights about the traffic on this website; I did disable everything intrusive I could (no gender, age, etc. reports for me), but never actually loved the idea of having Google cookies associated with something I do.
 
-As you might have noticed, this website has looked a bit different for a while now, the reason being I decided to stop spending too much money on Squarespace, and went with a GitHub + Jekyll  free solution I'm liking a lot ([thanks for the inspiration, Rob!](https://headtilt.me/migrating-from-squarespace/)).
-I especially love the theme I picked, [Forty by HTML5](https://html5up.net/) converted for Jekyll by [Andrew Banchich](http://andrewbanchi.ch/), because the home page now looks like a showcase for all my apps.
+While I've always been pretty straighforward with the cookie-consent message (*This website uses Google Analytics. I'm only interested in aggregated traffic informations and on my side nothing creepy will derive from that knowledge. If you don't consent to cookies, please leave this website and, possibly, the whole Internet, or Google (ironic, uh?) a way to block cookies.*) and sarcastic with the *Got it, thanks EU!* button to dismiss it, **I'm very happy to announce that this site is now Google, cookie, and cookie-consent free**.
 
-From a technical standpoint, the nicest thing about this change is the ability to write a markdown post on any device, commit it and have it appear on this blog. My hope is to write a bit more, and I must admit it is pretty nice to seat here on the couch, near the fire, typing on the first gen Smart Keyboard I never get to use; I still need to figure out my software setup (currently Drafts 4 saving to Dropbox), though, and inexpensive writing apps / GIT clients suggestions are very much appreciated!
+Following the lead of my friend [Chris](https://twitter.com/chrishannah/status/1336722601016700929), I've just switched to [CloudFlare Analytics](https://blog.cloudflare.com/privacy-first-web-analytics/), which only provides aggregated, user-first and privacy focused anonymous informations; I always only cared about page views, which is basically most of what CloudFlare is providing and now it's all I got from a company that actually has a good track record and no involvement in advertising (they also give you device groups and countries of origin, but I find that of no interest).
 
-As for the contents, I have to review and publish the product pages for most of my apps, so there's still work to do, but putting a revised website online for two months without spending a word about it felt weird...
-I hope to remove all the 'under construction' placeholders immediately after the release of a new app I'm working on, PhotosUpload. More details about that ASAP but, shocker, be advised it's a niche product...
+Bonus points, Safari's "shield" is now happy because my website did not contact any tracker.
 
-There's also a relatively bad thing I have to write about: in the migration, I broke the RSS feed and haven't found the time to repair it yet, so probably I'm writing this just for myself. There's actually a chance that the RSS URL will change, so I risk losing the few subscribers I had and write _everything_ just for myself going forward. 
-
-Please, let me know if you notice anything not working and, if you don't hate the content, please keep an eye open for new posts until I restore the RSS feed. Thank you!
+If you have a website, I encourage you to look into this.
