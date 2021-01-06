@@ -8,6 +8,7 @@ nav-menu: true
 <div id="main">
 	<h3>
 	<p style="text-align:center">
+		<br>
 		{% include tags.html %}
 	</p>
 	</h3>
