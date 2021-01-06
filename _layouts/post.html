@@ -29,6 +29,17 @@
 
 <section id="allpostslink">
 	<div class="align-center">
+		<span>[
+		  {% for tag in page.tags %}
+		    {% capture tag_name %}{{ tag }}{% endcapture %}
+		    <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+		  {% endfor %}
+		]</span>
+	</div>
+</section>
+
+<section id="allpostslink">
+	<div class="align-center">
 		<a href="{{ site.baseurl }}/blog.html" class="link">Back to blog</a>
 	</div>
 </section>
