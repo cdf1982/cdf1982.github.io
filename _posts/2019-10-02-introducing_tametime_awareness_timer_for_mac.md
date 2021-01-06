@@ -3,7 +3,7 @@ layout: post
 title: Introducing TameTime&#58; Awareness Timer
 description:
 image: assets/images/tametime/tametime_01.jpg
-tags: [tametime]
+tags: tametime
 ---
 Last August, while I was on vacation and had some time on my hands, I listened to episode [340 - You Are a Computer Athlete](https://atp.fm/episodes/340) of ATP and found myself nodding along with everything John Siracusa said about RSI; then I continued nodding while creating a new Xcode project, and here we are today.
 

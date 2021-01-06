@@ -3,7 +3,7 @@ layout: post
 title: Link HUB is on Product Hunt
 description:
 image:
-tags: [linkhub]
+tags: linkhub
 ---
 I've just posted Link HUB on [Product Hunt](https://www.producthunt.com/posts/link-hub-url-dashboard-nfc-launcher) 😸!
 

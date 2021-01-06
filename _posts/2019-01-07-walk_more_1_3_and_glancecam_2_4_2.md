@@ -3,7 +3,7 @@ layout: post
 title: App updates&#58; Walk More 1.3 and GlanceCam 2.4.2
 description:
 image:
-tags: [glancecam, walk more]
+tags: glancecam walk-more
 ---
 Apple has approved a couple of app updates to help me kick off the new year in a good way.
 <p align="center">

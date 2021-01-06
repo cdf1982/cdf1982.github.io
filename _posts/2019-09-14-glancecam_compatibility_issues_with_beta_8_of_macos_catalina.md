@@ -3,7 +3,7 @@ layout: post
 title: GlanceCam compatibility issues with beta 8 of Catalina
 description:
 image:
-tags: [glancecam]
+tags: glancecam
 ---
 **Update 3 - Tuesday, September 24**<br>
 Great news! **macOS 10.15 Catalina beta 9**, launched yesterday, **completely fixed the compatibility issue that affected GlanceCam and other apps relying on OpenGL since with the previous beta 8**.

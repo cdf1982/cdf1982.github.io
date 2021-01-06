@@ -3,7 +3,7 @@ layout: post
 title: App updates and a freebie!
 description:
 image:
-tags: [glancecam, walk more, always there]
+tags: glancecam walk-more always-there
 ---
 I like that this January I am being able to spend a little more time in Xcode than my usual, but I should probably apologize because all my posts are product announcements... I promise the next time you’ll read me I will cover more entertaining topics!
 

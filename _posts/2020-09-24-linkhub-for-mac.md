@@ -3,7 +3,7 @@ layout: post
 title: Introducing Link HUB for Mac
 description:
 image: assets/images/link-hub/link-hub-iphone-ipad-mac.jpg
-tags: [linkhub]
+tags: linkhub
 ---
 I am very happy to announce that, less than two months after its introduction on iPhone and iPad, **[Link HUB](https://cdf1982.com/link-hub.html) is now available on macOS too, thanks to Catalyst: version 1.5 is [already in the Mac App Store](https://apps.apple.com/us/app/id1524351956) and is free!**
 

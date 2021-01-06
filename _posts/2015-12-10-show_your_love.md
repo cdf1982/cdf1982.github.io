@@ -3,7 +3,7 @@ layout: post
 title: Show your 💕
 description:
 image:
-tags: [tasktic]
+tags: tasktic
 ---
 Just a quick note to ask for your support...
 

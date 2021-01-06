@@ -3,7 +3,7 @@ layout: post
 title: GlanceCam compatibility with OC835-ADT cameras
 description:
 image:
-tags: [glancecam]
+tags: glancecam
 ---
 So, there’s only little chance that this post will be seen by the person requesting informations about it, but since I have no email to reply to it's worth a try...
 

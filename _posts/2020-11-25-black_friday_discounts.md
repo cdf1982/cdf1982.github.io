@@ -3,7 +3,7 @@ layout: post
 title: Black Friday 2020 spectacular
 description:
 image: assets/images/blog/2015-11-26-tasktic-pro-40-off-for-black-friday-2015/tasktic_black_friday.jpg
-tags: [tametime]
+tags: tametime
 ---
 To honor and show my appreciation for my American friends, this year I have decided to put 4 of my apps on sale, worldwide, for 3 days!
 

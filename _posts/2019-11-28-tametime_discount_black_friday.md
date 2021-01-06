@@ -3,7 +3,7 @@ layout: post
 title: Black Friday discount for TameTime
 description:
 image:
-tags: [tametime]
+tags: tametime
 ---
 So, I decided to honor the not-so-Italian tradition of Thanksgiving / Black Friday sales by [discounting TameTime](https://apps.apple.com/us/app/tametime-awareness-timer/id1479326723?l=it&ls=1&mt=12) for a few days.
 

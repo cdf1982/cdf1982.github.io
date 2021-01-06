@@ -3,7 +3,7 @@ layout: post
 title: Getting started with PHP and TCPDF
 description:
 image:
-tags: [php]
+tags: automation php
 ---
 For years I wondered how PHP scripts actually worked and yesterday I found out that it's not too hard to start playing with them, as often is the case in this lucky age we live in... most answers are just a Google search away and things are only hard until we actually look at them with purpose.
 

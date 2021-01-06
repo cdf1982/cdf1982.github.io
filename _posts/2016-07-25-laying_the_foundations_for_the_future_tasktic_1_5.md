@@ -3,7 +3,7 @@ layout: post
 title: 'Laying the foundations for the future: Tasktic 1.5'
 description:
 image:
-tags: [tasktic]
+tags: tasktic
 ---
 **Later today Tasktic 1.5 will be available for download on the [App Store](https://geo.itunes.apple.com/us/app/tasktic-manage-your-tasks/id1036139076?mt=8&at=1000l3L9&ct=website) as a free update for all our Users.**
 

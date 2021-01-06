@@ -3,7 +3,7 @@ layout: post
 title: New RSS feed
 description:
 image:
-tags: 
+tags: web-dev
 ---
 
 Squarespace gave me a parting gift: I have no idea how to adopt the same format I had there for the RSS feed.

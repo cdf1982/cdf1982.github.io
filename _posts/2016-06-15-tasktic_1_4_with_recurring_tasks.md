@@ -3,7 +3,7 @@ layout: post
 title: Tasktic 1.4 with recurring tasks
 description:
 image: assets/images/blog/2016-06-15-tasktic_1_4_with_recurring_tasks/tasktic_recurring_tasks.jpg
-tags: [tasktic]
+tags: tasktic
 ---
 Since launch, the most requested feature for Tasktic has been the possibility to **repeat tasks**. I assume this is because we all want to pay our bills on time, and maybe reinforce a few good habits.
 

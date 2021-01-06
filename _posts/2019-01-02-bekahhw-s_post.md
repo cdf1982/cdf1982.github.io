@@ -3,7 +3,7 @@ layout: post
 title: Link&#58; I've Coded 365 Days Straight and Here's What I've Learned
 description:
 image:
-tags: [link]
+tags:
 --- 
 > **If you build it, they will come.**
 >

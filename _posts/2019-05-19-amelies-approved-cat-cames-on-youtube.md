@@ -3,7 +3,7 @@ layout: post
 title: Amelie's Approved Cat Games
 description:
 image: assets/images/blog/2019-05-19-amelies-approved-cat-cames-on-youtube/amelies-cat-games-logo.jpg
-tags: []
+tags:
 ---
 My sister's cat Amelie has always been very much into YouTube cat games (yes, they are a thing), so I accepted a recent suggestion to make some games for her.
 

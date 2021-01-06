@@ -3,7 +3,7 @@ layout: post
 title: "#wwdc2019: Pro Display XDR"
 description:
 image:
-tags: [wwdc]
+tags: wwdc
 ---
 I understand many will make fun of its price and especially of the fact that, out of the box, you can't actually use a 5.000 Dollars monitor, but to me this was the funniest announcement.
 

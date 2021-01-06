@@ -3,7 +3,7 @@ layout: post
 title: Printing HTML pages to PDF with wkhtmltopdf
 description:
 image:
-tags: [automation]
+tags: automation
 ---
 Today I discovered a pretty neat command line tool, [wkhtmltopdf](https://wkhtmltopdf.org/index.html), that allows to print a website (or a local HTML document) to PDF preserving the original page style (CSS, images, tables, etc.) in a way that is much truer to the original compared to what a regular browser does, at least in my experience; it also runs headless, if desired, so it can integrate nicely in other automation workflows.
 

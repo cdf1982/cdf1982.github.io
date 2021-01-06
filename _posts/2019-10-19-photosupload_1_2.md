@@ -3,7 +3,7 @@ layout: post
 title: PhotosUpload 1.2
 description:
 image:
-tags: [photosupload]
+tags: photosupload
 ---
 [PhotosUpload]({{ site.baseurl }}/photosupload) version 1.2 is [now available](https://apps.apple.com/us/app/photosupload/id1441656535) and introduces an op­tio­nal High Con­tra­st the­me for the user in­ter­fa­ce.
  

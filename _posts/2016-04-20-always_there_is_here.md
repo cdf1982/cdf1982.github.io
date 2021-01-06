@@ -3,7 +3,7 @@ layout: post
 title: Always There is here
 description:
 image: 
-tags: [always there]
+tags: always-there
 ---
 Today a brand new app joins [Tasktic]({{ site.baseurl }}/tasktic.html) and [Weightrack](https://geo.itunes.apple.com/us/app/weightrack-record-your-weight/id906894500?mt=8&at=1000l3L9): [Always There](h{{ site.baseurl }}/always-there.html)!
 

@@ -3,7 +3,7 @@ layout: post
 title: Mojave Quick Actions
 description:
 image:
-tags: [automation]
+tags: automation
 ---
 I must admit that, when macOS 10.14 Mojave was announced last June, I quickly dismissed the new Finder’s Quick Actions as a gimmick, and never looked back.
 Then this week a couple of things made me revisit my superficial dismissal of this new automation feature and proved me wrong.

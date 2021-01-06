@@ -3,7 +3,7 @@ layout: post
 title: Not how you launch an app... introducing Link HUB
 description:
 image: assets/images/link-hub/link-hub-iphone-ipad.jpg
-tags: [linkhub]
+tags: linkhub
 ---
 
 [Once again](https://cdf1982.com/2020/06/07/glancecam_2_10_with_auto-reconnection_and_other_tricks.html), I miscalculated the timing of an app launch: **this morning [Link HUB](https://apps.apple.com/us/app/id1524351956), a fun project [I started](https://twitter.com/cdf1982/status/1284880346396471296) a couple of weeks ago, debuted in the App Store** after a very fast review process.<br>I had a few launch images and the [product page](https://cdf1982.com/link-hub.html) ready, but not this introductory post, so I rushed out [a tweet](https://twitter.com/cdf1982/status/1289103530717065217) and the app debuted into the world 🎉, actually with a warmer welcome than most of my iOS apps in recent years had: according to App Store Connect, which is showing me data for the last 8 hours as I write this, over 50 people downloaded it already!

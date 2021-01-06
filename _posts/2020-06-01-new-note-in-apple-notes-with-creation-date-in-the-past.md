@@ -3,7 +3,7 @@ layout: post
 title: New items with creation date in the past in Apple Notes
 description:
 image:
-tags: [automation]
+tags: automation
 ---
 I never blogged during this pandemic, not even once, because it felt pointless with all that was (is) going on.
 I understand my reaction is the opposite of what many have done with the additional time at hand, being stuck at home, and I am in no way expressing a negative judgement; on the contrary, all those posts kept me sane and entertained, and I am very grateful for them!

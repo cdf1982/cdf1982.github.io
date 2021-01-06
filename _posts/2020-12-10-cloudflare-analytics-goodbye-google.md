@@ -3,7 +3,7 @@ layout: post
 title: Goodbye Google Analytics, you won't be missed
 description:
 image:
-tags:
+tags: web-dev
 ---
 In November 2018 I added Google Analytics to gain some aggregated insights about the traffic on this website; I did disable everything intrusive I could (no gender, age, etc. reports for me), but never actually loved the idea of having Google cookies associated with something I do.
 

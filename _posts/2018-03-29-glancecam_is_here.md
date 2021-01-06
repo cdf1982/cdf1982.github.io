@@ -3,7 +3,7 @@ layout: post
 title: GlanceCam is here
 description:
 image:
-tags: [glancecam]
+tags: glancecam
 ---
 I'm glad to introduce another nerdy and niche Mac app: starting today, [GlanceCam - IP webcam viewer]({{ site.baseurl }}/glancecam.html) is available on the [Mac App Store](https://itunes.apple.com/us/app/glancecam-ip-webcam-viewer/id1360797896?l=it&ls=1&mt=12).
 

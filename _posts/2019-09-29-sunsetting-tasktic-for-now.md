@@ -3,7 +3,7 @@ layout: post
 title: Sunsetting Tasktic (for now)
 description:
 image:
-tags: [tasktic]
+tags: tasktic
 ---
 A little [less than four years ago]({{ site.baseurl }}/2015/11/10/tasktic_is_available_in_the_app_store.html), my second app [Tasktic]({{ site.baseurl }}/tasktic) debuted in the App Store. Sadly, I'm here to report that **today I have removed it from sale**.
 

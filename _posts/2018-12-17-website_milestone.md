@@ -3,7 +3,7 @@ layout: post
 title: Website milestone
 description:
 image:
-tags: []
+tags: web-dev
 ---
 I feel like today this website reached a milestone: finally, all product pages are online, albeit some descriptions could be improved and I could add more screenshots of the apps.
 

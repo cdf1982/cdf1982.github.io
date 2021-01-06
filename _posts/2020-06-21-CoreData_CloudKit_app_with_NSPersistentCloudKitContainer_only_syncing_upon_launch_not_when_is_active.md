@@ -3,7 +3,7 @@ layout: post
 title: Core Data + CloudKit app using NSPersistentCloudKitContainer only syncing at launch and not during execution
 description:
 image:
-tags: [dev,sync]
+tags: core-data cloudkit sync dev
 ---
 Hello visitor from Google, I hope you are well, but most likely you are not, because you are fighting with syncing issues.
 

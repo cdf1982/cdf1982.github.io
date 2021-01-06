@@ -3,7 +3,7 @@ layout: post
 title: 🎂 GlanceCam is one year old! 🎂
 description:
 image: assets/images/blog/2019-03-29-glancecam_is_one_year_old/glancecam_birthday.png
-tags: [glancecam]
+tags: glancecam
 ---
 One year ago today [GlanceCam]({{ site.baseurl }}/glancecam.html) debuted in the Mac App Store, after just 3 weeks of very intense development at the most improbable hours (I have a day job, so most of my coding has to happen *very, very* early in the morning).
 

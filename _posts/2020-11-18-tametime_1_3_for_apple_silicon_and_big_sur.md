@@ -3,7 +3,7 @@ layout: post
 title: TameTime 1.3 for Apple Silicon and Big Sur
 description:
 image:
-tags: [tametime]
+tags: tametime
 ---
 🚀 TameTime now natively supports Apple Silicon and is fully at home on macOS 11 Big Sur.
 

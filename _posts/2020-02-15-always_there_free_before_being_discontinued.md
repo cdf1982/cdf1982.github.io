@@ -3,7 +3,7 @@ layout: post
 title: Always There free at last, but not for long
 description:
 image: 
-tags: [always there]
+tags: always-there
 ---
 A week ago I received an email from Apple announcing that my third app, [Always There]({{ site.baseurl }}/always-there.html), had "won" the *outdated apps lottery* and would be removed from the App Store in 30 days unless a new update is issued and approved.
 

@@ -3,7 +3,7 @@ layout: post
 title: Introducing ContactsAMI
 description:
 image:
-tags: [contactsami]
+tags: contactsami
 ---
 Some say that the most useful apps are made to fulfill a need of their developers. That's certainly the case for [**ContactsAMI**]({{ site.baseurl }}/contactsami.html), a simple utility that I made to save myself *a lot* of time.
 

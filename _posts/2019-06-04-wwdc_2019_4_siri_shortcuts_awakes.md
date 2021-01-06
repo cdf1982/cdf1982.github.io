@@ -3,7 +3,7 @@ layout: post
 title: "#wwdc2019: Siri Shortcuts awakes"
 description:
 image:
-tags: [wwdc,shortcuts]
+tags: wwdc shortcuts
 ---
 As a lover of automation on the Mac who sometimes attempts [timid]({{ site.baseurl }}/2018/11/19/another_tool_in_my_belt.html) [experiments]({{ site.baseurl }}/2019/05/24/siri_tell_alexa_to_connect_my_phone_via_bluetooth_with_shortcuts.html) with Siri Shortcuts, yesterday was more than interesting.
 

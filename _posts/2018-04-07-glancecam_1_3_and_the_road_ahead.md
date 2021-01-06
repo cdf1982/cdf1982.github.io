@@ -3,7 +3,7 @@ layout: post
 title: GlanceCam 1.3 and the road ahead
 description:
 image: assets/images/blog/2018-04-07-glancecam_1_3_and_the_road_ahead/review.png
-tags: [glancecam]
+tags: glancecam
 ---
 GlanceCam launch went so much better than I expected, confirming that an app I [built out of lazyness]({{ site.baseurl }}/2018/03/29/glancecam_is_here.html) is actually proving useful to others (which is simply *the best thing* for an app developer).
 

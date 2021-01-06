@@ -3,7 +3,7 @@ layout: post
 title: AppleScript for DarkSky weather forecast
 description:
 image:
-tags: [automation, applescript]
+tags: automation applescript
 ---
 For a while now, me and my sister wanted to make an habit of a Thursday walk with my 🐺.
 Trying to actually remember it with our brains would have been enough, or we could have made an appointment in a shared calendar. Instead, I had fun assembling the following AppleScript, a.k.a. the nerdiest solution to a non-existing problem ever; I awarded myself bonus points for scheduling a cron job to run it every Thursday morning.

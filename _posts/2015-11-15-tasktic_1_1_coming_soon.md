@@ -3,7 +3,7 @@ layout: post
 title: Tasktic 1.1 coming soon
 description:
 image: assets/images/blog/2015-11-15-tasktic_1_1_coming_soon/tasktic_rename_project_and_tags.png
-tags: [tasktic]
+tags: tasktic
 ---
 Just a quick update, before a longer post I plan to write in a couple of days to tell you everything about Tasktic's launch and to link to the amazing reviews it has received so far.
 

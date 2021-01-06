@@ -3,7 +3,7 @@ layout: post
 title: Link HUB with NFC tags support
 description:
 image:
-tags: [linkhub]
+tags: linkhub
 ---
 The 4th update to [Link HUB](https://cdf1982.com/link-hub.html), my iOS and iPadOS dashboard to launch any kind of URL and URL scheme, has just landed in the App Store, and it is the biggest one yet... actually, version 1.4 adds the feature the app was originally imagined for: **you can now use inexpensive NFC tags to trigger the launch of URLs you saved in Link HUB: _Shortcuts, home automations, direct calls and messages to specific contacts, websites, web-hooks, and so on..._**
 

@@ -3,7 +3,7 @@ layout: post
 title: Building Tasktic
 description:
 image:
-tags: [tasktic]
+tags: tasktic
 ---
 Next November 5, the project I've been working on since February will see the light of day.
 

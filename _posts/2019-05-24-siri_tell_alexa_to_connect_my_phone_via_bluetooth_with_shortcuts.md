@@ -3,7 +3,7 @@ layout: post
 title: Siri, tell Alexa to connect my phone
 description:
 image:
-tags: [automation,shortcuts]
+tags: automation shortcuts
 ---
 I usually fall asleep listening to podcasts, which means that every night I have to tell the Echo Dot to connect to my phone via Bluetooth and ask Siri to resume playing Overcast while setting a sleep timer.
 

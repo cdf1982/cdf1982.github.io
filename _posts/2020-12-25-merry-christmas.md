@@ -3,7 +3,7 @@ layout: post
 title: Merry Christmas!
 description:
 image:
-tags:
+tags: 
 ---
 Me and [Milla](https://www.instagram.com/millakillapilla/) just wanted to take a moment and wish you all the best and most serene Christmas!
 

@@ -3,7 +3,7 @@ layout: post
 title: How to symbolicate macOS apps crash logs
 description:
 image:
-tags: [development]
+tags: dev
 ---
 Alternate title: TIL Xcode does not symbolicate Mac applications .crash files, that only works for iOS apps.
 

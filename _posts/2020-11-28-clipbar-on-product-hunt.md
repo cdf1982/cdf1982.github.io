@@ -3,7 +3,7 @@ layout: post
 title: ClipBar's great day on Product Hunt
 description:
 image:
-tags: [clipbar]
+tags: clipbar
 ---
 A few days ago, my friend [Chris](https://twitter.com/chrishannah/status/1331290803969421314) made me the nicest gift and hunted my new app [ClipBar]({{ site.baseurl }}/clipbar) on [Product Hunt](https://www.producthunt.com/posts/clipbar) 😸.
 

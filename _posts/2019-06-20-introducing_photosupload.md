@@ -3,7 +3,7 @@ layout: post
 title: Introducing PhotosUpload. <i>Finally.</i>
 description:
 image:
-tags: [photosupload]
+tags: photosupload
 ---
 Over a year ago, at my day job I had to look for an iOS app for taking photos and uploading them to the company FTP server; bonus points were awarded if an app was easy and quick to operate because it would be sometimes used by "non-technical" people. Surprisingly, **very few apps could provide that functionality, and even less were kept up to date and polished**.
 

@@ -3,7 +3,7 @@ layout: post
 title: TameTime 1.2 debuts today with a huge discount!
 description:
 image:
-tags: [tametime]
+tags: tametime
 ---
 🚀 TameTime 1.2 debuts today in the App Store, 50% off for 1 week, to remind you to take regular breaks and avoid spending too much time sitting at your Mac at the expense of your health.
 

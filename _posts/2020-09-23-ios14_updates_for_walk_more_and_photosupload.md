@@ -3,7 +3,7 @@ layout: post
 title: iOS 14 updates for Walk More and PhotosUpload
 description:
 image:
-tags: [photosupload,walk more]
+tags: photosupload walk-more
 ---
 I'm a few days late with this post, as both updates are already available in the App Store:
 

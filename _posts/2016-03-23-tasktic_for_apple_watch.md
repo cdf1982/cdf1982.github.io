@@ -3,7 +3,7 @@ layout: post
 title: It's about time
 description:
 image: assets/images/blog/2016-03-23-tasktic_for_apple_watch/tasktic_apple_watch.jpg
-tags: [tasktic]
+tags: tasktic
 ---
 Tasktic 1.3 is now [available for download on the App Store](https://geo.itunes.apple.com/us/app/tasktic-manage-your-tasks/id1036139076?mt=8&at=1000l3L9&ct=website), and it brings our task manager much closer to you, **right on your wrist**!
 

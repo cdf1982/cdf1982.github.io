@@ -3,7 +3,7 @@ layout: post
 title: Core Data + cloud sync = dilemma
 description:
 image:
-tags: [development]
+tags: core-data sync dev
 ---
 My friend Becky recently wrote [a post](http://beckyhansmeyer.com/2017/07/08/data-persistence-dilemma/) about the dilemma she's facing with a new, interesting app she's making.
 

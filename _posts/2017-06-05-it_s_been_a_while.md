@@ -3,7 +3,7 @@ layout: post
 title: It's been a while...
 description:
 image:
-tags:
+tags: tasktic walk-more
 ---
 The last post here on cdf1982.com was appropriately named "[Cultivate bad ideas]({{ site.baseurl }}/2016/08/17/cultivate_bad_ideas.html)", and I have indeed pursued a lot of ideas in the last 8 months.
 

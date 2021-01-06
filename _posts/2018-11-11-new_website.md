@@ -3,7 +3,7 @@ layout: post
 title: New website (still under construction)
 description:
 image:
-tags:
+tags: web-dev
 ---
 This is a post I should have written about two months ago, and I kept postponing because life, work, Xcode and Milla...
 

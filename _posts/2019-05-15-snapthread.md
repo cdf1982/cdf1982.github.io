@@ -3,7 +3,7 @@ layout: post
 title: Snapthread 2.0
 description:
 image:
-tags: []
+tags:
 ---
 A couple of days ago **[Snapthread](https://itunes.apple.com/app/id1277445843), my go-to app for sharing short video montages, has been updated to version 2.0.**
 

@@ -3,7 +3,7 @@ layout: post
 title: Being too optimistic
 description:
 image:
-tags: [tasktic]
+tags: tasktic
 ---
 As it happens when you don't account for delays, I've made a mistake: I planned to launch [Tasktic](https://geo.itunes.apple.com/us/app/tasktic-manage-your-tasks/id1036139076?mt=8&at=1000l3L9&ct=blog) today, November 5, and I announced the date when I submitted the app to the App Store Review.
 

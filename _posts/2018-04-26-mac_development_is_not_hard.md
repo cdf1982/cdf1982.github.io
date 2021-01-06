@@ -3,7 +3,7 @@ layout: post
 title: Mac development is (not) hard
 description:
 image:
-tags: [glancecam]
+tags: glancecam
 ---
 [Brent Simmons](http://inessential.com/2018/04/25/youre_practically_a_mac_developer) perfectly described a belief I've had since I started Cocoa development:
 

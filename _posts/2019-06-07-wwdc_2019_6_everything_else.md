@@ -3,7 +3,7 @@ layout: post
 title: "#wwdc2019: Everything else"
 description:
 image:
-tags: [wwdc]
+tags: wwdc
 ---
 I'd like to close the week with a quick(ish) mention of many intersting things, including major ones, I didn't have the chance to talk about in my [previous posts]({{ site.baseurl }}/2019/06/04/wwdc_2019_0.html):
 

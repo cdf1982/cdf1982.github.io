@@ -3,7 +3,7 @@ layout: post
 title: Always look for the business model
 description:
 image:
-tags: [tasktic]
+tags: tasktic
 ---
 This post probably won't reveal you anything you didn't already know, but you should read it anyway and, maybe, share it with your loved ones: no matter if you plan to download my new app [Tasktic](https://geo.itunes.apple.com/us/app/tasktic-manage-your-tasks/id1036139076?mt=8&at=1000l3L9&ct=blog) or even if you don't care about what that is or [why I made a task manager]({{ site.baseurl }}/2015/10/27/building_tasktic.html) when many alternatives already exist, the stuff we're going to talk about matters a lot for every app you start using or online service you subscribe to, and not everybody knows it.
 

@@ -3,7 +3,7 @@ layout: post
 title: Paying more for the same?
 description:
 image:
-tags: [tasktic]
+tags: tasktic
 ---
 In my [previous post]({{ site.baseurl }}/2015/11/01/always_look_for_the_business_model.html) about the importance of knowing the business model behind any app or service you trust with your data, I mentioned than my new app [Tasktic](https://geo.itunes.apple.com/us/app/tasktic-manage-your-tasks/id1036139076?mt=8&at=1000l3L9&ct=blog) is free, but offers more than one in-app purchase to unlock the Pro version.
 

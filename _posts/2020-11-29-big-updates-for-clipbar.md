@@ -3,7 +3,7 @@ layout: post
 title: ClipBar's cool week
 description:
 image: assets/images/clipbar/clipbar_banner_2.png
-tags: [clipbar]
+tags: clipbar
 ---
 Busy week for **[ClipBar: Pasteboard Viewer]({{ site.baseurl }}/clipbar)**, my new app that **allows to quickly check what's in your Mac's pasteboard before actually pasting**:
 

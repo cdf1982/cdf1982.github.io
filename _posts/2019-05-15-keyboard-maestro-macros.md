@@ -3,7 +3,7 @@ layout: post
 title: A couple of Keyboard Maestro macros
 description:
 image:
-tags: [automation]
+tags: automation
 ---
 I've had a bit of fun with [Keyboard Maestro](http://www.keyboardmaestro.com/) today; I posted two new macros on the excellent KM [forum](https://forum.keyboardmaestro.com), but seems only appropriate to link to them here on the blog too:
 

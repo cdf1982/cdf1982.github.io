@@ -3,7 +3,7 @@ layout: post
 title: Another tool in my belt
 description:
 image: assets/images/blog/2018-11-19-another_tool_in_my_belt/sirishortcutsforaudio.png
-tags: [automation, shortcuts]
+tags: automation shortcuts
 ---
 Today I was asked for a way, maybe a small custom iOS app with bonus points if it had a CarPlay extension, to occasionally retrieve an audio file via HTTP and play it in the car.
 The path for the file is known and remains the same, but the file name changes every day and it corresponds to the date in yyyyMMdd format.

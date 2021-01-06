@@ -3,7 +3,7 @@ layout: post
 title: PhotosUpload 1.1
 description:
 image:
-tags: [photosupload]
+tags: photosupload
 ---
 A few days ago I had to take a few photos at work, and my extended usage of [PhotosUpload]({{ site.baseurl }}/photosupload) "in the field" brought up a few tweaks I felt were could improve the app.
 
