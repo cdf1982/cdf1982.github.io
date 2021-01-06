@@ -6,9 +6,9 @@ image:
 nav-menu: true
 ---
 <div id="main">
+	<h3>
 	<p style="text-align:center">
-		<h2>
 		{% include tags.html %}
-		</h2>
 	</p>
+	</h3>
 </div>
