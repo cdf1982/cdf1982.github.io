@@ -1,8 +1,12 @@
 ---
 title: Tags
 layout: landing
-description: Most of my blog posts, sorted by tag
+description: Most of my blog posts, sorted by category
 image:
 nav-menu: true
 ---
-{% include tags.html %}
+<div id="main">
+	<p style="text-align:center">
+		{% include tags.html %}
+	</p>
+</div>
