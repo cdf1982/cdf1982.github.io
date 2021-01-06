@@ -7,6 +7,8 @@ nav-menu: true
 ---
 <div id="main">
 	<p style="text-align:center">
+		<h2>
 		{% include tags.html %}
+		</h2>
 	</p>
 </div>
