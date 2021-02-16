@@ -23,6 +23,7 @@ nav-menu: true
 			<a href="https://itunes.apple.com/us/app/glancecam-ip-webcam-viewer/id1360797896?l=it&ls=1&mt=12" class="image" target="new">
 				<img src="assets/images/download_mac_app_store_white_bg.svg" alt="Download on the Mac App Store" data-position="center center" />
 			</a>
+			<br><b><a href="{{ site.baseurl }}/glancecam/glancecam-release-notes">Release Notes</a></b><br>
 		</p>
 	</div>
 </section>
