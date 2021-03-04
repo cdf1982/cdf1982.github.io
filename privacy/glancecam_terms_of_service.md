@@ -7,19 +7,20 @@ nav-menu: false
 ---
 The GlanceCam application, components, extensions, site and services available in connection with the software application (the “App”, "GlanceCam") are made available to you by Cesare Forelli (“I”, “Me”, or “My”) subject both to these Terms of Service and to the terms set forth in the [Privacy Policy](https://cdf1982.com/privacy/glancecam_privacy_policy.html) (collectively the “Terms”). Please take a moment to review both documents before using the App.
 
-BY ACCESSING, USING OR DOWNLOADING ANY MATERIAL FROM THE APP, YOU AGREE TO FOLLOW AND BE BOUND BY THESE TERMS, which may be updated by me from time to time without notice to you.
+**BY ACCESSING, USING OR DOWNLOADING ANY MATERIAL FROM THE APP, YOU AGREE TO FOLLOW AND BE BOUND BY THESE TERMS**, which may be updated by me from time to time without notice to you.
 You can review the most current version of the Terms of Service at any time at the URL you are currently reading this document from ([https://cdf1982.com/privacy/glancecam_terms_of_service.html](https://cdf1982.com/privacy/glancecam_terms_of_service.html)) and the current version of the Privacy Policy at [https://cdf1982.com/privacy/glancecam_privacy_policy.html](https://cdf1982.com/privacy/glancecam_privacy_policy.html).
 
 I may and will make improvements and/or changes in the products, services, applications, features, programs, and prices described in this App at any time without notice.
 
-YOU WILL NEVER RELY ON, USE OR ATTEMPT TO USE THE APP IN AN EMERGENCY AND OR DANGEROUS AND OR CRITICAL SITUATION, NOR WILL USE OR ATTEMPT TO USE THE SOFTWARE IN SITUATIONS THAT COULD POTENTIALLY LEAD TO DEATH, PERSONAL INJURY, OR SEVERE PHYSICAL OR ENVIRONMENTAL DAMAGE.
+**YOU WILL NEVER RELY ON, USE OR ATTEMPT TO USE THE APP IN AN EMERGENCY AND OR DANGEROUS AND OR CRITICAL SITUATION, NOR WILL USE OR ATTEMPT TO USE THE SOFTWARE IN SITUATIONS THAT COULD POTENTIALLY LEAD TO DEATH, PERSONAL INJURY, OR SEVERE PHYSICAL OR ENVIRONMENTAL DAMAGE.
 THE APP IS NOT INTENDED FOR USE MONITORING THE HEALTH AND SAFETY OF HUMAN BEINGS OF ANY AGE AND OTHER CREATURES, IN THE OPERATION OF NUCLEAR FACILITIES, AIRCRAFT NAVIGATION OR COMMUNICATION SYSTEMS, AIR TRAFFIC CONTROL SYSTEMS, LIFE SUPPORT MACHINES OR OTHER EQUIPMENT IN WHICH THE FAILURE OF THE SOFTWARE COULD LEAD TO DEATH, PERSONAL INJURY, OR SEVERE PHYSICAL OR ENVIRONMENTAL DAMAGE.
-YOU ACKNOWLEDGE THAT THE APP CAN MALFUNCTION, STOP, CRASH AND THAT THE VIDEO STREAMS IT DISPLAYS FROM THIRD PARTY HARDWARE (CAMERAS) COULD FREEZE FOR ANY REASON INCLUDING REASONS NOT DETERMINED BY THE APP; THIS CAN HAPPEN WITHOUT WARNING AND THEREFORE YOU WILL ONLY USE THE APP IF AND WHEN NO DANGER IS POSED BY ANY MALFUNCTION.
+YOU ACKNOWLEDGE THAT THE APP CAN MALFUNCTION, STOP, CRASH AND THAT THE VIDEO STREAMS IT DISPLAYS FROM THIRD PARTY HARDWARE (CAMERAS) COULD FREEZE FOR ANY REASON INCLUDING REASONS NOT DETERMINED BY THE APP; THIS CAN HAPPEN WITHOUT WARNING AND THEREFORE YOU WILL ONLY USE THE APP IF AND WHEN NO DANGER IS POSED BY ANY MALFUNCTION.**
 
-If you do not agree with all the Terms, please do not use this App. BY CONTINUING TO USE THE APP, YOU ARE INDICATING YOUR AGREEMENT TO THE TERMS AND ALL REVISIONS THEREOF.
+If you do not agree with all the Terms, please do not use this App. **BY CONTINUING TO USE THE APP, YOU ARE INDICATING YOUR AGREEMENT TO THE TERMS AND ALL REVISIONS THEREOF.**
 
 I reserve the right at any time and from time to time to modify or discontinue, temporarily or permanently, the App or any portion thereof with or without notice.
 You agree that I shall not be liable to you or to any third party for any modification, suspension, temporary or permanent malfunction, incompatibility with your hardware, discontinuance of the App or any portion thereof.
+<br>
 <br>
 <br>
 **Subscription Payments, Renewals, and Cancellation**
@@ -30,9 +31,11 @@ Subscriptions automatically renew unless canceled at least 24 hours before the e
 All purchases are final. I cannot issue refunds for purchases charged by Apple to your Apple ID.
 <br>
 <br>
+<br>
 **Termination**
 
 I may, in my sole discretion, terminate or suspend your access to all or part of the App at any time, with or without notice, for any reason, including, without limitation, breach of these terms.
+<br>
 <br>
 <br>
 **Proprietary Rights**
@@ -54,6 +57,7 @@ GlanceCam is distributed with the following third party software licensed under 
 - [Purchases by RevenueCat](https://github.com/RevenueCat/purchases-ios) is licensed under the [MIT License](https://opensource.org/licenses/LGPL-2.1/)
 <br>
 <br>
+<br>
 **Disclaimer of Warranties and Liability**
 
 THE INFORMATION, SOFTWARE, PRODUCTS, SERVICES, AND CONTENT AVAILABLE IN THE APP ARE PROVIDED TO YOU “AS IS” AND WITHOUT WARRANTY. I AND MY SUBSIDIARIES, AFFILIATES, OFFICERS, EMPLOYEES, AGENTS, PARTNERS, AND LICENSORS HEREBY DISCLAIM ALL WARRANTIES WITH REGARD TO SUCH INFORMATION, SOFTWARE, PRODUCTS, SERVICES AND CONTENT, INCLUDING, WITHOUT LIMITATION, ALL IMPLIED WARRANTIES AND CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NONINFRINGEMENT. I AND MY SUBSIDIARIES, AFFILIATES, OFFICERS, EMPLOYEES, AGENTS, PARTNERS, AND LICENSORS MAKE NO WARRANTY THAT (a) THE SERVICE WILL MEET YOUR REQUIREMENTS; (b) THE SERVICE WILL BE UNINTERRUPTED, TIMELY, SECURE, OR ERROR-FREE; (c) THE RESULTS THAT MAY BE OBTAINED FROM THE USE OF THE SERVICE WILL BE ACCURATE OR RELIABLE; (d) THE QUALITY OF ANY PRODUCTS, SERVICES, INFORMATION, OR OTHER MATERIAL PURCHASED OR OBTAINED BY YOU THROUGH THE SERVICE WILL MEET YOUR EXPECTATIONS; AND (e) ANY ERRORS IN THE APP WILL BE CORRECTED.
@@ -61,14 +65,17 @@ THE INFORMATION, SOFTWARE, PRODUCTS, SERVICES, AND CONTENT AVAILABLE IN THE APP 
 YOU EXPRESSLY AGREE TO RELEASE I, MY SUBSIDIARIES, AFFILIATES, OFFICERS, AGENTS, REPRESENTATIVES, EMPLOYEES, PARTNERS AND LICENSORS (THE “RELEASED PARTIES”) FROM ANY AND ALL LIABILITY CONNECTED WITH YOUR ACTIVITIES, AND PROMISE NOT TO SUE THE RELEASED PARTIES FOR ANY CLAIMS, ACTIONS, INJURIES, DAMAGES, OR LOSSES ASSOCIATED WITH YOUR ACTIVITIES. YOU ALSO AGREE THAT IN NO EVENT SHALL THE RELEASED PARTIES BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY DIRECT, INDIRECT, PUNITIVE, INCIDENTAL, SPECIAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF OR IN ANY WAY CONNECTED WITH (a) YOUR USE OR MISUSE OF THE APP, (b) YOUR DEALINGS WITH THIRD PARTY SERVICE PROVIDERS OR ADVERTISERS AVAILABLE THROUGH THE APP, (c) ANY DELAY OR INABILITY TO USE THE APP EXPERIENCED BY YOU, (d) ANY INFORMATION, SOFTWARE, PRODUCTS, SERVICES, OR CONTENT OBTAINED THROUGH THE APP, WHETHER BASED ON CONTRACT, TORT, STRICT LIABILITY, OR OTHERWISE, EVEN IF I HAVE BEEN ADVISED OF THE POSSIBILITY OF DAMAGES. BECAUSE SOME STATES/JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE ABOVE LIMITATION MAY NOT APPLY TO YOU.
 <br>
 <br>
+<br>
 **Indemnity**
 
 You agree to indemnify and hold me and my subsidiaries, affiliates, officers, agents, representatives, employees, partners and licensors harmless from any claim or demand, including reasonable attorneys’ fees, made by any third party due to or arising out of Content you submit, post, transmit or otherwise seek to make available through the App, your use of the App, your connection to the App, your violation of the Terms, or your violation of any rights of another person or entity.
 <br>
 <br>
+<br>
 **Applicable Laws**
 
 This App is controlled by Cesare Forelli from within Italy. I make no representation that the Content in the App or the App are appropriate or available for use in other locations, and access to them from territories where their content or use is illegal is prohibited. Those who choose to access this App from locations outside of Italy do so on their own initiative and are responsible for compliance with applicable local laws. You may not use or export the Content in violation of export laws and regulations. Any action related to the App, the Content or the Terms shall be governed by Italian law, without regard to conflicts of laws thereof. You hereby consent and submit to the exclusive jurisdiction and venue in the courts located in Savona, Italy for any legal proceedings related to the App or the Terms. If any party hereto brings any suit or action against another for relief, declaratory or otherwise, arising out of these Terms, the prevailing party will have and recover against the other party, in addition to all court costs and disbursements, such sum as the court may adjudge to be reasonable attorneys’ fees. Except to the extent prohibited by applicable law, the parties agree that any claim or cause of action arising out of or related to use of the App or the Terms must be filed within one (1) year after such claim or cause of action arose or be forever barred. Applicable sections of this document shall survive termination of your account and/or the Terms.
+<br>
 <br>
 <br>
 **General**
