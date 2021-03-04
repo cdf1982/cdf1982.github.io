@@ -7,7 +7,7 @@ nav-menu: false
 ---
 I want to express my gratitude for the brilliant people working on [VLCKit](https://code.videolan.org/videolan/VLCKit): without their hard work on that reliable open-source video engine, GlanceCam would probably not exist.
 
-I'm also thankful for [Becky Hansmeyer](https://beckyhansmeyer.com) and [Rob Poulter](https://headtilt.me) beautiful GlanceCam icons.
+I'm also thankful for [Becky Hansmeyer](https://beckyhansmeyer.com)'s and [Rob Poulter](https://headtilt.me)'s beautiful icons.
 
 Finally, I want to thank you as a GlanceCam User: in 2018 I did imagine I was building this app just for myself, and instead it turned out that the niche of IP cameras enthusiasts is small, but not _too_ small! Thank you for your purchases, your feedback, the word of mouth and the nice reviews!
 
