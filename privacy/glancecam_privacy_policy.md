@@ -20,12 +20,14 @@ This means that with support requests, which again are only ever explicitly star
 Support requests that are received and contain enough informations for possibly establish a remote connection (username + passwords + public IP address + external port), despite the disclaimers provided inside the app and in the body of the draft, might be deleted immediately, even without actually providing support, and in all cases will be purged within 1 month from the moment the support request is completed either with a positive or negative feedback from the User. So, really, don't send me those personal informations: I will never accept to try connecting to one of your cameras for troubleshooting issues - the privacy implications are simply unacceptable to me - and it's very likely that I will be able to help you without knowing your password.
 
 To improve the experience with in-app purchases and subscriptions, starting with version 3.0 GlanceCam uses a service named RevenueCat. RevenueCat provides GlanceCam's developer with data on when a User first uses the app, when they last used the app, and how much money they spent, and when, on in-app purchases in the app. These informations do not contain your name, email address, GlanceCam configuration (camera strings, credentials, etc.) or any other personal information: they are not intended to "track you" and univocally identify you "as you", but are meant to provide anonymous usage and sales analytics.
-Only if you manually initiate a support or feedback request from inside the app, among the informations that GlanceCam includes in the auto-generated draft is a ticket identifier that, when actually sent in the email can allow - if necessary to provide support, for instance for billing issues - to view the analytics mentioned above inside RevenueCat's dashboard; to reiterate it, it's nothing personal - no credentials, no cameras, no IPs or other geographical or personal informations - but for full transparency it's important that you are aware of this possibility. You can also review RevenueCat's privacy policy [here](https://www.revenuecat.com/privacy).
+Only if you manually initiate a support or feedback request from inside the app, among the informations that GlanceCam includes in the auto-generated draft is a ticket identifier that, when actually sent in the email, can allow to view the analytics mentioned above inside RevenueCat's dashboard, if necessary to provide support (for instance for billing issues); to reiterate it, it's nothing personal - no credentials, no cameras, no IPs or other geographical or personal informations - but for full transparency it's important that you are aware of this possibility. You can also review RevenueCat's privacy policy [here](https://www.revenuecat.com/privacy).
 
 GlanceCam does not communicate with any server run by the development team or other third-parties not mentioned in this document, with the only exceptions of Apple servers if you enabled the option to share your diagnostics and usage informations with Apple and, as detailed in the previous paragraph, of RevenueCat.
 
-If you have any questions regarding this Privacy Policy, please contact me via email at [support@cdf1982.com](support@cdf1982.com).
+---
 
-I reserve the right to modify this document in any moment; if I do, I will publish those changes on this page, updating the following modification date.
+If you have any questions regarding this document, please contact me via email at [support@cdf1982.com](mailto:support@cdf1982.com).
 
-*Last revision: March 3, 2021*
+I reserve the right to modify this document; when I will do it, I will publish those changes on this page, updating the following modification date.
+
+*Last revision: March 4, 2021*
