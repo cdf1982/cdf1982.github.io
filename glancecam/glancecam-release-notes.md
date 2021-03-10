@@ -6,6 +6,52 @@ image:
 tags: [glancecam]
 ---
 
+### GlanceCam 3.0
+#### March 11, 2021
+GlanceCam 3 is here and it's the biggest update yet! Let me just say "multiple cameras at the same time" and I'll probably have your attention... :)
+After 2 years of development, there are many new features, improvements and a gorgeous new icon, so let's unpack them all, starting with GlanceCam Pro.
+GlanceCam Pro is now available as an optional purchase for Users with advanced requirements: multi-windows, a Minimalistic user interface, custom aspect ratios for the cameras, priority support and 14 fun icons... Here's how each Pro feature works:
+
+- GlanceCam's most requested feature, the ability to open multiple cameras at the same time, is finally ready! You can now open as many windows as you need, select which camera to view in each one, resize them independently and arrange everything "just right" around your screen.<br>GlanceCam remembers size and position of all windows and restores them after you relaunch the app, whenever technically possible.
+
+- If you ever wanted to only see your camera stream, and nothing else, the optional Minimalistic user interface is for you!
+
+- You can force a specific aspect ratio for cameras (not in full-screen), even specifying custom proportions. How well this works depends on your camera.
+
+- GlanceCam 3 rocks a new, beautiful default icon designed by Becky Hansmeyer, but there's more: Pro Users can select a custom icon among 14 fun designs (most by me, but you'll probably like Becky's or Rob Poulter's more). The OS only allows icon changes while the app is running.
+
+- I always try to provide the best support possible and with GlanceCam Pro I'm taking a step further: priority assistance via email, Monday through Friday, in less than 24 hours.<br>To have your support requests prioritised, please reach out from the Support menu > Contact support via email.
+
+You might think that all the good stuff is reserved to GlanceCam Pro, but the regular version has a lot new to offer to all Users (and will continue to do so with new features and improvements at each release):
+
+- A new Preferences window makes configuring GlanceCam simpler. Preferences are now easier to navigate, discover and customise, with tooltips everywhere and additional help to new Users setting up their camera. And now you can also reorder and duplicate cameras!
+
+- GlanceCam 3 works great on Big Sur, and now requires at least macOS 10.13 High Sierra. M1 native support is in development.
+
+- GlanceCam had supported Dark mode before Dark mode was cool... actually, it only ever supported it! Until now, that is. While Dark remains the default, you can now select Light mode or allow automatic switching.
+
+- Stream format auto-detection: after playback starts, GlanceCam checks if the stream is not 16:9 and adapts the window accordingly.
+
+- Resizing got better: the Postcard (CMD+0), Regular (CMD+1), Large (CMD+2) and As big as possible (CMD+3) shortcuts always behave consistently, no matter the resolution.
+
+- Insta-zoom and full-screen mode got better too: they're both faster and more reliable on ultra-wide monitors.
+
+- New in the Support menu:
+	- Frequently Asked Questions.
+	- Contact support by email now has one option to provide feedback and another to request assistance.
+	- If you want to know more about GlanceCam Pro or check the status of a current subscription, please use the menu item with a heart emoji. You know, a heart, because GlanceCam Pro Users show their love for the app... ;)
+	- You can also access the updated Privacy Policy and new Terms of Service in this menu and you should read them both.
+
+- A weird one: you know GlanceCam has Always on top, to keep its window float above any other. Now it has Behind everything too, not nearly as useful, but some asked... Hover your mouse on the Eye icon for details.
+
+- Minor bug fixes.
+
+I am very grateful for you using GlanceCam, and my hope is you'll love this update I've poured so much work in. If you do, please leave a 5-star review (it helps a lot!) and consider GlanceCam Pro! 
+
+Ciao e grazie! –Cesare
+
+---
+
 ### GlanceCam 2.10
 #### June 7, 2020
 I hope you are safe and well! This new version 2.10 brings you a few helpful things for reliability and compatibility:
