@@ -281,7 +281,7 @@ tags: [glancecam]
 
 #### What are the optional actions I can add to a camera as buttons?
 > Actions are one of the nerdiest features of GlanceCam; they are not required to stream an IP camera - actually, they are not really part of streaming cameras at all - and most likely are useful only to a small percentage of Users.<br>
-> Basically, an action is an optional button that performs a HTTP GET request when pressed. The purpose of a button is therefore completely customizable and can be anything that can be activated by a GET request; a common scenario (and actually the one that triggered the initial development of GlanceCam in 2018) is to install an Ethernet relay connected to a gate, so that it can be used to let guests in directly from GlanceCam.<br>
+> Basically, an action is an optional button that performs a HTTP GET request when pressed. The purpose of a button is therefore completely customizable and can be anything that can be activated by a GET request; a common scenario (and actually the one that triggered the initial development of GlanceCam in 2018) is to install an Ethernet relay connected to a gate, so that it can be used to let guests in directly from GlanceCam. Just to provide an example, the following URL activates a Robot Electronics Ethernet relay: *http://username:password@192.168.0.7:17494/io.cgi?DOA1=10*<br>
 > Action buttons appear as an overlay on a camera when the mouse cursor enters its window only when a HTTP GET URL is specified inside GlanceCam's Preferences for that camera.<br>
 > GlanceCam only supports GET (not PUT, POST or any other HTTP method) because it is the most commonly used and certainly the more likely to be useful in the context of the app.
 <a name="shortcuts"></a>
