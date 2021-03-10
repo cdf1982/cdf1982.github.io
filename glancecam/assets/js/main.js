@@ -47,7 +47,7 @@
     });
     BasicSlider.slick({
       autoplay: true,
-      autoplaySpeed: 10000,
+      autoplaySpeed: 9000,
       fade: true,
       prevArrow:
         '<button type="button" class="slick-prev"><i class="icofont-long-arrow-left"></i>Prev</button>',
@@ -56,7 +56,7 @@
       arrows: false,
       dots: true,
       responsive: [
-        { breakpoint: 767, settings: { dots: false, arrows: false } }
+        { breakpoint: 767, settings: { dots: true, arrows: false } }
       ]
     });
 
@@ -82,7 +82,7 @@
   // slider-three
   $(".slider-three-active").slick({
     infinite: true,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 5000,
     speed: 400,
     dots: false,
