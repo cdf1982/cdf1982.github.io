@@ -12,6 +12,7 @@ tags: [glancecam]
 - [I need support!](#support)
 - [Can I use GlanceCam with my DVR / NVR?](#dvr)
 - [How many cameras can I add?](#howmany)
+- [How do I open more than one camera at a time?](#newwindow)
 - [Can I view a remote camera inside GlanceCam, or only LAN cameras are supported?](#remote)
 - [Inside the app, I see the word Glance used quite often. What is that?](#glance)
 - [Does GlanceCam support H264 and H265? What about 4K cameras?](#formats)
@@ -154,6 +155,20 @@ tags: [glancecam]
 > There is **no limit to the number of cameras you can add**.<br>
 > The **standard version of GlanceCam displays one camera at a time**, in a single window.<br>
 > With GlanceCam Pro – available as a lifetime in-app purchase or yearly subscription – you'll be able to open **as many windows as you need**, resize and organise them around your Desktop and have their size and position remembered between sessions.
+<a name="newwindow"></a>
+
+---
+
+#### How do I open more than one camera at a time??
+> GlanceCam shows one camera at a time in a single window, and you can switch between cameras inside that window; **upgrading to [GlanceCam Pro](#glancecampro) will allow to open as many windows as you need**.
+> With GlanceCam Pro you have 3 alternative ways to open new windows and display multiple cameras at the same time:
+>
+> 1. From the **File menu, select Add Window**;
+>
+> 2. With the **⌘ N (CMD + N) keyboard shortcut**;
+> 
+> 3. Finally, in the dropdown button containing the camera list that appears when your mouse enters a GlanceCam window, you can click on a name while holding the ⌥ (Option, also known as Alt) key down on your keyboard, and instead of opening a different camera in the same window, a new window will be opened with the selection instead.
+> New windows always open at the center of your screen with the default size; when you add windows with methods 1 and 2 above, GlanceCam automatically display the next camera in your list that is not currently already open.
 <a name="remote"></a>
 
 ---
@@ -312,7 +327,7 @@ tags: [glancecam]
 | Spacebar  | Next Glance (yes, there are two shortcuts... pick yours!)                            |
 | 1...9     | Numbers 1 through 9 select the corresponding Glance as ordered in the list           |
 | ⌘ ,       | Open Preferences                                                                     |
-| ⌘ N       | Add a new window (requires GlanceCam Pro)                                            |
+| ⌘ N       | Add a new window (requires GlanceCam Pro; see here for [other methods](#newwindow)   |
 | ⌘ W       | Close current window (the app quits when you close the last one)                     |
 | ⌘ R       | Reload stream                                                                        |
 | ⌘ Y       | Toggle Always on top                                                                 |
