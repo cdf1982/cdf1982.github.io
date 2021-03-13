@@ -160,14 +160,14 @@ tags: [glancecam]
 ---
 
 #### How do I open more than one camera at a time??
-> GlanceCam shows one camera at a time in a single window, and you can switch between cameras inside that window; **upgrading to [GlanceCam Pro](#glancecampro) will allow to open as many windows as you need**.
+> GlanceCam shows one camera at a time in a single window, and you can switch between cameras inside that window; **upgrading to [GlanceCam Pro](#glancecampro) will allow to open as many windows as you need**.<br>
 > With GlanceCam Pro you have 3 alternative ways to open new windows and display multiple cameras at the same time:
 >
 > 1. From the **File menu, select Add Window**;
 >
 > 2. With the **⌘ N (CMD + N) keyboard shortcut**;
 > 
-> 3. Finally, in the dropdown button containing the camera list that appears when your mouse enters a GlanceCam window, you can click on a name while holding the ⌥ (Option, also known as Alt) key down on your keyboard, and instead of opening a different camera in the same window, a new window will be opened with the selection instead.
+> 3. Finally, in the dropdown button containing the camera list that appears when your mouse enters a GlanceCam window, you can click on a name while holding the ⌥ (Option, also known as Alt) key down on your keyboard, and instead of opening a different camera in the same window, a new window will be opened with the selection instead.<br>
 > New windows always open at the center of your screen with the default size; when you add windows with methods 1 and 2 above, GlanceCam automatically display the next camera in your list that is not currently already open.
 <a name="remote"></a>
 
