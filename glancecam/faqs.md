@@ -389,4 +389,4 @@ tags: [glancecam]
 ---
 
 #### I have a question that is not listed here. Can I contact you?
-> Please do! **You can send me an email at [support@cdf1982.com](support@cdf1982.com)**; I read and reply to all messages.
+> Please do! **You can send me an email at [support@cdf1982.com](mailto:support@cdf1982.com)**; I read and reply to all messages.
