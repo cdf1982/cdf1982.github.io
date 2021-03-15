@@ -280,7 +280,7 @@ tags: [glancecam]
 
 #### Can I use GlanceCam to view webcams that are embedded inside websites, like zoo cameras?
 > Maybe. This is not something the app is designed for, nor it is officially supported, but I have been able to help Users do so in the past.<br>
-> Success on this completely depends on how the embedded webcam is sending its' stream: if the website refreshes still JPEGs every X seconds, that webcam will never work with GlanceCam; if we're dealing with "real video" and the website does not try too hard to obscure it, I can possibly help you figure this out by sending instructions (it will involve your browser's development tools, but I have a video I can send you that should make it not too hard to accomplish).
+> Success on this completely depends on how the embedded webcam is sending its' stream: if the website refreshes still JPEGs every X seconds, that webcam will never work with GlanceCam (I've thoroughly investigated this, it would require a completely different engine for the app, as it's not video, and simply the demand isn't there); if we're dealing with "real video" and the website does not try too hard to obscure it, I can possibly help you figure this out by sending instructions (it will involve your browser's development tools, but I have a video I can send you that should make it not too hard to accomplish).
 > No promises, but if this is something you're interested in, please [get in touch](mailto:support@cdf1982.com)!
 <a name="requests"></a>
 
