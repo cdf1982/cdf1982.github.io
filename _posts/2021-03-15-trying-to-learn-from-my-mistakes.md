@@ -5,7 +5,7 @@ description:
 image:
 tags: dev
 ---
-[GlanceCam 3](https://glancecam.app) launched last week and, for such a niche product, I couldn't be happier:
+[GlanceCam 3](https://glancecam.app) launched [last week](https://cdf1982.com/2021/03/11/glancecam_3.html) and, for such a niche product, I couldn't be happier:
 
 - Lots of Users reached out via email to let me know they've been waiting for multi-windows for a long time and loved the implementation;
 - No dangerous bug or crash ruined the experience;
