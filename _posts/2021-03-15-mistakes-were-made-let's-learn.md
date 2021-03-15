@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Trying to learn from my mistakes
+title: Mistakes were made, let's learn from them
 description:
 image:
 tags: dev
