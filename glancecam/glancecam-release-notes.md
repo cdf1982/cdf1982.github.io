@@ -6,6 +6,61 @@ image:
 tags: [glancecam]
 ---
 
+### GlanceCam 3.1
+#### March 15, 2021
+
+Thank you so much for welcoming GlanceCam 3 with enthusiasm and for loving GlanceCam Pro with multi-windows! A few improvements are already here:
+
+• I've heard your feedback! Some of you did find how to add new camera windows a bit confusing at first; now there's a button in the upper right corner of each window that does just that... convenient for everybody!
+Obviously you can continue using the File menu > Add window, the ⌘ N (CMD + N) keyboard shortcut or, if you want to open a specific camera in a separate window, holding the ⌥ (Option) key down while clicking on a name in the dropdown button (which appears when you have multiple cameras and hover your mouse inside the current window).
+
+• The Dock menu improves in small but convenient ways: right-clicking on the GlanceCam icon now gives you not only the list of current windows and the ability to go to the next or previous camera, but also to reload it, to perform the optional HTTP GET actions and to toggle Always on Top and Audio for all windows.
+
+• Fixed a small bug caused the first window to slide down a few pixels at launch when using Minimalistic UI.
+
+• One User reported a visual glitch (a small artifact in the lower right corner) caused by an old workaround to support both the + key and spacebar for skipping to the next camera; the glitch is gone while both shortcuts are still here.
+
+• I might have fixed the longest standing bug: there was a rare and hard to reproduce scenario that could cause GlanceCam to crash immediately after saving Preferences, if the camera in the current window was not yet streaming when Preferences was opened.
+
+Last week's launch went beyond any expectation, including happy emails from many Users and nice reviews in the Tech Press (thank you iMore!); possibly, the last thing missing is a few more 5-star reviews, since they really make a huge difference in App Store ranking... would you help me with those?
+
+Thank you! –Cesare
+
+---
+
+3.0 highlights, if you missed the release notes:
+
+GlanceCam Pro is now available as an optional purchase for Users with advanced requirements: multi-windows, a Minimalistic user interface, custom aspect ratios for the cameras, priority support and 14 fun icons... Here's how each Pro feature works:
+
+• You can now open as many windows as you need, select which camera to view in each one, resize them independently and arrange everything "just right" around your screen. 
+GlanceCam remembers size and position of all windows and restores them after you relaunch the app, whenever technically possible.
+
+• There's a new, optional, Minimalistic user interface.
+
+• You can force a specific aspect ratio for cameras (not in full-screen), even with custom proportions.
+
+• GlanceCam 3 rocks a new, beautiful icon and Pro Users can select a different one among 14 fun designs.
+
+• Priority assistance via email, Monday through Friday, in less than 24 hours. To have your Pro User support requests prioritised, please reach out from the Support menu > Contact support via email.
+
+You might think all the good stuff is reserved to GlanceCam Pro, but the regular version has a lot new to offer to all Users (and will continue to do so at each release):
+
+• A new Preferences window makes configuring GlanceCam simpler. Preferences are easier to use, with tooltips everywhere and additional help to new Users. And now you can also reorder and duplicate cameras!
+
+• GlanceCam 3 works great on Big Sur, and now requires at least macOS 10.13. M1 native support is in development.
+
+• Not only Dark mode anymore: Light mode and automatic switching are available.
+
+• Stream format auto-detection.
+
+• Postcard (CMD+0), Regular (CMD+1), Large (CMD+2) and As big as possible (CMD+3) shortcuts always behave consistently. Insta-zoom and full-screen improved too.
+
+• FAQs.
+
+• Updated Privacy Policy and new Terms of Service.
+
+• After the beloved 'Always on top', there's 'Behind everything'... leave your mouse on the Eye icon for details.
+
 ### GlanceCam 3.0
 #### March 11, 2021
 GlanceCam 3 is here and it's the biggest update yet! Let me just say "multiple cameras at the same time" and I'll probably have your attention... :)
