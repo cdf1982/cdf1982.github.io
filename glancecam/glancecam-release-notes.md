@@ -22,21 +22,21 @@ This is even cooler because GlanceCam does not steal focus from the app you were
 
 'Bring windows to front' is pretty straightforward: you press the key combination and GlanceCam's window, or windows if you use GlanceCam Pro and have multiple cameras open, all come to front, even if you don't have Always on top enabled.
 
-'Insta-zoom' is possibly even cooler, but can use a little introduction.
-It's an expansion of a beloved feature that long existed in GlanceCam, but only worked with the mouse / trackpad until today: the traditional Insta-zoom allowed (and continues to allow) to right-click and hold your mouse button on a window to maximise it temporarily, so that you can take a good look, and then when you stopped pressing the the mouse button the window returned to its original size.
-Now you can do the same thing with your keyboard, even when GlanceCam is running in background, and there's a neat superpower: you can Insta-zoom a camera that's not even open at the moment!
-Just like with the right mouse button, Insta-zoom is executed only while you keep the selected keys down, and the camera returns to its previous size when you stop pressing them.
-By default, Insta-zoom works on the last window you interacted with, but you can select a different Glance to always be activated and Insta-zoomed when you press the shortcut; if that camera is not currently streaming, it will be selected in the current window or, if you have GlanceCam Pro, it will be displayed in a new window.
+'Insta-zoom' is possibly even cooler, but can use a little introduction.<br>
+It's an expansion of a beloved feature that long existed in GlanceCam, but only worked with the mouse / trackpad until today: the traditional Insta-zoom allowed (and continues to allow) to right-click and hold your mouse button on a window to maximise it temporarily, so that you can take a good look, and then when you stopped pressing the the mouse button the window returned to its original size.<br>
+Now you can do the same thing with your keyboard, even when GlanceCam is running in background, and there's a neat superpower: you can Insta-zoom a camera that's not even open at the moment!<br>
+Just like with the right mouse button, Insta-zoom is executed only while you keep the selected keys down, and the camera returns to its previous size when you stop pressing them.<br>
+By default, Insta-zoom works on the last window you interacted with, but you can select a different Glance to always be activated and Insta-zoomed when you press the shortcut; if that camera is not currently streaming, it will be selected in the current window or, if you have GlanceCam Pro, it will be displayed in a new window.<br>
 If GlanceCam has to select a camera not currently open for Insta-zoom, you'll need to keep the shortcut keys pressed while the stream is loading.
-When you stop pressing the shortcut keys, the Glance you Insta-zoomed will return to the normal size and remain open.
-There's only one small caveat: to avoid the window you zoomed temporarily to become active, the only alternative was to send it behind all other windows when you're done (unless you have Always on top turned on... in that case the window obviously remains visible).
+When you stop pressing the shortcut keys, the Glance you Insta-zoomed will return to the normal size and remain open.<br>
+There's only one small caveat: to avoid the window you zoomed temporarily to become active, the only alternative was to send it behind all other windows when you're done (unless you have Always on top turned on... in that case the window obviously remains visible).<br>
 
 When you record these shortcuts, you need to use one or more of the following modifiers plus a letter or number:
 
-> ⌘ Command
-> ⌃ Control
-> ⌥ Option
-> ⇧ Shift
+> ⌘ Command<br>
+> ⌃ Control<br>
+> ⌥ Option<br>
+> ⇧ Shift<br>
 
 The system checks if the shortcut is not currently registered by another application, so the perfect combination you had in mind might not be available.
 
