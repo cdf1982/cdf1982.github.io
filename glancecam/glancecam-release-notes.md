@@ -6,60 +6,66 @@ image:
 tags: [glancecam]
 ---
 
+<a name="3_2"></a>
+### GlanceCam 3.2
+#### March 18, 2021
+GlanceCam 3.2 adds a cool new feature for all GlanceCam Users: global keyboard shortcuts. Inside Preferences, in the Behavior tab, you can now record your favorite key combinations to trigger two convenient workflow improvements:
+
+-  Bring all GlanceCam windows to front;
+- Insta-zoom the last window or one specific Glance.
+
+Both shortcuts work when you are actively using GlanceCam and also while the app is open, but you are currently interacting with a different application (hence the "global shortcuts" name).
+
+This means that you can record any combination, for instance ⌘⌥G, and use it bring all your cameras to front when you're in Safari, and set another shortcut, let's say ⌘⌥Z, to Insta-zoom a window while you are going through your emails.
+
+This is even cooler because GlanceCam does not steal focus from the app you were in, so you can use these shortcuts without switching context.
+
+'Bring windows to front' is pretty straightforward: you press the key combination and GlanceCam's window, or windows if you use GlanceCam Pro and have multiple cameras open, all come to front, even if you don't have Always on top enabled.
+
+'Insta-zoom' is possibly even cooler, but can use a little introduction.
+It's an expansion of a beloved feature that long existed in GlanceCam, but only worked with the mouse / trackpad until today: the traditional Insta-zoom allowed (and continues to allow) to right-click and hold your mouse button on a window to maximise it temporarily, so that you can take a good look, and then when you stopped pressing the the mouse button the window returned to its original size.
+Now you can do the same thing with your keyboard, even when GlanceCam is running in background, and there's a neat superpower: you can Insta-zoom a camera that's not even open at the moment!
+Just like with the right mouse button, Insta-zoom is executed only while you keep the selected keys down, and the camera returns to its previous size when you stop pressing them.
+By default, Insta-zoom works on the last window you interacted with, but you can select a different Glance to always be activated and Insta-zoomed when you press the shortcut; if that camera is not currently streaming, it will be selected in the current window or, if you have GlanceCam Pro, it will be displayed in a new window.
+If GlanceCam has to select a camera not currently open for Insta-zoom, you'll need to keep the shortcut keys pressed while the stream is loading.
+When you stop pressing the shortcut keys, the Glance you Insta-zoomed will return to the normal size and remain open.
+There's only one small caveat: to avoid the window you zoomed temporarily to become active, the only alternative was to send it behind all other windows when you're done (unless you have Always on top turned on... in that case the window obviously remains visible).
+
+When you record these shortcuts, you need to use one or more of the following modifiers plus a letter or number:
+
+> ⌘ Command
+> ⌃ Control
+> ⌥ Option
+> ⇧ Shift
+
+The system checks if the shortcut is not currently registered by another application, so the perfect combination you had in mind might not be available.
+
+This was a fun feature to build, and one I believe can bring great convenience in day by day use of GlanceCam. A special thanks to Eli for suggesting a keyboard shortcut for Insta-zoom a while back!
+
+As always, I will be incredibly grateful if you’d take the time to leave a 5-stars review of GlanceCam, if it's useful to you! –Cesare
+
+---
+
 ### GlanceCam 3.1
 #### March 15, 2021
 
 Thank you so much for welcoming GlanceCam 3 with enthusiasm and for loving GlanceCam Pro with multi-windows! A few improvements are already here:
 
-• I've heard your feedback! Some of you did find how to add new camera windows a bit confusing at first; now there's a button in the upper right corner of each window that does just that... convenient for everybody!
-Obviously you can continue using the File menu > Add window, the ⌘ N (CMD + N) keyboard shortcut or, if you want to open a specific camera in a separate window, holding the ⌥ (Option) key down while clicking on a name in the dropdown button (which appears when you have multiple cameras and hover your mouse inside the current window).
+- I've heard your feedback! Some of you did find how to add new camera windows a bit confusing at first; now there's a button in the upper right corner of each window that does just that... convenient for everybody!<br>Obviously you can continue using the File menu > Add window, the ⌘ N (CMD + N) keyboard shortcut or, if you want to open a specific camera in a separate window, holding the ⌥ (Option) key down while clicking on a name in the dropdown button (which appears when you have multiple cameras and hover your mouse inside the current window).
 
-• The Dock menu improves in small but convenient ways: right-clicking on the GlanceCam icon now gives you not only the list of current windows and the ability to go to the next or previous camera, but also to reload it, to perform the optional HTTP GET actions and to toggle Always on Top and Audio for all windows.
+- The Dock menu improves in small but convenient ways: right-clicking on the GlanceCam icon now gives you not only the list of current windows and the ability to go to the next or previous camera, but also to reload it, to perform the optional HTTP GET actions and to toggle Always on Top and Audio for all windows.
 
-• Fixed a small bug caused the first window to slide down a few pixels at launch when using Minimalistic UI.
+- Fixed a small bug caused the first window to slide down a few pixels at launch when using Minimalistic UI.
 
-• One User reported a visual glitch (a small artifact in the lower right corner) caused by an old workaround to support both the + key and spacebar for skipping to the next camera; the glitch is gone while both shortcuts are still here.
+- One User reported a visual glitch (a small artifact in the lower right corner) caused by an old workaround to support both the + key and spacebar for skipping to the next camera; the glitch is gone while both shortcuts are still here.
 
-• I might have fixed the longest standing bug: there was a rare and hard to reproduce scenario that could cause GlanceCam to crash immediately after saving Preferences, if the camera in the current window was not yet streaming when Preferences was opened.
+- I might have fixed the longest standing bug: there was a rare and hard to reproduce scenario that could cause GlanceCam to crash immediately after saving Preferences, if the camera in the current window was not yet streaming when Preferences was opened.
 
 Last week's launch went beyond any expectation, including happy emails from many Users and nice reviews in the Tech Press (thank you iMore!); possibly, the last thing missing is a few more 5-star reviews, since they really make a huge difference in App Store ranking... would you help me with those?
 
 Thank you! –Cesare
 
 ---
-
-3.0 highlights, if you missed the release notes:
-
-GlanceCam Pro is now available as an optional purchase for Users with advanced requirements: multi-windows, a Minimalistic user interface, custom aspect ratios for the cameras, priority support and 14 fun icons... Here's how each Pro feature works:
-
-• You can now open as many windows as you need, select which camera to view in each one, resize them independently and arrange everything "just right" around your screen. 
-GlanceCam remembers size and position of all windows and restores them after you relaunch the app, whenever technically possible.
-
-• There's a new, optional, Minimalistic user interface.
-
-• You can force a specific aspect ratio for cameras (not in full-screen), even with custom proportions.
-
-• GlanceCam 3 rocks a new, beautiful icon and Pro Users can select a different one among 14 fun designs.
-
-• Priority assistance via email, Monday through Friday, in less than 24 hours. To have your Pro User support requests prioritised, please reach out from the Support menu > Contact support via email.
-
-You might think all the good stuff is reserved to GlanceCam Pro, but the regular version has a lot new to offer to all Users (and will continue to do so at each release):
-
-• A new Preferences window makes configuring GlanceCam simpler. Preferences are easier to use, with tooltips everywhere and additional help to new Users. And now you can also reorder and duplicate cameras!
-
-• GlanceCam 3 works great on Big Sur, and now requires at least macOS 10.13. M1 native support is in development.
-
-• Not only Dark mode anymore: Light mode and automatic switching are available.
-
-• Stream format auto-detection.
-
-• Postcard (CMD+0), Regular (CMD+1), Large (CMD+2) and As big as possible (CMD+3) shortcuts always behave consistently. Insta-zoom and full-screen improved too.
-
-• FAQs.
-
-• Updated Privacy Policy and new Terms of Service.
-
-• After the beloved 'Always on top', there's 'Behind everything'... leave your mouse on the Eye icon for details.
 
 ### GlanceCam 3.0
 #### March 11, 2021
