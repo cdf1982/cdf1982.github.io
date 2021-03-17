@@ -306,11 +306,12 @@ tags: [glancecam]
 
 #### Are there tricks that can speed up my workflow with GlanceCam? What about keyboard shortcuts?
 > Let's start from the most convenient thing to know about: **Insta-zoom**. When you right-click and hold down the mouse button on a GlanceCam window, it resizes temporarily to be as big as possible and let you take a good look at the stream; when you release the mouse, the window returns to the previous size.
->  
-> In the upper right corner of the window's title bar there are **5 buttons that provide convenient access to useful features**:
+>
+> Also very convenient are the **6 buttons in the upper right corner of the window's title bar**:
 >
 | Icon      | What it does                                                                         |
 |-----------|--------------------------------------------------------------------------------------|
+| Window+   | Open an additional window to stream a different camera (requires GlanceCam Pro)      |
 | Floppy    | Save a snapshot to your Pictures foldercase                                          |
 | Eye       | Toggle 'Always on top' for all windows                                               |
 | Speaker   | Toggle audio for all windows (if their stream includes audio)                        |
@@ -347,7 +348,12 @@ tags: [glancecam]
 | ⌘ ↑       | Move the currently selected Glance up in the list                                    |
 | ⌘ ↓       | Move the currently selected Glance down in the list                                  |
 | Return    | Save Preferences                                                                     |
->  
+>
+> In the Behavior tab, inside Preferences, you can configure 2 _global keyboard shortcuts_ (combinations of keys of your choice that are then available both when GlanceCam is active and when it is open in background and you're working in a different app) that can provide fast access to 2 convenient features:
+- Bring all GlanceCam windows to front;
+- Insta-zoom the last window or one specific Glance.
+> Additional details about how these global shortcuts work are available in [GlanceCam 3.2 release notes](https://cdf1982.com/glancecam/glancecam-release-notes#3_2).
+>
 > Most dialogs can be dismissed with Escape and confirmed with Return.
 >   
 > In Preferences you can also manually enable **gestures to switch between cameras** by swiping left or right on your Trackpad or Magic Mouse.
