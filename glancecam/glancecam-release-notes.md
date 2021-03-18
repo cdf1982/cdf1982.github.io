@@ -221,11 +221,6 @@ Fixed a bug that prevented GlanceCam to enter fullscreen mode and to appear in E
 
 ---
 
-### GlanceCam 2.0
-#### May 8, 2018
-
----
-
 ### GlanceCam 2.4
 #### November 30, 2018
 Just one new feature in this update, but it's a pretty useful one if you usually keep a small GlanceCam window in a corner of your screen.
