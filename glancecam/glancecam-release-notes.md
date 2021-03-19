@@ -6,9 +6,24 @@ image:
 tags: [glancecam]
 ---
 
+<a name="3_2_1"></a>
+### GlanceCam 3.2.1
+#### March 19, 2021
+
+Minor fix to the just released GlanceCam 3.2, but you might need to adjust one setting after this update: please select again your default InstaZoom camera for the global keyboard shortcut, if you already chose one... and if you don't know what I am talking about, below you can find the release notes for GlanceCam 3.2, explaining a cool new feature.
+
+If you like details: there was a bug, now fixed, that caused cameras with the same name not to be added twice to the InstaZoom list for default destinations; in theory this could have prevented to temporarily reopen Preferences after importing duplicate Glances. Quite an unlikely scenario, but I'm glad I caught this in my testing before it caused any issue to Users.
+
+This minor release also allows me to point out that you can have global shortcuts associated with Function keys (for instance, Fn + F12), as I forgot to mention it in the previous release notes and tooltips (thanks Shawn!).
+
+Have a great day!
+
+---
+
 <a name="3_2"></a>
 ### GlanceCam 3.2
 #### March 18, 2021
+
 GlanceCam 3.2 adds a cool new feature for all GlanceCam Users: global keyboard shortcuts. Inside Preferences, in the Behavior tab, you can now record your favorite key combinations to trigger two convenient workflow improvements:
 
 -  Bring all GlanceCam windows to front;
