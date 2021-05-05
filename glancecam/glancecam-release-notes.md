@@ -5,6 +5,32 @@ description:
 image:
 tags: [glancecam]
 ---
+<a name="3_3"></a>
+### GlanceCam 3.3
+#### May 5, 2021
+
+This was planned as a small update devoted to fixing obscure and rare bugs, but grew into a major release with two convenient new features:
+
+1. "Out of my way" is a trick you'll love and is available to all GlanceCam Users!
+You know how sometimes you want to grab a file below a GlanceCam window or access something behind it, even if Always on top is enabled?
+You can now hold the Shift ⇧ key while you move your mouse into the window area and make it bounce to the opposite side of the screen for 3 seconds; after that delay, your window will return to the original position.
+Since the Shift key is not used by the operating system as a modifier while dragging files, you can begin to move an icon, realize a GlanceCam window is the same spot where you wanted to drop it, and only at that point hold ⇧ to get GlanceCam out of your way for a moment; the only requirement is that you start pressing Shift before your mouse enters the window area, and then you can release it immediately after the window starts bouncing to the opposite side of the screen.
+If you hold the Shift key and move your mouse over multiple windows, they will all bounce; those in the left half of the screen will align to the right edge, while those in the right half will go to the left edge.
+You'll need to wait 3 seconds and allow a window to return to its original position before you can invoke Out of my way again.
+A big thank you to Dirk for inspiring this feature!
+
+2. You can now display video from a built-in or USB camera directly attached to your Mac; while this is not a key feature of the app, it has been requested in the past and might be convenient, so now all GlanceCam Users can do so by clicking 'Add Window for built-in / USB camera' in the File menu (or with the ⌘ B keyboard shortcut). A few details about this niche feature:
+- GlanceCam Users can open one built-in / USB camera window in addition to the standard GlanceCam window; GlanceCam Pro allows to open as many windows of this type as you need.
+- This "transforms" GlanceCam into a realtime viewer for such attached cameras, but does not mean that you can use this app to send cameras' video to apps like Zoom... it's just for glancing at a different kind of camera.
+- While it might seem similar to a regular GlanceCam camera, this special window is quite different, as it uses a specific video engine and required to tweak almost everything. Not everything possible in a standard GlanceCam window is available for built-in and USB cameras: there is no audio support, Always on top can only be toggled on and off for all windows, HTTP GET actions are not available, as aren't snapshots...
+- The basic functionality you might need is there, though: the special window can go full-screen, supports Always on top, can be resized with shortcuts (you need to prepend the Shift key to usual combinations), and remembers its size and which device was last selected; it  has the usual dropdown button for selecting different sources (if, for instance, you have both the built-in MacBook Pro camera and a USB device), which again is also possible with keyboard shortcuts.
+- If you quit GlanceCam with one built-in / USB window open, it will reopen the next time you launch the app; but only one built-in / USB camera window will reopen, so in the rare case that you have two or three, you'll need to manually reopen the additional devices.
+- You might even decide to "bend" GlanceCam use case to only display built-in and USB devices and no IP camera, even if it's not what the app has been designed for.
+- This feature has been tested with a wide range of built-in cameras and USB devices, including the app Camo, and works well, but it's not perfect, nor compatible with every device out there, so your success using this feature will depend on your hardware.
+
+As always, please don't hesitate to contact me at support@cdf1982.com and, if you find GlanceCam useful, please consider leaving a 5 star review. Thank you! –Cesare
+
+---
 
 <a name="3_2_1"></a>
 ### GlanceCam 3.2.1

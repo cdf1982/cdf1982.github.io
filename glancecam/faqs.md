@@ -307,6 +307,8 @@ tags: [glancecam]
 #### Are there tricks that can speed up my workflow with GlanceCam? What about keyboard shortcuts?
 > Let's start from the most convenient thing to know about: **Insta-zoom**. When you right-click and hold down the mouse button on a GlanceCam window, it resizes temporarily to be as big as possible and let you take a good look at the stream; when you release the mouse, the window returns to the previous size.
 >
+> Then, there's **Out of my way**: you know how sometimes you want to grab a file below a GlanceCam window or access something behind it even if Always on top is enabled? You can hold the Shift ⇧ key while you move your mouse into the window area and make it bounce to the opposite side of the screen for 3 seconds; after that delay, your window will return to the original position. You can find more details about this in [GlanceCam 3.3 release notes](https://cdf1982.com/glancecam/glancecam-release-notes#3_3).
+>
 > Also very convenient are the **6 buttons in the upper right corner of the window's title bar**:
 >
 | Icon      | What it does                                                                         |
