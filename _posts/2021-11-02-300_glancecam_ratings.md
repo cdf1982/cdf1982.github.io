@@ -8,7 +8,7 @@ tags: [glancecam]
 I haven't blogged in a while, but a quick celebratory post is in order: today GlanceCam reached 300 ratings in the Mac App Store 🎉:
 
 <p align="center">
-	<img src="{{ site.baseurl }}/assets/images/blog/2021-11-02-300_glancecam_ratings/300_glancecam_ratings.png" alt="" data-position="center center" />
+	<img src="{{ site.baseurl }}/assets/images/blog/2021-11-02_300_glancecam_ratings/300_glancecam_ratings.png" alt="" data-position="center center" />
 </p>
 
 The average ratings value has been stable for quite some time. 4.1 is not where I'd want my main app to be, but a RTSP camera viewer is necessarily a bit technical to setup and therefore bound to have a few 1-stars ratings from Users who didn't really read the App Store description or watch the video. Still, I'm confident to keep it grow over time.
