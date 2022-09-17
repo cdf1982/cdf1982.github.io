@@ -1,0 +1,56 @@
+---
+layout: post
+title: "#indielife"
+description:
+image:
+tags: linkhub
+---
+This post is a bit unusual: in the software development community, we’re used to announcing products and updates while celebrating milestones and successes. Over the years, I’ve written [my share](https://cdf1982.com/2021/03/11/glancecam_3.html) of [both](https://cdf1982.com/2019/11/09/100.html), but what follows will be different, as I’ll tell you all the ways a launch I worked on this summer failed, and why being *indie* means I (*you?*) will nevertheless keep going on.
+
+I hope to find a way with words to successfully convey my thoughts and avoid coming across as *whiny*: my intent is not to complain. On the contrary, I believe writing about what didn't go *as hoped* is often overlooked, but can be a powerful moment, both for those who are sharing, and for others facing similar scenarios.
+
+**Sometimes, this indie thing is hard**: you work on something for a while, making it as good as you’re able to, and in the process, you accept sacrifices to take it to the finish line. Meanwhile, you try to let other people know your brand new creation exists, in the hope it will have a *modicum of success* and possibly earn you a buck or two when you’re ready to ship.
+
+Then **launch day comes**, you tweet and blog about it, your closest friends retweet it and take time to send you encouraging words, and a few Users love the new features and let you know with heartwarming emails.
+
+Now you wait.
+
+Maybe someone in the press you’ve talked to said they were considering covering your announcement, but when the day comes you realize they’ve been swamped by requests and couldn’t possibly find the time to write about everything, and your beloved app didn’t make the cut.
+If you’re honest with yourself, marketing is not your strong suit, and *being featured* was a long shot all along… you accept you’ve reached out too late and contacted only a few people you know and occasionally talk to online (otherwise it would have felt *dishonest and spammy* to send blanket email announcements, right?).
+
+In this phase, slightly worried, you tell yourself that maybe people will find your app in some other ways (which they rarely do because *if you build it, they will come* does not apply to the App Store)… possibly if you try [Product Hunt](https://cdf1982.com/2022/09/14/linkhub2-on-product-hunt.html) you could stir up some interest?
+
+A few days from your announcement, you look at the numbers and your heart sinks a bit: instead of the usual 5÷10 downloads per day of the free version of *your* (ahem…) product, since launch *you*’ve had 10÷15, and just a couple more subscriptions than usual were started.
+You understand this is your “spike” post-announcement 😔, and the temptation of dividing the extra revenue by the number of hours poured into the development process creeps in. Months of work… *for this?*
+
+Well, at this point **you know you’ve tanked your launch**. As you’ve figured out, **I feel I’ve tanked [mine](https://cdf1982.com/2022/09/12/linkhub2-with-lockscreen-widgets-ios16.html)**.
+Yes, it’s been less than a week, but we’ve been here before: often most downloads arrive immediately after launch, especially if you’re anchoring your release with some external factor (in my case, adopting a lead feature from the new version of iOS).
+
+Let’s not kid ourselves, **realizing that success – however you define it – is not coming kind of sucks**.
+This is not a good moment, even if you never thought you’d have “real” success… you knew you were targeting a *niche*, and you were not so naive to think the idea you had was unique (in the App Store, it’s implied that other developers will build competing products and you always accept the chance they would either make a better job in terms of features, or tell a more compelling story marketing-wise, or both… ouch!). But it’s still quite depressing to see something you made struggling to fly.
+
+**Where does an indie go from here?**
+
+They lick their wounds and **reflect on what went wrong** (👋). If you’ve done this indie thing for a while (for me, it’s about 9 years since I watched my first programming course from [Simon Allardice](https://www.simonallardice.com/courses) on Lynda.com… remember Lynda?), you also realize that **making a list of “small victories” is as important** as what they call *the post-mortem* (which by the way is a terrible name, as things might start slowly, but not be dead, and course can sometimes be corrected even after unsatisfactory beginnings).
+
+I’ve found out – in years of experience building products so niche they [didn’t even have a market](https://cdf1982.com/2018/02/01/introducing_contactsami.html) – that, **if you only focus on what went wrong, it becomes very hard to find the inner motivation to tackle the next thing**.
+
+So, here are my two lists, *the good* and *the bad*, after [Link HUB 2.0](https://cdf1982.com/link-hub.html) less-than-stellar launch…
+
+**Mistakes were made by the team**, and sadly when you’re all the team, there’s nowhere else to point the finger than towards yourself:
+- I had the idea of customizable Lock screen widgets to launch URLs, and especially Shortcuts and apps, during WWDC keynote. I was sure lots of other developers had the same idea (*they did*) because it’s simply a good one that makes sense. Instead of building a new small app dedicated to this purpose, I’ve decided to expand an existing application of mine that was “adjacent” to the feature. While it made sense and is certainly good practice for existing Users, this took longer than it would have otherwise because I’ve had other things to tackle to make a proper 2.0 (regular widgets, as I was late to the party, but also converting a major view to SwiftUI);
+- As a consequence of deciding not to make a new laser-focused app, I’ve had less time to build features specific to the scope of my idea: from day one, I wanted a mechanism to import Shortcuts instead of only relying on the *shortcuts://* URL scheme, and I settled on only offering custom SF Symbols for links, while also having custom images (or app icons fetched from App Store’s APIs) would have made sense. I’ve seen both features implemented on launch day by similar apps from other developers; **kudos to them** for being great at keeping their eyes on the good quality of life features: by all means, those who succeeded deserved it, and while I’m not happy for *where I stand today*, **I will always be happy when another indie succeeds!**
+- Having less time also meant failing at marketing: I think I’ve made good and colorful screenshots (mostly thanks to an amazing model, [Milla](https://www.instagram.com/millakillapilla/)…), but I wanted an App Store video too, and I’ve delayed it because didn’t have time. Most importantly, I’ve reached out to a few people I know / sometimes interact with in the press, but it was my *usually small and late push*.
+- Since my main feature, Lock screen widgets, is a major one, Apple would likely feature apps including it. So, I had the brilliant idea to forget to submit my update to the App Store team for consideration up until *the Friday before iOS 16 launch*, when I saw another developer tweet about it. This one is the most moronic of my mistakes… by no means, my app would have had a spot “guaranteed” in App Store features, but if you don’t even try…
+
+So, a good share of errors could have been avoided. Still, I think I have conquered a few **small victories** that are cheering me up a bit as I list them in my mind:
+- The app might not be a resounding success *so far* (or ever? let’s hope it’s not ever!), but I’ve had a feature I wanted for myself “all summer long”, a way to launch apps and Shortcuts from the Lock screen: this is one of those things you **build for yourself**, and you cannot go wrong with that.
+- I finally jumped in with SwiftUI, not only learning about lock screen widgets and regular widgets (adding those, also a *belated victory*) but actually getting some mileage with the language while refactoring a major view to [the future of development on Apple platforms](https://twitter.com/stroughtonsmith/status/1570757729375096839/photo/1); in return, I got much less code, some additional features (custom icons, a better UI and in general a more streamlined experience) and – most important – a better understanding of SwiftUI itself and where I’ll certainly want to use it again soon.
+- I’ve had *fun*: I was off work (*classic indie*, I have a day job in a different field) for three weeks this summer (*classic Italy* ;), and the bulk of work on Link HUB 2.0 happened during that period. It was enough coding to be interesting, and a small enough project not to take all my free time away from Milla.
+- Link HUB is in a good spot, including in comparison to the other apps that launched with lock screen widgets: as I’ve mentioned, other developers had the same idea at the same time and built focused apps around it; I’ve tried them, of course, and they are all very good, each one with strong aspects. But basically, the main things that Link HUB lacks are the two nice-to-have features that I had planned and postponed: importing from Shortcuts and adding custom photos and app icons for the links. I can and will add those as soon as I’ll have the time (I’m **back at work on [GlanceCam](https://www.glancecam.app), because what’s more _\#indielife_ than juggling different projects?**), but in the meantime Link HUB is still on iOS, iPadOS, and Mac, is a fully-featured launcher app with all home screen widget size classes, multitasking / Stage Manager support, iCloud sync, NFC read/write capabilities… in the short term, building a small, focused app would have been easier and (results at hand) more effective, but I still think that in the long run having a well-rounded and feature-rich product could be better for Users.
+
+In many ways, this post was a form of therapy. It didn’t feel great to see the numbers barely go up (I’ve tried to tell myself it’s been a 300% increase in downloads, but a free app on 3 platforms that gets 10 new Users per day is still a flop, and I’m not one for sugarcoating things _too much_), but **I think I see things with a better perspective now that I wrote this**.
+
+I am sure many Indie developers know the feeling of working hard and still not being able to reach the audience you had hoped for. While it’s not great, and my friends it is not, I think **it’s okay, as long as you keep learning and getting better at what you do**. *\#indielife* means you’ll live and fight another day, on your terms.
+
+*P.S. My brain is not wired for oversharing and this is a way more personal post than usual… Since I'll only publish it on [my RSS feed](https://cdf1982.com/feed.xml) and share it to [my small Twitter circle](https://twitter.com/cdf1982), chances are that only my closest online friends will see it. But if you relate with my experience and think other Indies would too, I’m also okay with you sharing my ramblings… there’s no shame in trying something and not succeeding, and we should tell that ourselves more!*
