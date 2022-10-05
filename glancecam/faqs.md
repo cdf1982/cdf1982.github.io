@@ -64,7 +64,7 @@ tags: [glancecam]
 > 1. **Knowing the camera IP address, username and password**;
 > 2. **Figuring out what string format the camera requires** to stream with a third party application like GlanceCam. Such strings begin with the protocol used for streaming (in most cases RTSP), continue with the credentials (username and password), then the camera IP address in the local network, the port (usually 554 for RTSP) and finally a path that is defined by the camera manufacturer and completely depends on the model and we need to only retrieve and use "as is".
 > 
-> **Customising that string format (#2 above) with yout personal informations (#1) gives you the string that you'll need to paste inside GlanceCam's Preferences, in the 'IP camera video stream' field (which you can see in the following screenshot), to successfully stream your camera**.
+> **Customising that string format (#2 above) with yout personal informations (#1) gives you the string that you'll need to paste inside GlanceCam's Settings, in the 'IP camera video stream' field (which you can see in the following screenshot), to successfully stream your camera**.
 > 
 > ![](preferences.png)
 > 
@@ -75,7 +75,7 @@ tags: [glancecam]
 > Then, you need the string format (per point 2 above). Luckily, your camera manufacturer is a good one and printed it out clearly in the manual: rtsp://USERNAME:PASSWORD@CAMERA-IP:554/Streaming/Channels/101/<br>
 > Not all manufacturers do a great job on this, but below we'll see how in most cases we can still find this essential information.<br>
 > Now let's combine our personal informations with the string format Hikvision told us to use in the manual: rtsp://mickey:rodent@192.100.020.008:554/Streaming/Channels/101/<br>
-> This is the string we need to paste inside the 'IP camera video stream' field of GlanceCam's Preferences, and then save; if the credentials and IP are correct and the string format and port are also what the camera requires, in a few seconds we'll be able to see our realtime stream. Success 🎉!
+> This is the string we need to paste inside the 'IP camera video stream' field of GlanceCam's Settings, and then save; if the credentials and IP are correct and the string format and port are also what the camera requires, in a few seconds we'll be able to see our realtime stream. Success 🎉!
 > 
 > Now, let's say **you have done just as described in the example above and saved the string, but the stream does not start**:<br>
 > 
@@ -298,7 +298,7 @@ tags: [glancecam]
 #### What are the optional actions I can add to a camera as buttons?
 > Actions are one of the nerdiest features of GlanceCam; they are not required to stream an IP camera - actually, they are not really part of streaming cameras at all - and most likely are useful only to a small percentage of Users.<br>
 > Basically, an action is an optional button that performs a HTTP GET request when pressed. The purpose of a button is therefore completely customizable and can be anything that can be activated by a GET request; a common scenario (and actually the one that triggered the initial development of GlanceCam in 2018) is to install an Ethernet relay connected to a gate, so that it can be used to let guests in directly from GlanceCam. Just to provide an example, the following URL activates a Robot Electronics Ethernet relay: *http://username:password@192.168.0.7:17494/io.cgi?DOA1=10*<br>
-> Action buttons appear as an overlay on a camera when the mouse cursor enters its window only when a HTTP GET URL is specified inside GlanceCam's Preferences for that camera.<br>
+> Action buttons appear as an overlay on a camera when the mouse cursor enters its window only when a HTTP GET URL is specified inside GlanceCam's Settings for that camera.<br>
 > GlanceCam only supports GET (not PUT, POST or any other HTTP method) because it is the most commonly used and certainly the more likely to be useful in the context of the app.
 <a name="shortcuts"></a>
 
@@ -318,7 +318,7 @@ tags: [glancecam]
 | Eye       | Toggle 'Always on top' for all windows                                               |
 | Speaker   | Toggle audio for all windows (if their stream includes audio)                        |
 | Reload    | Restart the current stream                                                           |
-| Gear      | Open GlanceCam's Preferences                                                         |
+| Gear      | Open GlanceCam's Settings                                                            |
 >
 > If you right click the Eye and Speaker icons, you'll toggle that behaviour only for that specific window, and only until the app quits.<br>
 > If you hold ⌘ ⇧ and click on the Eye, you can send that window 'Behind everything'; please read the tooltip to decide if you have a use for this, and how to later resurrect that window from this odd mode.<br>
@@ -330,7 +330,7 @@ tags: [glancecam]
 | +         | Next Glance                                                                          |
 | Spacebar  | Next Glance (yes, there are two shortcuts... pick yours!)                            |
 | 1...9     | Numbers 1 through 9 select the corresponding Glance as ordered in the list           |
-| ⌘ ,       | Open Preferences                                                                     |
+| ⌘ ,       | Open Settings                                                                        |
 | ⌘ N       | Add a new window (requires GlanceCam Pro; see here for [other methods](#newwindow)   |
 | ⌘ W       | Close current window (the app quits when you close the last one)                     |
 | ⌘ R       | Reload stream                                                                        |
@@ -340,25 +340,25 @@ tags: [glancecam]
 | ⌘ 2       | Resize current window to the 'Large' size                                            |
 | ⌘ 3       | Resize current window to the 'As big as possible' size                               |
 > 
-> When you're inside the Preferences window, there are additional shortcuts:
+> When you're inside the Settings window, there are additional shortcuts:
 >
-| Key(s)    | What the shortcut does inside Preferences                                            |
+| Key(s)    | What the shortcut does inside Settings                                               |
 |-----------|--------------------------------------------------------------------------------------|
 | ⌘ N       | Add a new Glance to the list                                                         |
 | ⌘ ⌫       | Delete the currently selected Glance (⌘ ⌫ again to confirm)                          |
 | ⌘ D       | Duplicate the currently selected Glance.                                             |
 | ⌘ ↑       | Move the currently selected Glance up in the list                                    |
 | ⌘ ↓       | Move the currently selected Glance down in the list                                  |
-| Return    | Save Preferences                                                                     |
+| Return    | Save Settings                                                                        |
 >
-> In the Behavior tab, inside Preferences, you can configure 2 _global keyboard shortcuts_ (combinations of keys of your choice that are then available both when GlanceCam is active and when it is open in background and you're working in a different app) that can provide fast access to 2 convenient features:
+> In the Behavior tab, inside Settings, you can configure 2 _global keyboard shortcuts_ (combinations of keys of your choice that are then available both when GlanceCam is active and when it is open in background and you're working in a different app) that can provide fast access to 2 convenient features:
 - Bring all GlanceCam windows to front;
 - Insta-zoom the last window or one specific Glance.
 > Additional details about how these global shortcuts work are available in [GlanceCam 3.2 release notes](https://cdf1982.com/glancecam/glancecam-release-notes#3_2).
 >
 > Most dialogs can be dismissed with Escape and confirmed with Return.
 >   
-> In Preferences you can also manually enable **gestures to switch between cameras** by swiping left or right on your Trackpad or Magic Mouse.
+> In Settings you can also manually enable **gestures to switch between cameras** by swiping left or right on your Trackpad or Magic Mouse.
 > 
 > Finally, please know that **almost every user interface element in GlanceCam has a tooltip explaining the functionality**, please leave your mouse pointer still on buttons and fields for a moment to learn other cool things you can do within the app!
 <a name="automation"></a>
@@ -379,7 +379,7 @@ tags: [glancecam]
 > Apple Script changes camera in the last active window of the app and also works if GlanceCam was not running, launching the app and executing the required actions.
 > 
 > GlanceCam also has an **URL scheme** that allows to switch camera from outside the app.<br>
-> Your custom application or AppleScript can call the `glancecam://?camera=17` URL and switch to that video stream; just replace “17” in the example URL with the camera number you want to switch to (as listed, counting from 1, in the app Preferences).<br>
+> Your custom application or AppleScript can call the `glancecam://?camera=17` URL and switch to that video stream; just replace “17” in the example URL with the camera number you want to switch to (as listed, counting from 1, in the app Settings).<br>
 > There’s also a new action available via URL scheme: `glancecam://?fullscreen=true` (or false) sets the fullscreen mode of GlanceCam on and off; please be advised that this is not a toggle: if GlanceCam is already fullscreen and you ask it to enter it again, by design nothing will happen.<br>
 > You can also combine multiple URL scheme actions in a single string: `glancecam://?camera=02&fullscreen=true` selects the second camera AND enters fullscreen… how convenient!<br>
 > A couple of additional informations for nerds: if the camera number is out of range or the URL string is incorrect, the switch operation fails “silently” to avoid interrupting the video stream.<br>
