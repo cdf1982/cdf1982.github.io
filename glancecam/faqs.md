@@ -210,8 +210,8 @@ tags: [glancecam]
 ---
 
 #### Does GlanceCam run natively on Apple Silicon?
-> GlanceCam is a modern 64 bit application and performs great on M1 Macs via Rosetta, but a native version is been in development since the announcement of Apple Silicon.<br>
-> Under the hood, GlanceCam uses the reliable VLCKit open-source video engine (which powers  the popular VLC Media Player), and the M1 port of that dependency is ongoing, but not yet completed. So a native M1 version might still be a few months away, but rest assured that as soon as the current blockers are removed, the Apple Silicon version will ship in as little time as possible.
+> Yes, and it's amazing!
+> Honestly, getting GlanceCam to work natively on M1 and newer Apple CPUs involved years (yes, years) of work and frustrations, but starting with version 3.5, GlanceCam is perfectly at home both on Apple Silicon and Intel.
 <a name="price"></a>
 
 ---
