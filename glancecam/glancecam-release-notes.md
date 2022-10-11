@@ -9,11 +9,11 @@ tags: [glancecam]
 ### GlanceCam 3.5
 #### October 12, 2022
 
-After SO. MUCH. WORK. GlanceCam for Apple silicon is here!
-The performance difference you'll notice on new Macs proves the effort was worth it: CPU and RAM usage decrease significantly, while everything else works as reliably as you're used to!
+After SO. MUCH. WORK. GlanceCam for Apple silicon is here!<br>
+The performance difference you'll notice on new Macs proves the effort was worth it: CPU and RAM usage decrease significantly, while everything else works as reliably as you're used to!<br>
 My goal was to make the transition less noticeable as possible – except for performances, of course – while building the foundations for the next 10 years of GlanceCam. I'm happy with the results and hope you'll be too!
 
-Please know it wasn't for lack of trying that this major update didn't ship earlier: while Rosetta2 granted excellent performances, I've been at work on native support since Apple's announcement.
+Please know it wasn't for lack of trying that this major update didn't ship earlier: while Rosetta2 granted excellent performances, I've been at work on native support since Apple's announcement.<br>
 After many challenges, and thanks to the kind Beta Testers who helped me make this work great, the future of GlanceCam is brighter than ever.
 
 I won't lie, what would make this launch perfect now would be for you to take a moment and leave a 5-star review ;) or maybe even consider going Pro if you aren't already, or leave a tip if you are.
