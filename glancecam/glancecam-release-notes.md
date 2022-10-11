@@ -5,6 +5,25 @@ description:
 image:
 tags: [glancecam]
 ---
+<a name="3_5"></a>
+### GlanceCam 3.5
+#### October 12, 2022
+
+After SO. MUCH. WORK. GlanceCam for Apple silicon is here!
+The performance difference you'll notice on new Macs proves the effort was worth it: CPU and RAM usage decrease significantly, while everything else works as reliably as you're used to!
+My goal was to make the transition less noticeable as possible – except for performances, of course – while building the foundations for the next 10 years of GlanceCam. I'm happy with the results and hope you'll be too!
+
+Please know it wasn't for lack of trying that this major update didn't ship earlier: while Rosetta2 granted excellent performances, I've been at work on native support since Apple's announcement.
+After many challenges, and thanks to the kind Beta Testers who helped me make this work great, the future of GlanceCam is brighter than ever.
+
+I won't lie, what would make this launch perfect now would be for you to take a moment and leave a 5-star review ;) or maybe even consider going Pro if you aren't already, or leave a tip if you are.
+
+As for new features, please know that with this major step forward finally in your hands, plenty is coming!
+
+One last thing... I need to hear from Users who are running GlanceCam on macOS 10.13 High Sierra: in the last year, I've received 3 reports of issues on that operating system, but the way GlanceCam is built with privacy in mind means that I have no idea how many of you are still are running 10.13; and actually, you could be on High Sierra and have zero issues, especially if you don't have multiple windows open (the problem was a freeze when streaming multiple cameras concurrently). I've thoroughly investigated the issue and had to come to the conclusion that it's outside my control (it's an OpenGL bug in the OS fixed starting in macOS 10.14), therefore I need to at least consider the possibility to drop support for High Sierra in a future release. But if you're still using GlanceCam on 10.13 and have a good experience and no problems, I'd hate to leave you behind. Please, get in touch at support@cdf1982.com and let me know how's your experience running GlanceCam (and GlanceCam Pro) on High Sierra!
+
+---
+
 <a name="3_3"></a>
 ### GlanceCam 3.3
 #### May 5, 2021
