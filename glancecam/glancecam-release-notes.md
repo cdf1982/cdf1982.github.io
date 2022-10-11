@@ -7,7 +7,7 @@ tags: [glancecam]
 ---
 <a name="3_5"></a>
 ### GlanceCam 3.5
-#### October 12, 2022
+#### October 11, 2022
 
 After SO. MUCH. WORK. GlanceCam for Apple silicon is here!<br>
 The performance difference you'll notice on new Macs proves the effort was worth it: CPU and RAM usage decrease significantly, while everything else works as reliably as you're used to!<br>

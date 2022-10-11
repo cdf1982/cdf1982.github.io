@@ -18,7 +18,7 @@ tags: [glancecam]
 - [Does GlanceCam support H264 and H265? What about 4K cameras?](#formats)
 - [Does GlanceCam play audio?](#audio)
 - [What are GlanceCam's system requirements?](#requirements)
-- [Does GlanceCam run natively on Apple Silicon?](#applesilicon)
+- [Does GlanceCam run natively on Apple silicon?](#applesilicon)
 - [How much does GlanceCam costs? Are there recurring costs?](#price)
 - [What is GlanceCam Pro? How much does it cost?](#glancecampro)
 - [Is my personal data, video stream and / or credentials shared with anyone?](#privacy)
@@ -209,9 +209,9 @@ tags: [glancecam]
 
 ---
 
-#### Does GlanceCam run natively on Apple Silicon?
+#### Does GlanceCam run natively on Apple silicon?
 > Yes, and it's amazing!
-> Honestly, getting GlanceCam to work natively on M1 and newer Apple CPUs involved years (yes, years) of work and frustrations, but starting with version 3.5, GlanceCam is perfectly at home both on Apple Silicon and Intel.
+> Honestly, getting GlanceCam to work natively on M1 and newer Apple SoCs involved years (yes, years) of work and frustrations, but starting with [version 3.5](https://cdf1982.com/glancecam/glancecam-release-notes#3_5), GlanceCam is perfectly at home both on Apple silicon – where CPU and RAM usage are significantly reduced – and Intel.
 <a name="price"></a>
 
 ---
