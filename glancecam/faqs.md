@@ -51,6 +51,7 @@ tags: [glancecam]
 #### Is GlanceCam compatible with my camera?
 > GlanceCam is **compatible with most IP cameras**; the only requirement is for the camera to support **standard streaming protocols** such as RTSP, HTTP(s) or RTMP. Most do.<br>
 > You can check if the camera is compatible with those protocols on the manufacturer's website or in the manual.
+> Please be advised that RTSPs is not supported, but most systems (like Ubiquiti Unifi) can fall back to RTSP with the proper configuration, please [get in touch](#support) so I can help you get started!
 <a name="setup"></a>
 
 ---
