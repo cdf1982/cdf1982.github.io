@@ -5,6 +5,19 @@ description:
 image:
 tags: [glancecam]
 ---
+<a name="3_5_1"></a>
+### GlanceCam 3.5.1
+#### October 18, 2022
+
+Thank you so much for all your loving words about GlanceCam for Apple Silicon! Here's what's new today:
+
+- If you have multiple displays, new windows are now created at the center of the active screen (the one with the mouse pointer), instead of always on the main one;
+
+- Keyboard shortcuts for resizing a window to 'Postcard' (⌘ 0), 'Regular' (⌘ 1), 'Large' (⌘ 2) and 'As big as possible' (⌘ 3) are now disabled if such window is currently full-screen.
+
+Finally, I have an apology to make: in the release notes for GlanceCam 3.5 I asked Users running High Sierra to contact me (and I still need to hear from you, please read at the bottom of version 3.5 release notes); one of you did with a kind and useful email that I read in the middle of the night on my phone, but wasn't able to find the next morning, as I probably deleted it by accident (yeah, reading emails without glasses at night, not a great idea). I feel bad for not responding, so if you're reading this, would you please forward your email to this clumsy developer? I'm very sorry, and thank you!
+
+---
 <a name="3_5"></a>
 ### GlanceCam 3.5
 #### October 12, 2022
