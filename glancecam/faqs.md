@@ -350,7 +350,7 @@ tags: [glancecam]
 | ⌘ W       | Close current window (the app quits when you close the last one)                     |
 | ⌘ R       | Reload stream                                                                        |
 | ⌘ Y       | Toggle Always on top                                                                 |
-| Z         | Toggle [Zoom mode](#zoom)                                                                     |
+| Z         | Toggle [Zoom mode](#zoom)                                                            |
 | ⌘ 0       | Resize current window to the 'Postcard' size                                         |
 | ⌘ 1       | Resize current window to the 'Regular' size                                          |
 | ⌘ 2       | Resize current window to the 'Large' size                                            |

@@ -5,6 +5,33 @@ description:
 image:
 tags: [glancecam]
 ---
+<a name="3_6"></a>
+### GlanceCam 3.6
+#### October 21, 2022
+
+This version introduces an optional Zoom feature that's been requested by some Users a while back (thank you both for the suggestion and patience, Gretar and Olof!).
+<br>
+Zoom mode is available to all GlanceCam Users and might be useful for occasionally taking a closer look to a section of the stream. Here's how it works:
+- You can enable Zoom mode for the active window either by clicking the Window menu and then Toggle Zoom, or by pressing the Z key (no modifiers required).
+- The same Toggle Zoom menu item or Z key disables Zoom mode, when you're done.
+- When Zoom mode is active, the upper left area of the window displays a miniature of the whole camera, while the main area shows the zoomed-in image.
+- The white rectangle you see in the miniature area corresponds to the currently zoomed-in section of the stream, and you can click within that rectangle and drag it around to move the magnified area.
+- Below the miniature in the upper left corner, there's a small funnel shape that's only partially filled in white; if you click and drag up and down in the funnel-shaped area, you zoom in and out (as you zoom in, the funnel fills up, and vice versa).
+<br>
+A couple of additional notes on some implementation details of this feature:
+- A window that has Zoom mode enabled cannot be moved around the screen by dragging its background, as you usually can do with all GlanceCam windows; this is because the drag interaction of moving the window conflicts with the drag interaction required to move the zoomed-in area. You can obviously move the window around by dragging its title bar.
+- Each time you enable or disable Zoom mode, the video stream reloads; this is required because Zoom mode is implemented with the Magnify plugin of the amazing video engine GlanceCam uses under the hood, VLCKit, but it wouldn't make sense to always load (and therefore show) the plugin for a feature that's only needed occasionally by a small number of Users.
+- Zoom mode is not persisted between sessions: it's always turned off when you launch the app or open a new window, but when you enable it, it remains active until you disable it again or close the window / quit the app; so, if you change camera in a window that had Zoom mode already on, the Zoom will be enabled for the stream you're switching to.
+- If you're a GlanceCam Pro User (thank you!), you can put as many windows as you want in Zoom mode.
+- Zooming capabilities are not available for built-in / USB cameras.
+- If you save a Snapshot while Zoom mode is enabled, the image saved to disk will be the same you're looking at, with the miniature area and the zoomed-in view.
+- The miniature area and the funnel are fixed in size in the plugin, and might appear quite small on Postcard or Regular size windows; Zoom mode works best with large windows or full screen.
+<br>
+If you've ever need to take a closer look to sections of your cameras or specific details, this convenience feature might be useful to you, and I hope you'll like it!
+<br>
+As always, reviews, Pro upgrades and tips are very much appreciated, and keep GlanceCam development going... and if you have any suggestion, I'd love to hear from you at support@cdf1982.com.
+
+---
 <a name="3_5_1"></a>
 ### GlanceCam 3.5.1
 #### October 18, 2022
