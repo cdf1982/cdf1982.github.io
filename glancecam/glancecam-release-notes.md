@@ -7,9 +7,13 @@ tags: [glancecam]
 ---
 <a name="3_6"></a>
 ### GlanceCam 3.6
-#### October 21, 2022
+#### October 24, 2022
 
-This version introduces an optional Zoom feature that's been requested by some Users a while back (thank you both for the suggestion and patience, Gretar and Olof!).
+GlanceCam 3.6 for Ventura is here, fully compatible with the new release of macOS and Stage Manager.
+<br>
+This version also introduces an optional Zoom feature that's been requested by some Users a while back (thank you both for the suggestion and patience, Gretar and Olof!).
+<br>
+GlanceCam works great on macOS 13 Ventura and is amazing in combination with Stage Manager, behaving exactly as you'd expect: with Always on Top enabled, your cameras remain visible in all Stages, just like they did (and do) with Spaces; if you don't use Always on Top in combination with Stage Manager, GlanceCam behaves like all other apps, moving to the side when you switch applications... but your camera preview remains live on the left sidebar even when it's not on the main stage!
 <br>
 Zoom mode is available to all GlanceCam Users and might be useful for occasionally taking a closer look to a section of the stream. Here's how it works:
 - You can enable Zoom mode for the active window either by clicking the Window menu and then Toggle Zoom, or by pressing the Z key (no modifiers required).
