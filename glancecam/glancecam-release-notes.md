@@ -10,18 +10,18 @@ tags: [glancecam]
 #### October 23, 2022
 
 GlanceCam 3.6 for Ventura is here, fully compatible with the new release of macOS and Stage Manager.
-<br>
+<br><br>
 This version also introduces an optional Zoom feature that's been requested by some Users a while back (thank you both for the suggestion and patience, Gretar and Olof!).
-<br>
+<br><br>
 GlanceCam works great on macOS 13 Ventura and is amazing in combination with Stage Manager, behaving exactly as you'd expect: with Always on Top enabled, your cameras remain visible in all Stages, just like they did (and do) with Spaces; if you don't use Always on Top in combination with Stage Manager, GlanceCam behaves like all other apps, moving to the side when you switch applications... but your camera preview remains live on the left sidebar even when it's not on the main stage!
-<br>
+<br><br>
 Zoom mode is available to all GlanceCam Users and might be useful for occasionally taking a closer look to a section of the stream. Here's how it works:
 - You can enable Zoom mode for the active window either by clicking the Window menu and then Toggle Zoom, or by pressing the Z key (no modifiers required).
 - The same Toggle Zoom menu item or Z key disables Zoom mode, when you're done.
 - When Zoom mode is active, the upper left area of the window displays a miniature of the whole camera, while the main area shows the zoomed-in image.
 - The white rectangle you see in the miniature area corresponds to the currently zoomed-in section of the stream, and you can click within that rectangle and drag it around to move the magnified area.
 - Below the miniature in the upper left corner, there's a small funnel shape that's only partially filled in white; if you click and drag up and down in the funnel-shaped area, you zoom in and out (as you zoom in, the funnel fills up, and vice versa).
-<br>
+<br><br>
 A couple of additional notes on some implementation details of this feature:
 - A window that has Zoom mode enabled cannot be moved around the screen by dragging its background, as you usually can do with all GlanceCam windows; this is because the drag interaction of moving the window conflicts with the drag interaction required to move the zoomed-in area. You can obviously move the window around by dragging its title bar.
 - Each time you enable or disable Zoom mode, the video stream reloads; this is required because Zoom mode is implemented with the Magnify plugin of the amazing video engine GlanceCam uses under the hood, VLCKit, but it wouldn't make sense to always load (and therefore show) the plugin for a feature that's only needed occasionally by a small number of Users.
@@ -30,9 +30,9 @@ A couple of additional notes on some implementation details of this feature:
 - Zooming capabilities are not available for built-in / USB cameras.
 - If you save a Snapshot while Zoom mode is enabled, the image saved to disk will be the same you're looking at, with the miniature area and the zoomed-in view.
 - The miniature area and the funnel are fixed in size in the plugin, and might appear quite small on Postcard or Regular size windows; Zoom mode works best with large windows or full screen.
-<br>
+<br><br>
 If you've ever need to take a closer look to sections of your cameras or specific details, this convenience feature might be useful to you, and I hope you'll like it!
-<br>
+<br><br>
 As always, reviews, Pro upgrades and tips are very much appreciated, and keep GlanceCam development going... and if you have any suggestion, I'd love to hear from you at support@cdf1982.com.
 
 ---
