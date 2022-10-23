@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ventura updates for GlanceCam, Link HUB, ClipBar and TameTime
+title: Ventura updates for GlanceCam, Link HUB, ClipBar and TameTime, plus an iOS 16 update for PhotosUpload
 description:
 image: 
 tags: glancecam,linkhub,tametime,clipbar
