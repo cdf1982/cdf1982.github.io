@@ -14,3 +14,5 @@ I'm happy to announce that all my Mac apps have just been updated for macOS 13 V
 - **[ClipBar 1.4.2](https://apps.apple.com/us/app/clipbar-pasteboard-viewer/id1541739143)** is a minor update – just to smooth things out for Ventura – to my utility for viewing the content of your Pasteboard from the status bar.
 
 - **[TameTime 1.4.2](https://apps.apple.com/us/app/tametime-awareness-timer/id1479326723)** perfects macOS 13 compatibility of my status bar utility built for reminding you of taking regular breaks, so you don't spend too much time sitting at your computer and risk compromising your health.
+
+And since pushing 2 GlanceCam versions in one week, plus Ventura updates for all three other Mac apps currently in my portfolio wasn't enough, **[PhotosUpload 1.4.1](https://apps.apple.com/us/app/photosupload/id1441656535)**, my FTP uploader for iPhone and iPad, has been updated for iOS and iPadOS 16 too!
