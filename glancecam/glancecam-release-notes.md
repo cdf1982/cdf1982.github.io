@@ -7,7 +7,7 @@ tags: [glancecam]
 ---
 <a name="3_6"></a>
 ### GlanceCam 3.6
-#### October 24, 2022
+#### October 23, 2022
 
 GlanceCam 3.6 for Ventura is here, fully compatible with the new release of macOS and Stage Manager.
 <br>
