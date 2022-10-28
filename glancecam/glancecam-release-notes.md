@@ -5,6 +5,16 @@ description:
 image:
 tags: [glancecam]
 ---
+<a name="3_6_1"></a>
+### GlanceCam 3.6.1
+#### October 29, 2022
+
+This minor update restores the Out of my Way functionality on Ventura, after a regression that's been reported by a few Users (thank you!).<br>
+Out of my Way is the cool GlanceCam feature that allows you grab a file or access another app below a camera window, even when Always on top is enabled.<br>
+You can trigger Out of my Way by holding down the Shift key while moving your mouse pointer into the window area; when you do so, the window bounces to the opposite side of the screen for 3 seconds and then, after that delay, it returns automatically to the original position.<br>
+If you've never tried it, it's a quite useful "dance". GlanceCam has lots of cool tricks and shortcuts like this one, please check the [FAQs](https://cdf1982.com/glancecam/faqs#shortcuts) to discover them all!<br>
+As always, please don't hesitate to reach out at [support@cdf1982.com](support@cdf1982.com) if you have suggestions or problems you think I can help with, and thank you for your support of GlanceCam! –Cesare
+
 <a name="3_6"></a>
 ### GlanceCam 3.6
 #### October 23, 2022
