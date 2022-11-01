@@ -25,6 +25,7 @@ tags: [glancecam]
 - [Can I sync my list of cameras between different Macs I own?](#sync)
 - [Can I save a screenshot? Can I record video?](#recording)
 - [I'd love to be able to zoom in on a specific section of a camera, can I?](#zoom)
+- [Can I cycle (rotate) through some cameras in one window?](#cyclemode)
 - [Is it possible to trigger notifications with motion detection?](#motion)
 - [Does GlanceCam support pan and tilt (PTZ)?](#ptz)
 - [Can I use GlanceCam to view webcams that are embedded inside websites, like zoo cameras?](#embeddedwebcams)
@@ -262,7 +263,7 @@ tags: [glancecam]
 ---
 
 #### I'd love to be able to zoom in on a specific section of a camera, can I?
-> GlanceCam 3.6 introduced Zoom mode to all GlanceCam Users; this convenience feature might be useful for occasionally taking a closer look to a section of the stream. Here's how it works:
+> [GlanceCam 3.6](https://cdf1982.com/glancecam/glancecam-release-notes#3_6) introduced Zoom mode to all GlanceCam Users; this convenience feature might be useful for occasionally taking a closer look to a section of the stream. Here's how it works:
 > - You can enable Zoom mode for the active window either by clicking the Window menu and then Toggle Zoom, or by pressing the Z key (no modifiers required).
 > - The same Toggle Zoom menu item or Z key disables Zoom mode, when you're done.
 > - When Zoom mode is active, the upper left area of the window displays a miniature of the whole camera, while the main area shows the zoomed-in image.
@@ -277,6 +278,21 @@ tags: [glancecam]
 > - Zooming capabilities are not available for built-in / USB cameras.
 > - If you save a Snapshot while Zoom mode is enabled, the image saved to disk will be the same you're looking at, with the miniature area and the zoomed-in view.
 > - The miniature area and the funnel are fixed in size in the plugin, and might appear quite small on Postcard or Regular size windows; Zoom mode works best with large windows or full screen.
+<a name="#cyclemode"></a>
+
+---
+
+#### Can I cycle (rotate) through some cameras in one window?
+> [GlanceCam 3.7](https://cdf1982.com/glancecam/glancecam-release-notes#3_7) added a new and powerful feature for [GlanceCam Pro](#glancecampro) Users, Cycle mode.
+>  You now have the option to choose one of your windows and have it rotate some or all of your Glances (cameras) according to a time interval you define. This is especially useful with a large window or while the app is full screen.
+> While only one window can be put in Cycle mode, you can still keep as many others "single camera" windows open while this rotation is enabled.
+> 
+> By default, all cameras are included in Cycle mode with a 30 seconds time interval dedicated to each one, but you are free to decide which Glances you want to include and for how long they should remain on screen.
+> Intervals can be configured in the 10 to 60 seconds range, in steps of 10 seconds, and can be different between cameras included in the cycle. Please note that longer intervals are preferable, especially for remote cameras, as the timer starts when loading the stream begins, not when the image appears; so, if a camera takes 5 seconds to show the image and the cycle is set to 10 seconds, you'd only see the image for 5 seconds before switching to the next one.
+> 
+> You can enable Cycle mode by selecting the Glance menu > Enable Cycle mode, or by pressing the C key without modifiers while the window you want to enable it for is active; the same menu item or keyboard shortcut disables it, as it does saving any change to Settings or quitting GlanceCam (Cycle mode is not persisted between launches of the app).
+> 
+> Here's an example of how Cycle mode can be configured: let's say you have 3 Glances configured; you might include camera 1 in Cycle mode and keep it visible for 30 seconds, exclude camera 2 and include camera 3 for 10 seconds. When you turn on Cycle mode, camera 1 and 3 will alternate, with Glance 1 remaining visible for 30 seconds and Glance 3 only for 10, with a total duration for the cycle of 40 seconds before it starts again.
 <a name="motion"></a>
 
 ---
@@ -350,6 +366,7 @@ tags: [glancecam]
 | ⌘ W       | Close current window (the app quits when you close the last one)                     |
 | ⌘ R       | Reload stream                                                                        |
 | ⌘ Y       | Toggle Always on top                                                                 |
+| C         | Toggle [Cycle mode](#cyclemode)                                                      |
 | Z         | Toggle [Zoom mode](#zoom)                                                            |
 | ⌘ 0       | Resize current window to the 'Postcard' size                                         |
 | ⌘ 1       | Resize current window to the 'Regular' size                                          |
