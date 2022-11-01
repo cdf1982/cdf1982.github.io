@@ -30,6 +30,6 @@ You can enable Cycle mode by selecting the Glance menu > Enable Cycle mode, or b
 Here’s an example of how Cycle mode can be used:
 > Let’s say you have 3 Glances configured; you might include camera 1 in Cycle mode and keep it visible for 30 seconds, exclude camera 2 and include camera 3 for 10 seconds. When you turn on Cycle mode, camera 1 and 3 will alternate, with Glance 1 remaining visible for 30 seconds and Glance 3 only for 10, with a total duration for the cycle of 40 seconds before it starts again. 
 
-I hope you’ll love this new feature… it’s already one of my favorites! Again, you can [download GlanceCam 3.7](https://itunes.apple.com/us/app/glancecam-ip-webcam-viewer/id1360797896?l=it&ls=1&mt=12) right now.
+I hope you’ll love this new feature… it’s already one of my favorites! You can check if you agree with me by [downloading GlanceCam 3.7](https://itunes.apple.com/us/app/glancecam-ip-webcam-viewer/id1360797896?l=it&ls=1&mt=12) right now.
 
 As always, your feedback at [support@cdf1982.com](mailto:support@cdf1982.com) is what keeps development going _(while your Pro upgrades and tips keep the lights on 😉)_ 
