@@ -278,7 +278,7 @@ tags: [glancecam]
 > - Zooming capabilities are not available for built-in / USB cameras.
 > - If you save a Snapshot while Zoom mode is enabled, the image saved to disk will be the same you're looking at, with the miniature area and the zoomed-in view.
 > - The miniature area and the funnel are fixed in size in the plugin, and might appear quite small on Postcard or Regular size windows; Zoom mode works best with large windows or full screen.
-<a name="#cyclemode"></a>
+<a name="cyclemode"></a>
 
 ---
 
