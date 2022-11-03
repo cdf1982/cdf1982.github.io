@@ -293,6 +293,8 @@ tags: [glancecam]
 > You can enable Cycle mode by selecting the Glance menu > Enable Cycle mode, or by pressing the C key without modifiers while the window you want to enable it for is active; the same menu item or keyboard shortcut disables it, as it does saving any change to Settings or quitting GlanceCam (Cycle mode is not persisted between launches of the app).
 > 
 > Here's an example of how Cycle mode can be configured: let's say you have 3 Glances configured; you might include camera 1 in Cycle mode and keep it visible for 30 seconds, exclude camera 2 and include camera 3 for 10 seconds. When you turn on Cycle mode, camera 1 and 3 will alternate, with Glance 1 remaining visible for 30 seconds and Glance 3 only for 10, with a total duration for the cycle of 40 seconds before it starts again.
+>
+> Finally, a note about Cycle mode and cameras with different aspect ratios: usually, GlanceCam detects the aspect ratio of a video stream and resizes the window to avoid "black bars"; this is intentionally disabled in Cycle mode because having cameras with different aspect ratios cycle would cause a periodic resizing "dance" which would be distracting to see.
 <a name="motion"></a>
 
 ---
