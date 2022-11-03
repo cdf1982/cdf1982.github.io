@@ -5,6 +5,16 @@ description:
 image:
 tags: [glancecam]
 ---
+<a name="3_7_1"></a>
+### GlanceCam 3.7.1
+#### November 3, 2022
+
+A quick update with a few small fixes:
+- By default, Cycle mode now pauses when your screen locks (i.e. the screen saver starts) and resumes automatically when it unlocks. If you have "Never pause playback" enabled in Settings, though, the cycle will continue even when the screen is locked. When your Mac goes to sleep, Cycle mode will always pause itself and automatically resume when the computer awakes.
+- On recent version of macOS and with many Glances configured, the Settings window might have opened with the list of cameras "scrolled down", hiding the first entry; now, when you open Settings, the first Glance is always the one you'll see at the top of the list.
+- The tooltips for Cycle mode now include this clarification on the behavior of this feature: "Finally, a note about Cycle mode and cameras with different aspect ratios: usually, GlanceCam detects the aspect ratio of a video stream and resizes the window to avoid "black bars"; this is intentionally disabled in Cycle mode because having cameras with different aspect ratios cycle would cause a periodic resizing "dance" which would be distracting to see."
+Thank you so much for letting me know you love Cycle mode as much as I do! –Cesare
+
 <a name="3_7"></a>
 ### GlanceCam 3.7
 #### November 1, 2022
