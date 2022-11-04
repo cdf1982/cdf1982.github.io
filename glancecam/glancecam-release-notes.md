@@ -7,7 +7,7 @@ tags: [glancecam]
 ---
 <a name="3_7_1"></a>
 ### GlanceCam 3.7.1
-#### November 3, 2022
+#### November 4, 2022
 
 A quick update with a few small fixes:
 - By default, Cycle mode now pauses when your screen locks (i.e. the screen saver starts) and resumes automatically when it unlocks. If you have "Never pause playback" enabled in Settings, though, the cycle will continue even when the screen is locked. When your Mac goes to sleep, Cycle mode will always pause itself and automatically resume when the computer awakes.
