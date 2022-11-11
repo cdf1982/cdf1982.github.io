@@ -5,6 +5,24 @@ description:
 image:
 tags: [glancecam]
 ---
+<a name="3_8_1"></a>
+### GlanceCam 3.8
+#### November 11, 2022
+
+Quick update with a couple of small bug fixes to GlanceCam 3.8, which improved 'Out of my way', introduced 'Stay out of my way' and included an updated video engine.
+<br><br>
+Out of my way is the cool and beloved GlanceCam feature that allows you to grab a file or access another app below a camera window, even when Always on top is enabled.<br>
+You can trigger Out of my way by holding down the Shift key while moving your mouse pointer into the window area; when you do so, the window bounces to the opposite side of the screen for an certain time interval and then, after that delay, it returns automatically to the original position.<br>
+Until today, Out of my way duration was fixed to 3 seconds, but you can now pick your desired delay between that minimum and 15 seconds by adjusting a slider in Settings > Behavior.
+<br><br>
+And if you've come to rely on Out of my way, you'll love Stay out of my way: if you hold down Command and Shift while moving your mouse pointer into a GlanceCam window, you'll send it to the opposite side of the screen permanently, until you manually move it to another position.
+<br><br>
+I want to thank Dirk for recommending both features!
+<br><br>
+Finally, GlanceCam video engine has been updated to the latest and most reliable version, with minor bug fixes and improvements to make things work even better.
+<br><br>
+As always, 5-star reviews, GlanceCam Pro upgrades or tips are very appreciated, and keep GlanceCam development going... and if you have any suggestion, I'd love to hear from you at [support@cdf1982.com](support@cdf1982.com). –Cesare
+
 <a name="3_8"></a>
 ### GlanceCam 3.8
 #### November 10, 2022
