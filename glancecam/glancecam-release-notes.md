@@ -6,7 +6,7 @@ image:
 tags: [glancecam]
 ---
 <a name="3_8_1"></a>
-### GlanceCam 3.8
+### GlanceCam 3.8.1
 #### November 11, 2022
 
 Quick update with a couple of small bug fixes to GlanceCam 3.8, which improved 'Out of my way', introduced 'Stay out of my way' and included an updated video engine.
