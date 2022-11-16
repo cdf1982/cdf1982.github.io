@@ -7,9 +7,9 @@ tags: [glancecam]
 ---
 <a name="3_8_2"></a>
 ### GlanceCam 3.8.2
-#### November 15, 2022
+#### November 17, 2022
 
-This update fixes a couple bugs and layout issues reported by Diggory over the week-end (thank you so much for helping me improve GlanceCam!). –Cesare
+This update fixes a couple bugs and layout issues reported by Diggory over the week-end (thank you so much for helping me improve GlanceCam!) and also restores the CMD+3 keyboard shortcut to maximize a window within the screen bounds, which I accidentally broke in the last update (sorry!). –Cesare
 
 <a name="3_8_1"></a>
 ### GlanceCam 3.8.1
