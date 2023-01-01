@@ -5,11 +5,15 @@ description:
 image:
 nav-menu: false
 ---
-*© 2018 Cesare Forelli:*
+*© 2023 Cesare Forelli:*
 
 -   *All the contents of this website and blog*
 
 -   *GlanceCam (app, name, icon, logo)*
+
+-   *LinkHUB (app, name, icon, logo)*
+
+-   *PhotosUpload (app, name, icon, logo)*
 
 -   *Tasktic (app, name, icon, logo and the fanTasktic buttons)*
 
