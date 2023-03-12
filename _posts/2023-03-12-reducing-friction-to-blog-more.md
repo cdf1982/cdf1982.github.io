@@ -5,7 +5,7 @@ description:
 image:
 tags: web-dev
 ---
-In a [Mastodon conversation](https://post.lurk.org/@lucas/110002373603911557) with [Lucas](https://lucas.love) I mentioned that the workflow to publish to this Jekyll blog is one of the reasons I almost never publish on my blog. It's either that, or an excuse, and since I'm being honest, the more I think about it, the more I believe it's more of the latter...
+In a [Mastodon conversation](https://iosdev.space/@cdf1982/110008868604331332) with [Lucas](https://lucas.love) I mentioned that the workflow to publish to this Jekyll blog is one of the reasons I almost never publish on my blog. It's either that, or an excuse, and since I'm being honest, the more I think about it, the more I believe it's more of the latter...
 
 But still:
 1. Open a text editor;
@@ -29,15 +29,13 @@ If it's a couple sentences on the go, maybe on my phone, I could certainly skip 
 
 Enter [gitwatch](https://github.com/gitwatch/gitwatch) and a couple Drafts actions, and less than an hour later I feel I took away a decent part of the friction (excuse) to short form frequent blogging:
 
-a. A simple [Drafts](https://getdrafts.com) action inserts Jekyll's front matter at the beginning of a draft _(I'll probably set a Keyboard Maestro text expansion as well, but I started with Drafts because this action will be available on every device)_;
+1. A simple [Drafts](https://getdrafts.com) action inserts Jekyll's front matter at the beginning of a draft _(I'll probably set a Keyboard Maestro text expansion as well, but I started with Drafts because this action will be available on every device)_;
 
-b. When I'm done writing a Post to blog Drafts action prompts for the slugified draft name, prepends the date in the format I use and saves it into the _posts folder on Dropbox, archiving the draft with the proper tags;
+2. When I'm done writing a Post to blog Drafts action prompts for the slugified draft name, prepends the date in the format I use and saves it into the _posts folder on Dropbox, archiving the draft with the proper tags;
 
-c. gitwatch on my M1 Air monitors my _posts folder and automatically commits and push.
+3. gitwatch on my M1 Air monitors my _posts folder and automatically commits and push.
 
-Perfect? No. Faster? Yup!
-
-Improvements going forward:
+Perfect? No. Faster? Yup! Possible Improvements going forward:
 
 - Move gitwatch on my Mac VM running on Proxmox, instead of my Air, so it really runs _all the time_;
 - If I can find a way to pipe [aicommits](https://github.com/Nutlope/aicommits) commit messages to gitwatch, I'd very much prefer those to the current _"Scripted auto-commit on change (%DATE%) by gitwatch.sh"_ format... but I can live with it if achieving that turns this into "a project"M
