@@ -20,14 +20,21 @@
       <section id="one">
 	<div class="inner">
           {% for post in site.posts %}
-	  {% if post.title != 404 %}
-	  <header class="major">
-	    <h1><a href= {{ post.url | prepend: site.baseurl }} class="link">{{ post.title }}</a> </h1>
-	  </header>
-	  {% if post.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span>{% endif %}
-	  {% if post.date %}<p>{{ post.date | date: "%B %-d, %Y" }}</p>{% endif %}
-	  <p>{{ post.content }}</p>
-	  {% endif %}
+            {% if post.layout == "quickpost" %}
+            {% if post.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span></a>{% endif %}
+	            <h4>{{ post.content }}</h4>
+            {% if post.date %}<p><h6><a href= {{ post.url | prepend: site.baseurl }}>🔗</a> {{ post.date | date: "%B %-d, %Y" }}</h6></p>{% endif %}
+            {% endif %}
+	          {% if post.title != 404%}
+              {% if post.layout != "quickpost" %}
+	              <!-- <header class="major"> Commentare l'header class evita la linea di separazione verso la data-->
+	                <h1><a href= {{ post.url | prepend: site.baseurl }} class="link">{{ post.title }}</a> </h1>
+	              <!-- </header> -->
+                {% if post.image %}<a href= {{ post.url | prepend: site.baseurl }} class="link"><span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span></a>{% endif %}
+                {% if post.date %}<p><h6><a href= {{ post.url | prepend: site.baseurl }}>🔗</a> {{ post.date | date: "%B %-d, %Y" }}</h6></p>{% endif %}
+	              <p>{{ post.content }}</p>
+	            {% endif %}
+            {% endif %}
           {% endfor %}
 	</div>
       </section>
