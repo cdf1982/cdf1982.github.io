@@ -22,7 +22,7 @@
           {% for post in site.posts %}
             {% if post.layout == "quickpost" %}
             {% if post.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span></a>{% endif %}
-	            <h4>{{ post.content }}</h4>
+	            {{ post.content }}
             {% if post.date %}<p><h6><a href= {{ post.url | prepend: site.baseurl }}>🔗</a> {{ post.date | date: "%B %-d, %Y" }}</h6></p>{% endif %}
             {% endif %}
 	          {% if post.title != 404%}
