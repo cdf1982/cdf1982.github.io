@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %} 
+    
+    
+<!-- Main -->
+<div id="main" class="alt">
+
+<!-- One -->
+<section id="one">
+	<div class="inner">
+		{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>{% endif %}
+		<p>{{ content }}</p>
+	</div>
+</section>
+
+<section id="allpostslink">
+	<div class="align-center">
+		Tags:  
+		<span>[
+		  {% for tag in page.tags %}
+		    {% capture tag_name %}{{ tag }}{% endcapture %}
+		    <a href="/tag/{{ tag_name }}">{{ tag_name }}&nbsp;</a>
+		  {% endfor %}
+		]</span>
+	</div>
+
+	<div class="align-center">
+		<a href="{{ site.baseurl }}/blog.html" class="link">Back to Blog</a>
+	</div>
+</section>
+
+
+</div>
+
+    {% include footer.html %}
+
+</body>
+
+</html>
