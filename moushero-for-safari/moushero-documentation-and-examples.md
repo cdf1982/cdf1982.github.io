@@ -44,6 +44,7 @@ Here's a few examples of what you'll be able to achieve with just a right-click 
 | Search the selected text on Google Maps               | _https://www.google.com/maps/search/SELECTION_                         |
 | Search the selected text on StackOverflow             | _https://stackoverflow.com/search?q=SELECTION_                         |
 | Search the selected text on Amazon                    | _https://www.amazon.com/s?k=SELECTION_                                 |
+
 (*) You can then access the passed-in parameter in your Keyboard Maestro macro by referencing the built-in _%TriggerValue%_ variable.
 
 **_If I right-click on a link, the link description is passed as parameter in the URL instead of the actual link_**<br>
