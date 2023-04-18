@@ -40,12 +40,12 @@ Here's a few examples of what you'll be able to achieve with just a right-click 
 | Open the Inbox project in OmniFocus                   | _omnifocus:///inbox_                                                   |
 | Add the selected text as task in OmniFocus            | _omnifocus://x-callback-url/add?name=SELECTION_                        |
 | Add page title to OmniFocus with the URL in the note  | _omnifocus://x-callback-url/add?name=PAGETITLE&note=PAGEURL_           |
-| Run a Keyboard Maestro macro passing the selection (*)| _kmtrigger://macro=MacroName&value=SELECTION_                          |
+| Run a Keyboard Maestro macro passing the selection (1)| _kmtrigger://macro=MacroName&value=SELECTION_                          |
 | Search the selected text on Google Maps               | _https://www.google.com/maps/search/SELECTION_                         |
 | Search the selected text on StackOverflow             | _https://stackoverflow.com/search?q=SELECTION_                         |
 | Search the selected text on Amazon                    | _https://www.amazon.com/s?k=SELECTION_                                 |
 
-(*) You can then access the passed-in parameter in your Keyboard Maestro macro by referencing the built-in _%TriggerValue%_ variable.
+(1) You can then access the passed-in parameter in your Keyboard Maestro macro by referencing the built-in _%TriggerValue%_ variable.
 
 **_If I right-click on a link, the link description is passed as parameter in the URL instead of the actual link_**<br>
 This is a limitation I'm currently working on, stay tuned for the next update!
