@@ -13,8 +13,9 @@ tags: [glancecam]
 - [Can I use GlanceCam with my DVR / NVR?](#dvr)
 - [How many cameras can I add?](#howmany)
 - [How do I open more than one camera at a time?](#newwindow)
+- [What do I need to know about GlanceGrids in GlanceCam Pro?](#glancegrid)
 - [Can I view a remote camera inside GlanceCam, or only LAN cameras are supported?](#remote)
-- [Inside the app, I see the word Glance used quite often. What is that?](#glance)
+- [Inside the app, I see the the words Glance and GlanceGrid used quite often. What is that?](#glance)
 - [Does GlanceCam support H264 and H265? What about 4K cameras?](#formats)
 - [Does GlanceCam play audio?](#audio)
 - [What are GlanceCam's system requirements?](#requirements)
@@ -130,12 +131,12 @@ tags: [glancecam]
 
 #### I need support!
 > Configuring IP cameras, especially the first time, can be very frustrating! **Please, don't hesitate to contact me, Cesare,  for support if you're having problems getting started, that's what I am here for.**<br>
-> You can do so inside GlanceCam, by selecting the 'Support' menu and then 'Contact support via email'; please follow the instructions on screen, especially regarding **your passwords that must be redacted from the auto-generated email** and the **importance of specifying your camera manufacturer and model in your message**, so that I can start researching your camera right away and provide more effective and quicker support.
+> The best and most effective way to get support is to initiate the request inside GlanceCam, by selecting the 'Support' menu and then 'Contact support via email'; please follow the instructions on screen and don't forget to **specify your camera manufacturer and model in your message**, so that I can start researching your camera right away and provide quicker support.
 > 
 > Please, allow a couple of business days for a reply: it's only one person here, doing all the coding in his spare time (I have a day job in a different field, and GlanceCam is my passion project) and providing support, which for every email requires quite some research and time.<br>
 > GlanceCam Pro Users will receive a reply in less than 24 hours, Monday through Friday.
 >  
->  You can also contact me directly via email at [support@cdf1982.com](mailto:support@cdf1982.com), but support requests started from inside the app are more effective and get results faster, due to the already mentioned auto-generated report that provides useful informations. If you decide to still contact me without initiating the request in the app, for instance because you don't have purchased GlanceCam yet and you really can't do that, please don't forget to remove your passwords (I don't need them to help you, and more important: I really, really don't want to deal with such confidential informations!) and to write me the camera manufacturer and model.
+>  You can also contact me directly via email at [support@cdf1982.com](mailto:support@cdf1982.com), but again support requests started from inside the app are more effective and get results faster, due to the already mentioned auto-generated report that provides useful informations. If you decide to still contact me without initiating the request in the app, for instance because you don't have purchased GlanceCam yet and you really can't do that, please don't forget to remove your passwords (I don't need them to help you, and more important: I really, really don't want to deal with such confidential informations!) and to write me the camera manufacturer and model.
 >  
 > Finally, rest assured that if I won't be able to help you and make my app work well for your needs, I will promptly explain how to get a refund from Apple for your purchase (developers can't issue refunds directly, because all transactions happen via the App Store).
 <a name="dvr"></a>
@@ -156,22 +157,32 @@ tags: [glancecam]
 #### How many cameras can I add?
 > There is **no limit to the number of cameras you can add**.<br>
 > The **standard version of GlanceCam displays one camera at a time**, in a single window.<br>
-> With GlanceCam Pro – available as a lifetime in-app purchase or yearly subscription – you'll be able to open **as many windows as you need**, resize and organise them around your Desktop and have their size and position remembered between sessions.
+> With GlanceCam Pro – available as a lifetime in-app purchase or yearly subscription – you'll be able to open **as many windows and GlanceGrids (flexible grids with presets) as you need** and, resize and organise them around your Desktop and have their size and position remembered between sessions.
 <a name="newwindow"></a>
 
 ---
 
 #### How do I open more than one camera at a time??
-> GlanceCam shows one camera at a time in a single window, and you can switch between cameras inside that window; **upgrading to [GlanceCam Pro](#glancecampro) will allow to open as many windows as you need**.<br>
+> GlanceCam shows one camera at a time in a single window, and you can switch between cameras inside that window; **upgrading to [GlanceCam Pro](#glancecampro) will allow to open as many windows and GlanceGrids (flexible grids with presets) as you need**.<br>
 > With GlanceCam Pro you have 3 alternative ways to open new windows and display multiple cameras at the same time:
 >
-> 1. From the **File menu, select Add Window**;
+> 1. From the **File menu, select Add Window** for a single-camera window or **Add GlanceGrid window** for a flexible grid;
 >
-> 2. With the **⌘ N (CMD + N) keyboard shortcut**;
+> 2. With the **⌘ N (CMD + N) keyboard shortcut** for a new single-camera window or **⌘ G (CMD + G)** for a new GlanceGrid;
 > 
 > 3. Finally, in the dropdown button containing the camera list that appears when your mouse enters a GlanceCam window, you can click on a name while holding the ⌥ (Option, also known as Alt) key down on your keyboard, and instead of opening a different camera in the same window, a new window will be opened with the selection instead.
 >
 > New windows always open at the center of your screen with the default size; when you add windows with methods 1 and 2 above, GlanceCam automatically display the next camera in your list that is not currently already open.
+<a name="newwindow"></a>
+
+---
+
+#### What do I need to know about GlanceGrids in GlanceCam Pro?
+> **A GlanceGrid is a preset of multiple cameras displayed in a single window with a flexible layout that automatically adjusts from a grid (2x2, 3x3, etc.) to a single row (i.e. 8x1) or column (1x8) based on the window's resizing.**<br>
+>There is **no set limit to the number of concurrently playing cameras** (except for network bandwidth and CPU power, of course, but I'm proud to report that GlanceCam 4 is even more efficient, especially on Apple Silicon) and just like with multi-windows, you can open separate GlanceGrids, each with a different preset and layout; is also **possible to mix single-camera windows, GlanceGrids and USB-cameras**.<br>
+> Beloved features like Always on Top, keyboard shortcuts, action buttons, and Insta-zoom are still available with GlanceGrids; you can even customize Insta-zoom's behavior to temporarily maximize just one "tile" of your grid, or make the whole grid as big as possible while you hold down your mouse's right button. And what you can customize for GlanceGrids doesn't stop there: you can tweak the inter-camera black space, set a maximum number of columns, and have a GlanceGrid window "auto-snap" when resizing it to avoid black space below the last row of cameras.<br>
+> **When you're ready to try GlanceGrids, which are included in GlanceCam Pro, just click on File > Add GlanceGrid window (or use the CMD + G keyboard shortcut).** And don't forget that, just like with any other feature, each interface element has a _tooltip_ that appears when you leave your mouse pointer still on it for a moment, and that will explain everything you need to know to take maximum advantage of every powerful feature.
+> A couple of implementation notes about GlanceGrids: they do not currently support the Minimalistic interface; cameras included in grids default to 16:9 (custom aspect ratios forced in Settings remain applied when a camera is displayed in a single window); the keyboard shortcuts for quickly resizing a window have been tweaked just for GlanceGrids, so their behavior differs slightly from what you're used to with single-camera windows but is more appropriate for this use case; finally, you may notice some flickering occur occasionally while resizing a grid window, and then going away as soon as you're done resizing.
 <a name="remote"></a>
 
 ---
@@ -184,8 +195,9 @@ tags: [glancecam]
 
 ---
 
-#### Inside the app, I see the word Glance used quite often. What is that?
-> A Glance, in GlanceCam's parlance, is a camera URL and name, its customisations and tweaks, and also the optional custom actions you associated to it. All these things together are a Glance, and you can add as many Glances as you like.
+#### Inside the app, I see the words Glance and GlanceGrid used quite often. What is that?
+> A Glance, in GlanceCam's parlance, is a camera URL and name, its customisations and tweaks, and also the optional custom actions you associated to it. All these things together are a Glance, and you can add as many Glances as you like.<b>
+> With GlanceGrid, the app refers to a multi-camera single window that display different streams in a flexible grid that adapts the layout depending on how you resize it (for instance, by stretching a 3x3 grid into a single row of 9 cameras just by dragging the corner of the window); GlanceGrids are part of GlanceCam Pro, and are a good reason to upgrade if you're interested in having different presets (groups of cameras) open in separate GlanceGrid windows.
 <a name="formats"></a>
 
 ---
@@ -204,7 +216,7 @@ tags: [glancecam]
 
 #### What are GlanceCam's system requirements?
 > To work with GlanceCam, **your IP cameras must support standard streaming protocols**: RTSP, HTTP(s) or RTMP.<br>
-> GlanceCam requires **a Mac** running at least **macOS 10.13 High Sierra, or a newer version of macOS** (and obviously the app is fully at home and **works great on Ventura**, including with Stage Manager!).<br>
+> GlanceCam requires **a Mac** running at least **macOS 10.14 Mojave, or a newer version of macOS** (and obviously the app is fully at home and **works great on Ventura**, including with Stage Manager!).<br>
 > Any computer capable of running these operating systems should have plenty of power to stream IP cameras with GlanceCam, but obviously multiple 4K streams or 30 cameras open at the same time, while rendering videos in background, might require reasonably fast machines. It's almost impossible for me to give you an estimate of how many cameras you'll be able to stream at the same time on your hardware: on a 2017 iMac I can easily have more than 20 and everything stays super-snappy, but on very old Macs running High Sierra I prefer to limit myself to 4 or 5; the resolution of the streams and what else is your computer doing while streaming are also factors.<br>
 > Finally, **a solid connection between the computer and the cameras, be it LAN or WiFi, is recommended** both for performances and stability (slow or intermittent connections might cause frames to be dropped and even the stream to freeze).
 <a name="applesilicon"></a>
@@ -229,6 +241,7 @@ tags: [glancecam]
 > **GlanceCam Pro is available for Users with advanced requirements and who want to provide ongoing support for future development**.<br>
 > In addition to everything included in the standard version, GlanceCam Pro offers:
 > - **Multi-windows** open as many cameras as you need in independent windows you can resize and arrange around your screen, having them restored whenever you re-launch the app;
+> - **GlanceGrids**: presets of multiple cameras displayed in a single window with a flexible layout that automatically adjusts from a grid _(2x2, 3x3, etc.)_ to a single row _(i.e. 8x1)_ or column _(1x8)_ based on the window's resizing; GlanceGrids are part of GlanceCam Pro;
 > - **Custom aspect ratios** for cameras, including the ability to force manual proportions;
 > - An **optional Minimalistic user interface** that hides everything but your video stream when you are not interacting with the app;
 > - 14 alternative app icons in the Dock while the app is running;
@@ -252,6 +265,7 @@ tags: [glancecam]
 > There is no automatic sync because there are no cloud services or servers involved: your credentials and informations are only stored locally on your computer. Again, a look at the [Privacy Policy](https://cdf1982.com/privacy/glancecam_privacy_policy.html) is well worth your time.<br>
 > Then, there is also the fact that it's possible, and likely, that you'd want different cameras, or a different order in the list, on your home computer and at work, so syncing everything would not be ideal anyway.<br>
 > Not having automatic sync does not mean that you'll need to manually type everything again on every new computer, though: **you can export your cameras in a JSON file and import that file on any computer you want** (be mindful of where you keep that file and with whom you share it, though, as it includes all your credentials including passwords and IP addresses, in a readable format).
+> For your security, importing and exporting your cameras require authentication.
 <a name="recording"></a>
 
 ---
@@ -364,11 +378,14 @@ tags: [glancecam]
 | Spacebar  | Next Glance (yes, there are two shortcuts... pick yours!)                            |
 | 1...9     | Numbers 1 through 9 select the corresponding Glance as ordered in the list           |
 | ⌘ ,       | Open Settings                                                                        |
+| ⌘ .       | Only in GlanceGrid windows, CMD + . shows the grid customisations                    |
 | ⌘ N       | Add a new window (requires GlanceCam Pro; see here for [other methods](#newwindow)   |
+| ⌘ G       | Add a new GlanceGrid (requires GlanceCam Pro; see [other methods](#newwindow)        |
 | ⌘ W       | Close current window (the app quits when you close the last one)                     |
 | ⌘ R       | Reload stream                                                                        |
 | ⌘ Y       | Toggle Always on top                                                                 |
 | C         | Toggle [Cycle mode](#cyclemode)                                                      |
+| R         | Toggle Roll Up (only show a camera title bar until the mouse enters its' area)       |
 | Z         | Toggle [Zoom mode](#zoom)                                                            |
 | ⌘ 0       | Resize current window to the 'Postcard' size                                         |
 | ⌘ 1       | Resize current window to the 'Regular' size                                          |
