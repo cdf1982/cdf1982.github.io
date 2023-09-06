@@ -3,7 +3,7 @@ layout: post
 title: Ventura updates for GlanceCam, Link HUB, ClipBar and TameTime, plus an iOS 16 update for PhotosUpload
 description:
 image: 
-tags: glancecam,linkhub,tametime,clipbar,photosupload
+tags: glancecam, linkhub, tametime, clipbar, photosupload
 ---
 I'm happy to announce that all my Mac apps have just been updated for macOS 13 Ventura, which launches tomorrow:
 
