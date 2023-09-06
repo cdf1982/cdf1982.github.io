@@ -3,7 +3,7 @@ layout: post
 title: State of my Apps, hot summer 2023 edition
 description: 
 image: 
-tags: glancecam,link-hub,photosupload,moushero,tametime,clipbar,quee,xcode
+tags: glancecam, link-hub, photosupload, moushero, tametime, clipbar, quee, xcode, indielife
 ---
 When it comes to the summer period that is coming to an end, the work I was able to put into my apps was much less than I would have hoped for after WWDC wrapped up. The experience Riccardo Mori eloquently described in the first part of a [recent blog post](https://morrick.me/archives/9758) reflects mine as was as painful to read as it was to live: it's been so excruciatingly hot in Northern Italy that I have been able to tackle much less than I usually do during the summer, instead devoting most on my energy to long, fun and very [instagrammable](https://www.instagram.com/millakillapilla/) walks with Milla early in the morning, before the sun took away my drive to _do stuff_.
 
