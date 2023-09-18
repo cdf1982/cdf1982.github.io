@@ -23,8 +23,10 @@ GlanceCam is distributed with the following third party software:
 
 - [KeyboardShortcuts](https://github.com/sindresorhus/KeyboardShortcuts), licensed under the [MIT License](https://opensource.org/licenses/LGPL-2.1/)
 
+- [LauchAtLogin](https://github.com/sindresorhus/LaunchAtLogin), licensed under the [MIT License](https://opensource.org/licenses/LGPL-2.1/)
+
 - [Down](https://github.com/johnxnguyen/Down), licensed under the [MIT License](https://opensource.org/licenses/LGPL-2.1/)
 
 ---
 
-*Last revision: May 23, 2023*
+*Last revision: September 26, 2023*
