@@ -365,7 +365,7 @@ tags: [glancecam]
 | Eye       | Toggle 'Always on top' for all windows                                               |
 | Speaker   | Toggle audio for all windows (if their stream includes audio)                        |
 | Reload    | Restart the current stream                                                           |
-| Gear      | Open GlanceCam's Settings                                                            |
+| Gear      | Open GlanceCam's Settings pre-selecting the camera that's streaming in the window    |
 >
 > If you right click the Eye and Speaker icons, you'll toggle that behaviour only for that specific window, and only until the app quits.<br>
 > If you hold ⌘ ⇧ and click on the Eye, you can send that window 'Behind everything'; please read the tooltip to decide if you have a use for this, and how to later resurrect that window from this odd mode.<br>
@@ -387,6 +387,7 @@ tags: [glancecam]
 | C         | Toggle [Cycle mode](#cyclemode)                                                      |
 | R         | Toggle Roll Up (only show a camera title bar until the mouse enters its' area)       |
 | Z         | Toggle [Zoom mode](#zoom)                                                            |
+| P         | Toggle between Play and Stop for the camera in che currently active window           |
 | ⌘ 0       | Resize current window to the 'Postcard' size                                         |
 | ⌘ 1       | Resize current window to the 'Regular' size                                          |
 | ⌘ 2       | Resize current window to the 'Large' size                                            |
@@ -418,7 +419,7 @@ tags: [glancecam]
 ---
 
 #### Is it possible to automate GlanceCam in some ways?
-> GlanceCam supports **Apple Script**, as all good Mac apps should do. You can have scripts that switch cameras and set the fullscreen mode:
+> GlanceCam supports **Apple Script**, as all good Mac apps should do. You can have scripts that switch cameras and set the fullscreen mode, for instance:
 > 
 > 
 > ```applescript
@@ -429,6 +430,15 @@ tags: [glancecam]
 > ```
 > 
 > Apple Script changes camera in the last active window of the app and also works if GlanceCam was not running, launching the app and executing the required actions.
+>
+> Additional Apple Script commands are **reload**, **stop playback** and **resume playback** and they allow to control all the streams currently playing, in all windows; please be advised that stopping/resuming a large number of cameras can occasionally cause issues. The following example will stop all streams, while to achieve resuming after that, or reloading, is sufficient to change the corrisponding keywords in the script:
+> 
+> 
+> ```applescript
+> tell application "GlanceCam"
+    stop playback
+> end tell
+> ```
 > 
 > GlanceCam also has an **URL scheme** that allows to switch camera from outside the app.<br>
 > Your custom application or AppleScript can call the `glancecam://?camera=17` URL and switch to that video stream; just replace “17” in the example URL with the camera number you want to switch to (as listed, counting from 1, in the app Settings).<br>
