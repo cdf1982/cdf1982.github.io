@@ -216,7 +216,7 @@ tags: [glancecam]
 
 #### What are GlanceCam's system requirements?
 > To work with GlanceCam, **your IP cameras must support standard streaming protocols**: RTSP, HTTP(s) or RTMP.<br>
-> GlanceCam requires **a Mac** running at least **macOS 10.14 Mojave, or a newer version of macOS** (and obviously the app is fully at home and **works great on Ventura**, including with Stage Manager!).<br>
+> GlanceCam requires **a Mac** running at least **macOS 10.14 Mojave, or a newer version of macOS** (and obviously the app is fully at home and **works great on Sonoma**, including with Stage Manager!).<br>
 > Any computer capable of running these operating systems should have plenty of power to stream IP cameras with GlanceCam, but obviously multiple 4K streams or 30 cameras open at the same time, while rendering videos in background, might require reasonably fast machines. It's almost impossible for me to give you an estimate of how many cameras you'll be able to stream at the same time on your hardware: on a 2017 iMac I can easily have more than 20 and everything stays super-snappy, but on very old Macs running High Sierra I prefer to limit myself to 4 or 5; the resolution of the streams and what else is your computer doing while streaming are also factors.<br>
 > Finally, **a solid connection between the computer and the cameras, be it LAN or WiFi, is recommended** both for performances and stability (slow or intermittent connections might cause frames to be dropped and even the stream to freeze).
 <a name="applesilicon"></a>
