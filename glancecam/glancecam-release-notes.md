@@ -5,6 +5,23 @@ description:
 image:
 tags: [glancecam]
 ---
+<a name="4_1"></a>
+### GlanceCam 4.1
+#### September 26, 2023
+
+Welcome to GlanceCam 4.1! This release is **ready for the new operating system** and includes **multiple improvements**:
+- **It's now possible to customise the double-click behavior for GlanceGrids**: by default, double-clicking a GlanceGrid window will maximise the whole grid full-screen, but from the GlanceGrid settings panel you can now change it to send full-screen the single camera below the mouse pointer, or spun up a separate window for the camera you're double-clicking. I want to thank Tim and Mike for suggesting this feature.
+- **Opening Settings from the gear icon in the upper right corner of a camera window now pre-selects that Glance in the Settings panel**, instead of always defaulting to the first one in the list; special thanks to Dirk for recommending this feature, and also the next one!
+- **GlanceCam Pro can now optionally rotate a video stream by 90°, 180° or 270°**; to learn more about this capability and enable it, please click on _Rotate stream_ in the _Advanced stream tweaks_ of a camera in Settings.
+- Thanks to Timo-Pekka's' suggestion, there are **3 new AppleScript commands that extend the automation capabilities** of GlanceCam: **reload** will, ahem, reload the stream in all windows, while **stop playback** and **resume playback** will allow to manually control playback for all the cameras that are currently streaming; please be advised that stopping/resuming a large number of cameras can occasionally cause issues. To learn more about GlanceCam's AppleScript support and for syntax examples, please refer to the  [FAQs](https://cdf1982.com/glancecam/faqs#automation).
+- Connected to the previous feature, there's now a **Stop / Resume** Glance menu item to manually toggle on and off playback of the streaming of a single camera; this function can also be triggered by pressing the P key without modifiers while a window is active and might be useful if you don't need to look at a camera for a while, but don't want to close the window.
+- A bug when switching cameras while in full-screen, kindly reported by Cody, has been fixed.
+- The app now uses a new, future-proof approach for the _Launch automatically at login_ feature; if you already had GlanceCam configured to open automatically when your Mac starts, that setting should migrate and work without the need for you to perform any action.
+- Starting with this release, GlanceCam adopts the latest version of the VLCKit video engine, with many improvements in performance and reliability.<br>
+
+**If GlanceCam is useful to you, 5-star reviews, GlanceCam Pro upgrades or tips are very appreciated and keep development going**... and if you have any suggestion or need assistance, I'd love to hear from you (_Support_ menu > _Contact support via email_)!<br><br>
+My best, _Cesare_
+
 <a name="4_0"></a>
 ### GlanceCam 4.0
 #### June 2, 2023
