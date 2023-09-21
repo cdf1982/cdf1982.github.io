@@ -173,7 +173,7 @@ tags: [glancecam]
 > 3. Finally, in the dropdown button containing the camera list that appears when your mouse enters a GlanceCam window, you can click on a name while holding the ⌥ (Option, also known as Alt) key down on your keyboard, and instead of opening a different camera in the same window, a new window will be opened with the selection instead.
 >
 > New windows always open at the center of your screen with the default size; when you add windows with methods 1 and 2 above, GlanceCam automatically display the next camera in your list that is not currently already open.
-<a name="newwindow"></a>
+<a name="glancegrid"></a>
 
 ---
 
