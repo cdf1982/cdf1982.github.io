@@ -7,19 +7,14 @@ tags: [glancecam]
 ---
 <a name="4_1_1"></a>
 ### GlanceCam 4.1.1
-#### September 27, 2023
+#### September 26, 2023
 
-GlanceCam is **ready on day one for macOS Sonoma** and includes **multiple improvements**:
-- **Version 4.1 launched yesterday introduced the ability to customise the double-click behavior for GlanceGrids**: by default, double-clicking a GlanceGrid window will maximise the whole grid full-screen, but from the GlanceGrid settings panel you can now change it to send full-screen the single camera below the mouse pointer, or spun up a separate window for the camera you're double-clicking. I want to thank Tim and Mike for suggesting this feature.
-- **Opening Settings from the gear icon in the upper right corner of a camera window now pre-selects that Glance in the Settings panel**, instead of always defaulting to the first one in the list; special thanks to Dirk for recommending this feature, and also the next one!
-- **GlanceCam Pro can now optionally rotate a video stream by 90°, 180° or 270°**; to learn more about this capability and enable it, please click on _Rotate stream_ in the _Advanced stream tweaks_ of a camera in Settings.
-- Thanks to Timo-Pekka's' suggestion, there are **3 new AppleScript commands that extend the automation capabilities** of GlanceCam: **reload** will, ahem, reload the stream in all windows, while **stop playback** and **resume playback** will allow to manually control playback for all the cameras that are currently streaming; please be advised that stopping/resuming a large number of cameras can occasionally cause issues. To learn more about GlanceCam's AppleScript support and for syntax examples, please refer to the FAQs available in the _Support_ menu > _Frequently Asked Questions_, and specifically to the _"Is it possible to automate GlanceCam in some ways?"_ section.
-- Connected to the previous feature, there's now a **Stop / Resume** Glance menu item to manually toggle on and off playback of the streaming of a single camera; this function can also be triggered by pressing the P key without modifiers while a window is active and might be useful if you don't need to look at a camera for a while, but don't want to close the window.
-- A bug when switching cameras while in full-screen, kindly reported by Cody, has been fixed.
-- The app now uses a new, future-proof approach for the _Launch automatically at login_ feature; if you already had GlanceCam configured to open automatically when your Mac starts, that setting should migrate and work without the need for you to perform any action.
-- GlanceCam adopts the latest version of the VLCKit video engine, with many improvements in performance and reliability.
-- **New in this version 4.1.1**: in GlanceGrids, when click while holding down the _Command key_, you now have the option to move the selected Camera to the previous or next spot.<br>
-
+GlanceCam is **ready on day one for macOS Sonoma** and includes **multiple improvements**. I recommend to **review the release notes for GlanceCam 4.1 below** (the previous version from today) to find out about everything that's new this September.<br><br>
+This version 4.1.1 reverts the video engine to the one previously used in the app: earlier today a crash on launch on Intel Macs running Big Sur has been reported, and then I was able to reproduce the issue on Mojave; to be safe and as fast as possible in addressing a potential issue, I decided to immediately return to the established, rock-solid engine that's been in use for years, up to GlanceCam 4.0.<br><br>
+First of all, **I would like to personally apologise to everyone who might have been affected by that crash**: making GlanceCam as reliable as possible is my first and most important goal, and actually the reason I was launching an update for Sonoma on the day the new macOS ships.<br><br>
+I also want to thank Luca for immediately reporting this to me, and assure all Users that I immediately dropped everything to provide this update as soon as possible.<br><br>
+As for the newer version of the open-source video engine I use in GlanceCam, I still plan to re-introduce it in a future release (it had the potential to be slightly faster), as soon as any issue on older operating systems – which I'll report to the open-source community later today – will be completely resolved.<br><br>
+Finally, I've been able to snuck in a small feature update in this release: **in GlanceGrids, when clicking while holding down the Command key, you now have the option to move the selected Camera to the previous or next spot**.<br><br>
 **Please consider leaving a 5-star review, upgrading to GlanceCam Pro or leaver a (very much appreciated!) tip support the app and keep development going**... and if you have any suggestion or need assistance, I'd love to hear from you (_Support_ menu > _Contact support via email_)!<br><br>
 Ciao, _Cesare_
 
