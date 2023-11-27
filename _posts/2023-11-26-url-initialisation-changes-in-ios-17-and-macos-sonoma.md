@@ -14,7 +14,9 @@ The post detailed the effects of the change, summarised in the following disclai
 After reading that post, I reviewed the official documentation, since I make [a Mac app](https://www.glancecam.app) that allows Users to enter their IP camera URLs for streaming purposes; I also ran additional tests on Sonoma, even if I had been using the new macOS and Xcode betas on my main computer all summer, without noticing any issue.
 Since everything was fine, I concluded that my initial interpretation of the note – _"For apps **linked on or after** iOS 17 and aligned OS versions"_ – was correct and that I would not need to deal with the change until I would have raised the deployment target of my app from macOS 10.14 to Sonoma or newer.
 
-My assumption was **quite the mistake**: ~~_linked on_ does not mean targeting, turns out™ that Apple means _running on_. Most certainly a native English speaker would have had a better month than I had...~~ **Next day update #1:** As [Jeff Johnson](https://mastodon.social/@lapcatsoftware/111477120131417551) and [Alexander Blach](https://social.blach.io/@lextar/111478870807601367) kindly and patiently explained, _linked on_ refers to the SDK version: as soon as my app compiled with Xcode 15 (which includes the macOS 14 SDK) runs on macOS 14 Sonoma, the new URL behavior is used. I really appreciate their help in clarifying the meaning and implications of that note!
+My assumption was **quite the mistake**: ~~_linked on_ does not mean targeting, turns out™ that Apple means _running on_. Most certainly a native English speaker would have had a better month than I had...~~
+
+> **Next day update #1:** As [Jeff Johnson](https://mastodon.social/@lapcatsoftware/111477120131417551) and [Alexander Blach](https://social.blach.io/@lextar/111478870807601367) kindly and patiently explained, _linked on_ refers to the SDK version: as soon as my app compiled with Xcode 15 (which includes the macOS 14 SDK) runs on macOS 14 Sonoma, the new URL behavior is used. I really appreciate their help in clarifying the meaning and implications of that note!
 
 Here's a quick recap of the long journey that reminded me, again, that words matter *a lot* and, most importantly, **what you might need to know if you deal with URLs in an app running on Apple platforms**.
 
@@ -75,9 +77,13 @@ Now, **look at what happens on Sonoma with Xcode 15** _(daily I use 15.0, but th
 Saw that on line 10? **Just throw in a special character into the password and the URL is nil**; fine, circa, at least now I know where my last weeks went _(actually very annoying to have a breaking change like this one poorly documented)_.
 
 But what about the new URL initialiser that has a parameter that enforces the previous behavior?
-Yeah, using that one – on line 11 – does not change the result, still nil. This is quite the surprise.
+Yeah, using that one – on line 11 – does not change the result, still nil. ~~This is quite the surprise.~~
 
-~~Luckily, I (and you, if you found this on Google) can **dance in and out of the problem by manually percent-encoding and decoding the string before using it to initialise the URL**.~~ **Next day update #2:** Not so fast, kiddo. **Manually adding the percent-encoding results in a non-nil URL, but having a URL that successfully resolves is a completely different story**... in my case, _"the dance"_ results in _valid_ URLs that do not actually connect to the cameras. The solution for me will therefore likely be to manually handle specific special characters (so far, I'm sure about @ and /, but I'll basically have to manually test most non-alphanumeric characters) _strictly_ inside the credential components.
+> **Next day update #2:** Yeah, not so much of a surprise: the initialiser's new parameter is called `encodingInvalidCharacters:`, and when I think about it, a space is an invalid character in an URL, but an @ is not, so it makes sense that it is not encoding it. This debugging experience feels like a minefield of onions, each one with layers and ready to explode if you make one wrong assumption...
+
+~~Luckily, I (and you, if you found this on Google) can **dance in and out of the problem by manually percent-encoding and decoding the string before using it to initialise the URL**.~~
+
+> **Next day update #3:** Not so fast, kiddo. **Manually adding the percent-encoding results in a non-nil URL, but having a URL that successfully resolves is a completely different story**... in my case, _"the dance"_ results in _valid_ URLs that do not actually connect to the cameras. The solution for me will therefore likely be to manually handle specific special characters (so far, I'm sure about @ and /, but I'll basically have to manually test most non-alphanumeric characters) _strictly_ inside the credential components.
 
 I still need to implement the change into my app _(I will be very, very careful: the last thing I want and need in my life after the last month is to go from 5/X.000 users with a problem to X.000/X.000)_, but I wanted to blog about this because I cannot be the only person that has been bit by this change.
 
