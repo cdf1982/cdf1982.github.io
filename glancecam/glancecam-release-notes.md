@@ -5,6 +5,40 @@ description:
 image:
 tags: [glancecam]
 ---
+<a name="4_2"></a>
+### GlanceCam 4.2
+#### December 13, 2023
+
+TLDR: This version addresses a **major change in the way that macOS 15 Sonoma handles special characters in URLs**; if your cameras' usernames and passwords include symbols such as @ / ? # and you have updated (or are planning to update) to the new operating system, please continue reading, as you might need to modify those credentials and remove all unallowed characters.<br><br>
+_Some context..._<br><br>
+Since Sonoma launched in late September, a very small number of Users experienced a crash on launch with GlanceCam 4.1.1, but reverting to the previous 4.0 release solved the problem.<br><br>
+The cause of this issue proved to be extremely elusive to debug: for 99.9% of Users the Sonoma upgrade went smoothly, and there were no apparent causes for the problem those unlucky few were experiencing; things were made mode complicated by the fact that, for weeks, I was not able to reproduce the crash on any of my Macs, so I had to build beta version after beta version searching for a clue... I really can't thank those Users – _David, Dino, Eli, Fred, Joachim, JP and Michel_ – enough for the help they provided and the exceptional patience they have shown!<br><br>
+Finally, in the last few days and thanks to the aforementioned precious help from Users and insights from friends in the Swift development community _(Alexander, Jeff, John and Matt, I owe each one of you a drink if you happen to visit Italy!)_, I was able to narrow down what was going on; the problem occurred because of a peculiar combination of factors:
+- Starting with macOS Sonoma, Apple changed significantly how credentials (usernames and passwords) in URLs are stored and handled; the new standard Apple enforces is more secure, but it really, really does not like some special characters inside usernames and passwords.
+- All apps built with previous versions of Xcode still handle all URLs "the old way" even on the Sonoma, but apps and updates compiled with the new Xcode 15 are forced to adopt the new URL behavior as soon as they run on the new macOS. 
+- If a URL does not contain special characters (@ / ? #) in the username and/or password, there is no appreciable difference between the old URL standard and the new one adopted by Apple in Sonoma.
+
+_What do those things mean for GlanceCam?_
+- Almost no GlanceCam User – including myself – uses special characters inside their camera credentials, and this explains why almost everybody upgraded without any issue and why, despite running Sonoma betas all summer, I did not catch this problem earlier nor I was able to immediately reproduce it when I was contacted by Users experiencing it.
+- GlanceCam 4.0 was built with Xcode 14, so even the few Users who have special characters in their credentials have no issue running that version on Sonoma.
+- GlanceCam 4.1.1 is compiled with Xcode 15; so, for the very small percentage of Users with special characters inside their credentials, installing GlanceCam 4.1.1 (or subsequent builds compiled with Xcode 15) triggered the automatic and unavoidable adoption of the new URL standard, which lead to a crash due to the presence of said unallowed symbols.
+
+_What do I need to do as a GlanceCam User?_
+- **If your usernames and passwords do not contain the offending symbols, you're good**. I'd just avoid adding them to credentials in the future.
+- If you're one of those Users with special characters inside some of your credentials and GlanceCam 4.1.1 crashed for you, the good news is that this new version replaces those unallowed characters with their corresponding percent-encoded values _(technical speaking that means a @ symbol is written out as %40, so that it does not cause problems, but the machine still reads it as @)_, so **the crashes are gone**.<br>
+  What **I cannot promise you is that this change will work with all camera models out there**: you might be able to successfully stream your camera even with the special characters automatically percent-encoded, or it might not work and you might now see a grey screen with a spinner, while with version 4.0 the stream loaded successfully with the same URL.<br>
+  If the stream does not load, considering that the new URL standard is here to stay and there's nothing that GlanceCam (or any other app) can do to avoid it, the only solution I can recommend is to **change the device credentials to remove all occurrences of the unallowed symbols** (@ / ? #); after you have changed your username or password in the device configuration page/app, please update the string inside GlanceCam Settings with the same credentials.<br>
+  Having to ask you to change your device credentials is the _last_ thing I want to do as a developer, but after trying everything, I'm afraid we need to accept that a change that the operating system enforces is not something we can really avoid; please know that I am sorry for the inconvenience this causes you and that I tried my best to fix this obscure and complicated problem as quickly as possible.
+
+One last bit... this version also includes a few of additional improvements born out of this unfortunate experience:
+- When an invalid character is detected in some credentials, GlanceCam doesn't just percent-encode it, but also shows a warning symbol inside Settings, which you can click to know more details about what's been described above.
+- When you contact me for assistance via the _Support menu_ > _Contact support via email_, a privacy-focus report is generated and included in the message to help with troubleshooting, but on a couple of occasions that report was truncated on Sonoma; this version includes a fix to that issue.
+- Users who don't have Apple Mail set as their default email client (for instance, Gmail Users) can now copy the auto-generated report and then manually paste it into their application of choice before contacting me for assistance; to do so, please click the _Support menu_ > _Copy support report for other email clients_.<br><br>
+
+As always, I remain available at [support@cdf1982.com](support@cdf1982.com) if you need assistance with anything.<br><br>
+**I want to take this opportunity to wish you a joyful holiday season and a wonderful start to 2024!**<br><br>
+Ciao, _Cesare_
+
 <a name="4_1_1"></a>
 ### GlanceCam 4.1.1
 #### September 26, 2023
