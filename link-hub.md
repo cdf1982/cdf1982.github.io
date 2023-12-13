@@ -1,7 +1,7 @@
 ---
-title: <b>Link HUB</b>
+title: Link HUB
 layout: landing
-description: <b>Lock Screen Widgets, Dashboard and homescreen Widgets for launching apps, Shortcuts and URLs</b>
+description: Lock Screen Widgets, Dashboard and homescreen Widgets for launching apps, Shortcuts and URLs
 image: assets/images/link-hub/link-hub-iphone-ipad-mac.jpg
 nav-menu: true
 ---

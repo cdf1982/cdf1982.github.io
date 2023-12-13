@@ -1,7 +1,7 @@
 ---
-title: <b>PhotosUpload</b>
+title: PhotosUpload
 layout: landing
-description: <b>Take photos, add tags & upload them to a FTP server</b>
+description: Take photos, add tags & upload them to a FTP server
 image: assets/images/photosupload/photosupload.png
 nav-menu: true
 ---
