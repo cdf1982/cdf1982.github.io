@@ -1,11 +1,11 @@
 ---
 layout: post
-title: GlanceCam Terms of Service (TOS)
+title: GlanceCam for Mac Terms of Service (TOS)
 description:
 image:
 nav-menu: false
 ---
-The GlanceCam application, components, extensions, site and services available in connection with the software application (the “App”, "GlanceCam") are made available to you by Cesare Forelli (“I”, “Me”, or “My”) subject both to these Terms of Service and to the terms set forth in the [Privacy Policy](https://cdf1982.com/privacy/glancecam_privacy_policy.html) (collectively the “Terms”). Please take a moment to review both documents before using the App.
+The GlanceCam for Mac application, components, extensions, site and services available in connection with the software application (the “App”, "GlanceCam") are made available to you by Cesare Forelli (“I”, “Me”, or “My”) subject both to these Terms of Service and to the terms set forth in the [Privacy Policy](https://cdf1982.com/privacy/glancecam_privacy_policy.html) (collectively the “Terms”). Please take a moment to review both documents before using the App.
 
 **BY ACCESSING, USING OR DOWNLOADING ANY MATERIAL FROM THE APP, YOU AGREE TO FOLLOW AND BE BOUND BY THESE TERMS**, which may be updated by me from time to time without notice to you.
 You can review the most current version of the Terms of Service at any time at the URL you are currently reading this document from ([https://cdf1982.com/privacy/glancecam_terms_of_service.html](https://cdf1982.com/privacy/glancecam_terms_of_service.html)) and the current version of the Privacy Policy at [https://cdf1982.com/privacy/glancecam_privacy_policy.html](https://cdf1982.com/privacy/glancecam_privacy_policy.html).
@@ -29,6 +29,8 @@ If you choose to buy a GlanceCam Pro subscription or other in-app purchases, pay
 Subscriptions automatically renew unless canceled at least 24 hours before the end of the current period. Your account will be charged for renewal within 24 hours prior to the end of the current period. You can manage and cancel your subscriptions by going to your account settings on the App Store after purchase.
 
 All purchases are final. I cannot issue refunds for purchases charged by Apple to your Apple ID.
+
+GlanceCam for Mac and GlanceCam Pro purchases / subscriptions do only include the macOS version of the app, written in Cocoa specifically for the Mac; possible future versions, if ever released, of GlanceCam developed from the ground up for different platforms (iOS, iPadOS, watchOS, tvOS, etc.) will require separate purchases / subscriptions that were and are not included with any purchase of the stand-alone Mac version.
 <br>
 <br>
 <br>
@@ -88,4 +90,4 @@ If you have any questions regarding this document, please contact me via email a
 
 I reserved the right to modify this document; when I do, I will publish those changes on this page, updating the following modification date.
 
-*Last revision: March 4, 2021*
+*Last revision: June 4, 2024*
