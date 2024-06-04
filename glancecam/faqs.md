@@ -44,7 +44,7 @@ tags: [glancecam]
 #### What is GlanceCam and how does it work?
 > GlanceCam is an **IP camera viewer great for realtime streaming on macOS**.<br>
 > More people every day buy inexpensive IP cameras and GlanceCam makes the experience of streaming one, or 50, so much nicer!<br>
-> As a native client with support for standard streaming protocols, it allows **to keep an eye on cameras from different brands in a secure way** and without dealing with multiple clunky web apps or obsolete applications.
+> As a native Mac client with support for standard streaming protocols, it allows **to keep an eye on cameras from different brands in a secure way** and without dealing with multiple clunky web apps or obsolete applications.
 <a name="compatibility"></a>
 
 ---
@@ -232,13 +232,14 @@ tags: [glancecam]
 
 #### How much does GlanceCam costs? Are there recurring costs?
 > **GlanceCam is available in the Mac App Store for $ 3.99 US as a single, non-recurring purchase**: you buy it once and will be able to keep using it forever on all your personal computers logged into the same Apple ID.<br>
-> An advanced version of the app, called **GlanceCam Pro, can be unlocked from within GlanceCam if needed**, and that version has additional features and costs described [here](#glancecampro).
+> An advanced version of the app, called **GlanceCam Pro, can be unlocked from within GlanceCam if needed**, and that version has additional features and costs described [here](#glancecampro).<br>
+> GlanceCam for Mac and the GlanceCam Pro upgrade are _native and exclusive for macOS_: possible future versions of the app developed from the ground up for different platforms (iOS, iPadOS, etc.) will require separate purchases / subscriptions that are not included with the Mac version.	
 <a name="glancecampro"></a>
 
 ---
 
 #### What is GlanceCam Pro? How much does it cost?
-> **GlanceCam Pro is available for Users with advanced requirements and who want to provide ongoing support for future development**.<br>
+> **GlanceCam Pro is available for macOS Users with advanced requirements and who want to provide ongoing support for future development**.<br>
 > In addition to everything included in the standard version, GlanceCam Pro offers:
 > - **Multi-windows** open as many cameras as you need in independent windows you can resize and arrange around your screen, having them restored whenever you re-launch the app;
 > - **GlanceGrids**: presets of multiple cameras displayed in a single window with a flexible layout that automatically adjusts from a grid _(2x2, 3x3, etc.)_ to a single row _(i.e. 8x1)_ or column _(1x8)_ based on the window's resizing; GlanceGrids are part of GlanceCam Pro;
@@ -246,9 +247,9 @@ tags: [glancecam]
 > - An **optional Minimalistic user interface** that hides everything but your video stream when you are not interacting with the app;
 > - 14 alternative app icons in the Dock while the app is running;
 > - **Priority assistance via email** in less than 24 hours, Monday through Friday;
-> - Everything else that will be added to GlanceCam Pro in the future!
+> - Everything else that will be added to GlanceCam Pro on macOS in the future!
 > 
-> GlanceCam Pro is offered as an **additional, and completely optional, yearly subscription** ($ 8.99 US) or **lifetime in-app purchase** (buy it once for $ 22.99 and keep it forever, instead of paying annually). **Both purchasing methods unlock the same features**, so you can choose the model you prefer for your software with absolute freedom.
+> GlanceCam Pro is offered as an **additional, and completely optional, yearly subscription** ($ 8.99 US) or **lifetime in-app purchase** (buy it once for $ 22.99 and keep it forever, instead of paying annually). **Both purchasing methods unlock the same features on macOS**, so you can choose the model you prefer for your software with absolute freedom.
 <a name="privacy"></a>
 
 ---
@@ -337,7 +338,7 @@ tags: [glancecam]
 > **[Let's talk!](mailto:support@cdf1982.com)** Let me know what capabilities you would like to be added in the future.<br>
 > Most of the features that GlanceCam provides come from Users' suggestions, and I love receiving feedback from people who use my app.<br>
 > Obviously this won't mean that I will be able to satisfy every feature request, but I keep a list and during development I try to prioritise the most frequently requested and impactful capabilities.<br>
-> To be completely transparent and avoid wasting your time, there are some things that I already know I will never include in the app, because they would change its nature: GlanceCam will never become a NVR, adding support for recording and playing back videos, and features like motion detection or pan and tilt support are highly unlikely to ever happen; an iOS or tvOS version? Maybe someday, when the Mac version will have everything I plan for it... a Windows or Android version? Not happening, because those are not platforms that I personally use.
+> To be completely transparent and avoid wasting your time, there are some things that I already know I will never include in the app, because they would change its nature: GlanceCam will never become a NVR, adding support for recording and playing back videos, and features like motion detection or pan and tilt support are highly unlikely to ever happen; an iOS or tvOS version? Maybe someday, when the Mac version will have everything I plan for it (but if and when that will happen, they'll be separate apps, programmed from the ground up to take advantage of those platforms, and separate purchases/subscriptions will therefore be required to cover huge development time and costs)... a Windows or Android version? Not happening, because those are not platforms that I personally use.
 <a name="actions"></a>
 
 ---
@@ -452,7 +453,8 @@ tags: [glancecam]
 
 #### Does GlanceCam work on my iPhone / iPad / Apple TV / PC / Android phone?
 > Currently GlanceCam is available on macOS and I am trying to make it the best Mac camera viewer possible.<br>
-> It is possible, but this is not a promise, that in the distant future, when the Mac app will have everything I have in mind for it and more, I'll start working on bringing GlanceCam to iOS, iPadOS and tvOS (in this order), but it's also possible that I never will: my experience with mobile development is that often a good app is easily buried among not-so-great ones, and that anything costing more than 99 cents is seen as a ripoff by most Users (#notallpeople, obviously, but some loud ones...); this is hardly compatible with the small number of sales a camera viewer can have and the significant work required in order to provide good support. So, someday, maybe...<br>
+> It is possible, but this is not a promise, that in the distant future, when the Mac app will have everything I have in mind for it and more, I'll start working on bringing GlanceCam to iOS, iPadOS, watchOS and tvOS.<br>
+> There's one thing it's important I make clear in advance: GlanceCam for Mac and the GlanceCam Pro upgrade are <i>native and exclusive for macOS</i>: future versions of the app developed from the ground up for different platforms (iOS, iPadOS, etc.) will require separate purchases / subscriptions that are not included with the Mac version.<br>
 > One thing I can certainly affirm is that I only develop software on and for Apple platforms, so it's impossible that GlanceCam for Windows or GlanceCam for Android will ever be a thing.
 <a name="otherquestions"></a>
 
