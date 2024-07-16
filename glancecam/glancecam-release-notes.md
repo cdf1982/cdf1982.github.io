@@ -7,7 +7,7 @@ tags: [glancecam]
 ---
 <a name="4_2"></a>
 ### GlanceCam 4.2.1
-#### June 10, 2024
+#### July 16, 2024
 
 GlanceCam 4.2.1 focuses on performance: with a tight integration with the latest version of the VLCKit video engine, GlanceCam is more reliable and snappier, especially when switching cameras.<br><br>
 If you find GlanceCam useful, please leave a 5-star review: they really do make a difference for indie apps like mine!<br>
