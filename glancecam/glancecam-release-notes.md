@@ -5,7 +5,26 @@ description:
 image:
 tags: [glancecam]
 ---
-<a name="4_2"></a>
+<a name="4_3"></a>
+### GlanceCam 4.3
+#### August 2, 2024
+
+GlanceCam 4.3 brings performance improvements, squashes a few bugs and implements some changes based on Users' feedback:
+- Following the major update to the latest version video engine in the previous 4.2.1 release, this version includes another small update to VLCKit, improving the AV1 decoder (though I believe basically no camera uses that codec, one can never tell...).
+- A GlanceGrid bug that caused some cameras to remain temporarily black after exiting full-screen when the app was configured to focus the full-screen mode on a single Glance has been fixed; thanks to Eric for reporting the issue!
+- Speaking of GlanceGrids, a few Users requested to disable the manually set maximum number of columns when entering full-screen; before, if you had set a grid to be limited to 1 column max and chose to show the full grid (not just one camera) while in full-screen, GlanceCam would have still shown column, hence only one camera, full-screen, and to see the others you did need to scroll down. With the new implementation, when the window enters full-screen, the maximum number of columns is temporarily disabled, and the app takes advantage of the additional screen real estate to show multiple cameras at the same time; of course, when exiting full-screen, the previous number of columns you did choose to have is restored. This is a design decision that might be controversial, depending on your preferences; since I only heard feedback asking to go in this direction, and considering that it makes sense to use full-screen to see as many cameras as possible at the same time, I made the change, but if you don't like it, let me know (Support menu > Contact support via email) and, depending on the number of requests, I'll provide both options in a future release.
+- The label and tooltip of the audio toggle in Settings clarifies that it only applies to standard windows, not GlanceGrids; this was a design decision I am very comfortable with: I think it's unlikely one would want audio playing from 9 cameras in a grid at the same time, so enabling audio in GlanceGrids is possible, but requires to toggle audio on manually on a specific "tile" "(by clicking on the camera image with the left mouse button while holding down the CMD key, and then selecting "Toggle audio for this camera" from the menu). Thanks to Max for making me realise this needed to be clarified in the interface.
+- Since we're talking about the contextual menu that appears when clicking with the CMD key down, a bug that caused occasional reordering issues with GlanceGrids has been resolved.
+- There was a very unlikely scenario that could lead to a window not having the accessory buttons in the upper right corner (those used to toggle audio, open Settings, save a snapshot, etc.); no User ever reported it, and it took a lot of work to figure it out, but I think the issue is gone.
+
+I usually close all release notes with a humble request for reviews, and this time I'll do with more emphasis: if you like GlanceCam, please consider finding the time to leave a 5-star review... I need your help!<br>
+There have been a couple 1-star reviews in the US App Store that I believe are unfair (in one case, I could have helped the User configure their camera if they contacted me, something I specify both in the description and in the app itself, because I know setting up cameras is hard and I make a point of pride to provide timely support, something that some of you might have experienced and hopefully were happy with; in the other review, I don't think that person did really read the description or look at the screenshots, and said quite hurtful things), but sadly such harsh comments do really affect sales, because give the wrong impression of an app I think most of you like, and that I've spent countless hours working on in the last 6 years.<br><br>
+
+And as always, if you have any suggestion or need assistance, please get in touch via the Support menu > Contact support via email.<br><br>
+
+Have a great summer! _-Cesare_
+
+<a name="4_2_1"></a>
 ### GlanceCam 4.2.1
 #### July 16, 2024
 
