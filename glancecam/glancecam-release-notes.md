@@ -5,6 +5,15 @@ description:
 image:
 tags: [glancecam]
 ---
+<a name="4_3_1"></a>
+### GlanceCam 4.3.1
+#### August 12, 2024
+
+This minor release fixes a very rare bug, nothing worthy of long release notes.<br><br>
+What's worth spending a few words on is the tremendous love you showed for GlanceCam after my plea for reviews a few days ago, to counterbalance some unfair ratings. I cannot find appropriate words to thank you enough! (but please, keep those 5 stars coming :)<br><br>
+Wish you the best August possible! _–Cesare_
+
+
 <a name="4_3"></a>
 ### GlanceCam 4.3
 #### August 2, 2024
