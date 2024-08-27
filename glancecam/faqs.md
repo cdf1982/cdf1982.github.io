@@ -362,7 +362,7 @@ tags: [glancecam]
 | Icon      | What it does                                                                         |
 |-----------|--------------------------------------------------------------------------------------|
 | Window+   | Open an additional window to stream a different camera (requires GlanceCam Pro)      |
-| Floppy    | Save a snapshot to your Pictures foldercase                                          |
+| Floppy    | Save a snapshot to your Pictures folder                                              |
 | Eye       | Toggle 'Always on top' for all windows                                               |
 | Speaker   | Toggle audio for all windows (if their stream includes audio)                        |
 | Reload    | Restart the current stream                                                           |
@@ -380,8 +380,8 @@ tags: [glancecam]
 | 1...9     | Numbers 1 through 9 select the corresponding Glance as ordered in the list           |
 | ⌘ ,       | Open Settings                                                                        |
 | ⌘ .       | Only in GlanceGrid windows, CMD + . shows the grid customisations                    |
-| ⌘ N       | Add a new window (requires GlanceCam Pro; see here for [other methods](#newwindow)   |
-| ⌘ G       | Add a new GlanceGrid (requires GlanceCam Pro; see [other methods](#newwindow)        |
+| ⌘ N       | Add a new window (requires GlanceCam Pro; see here for [other methods](#newwindow))  |
+| ⌘ G       | Add a new GlanceGrid (requires GlanceCam Pro; see [other methods](#newwindow))       |
 | ⌘ W       | Close current window (the app quits when you close the last one)                     |
 | ⌘ R       | Reload stream                                                                        |
 | ⌘ Y       | Toggle Always on top                                                                 |
