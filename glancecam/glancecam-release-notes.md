@@ -5,6 +5,16 @@ description:
 image:
 tags: [glancecam]
 ---
+<a name="4_3_2"></a>
+### GlanceCam 4.3.2
+#### September 16, 2024
+
+GlanceCam is **ready on day one for the new operating system**.<br><br>
+This update, the 40th since GlanceCam launched 6 years ago, fixes a bug that would occur when 3 specific things were concurrently true: a. A vertical camera (i.e. showing a portrait image) in use, b. GlanceCam's custom aspect ratio set to _Delayed_ (as it is often required with portrait cameras), and c. The user interface of the app set to _Standard_, not _Minimalistic_.<br><br>
+In that very rare scenario, the portrait camera's window size did shrink slightly every time the app launched or the stream reloaded, but now – thanks to exceptional help from Volkmar, who first reported the issue and then had exceptional patience in the research for a cause – that behavior is fixed.<br><br>
+**If GlanceCam is useful to you, 5-star reviews, GlanceCam Pro upgrades or coffee tips are deeply appreciated and keep development going**... and if you have any suggestion or need assistance, I'd love to hear from you (_Support_ menu > _Contact support via email_)!<br>
+My best, _Cesare_
+
 <a name="4_3_1"></a>
 ### GlanceCam 4.3.1
 #### August 12, 2024
@@ -12,7 +22,6 @@ tags: [glancecam]
 This minor release fixes a very rare bug, nothing worthy of long release notes.<br><br>
 What's worth spending a few words on is the tremendous love you showed for GlanceCam after my plea for reviews a few days ago, to counterbalance some unfair ratings. I cannot find appropriate words to thank you enough! (but please, keep those 5 stars coming :)<br><br>
 Wish you the best August possible! _–Cesare_
-
 
 <a name="4_3"></a>
 ### GlanceCam 4.3
