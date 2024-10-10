@@ -1,0 +1,38 @@
+# Open answers to question 5
+
+- Sometimes Apple replies that issue is fixed and tells me test it in a specific new beta or version, when it isn’t actually fixed. This should not be the case.
+- If an issue is acknowledged, even indirectly via there fact that others have seen it(duplicate) -- but it's not yet fixed in the next beta release-- it would help to mention the outstanding issue in that next beta release's readme rather than going the all-silent route.
+- Apple could actually fix the bugs I'm reporting
+- Send me the same answers for duplicates as the first poster gets
+- Being able to mark feedback as public so others can track its progress and provide their input
+- Connect me with the engineer on the other side of the pipe, not QA, not PM
+- Just fix the darn bugs and close the report with "Solved." I don't need feedback beyond that
+- An absolute waste of time
+- In case of programmer error, apple should suggest the solution or link to solution and mark it as resolved as programmer error
+- If marked as a duplicate - A copy and a reference to the Feedback that is the "master" Feedback.
+- Apple actually going through all feedback, as too often too many of them (especially faults and bugs) are ignored. I have some actual big bugs going back 5yrs+ and Apple has taken no action on them.
+- Improve the UI so I can see more than one line of text.
+- Not marking obvious bugs as „Works as intended“
+- Actually responding to feedback by changing things. I had a caching issue with an iPad I bought five years ago which has only been resolved by finally replacing that iPad, after five long, miserable years of filing ongoing feedback about it
+- Some bugs are fixed. But I never get information if they are. I don't want to test against every version. The duplicate information IS available
+- Less spam about new releases in the list of the bug reports
+- Apple actually giving a shit
+- My account has been blocked for months for no reason and the robot loops and never gets unlocked!!!
+- If my feedback is marked as a duplicate, being able to SEE the duplicate and all follow comments
+- Don't tell me my feedback was a duplicate, it makes me feel like I wasted my time
+- Respond in a way that makes me think you've actually read it. Don't just repeat previous questions or make me waste my time.
+- my answers are about WebKit: these days I only file webkit bugs and enjoy how responsive that org is
+- The ability to make a Feedback public for everyone to view, and to browse public Feedbacks
+- Bothering to close my feedback when they fix the bug, instead of leaving me to do it
+- Intelligent responses instead of bullshit or gross misunderstandings
+- Apple quits pretending they're improving their products by removing essential functionality for no damn reason
+- If my feedback is marked as duplicate, I want to know the status of the original feedback as it changes
+- Other
+- When marked as a dup, I should get to be subscribed to updates on the original. Otherwise they shouldn't be allowed to mark it as a dup.
+- Reliable notifications when my issue has been resolved
+- Publishing and maintaining some sort of errata for APIs to inform the community about known issues
+- *Correct*, faster feedback to my reports. In one case I got told (off-record) that they read it and failed to reproduce but the feedback was "we think it is fixed, please test" . They tested it more than 12 month after my initial report, after 22 (!) releases that showed the bug. It took two more releases for the bugfix to reach me. (Even a "reproducable" within a few weeks/a month would be great.)
+- The "feedback" process is too generic. It is used to report a problem with Numbers or a problem in the system SDK. It also too restrictive. It wants a system report and sample code and example projects. I think that one of the largest most successful companies in history could hire good quality assurance engineers (not flakes who read scripts like in the App Store review process) who can actually investigate the problems.
+- Open feedback tracker, with ability to +1 other feedbacks
+- This year I got one useful reply which was that a breaking change in behavior is considered a security fix rather than a bug. I used to file 10x as many bugs but mostly stopped because even serious data loss ones were rarely fixed or even acknowledged
+- Do not say "duplicate" without access to the duplicate or its solution
