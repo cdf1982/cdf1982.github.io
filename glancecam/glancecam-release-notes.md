@@ -5,6 +5,17 @@ description:
 image:
 tags: [glancecam]
 ---
+<a name="4_4"></a>
+### GlanceCam 4.4
+#### October 25, 2024
+
+This update makes **GlanceGrids more reliable when loading cameras and switching presents**, especially when dealing with a large number of concurrent streams; I want to thank Rodney for really pushing the limits with 90 cameras playing at the same time, and for helping me test this solution.<br>
+There's also a new "Advanced tweak" option that allows to force Multicast for streams; it's extremely unlikely that you'll need to enable this option, since the video engine already evaluates if the camera is streaming in Unicast or Multicast mode, but this option proved useful to reduce latency for a Reolink doorbell camera (thank you Micheal, for your patience and all the help testing this!).<br><br>
+As mentioned in the release notes for GlanceCam 4.3.2 in September, **GlanceCam has been ready on day one for Sequoia**. I want to provide a **quick note to those who are going to update to macOS 15** in the coming months: after updating, a very small number of Users experienced an issue _(streams not loading)_ caused by the new _Local Network_ security prompt introduced by the new operating system; it's important that, after macOS updates, you'll **remember to allow local network connections for GlanceCam when prompted by macOS** (obviously, GlanceCam _needs_ to be able to communicate with your cameras to display their streams, and Sequoia will ask your permission the first time a connection attempt is established, but let's just say the macOS process isn't rock solid yet). I remain available (_Support_ menu > _Contact support via email_) if you need some clarifications about this before installing macOS 15, or if you need assistance afterwards.<br><br>
+And speaking of Sequoia, a second tip: with the new operating system (and future versions), macOS will not not execute global keyboard shortcuts that only include ⌥ Option or ⌥ ⇧ Option Shift as modifiers, so if in GlanceCam's Settings > Behavior you have configured global keyboard shortcuts to bring all your windows to front or to Insta-zoom a specific window, you might need to check and possibly include an additional key like ⌘ Command or ⌃ Control to your shortcuts of choice to keep them working.<br><br>
+I am constantly grateful for people choosing GlanceCam and using it every day, and I hope you'll appreciate my continued commitment to make it the best Mac app possible; if you do, **please leave a 5-star review** and **consider upgrading to GlanceCam Pro** or, if you already did _(you're awesome!)_, to **leave a tip**! Below you can find buttons to do all those nice things 😉.<br><br>
+Happy Halloween! _Cesare_
+
 <a name="4_3_2"></a>
 ### GlanceCam 4.3.2
 #### September 16, 2024
