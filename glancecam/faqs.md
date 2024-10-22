@@ -409,6 +409,7 @@ tags: [glancecam]
 - Bring all GlanceCam windows to front;
 - Insta-zoom the last window or one specific Glance.
 > Additional details about how these global shortcuts work are available in [GlanceCam 3.2 release notes](https://cdf1982.com/glancecam/glancecam-release-notes#3_2).
+> An important note: starting with Sequoia, macOS will not not execute global keyboard shortcuts that only include Option or Option Shift as modifiers, so if in GlanceCam's Settings > Behavior you have configured global keyboard shortcuts to bring all your windows to front or to Insta-zoom a specific window, you might need to check and possibly include an additional key like Command or Control to your shortcuts of choice to keep them working.
 >
 > Most dialogs can be dismissed with Escape and confirmed with Return.
 >   
