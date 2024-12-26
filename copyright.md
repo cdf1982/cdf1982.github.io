@@ -5,7 +5,7 @@ description:
 image:
 nav-menu: false
 ---
-*© 2024 Cesare Forelli:*
+*© 2025 Cesare Forelli:*
 
 -   *All the contents of this website and blog*
 
