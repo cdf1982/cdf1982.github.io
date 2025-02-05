@@ -3,14 +3,14 @@
     {
       "modelName": "ggml-medium",
       "description": "Whisper Medium model with both good quality and performance",
-      "modelURL": "https://huggingface.co/ggerganov/whisper.cpp/blob/main/ggml-medium.bin",
-      "mlmodelURL" : "https://huggingface.co/ggerganov/whisper.cpp/blob/main/ggml-medium-encoder.mlmodelc.zip"
+      "modelURL": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-medium.bin",
+      "mlmodelURL" : "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-medium-encoder.mlmodelc.zip"
     },
     {
       "modelName": "ggml-small",
       "description": "Whisper Small model with eccelent performance and decent quality",
-      "modelURL": "https://huggingface.co/ggerganov/whisper.cpp/blob/main/ggml-small.bin",
-      "mlmodelURL" : "https://huggingface.co/ggerganov/whisper.cpp/blob/main/ggml-small-encoder.mlmodelc.zip"
+      "modelURL": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-small.bin",
+      "mlmodelURL" : "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-small-encoder.mlmodelc.zip"
     }
   ]
 }
