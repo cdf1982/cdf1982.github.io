@@ -1,44 +1,16 @@
 {
   "whisperModels": [
     {
-      "modelName": "Great",
-      "internalName": "ggml-large-v2",
-      "description": "Whisper Large model with exceptional quality at the cost of speed",
-      "quality": 5,
-      "speed": 1,
-      "recommended": false,
-      "modelURL": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v2.bin",
-      "mlmodelURL" : "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v2-encoder.mlmodelc.zip"
-    },
-    {
-      "modelName": "Good",
-      "internalName": "ggml-medium",
+      "modelName": "ggml-medium",
       "description": "Whisper Medium model with both good quality and performance",
-      "quality": 4,
-      "speed": 3,
-      "recommended": true,
       "modelURL": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-medium.bin",
       "mlmodelURL" : "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-medium-encoder.mlmodelc.zip"
     },
     {
-      "modelName": "Fast",
-      "internalName": "ggml-small",
+      "modelName": "ggml-small",
       "description": "Whisper Small model with eccelent performance and decent quality",
-      "quality": 3,
-      "speed": 4,
-      "recommended": true,
       "modelURL": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-small.bin",
       "mlmodelURL" : "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-small-encoder.mlmodelc.zip"
-    },
-    {
-      "modelName": "Basic",
-      "internalName": "ggml-base",
-      "description": "Whisper Base model with eccelent performance and acceptable quality",
-      "quality": 2,
-      "speed": 5,
-      "recommended": false,
-      "modelURL": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-base.bin",
-      "mlmodelURL" : "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-base-encoder.mlmodelc.zip"
-    },
+    }
   ]
 }
