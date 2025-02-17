@@ -2,13 +2,14 @@
   "whisperModels": [
     {
       "modelName": "Great",
-      "internalName": "ggml-large-v2",
+      "internalName": "ggml-large-v3",
       "description": "Whisper Large model with exceptional quality at the cost of speed",
       "quality": 5,
       "speed": 1,
+      "mac-only": true,
       "recommended": false,
-      "modelURL": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v2.bin",
-      "mlmodelURL" : "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v2-encoder.mlmodelc.zip"
+      "modelURL": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v3.bin",
+      "mlmodelURL" : "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v3-encoder.mlmodelc.zip"
     },
     {
       "modelName": "Good",
@@ -39,6 +40,16 @@
       "recommended": false,
       "modelURL": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-base.bin",
       "mlmodelURL" : "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-base-encoder.mlmodelc.zip"
+    },
+    {
+      "modelName": "Fastest",
+      "internalName": "ggml-tiny",
+      "description": "Whisper Tiny model with fastest performance at the cost of fidelity",
+      "quality": 1,
+      "speed": 5,
+      "recommended": false,
+      "modelURL": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-tiny.bin",
+      "mlmodelURL" : "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-tiny-encoder.mlmodelc.zip"
     },
   ]
 }
