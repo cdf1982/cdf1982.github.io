@@ -22,7 +22,7 @@ The only network activities performed by Sussurro are:
 
 Please note that Whisper models can be large in size. Downloading them over a cellular network or a metered connection may result in data charges.
 
-If you decide to use Sussurro, you acknowledge and accept the following Accuracy of Transcription clause:
+**If you decide to use Sussurro, you acknowledge and accept the following Accuracy of Transcription clause**:
 Sussurro uses automatic speech recognition (ASR) models to transcribe audio into text. While these models are highly advanced, they are not perfect and may produce errors, including but not limited to:
 	•	Incorrect words or phrases
 	•	Omitted words
@@ -30,6 +30,8 @@ Sussurro uses automatic speech recognition (ASR) models to transcribe audio into
 	•	Errors in punctuation and formatting
     •   Substantial errors in meaning and concepts
 By using Sussurro, you acknowledge that transcriptions may contain inaccuracies, including significant mistakes. It is your responsibility to review and verify the transcribed text before using it for any purpose. The developer is not liable for any consequences resulting from transcription errors, including but not limited to miscommunication, misinformation, or any resulting damages.
+
+With the free version of Sussurro, you can test any supported transcription model with any audio file, but the transcribed text will be shown only up to 300 characters. If you purchase Sussurro Pro, you will be able to see the full transcription on all the devices (iPhone, iPad, Mac) logged into the same Apple ID used for the purchase.
 
 If you have any questions regarding this document, please contact the developer via email at [support@cdf1982.com](support@cdf1982.com).
 
