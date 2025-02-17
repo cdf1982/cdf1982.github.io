@@ -7,7 +7,8 @@
       "quality": 5,
       "speed": 1,
       "mac-only": true,
-      "recommended": false,
+      "recommended-mac": false,
+      "recommended-ios": false,
       "modelURL": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v3.bin",
       "mlmodelURL" : "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v3-encoder.mlmodelc.zip"
     },
@@ -17,7 +18,8 @@
       "description": "Whisper Medium model with both good quality and performance",
       "quality": 4,
       "speed": 3,
-      "recommended": true,
+      "recommended-mac": true,
+      "recommended-ios": false,
       "modelURL": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-medium.bin",
       "mlmodelURL" : "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-medium-encoder.mlmodelc.zip"
     },
@@ -27,7 +29,8 @@
       "description": "Whisper Small model with eccelent performance and decent quality",
       "quality": 3,
       "speed": 4,
-      "recommended": true,
+      "recommended-mac": true,
+      "recommended-ios": true,
       "modelURL": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-small.bin",
       "mlmodelURL" : "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-small-encoder.mlmodelc.zip"
     },
@@ -37,7 +40,8 @@
       "description": "Whisper Base model with eccelent performance and acceptable quality",
       "quality": 2,
       "speed": 5,
-      "recommended": false,
+      "recommended-mac": false,
+      "recommended-ios": true,
       "modelURL": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-base.bin",
       "mlmodelURL" : "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-base-encoder.mlmodelc.zip"
     },
@@ -47,7 +51,8 @@
       "description": "Whisper Tiny model with fastest performance at the cost of fidelity",
       "quality": 1,
       "speed": 5,
-      "recommended": false,
+      "recommended-mac": false,
+      "recommended-ios": false,
       "modelURL": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-tiny.bin",
       "mlmodelURL" : "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-tiny-encoder.mlmodelc.zip"
     },
