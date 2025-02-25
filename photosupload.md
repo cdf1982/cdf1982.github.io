@@ -1,5 +1,5 @@
 ---
-title: PhotosUpload - Professional iOS Photo Upload Tool with FTP Support
+title: PhotosUpload - Professional iOS Photo Upload Tool for FTP
 layout: landing
 description: Take photos, add tags, and automatically upload them to FTP servers. Perfect for manufacturing and professional workflows
 image: assets/images/photosupload/photosupload.png
@@ -44,11 +44,11 @@ nav-menu: true
 			<br><br><i>Please be advised that the usefulness of this app is directly connected to the availability of a custom FTP server</i>; you don't need a permanent connection to this server in order to use the app (for instance, you can take photos offline while on the move and only upload them when you are connected to your company's network) but if you or your company do not have a dedicated server available to use as destination for the upload, PhotosUpload will be able to provide you little value.<br>
 			When you upload, you can either store files in the root or in a specific sub-folder you created on your server (you can't create remote directories from inside the app); the app is not an FTP client, so you won't be able to retrieve remotely stored files.
 		</p>
-						<p style="text-align:center">
-					<a href="https://apps.apple.com/us/app/photosupload/id1441656535" class="image" target="new">
+		<p style="text-align:center">
+			<a href="https://apps.apple.com/us/app/photosupload/id1441656535" class="image" target="new">
 						<img src="assets/images/download_ios_app_store_white_bg.svg" alt="Download on the App Store" data-position="center center" />
-					</a>
-				</p>
+			</a>
+		</p>
 	</div>
 </section>
 </div>
