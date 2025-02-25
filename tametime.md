@@ -1,10 +1,31 @@
 ---
-title: TameTime&#58; Awareness Timer
+title: TameTime - Break Timer for Mac to Prevent RSI and Eye Strain
 layout: landing
-description: 'The essential utility for being aware of the time you spend in front of your Mac.<br>Take breaks and fight RSI, CVS and other computer-related stress.'
+description: Essential Mac utility for taking regular breaks, preventing RSI, computer vision syndrome (CVS) and other computer-related stress
 image: assets/images/tametime/tametime_banner.jpg
 nav-menu: true
 ---
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "TameTime",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "macOS",
+    "description": "Break timer for Mac to prevent RSI, computer vision syndrome and other computer-related stress",
+    "offers": {
+        "@type": "Offer",
+        "price": "4.49",
+        "priceCurrency": "USD",
+        "description": "One-time purchase"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Cesare Forelli"
+    }
+}
+</script>
 
 <!-- Main -->
 <div id="main">

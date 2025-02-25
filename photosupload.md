@@ -1,10 +1,31 @@
 ---
-title: PhotosUpload
+title: PhotosUpload - Professional iOS Photo Upload Tool with FTP Support
 layout: landing
-description: Take photos, add tags & upload them to a FTP server
+description: Take photos, add tags, and automatically upload them to FTP servers. Perfect for manufacturing and professional workflows
 image: assets/images/photosupload/photosupload.png
 nav-menu: true
 ---
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "PhotosUpload",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "iOS",
+    "description": "Professional iOS app for taking photos and uploading them to FTP servers with automatic tagging",
+    "offers": {
+        "@type": "Offer",
+        "price": "8.99",
+        "priceCurrency": "USD",
+        "description": "One-time purchase"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Cesare Forelli"
+    }
+}
+</script>
 
 <!-- Main -->
 <div id="main">

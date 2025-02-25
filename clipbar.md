@@ -1,10 +1,31 @@
 ---
-title: ClipBar&#58; Pasteboard Viewer
+title: ClipBar - Mac Menu Bar Clipboard History and Preview
 layout: landing
-description: 'Quickly check what you are going to paste'
+description: Quickly preview and access your clipboard content and history from your Mac menu bar
 image: assets/images/clipbar/clipbar_banner.jpg
 nav-menu: true
 ---
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "ClipBar",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "macOS",
+    "description": "Mac menu bar utility for clipboard preview and history access",
+    "offers": {
+        "@type": "Offer",
+        "price": "3.99",
+        "priceCurrency": "USD",
+        "description": "One-time purchase"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Cesare Forelli"
+    }
+}
+</script>
 
 <!-- Main -->
 <div id="main">

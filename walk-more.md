@@ -1,10 +1,39 @@
 ---
-title: Walk More
+title: Walk More - Simple and Powerful iPhone Pedometer App
 layout: landing
-description: Activity pedometer
+description: Track your daily steps, distance walked, and stairs climbed with this free and easy-to-use pedometer app
 image: assets/images/walk-more/walk-more.jpg
 nav-menu: true
 ---
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Walk More",
+    "applicationCategory": "HealthAndFitnessApplication",
+    "operatingSystem": "iOS",
+    "description": "Simple and powerful pedometer app for tracking steps, distance, and stairs climbed",
+    "offers": [
+        {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "description": "Free version"
+        },
+        {
+            "@type": "Offer",
+            "price": "0.99",
+            "priceCurrency": "USD",
+            "description": "One-time purchase to remove ads"
+        }
+    ],
+    "author": {
+        "@type": "Person",
+        "name": "Cesare Forelli"
+    }
+}
+</script>
 
 <!-- Main -->
 <div id="main">
