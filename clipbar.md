@@ -79,12 +79,12 @@ nav-menu: true
 		<a href="assets/images/clipbar/clipbar3.jpg" class="image" target="new">
 			<img src="assets/images/clipbar/clipbar3.jpg" alt="" data-position="center center" />
 		</a>
+	</div>
 		<div class="content">
-				<div class="inner">
-					<p>
-						ClipBar is an indie product that does not include in-app purchases or subscriptions.<b><br><br>You just buy the app once for, dare I say, a very convenient price and keep it forever on all your Macs</b> while also supporting its future development.<br><br>Support is available from the developer - me, Cesare - at <a href="mailto:support@cdf1982.com">support@cdf1982.com</a> and your reviews and word of mouth are really, really appreciated!<br><br>
+			<div class="inner">
+				<p>
+					ClipBar is an indie product that does not include in-app purchases or subscriptions.<b><br><br>You just buy the app once for, dare I say, a very convenient price and keep it forever on all your Macs</b> while also supporting its future development.<br><br>Support is available from the developer - me, Cesare - at <a href="mailto:support@cdf1982.com">support@cdf1982.com</a> and your reviews and word of mouth are really, really appreciated!<br><br>
 					</p>
-				</div>
 			</div>
 		</div>
 </section>
