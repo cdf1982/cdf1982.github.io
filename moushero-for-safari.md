@@ -5,6 +5,27 @@ description: Enhance Safari with powerful context menu actions for apps, shortcu
 image: assets/images/moushero/moushero.jpg
 nav-menu: true
 ---
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "MousHero",
+    "applicationCategory": "BrowserExtension",
+    "operatingSystem": "macOS",
+    "description": "Custom Right-Click Menu Extension for Safari",
+    "offers": {
+        "@type": "Offer",
+        "price": "1.99",
+        "priceCurrency": "USD"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Cesare Forelli"
+    }
+}
+</script>
+
 <!-- Main -->
 <div id="main">
 

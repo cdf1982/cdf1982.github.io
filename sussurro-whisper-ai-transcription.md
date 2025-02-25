@@ -1,10 +1,39 @@
 ---
-title: Sussurro - Private AI Speech to Text App for Mac & iOS
+title: Sussurro - Private AI Speech to Text App for Mac, iPhone and iPad
 layout: landing
-description: Fast and private Whisper AI audio transcription for iPhone, iPad, and Mac
+description: Fast and private on-device Whisper AI audio transcription
 image: assets/images/sussurro/sussurro-whisper-ai-transcription-speech-to-text-for-iphone-mac-ipad.png
 nav-menu: true
 ---
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Sussurro",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "iOS, macOS",
+    "description": "Fast and private on-device Whisper AI audio transcription",
+    "offers": [
+        {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "description": "Free version with preview and first 300 characters"
+        },
+        {
+            "@type": "Offer",
+            "price": "4.99",
+            "priceCurrency": "USD",
+            "description": "One-time purchase for unlimited transcription"
+        }
+    ],
+    "author": {
+        "@type": "Person",
+        "name": "Cesare Forelli"
+    }
+}
+</script>
 
 <!-- Main -->
 <div id="main">
@@ -27,33 +56,33 @@ nav-menu: true
 			</a>
 		</p>
 
-    <h3>Advanced AI Transcription Features</h3>
+    <h3>WHY CHOOSE SUSSURRO?</h3>
     <ul>
       <li><b>Complete Privacy:</b> Everything happens on your device. Your audio and text stay yours, always.</li>
       <li><b>Powered by Whisper:</b> Sussurro downloads and runs locally OpenAI’s state-of-the-art Whisper models for accurate speech-to-text transcription.</li>
       <li><b>Works On All Your Apple devices:</b> The app works natively on Mac, iPhone, and iPad, and is optimized for Apple silicon and the Neural Engine for fast, efficient processing.</li>
     </ul>
 
-    <h3>Fast & Accurate Speech Recognition</h3>
+    <h3>FAST AND ACCURATE SPEECH RECOGNITION</h3>
     <ul>
       <li><b>Choose Your Model:</b> Select from multiple AI models to balance speed and accuracy according to your needs. Sussurro makes model selection simple and easy to understand — no AI expertise required.</li>
       <li><b>Transcribe offline:</b> Download models in-app and, once you get them the first time, you won't need any Internet connectivity.</li>
     </ul>
 
-    <h3>Versatile Audio Transcription Tools</h3>
+    <h3>WORK YOUR WAY</h3>
     <ul>
       <li>Load and transcribe existing audio files.</li>
       <li>Capture audio directly within the app and transcribe it right away.</li>
       <li>When you're done transcribing, copy, save to file or share text to any application.</li>
     </ul>
 
-    <h3>Flexible Pricing Options</h3>
+    <h3>TRY FOR FREE, WITH AN INEXPENSIVE ONE-TIME PURCHASE UNLOCK</h3>
     <ul>
       <li><b>Free to Test:</b> Preview any model with complete real-time transcription during processing. The free version shows the first 300 characters of the final transcription.</li>
       <li><b>One-Time Purchase:</b> Unlock unlimited transcription capabilities across all your Apple devices with a single, affordable in-app purchase — NO SUBSCRIPTIONS, no hidden fees. Plus, Family Sharing support means your family members get full access, too.</li>
     </ul>
 
-    <h3>Important Details</h3>
+    <h3>WHAT ELSE YOU NEED TO KNOW:</h3>
     <ul>
       <li>Sussurro Privacy Policy and Terms of use are written by a human (me, Cesare, hi!) to be read by other humans. And you should read it: <a href="https://cdf1982.com/privacy/sussurro_terms_of_service_and_privacy_policy">Privacy Policy and Terms</a>.</li>
       <li>Sussurro relies on OpenAI's Whisper models, which are distributed under the MIT license. However, OpenAI is neither involved nor affiliated with this app.</li>

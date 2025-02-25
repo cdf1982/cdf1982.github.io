@@ -6,6 +6,35 @@ image: assets/images/link-hub/link-hub-iphone-ipad-mac.jpg
 nav-menu: true
 ---
 
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Link HUB",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "iOS, macOS",
+    "description": "Dashboard and Widgets to launch URLs on iPhone, iPad and Mac",
+    "offers": [
+        {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "description": "Free version with up to 4 links"
+        },
+        {
+            "@type": "Offer",
+            "price": "4.99",
+            "priceCurrency": "USD",
+            "description": "Subscription for unlimited links and NFC support"
+        }
+    ],
+    "author": {
+        "@type": "Person",
+        "name": "Cesare Forelli"
+    }
+}
+</script>
+
 <!-- Main -->
 <div id="main">
 
