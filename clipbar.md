@@ -1,5 +1,5 @@
 ---
-title: ClipBar - Mac Menu Bar Clipboard Preview and History
+title: ClipBar - Mac Menu Bar Clipboard History and Preview
 layout: landing
 description: Quickly preview and access your clipboard content and history from your Mac menu bar
 image: assets/images/clipbar/clipbar_banner.jpg
@@ -46,7 +46,6 @@ nav-menu: true
 		<p>With ClipBar you can also <b>go back in time and view and use a previously copied item</b>; the app keeps the last 100 things you've copied in memory, and you can clear that history with a right click. While it's not a fully featured <i>(and expensive! and complicated!)</i> clipboard manager, ClipBar can be convenient many times each day.</p>
 
 		<p>We copy and paste stuff so many times every day, and yet having the ability to see at a glance what's in the pasteboard before actually pasting it <b>will make you faster and more accurate</b>.</p>
-
 		<p style="text-align:center">
 			<a href="https://apps.apple.com/us/app/clipbar-pasteboard-viewer/id1541739143" class="image" target="new">
 				<img src="assets/images/download_mac_app_store_white_bg.svg" alt="Download on the Mac App Store" data-position="center center" />
@@ -54,22 +53,22 @@ nav-menu: true
 		</p>
 	</div>
 </section>
-	
+
 <!-- Two -->
 <section id="two" class="spotlights">
 	<section>
-	<div class="content">
-		<a href="assets/images/clipbar/clipbar1.jpg" class="image" target="new">
-			<img src="assets/images/clipbar/clipbar1.jpg" alt="" data-position="center center" />
-		</a>
-	</div>
+		<div class="content">
+			<a href="assets/images/clipbar/clipbar1.jpg" class="image" target="new">
+				<img src="assets/images/clipbar/clipbar1.jpg" alt="" data-position="center center" />
+			</a>
+		</div>
 		<div class="content">
 			<div class="inner">
 				<p>Handling your pasteboard data is a sensitive matter, and ClipBar takes this responsibility seriously: the app does not persistently store the content of your pasteboard, doesn't connect to the Internet, doesn't include 3rd party frameworks of any kind (no analytics or other prying stuff) and is completely sandboxed.<br><br><b>Before installing and using ClipBar, you must assess if displaying the content of your pasteboard on screen is acceptable for you</b>:  ClipBar shows whatever is your current pasteboard content in the Menu Bar; this might include sensible informations, such as passwords, shown in plain text on screen.<br><br>For additional informations, and before using the app, please review ClipBar's <a href="{{ site.baseurl }}/privacy/clipbar_terms_of_service_and_privacy_policy.html">Terms of Service and Privacy Policy</a>) and <a href="mailto:support@cdf1982.com">get in touch</a> if you need any additional clarifications.
 				</p>
 			</div>
 		</div>
-</section>
+	</section>
 	
 <!-- Three -->
 <section id="three" class="spotlights">
@@ -92,12 +91,12 @@ nav-menu: true
 		<a href="assets/images/clipbar/clipbar3.jpg" class="image" target="new">
 			<img src="assets/images/clipbar/clipbar3.jpg" alt="" data-position="center center" />
 		</a>
+	</div>
 		<div class="content">
 			<div class="inner">
-					<p>
-						ClipBar is an indie product that does not include in-app purchases or subscriptions.<b><br><br>You just buy the app once for, dare I say, a very convenient price and keep it forever on all your Macs</b> while also supporting its future development.<br><br>Support is available from the developer - me, Cesare - at <a href="mailto:support@cdf1982.com">support@cdf1982.com</a> and your reviews and word of mouth are really, really appreciated!<br><br>
+				<p>
+					ClipBar is an indie product that does not include in-app purchases or subscriptions.<b><br><br>You just buy the app once for, dare I say, a very convenient price and keep it forever on all your Macs</b> while also supporting its future development.<br><br>Support is available from the developer - me, Cesare - at <a href="mailto:support@cdf1982.com">support@cdf1982.com</a> and your reviews and word of mouth are really, really appreciated!<br><br>
 					</p>
-				</div>
 			</div>
 		</div>
 </section>
