@@ -1,7 +1,7 @@
 ---
 title: MousHero - Custom Right-Click Menu Extension for Safari
 layout: landing
-description: Enhance Safari with powerful context menu actions for apps, shortcuts, and automation
+description: Enhance Safari with powerful context menu actions for apps, shortcuts, and automations
 image: assets/images/moushero/moushero.jpg
 nav-menu: true
 ---
@@ -32,7 +32,7 @@ nav-menu: true
 <!-- One -->
 <section id="one">
 	<div class="inner">
-		<h2>Customize Safari's Right-Click Menu with Powerful Automation</h2>
+		<h2>Customize Safari's Right-Click with Powerful Automations</h2>
 		<p>
 			<b>MousHero is a Safari extension that adds automation superpowers to your browsing experience: trigger URL actions by adding up to 3 custom context menu items to Safari's right-click menu.</b>
 			<br>
