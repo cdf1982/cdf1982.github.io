@@ -2,7 +2,7 @@
 title: Sussurro - Private AI Speech to Text App for Mac, iPhone and iPad
 layout: landing
 description: Fast and private on-device Whisper AI audio transcription
-image: assets/images/sussurro/sussurro-whisper-ai-transcription-speech-to-text-for-iphone-mac-ipad.png
+image: assets/images/sussurro/sussurro.jpg
 nav-menu: true
 ---
 
