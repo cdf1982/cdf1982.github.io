@@ -3,7 +3,7 @@ layout: post
 title: Your in-app purchase has been returned
 description: How I resolved an app review rejection for Sussurro Whisper speech to text AI transcription
 image:
-tags: dev,sussurro
+tags: dev sussurro
 ---
 I'm re-posting here a reply I sent to a Stack Overflow [question](https://stackoverflow.com/questions/47908871/unable-to-resubmit-in-app-purchase-for-review/) from 2017, recounting my journey after receiving _the most confusing_ email from App Review:
 
