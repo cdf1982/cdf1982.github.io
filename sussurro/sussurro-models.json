@@ -26,7 +26,7 @@
     {
       "modelName": "Fast",
       "internalName": "ggml-small",
-      "description": "Whisper Small model with eccelent performance and decent quality",
+      "description": "Whisper Small model with excellent performance and decent quality",
       "quality": 3,
       "speed": 4,
       "recommended-mac": true,
