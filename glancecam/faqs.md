@@ -26,6 +26,7 @@ tags: [glancecam]
 - [Can I sync my list of cameras between different Macs I own?](#sync)
 - [Can I save a screenshot? Can I record video?](#recording)
 - [I'd love to be able to zoom in on a specific section of a camera, can I?](#zoom)
+- [What's an _Alternate_ and how can I use it to toggle between Glances?](#alternate)
 - [Can I cycle (rotate) through some cameras in one window?](#cyclemode)
 - [Is it possible to trigger notifications with motion detection?](#motion)
 - [Does GlanceCam support pan and tilt (PTZ)?](#ptz)
@@ -293,13 +294,30 @@ tags: [glancecam]
 > - Zooming capabilities are not available for built-in / USB cameras.
 > - If you save a Snapshot while Zoom mode is enabled, the image saved to disk will be the same you're looking at, with the miniature area and the zoomed-in view.
 > - The miniature area and the funnel are fixed in size in the plugin, and might appear quite small on Postcard or Regular size windows; Zoom mode works best with large windows or full screen.
+<a name="alternate"></a>
+
+---
+
+#### What's an _Alternate_ and how can I use it to toggle between Glances?
+> [GlanceCam 4.5](https://cdf1982.com/glancecam/glancecam-release-notes#4_5) introduced one of the most requested features: the ability to quickly toggle between stream qualities (HD-SD). But GlanceCam being GlanceCam, the implementation is much more advanced and flexible than that!
+>
+> Each camera can have an optional "Alternate" - another Glance with a different configuration (like stream quality or type of network access, i.e. local network connection and via Internet) for the same camera. And Alternates are none other than other Glances already in your list.
+>
+> You can quickly switch between a Glance and its Alternate by pressing the A key, or the button that appears next to the list of cameras when an Alternate has been set.
+>
+> Alternates are optional and work only in single-camera windows (they're not available in GlanceGrids); while they're quite powerful, Alternates are available to all GlanceCam Users!
+>
+> You can configure them in Settings, by clicking the Set Alternate button next to the camera name.
+>When you set an Alternate relationship, it works both ways automatically - if Glance 2 is set as the Alternate for Glance 1, you can toggle between them in either direction.
+>
+> You even have the option to switch to the Alternate automatically when entering full screen. And before you ask: I tried adding the same behavior to Insta-zoom, and the result wasn't good enough: when switching to an Alternate, the camera must reload, and that takes time, so this feature doesn't really fit that use case well.
 <a name="cyclemode"></a>
 
 ---
 
 #### Can I cycle (rotate) through some cameras in one window?
 > [GlanceCam 3.7](https://cdf1982.com/glancecam/glancecam-release-notes#3_7) added a new and powerful feature for [GlanceCam Pro](#glancecampro) Users, Cycle mode.
->  You now have the option to choose one of your windows and have it rotate some or all of your Glances (cameras) according to a time interval you define. This is especially useful with a large window or while the app is full screen.
+> You now have the option to choose one of your windows and have it rotate some or all of your Glances (cameras) according to a time interval you define. This is especially useful with a large window or while the app is full screen.
 > While only one window can be put in Cycle mode, you can still keep as many others "single camera" windows open while this rotation is enabled.
 > 
 > By default, all cameras are included in Cycle mode with a 30 seconds time interval dedicated to each one, but you are free to decide which Glances you want to include and for how long they should remain on screen.
@@ -378,6 +396,8 @@ tags: [glancecam]
 | +         | Next Glance                                                                          |
 | Spacebar  | Next Glance (yes, there are two shortcuts... pick yours!)                            |
 | 1...9     | Numbers 1 through 9 select the corresponding Glance as ordered in the list           |
+| ⇧+0...9   | Select cameras between 10 and 19 by subtracting "10" and pressing Shift (⇧+3 for 13) |
+| ⌃⇧+0...9  | Select cameras between 20 and 29 by subtracting "20" and pressing Control+Shift+num  |
 | ⌘ ,       | Open Settings                                                                        |
 | ⌘ .       | Only in GlanceGrid windows, CMD + . shows the grid customisations                    |
 | ⌘ N       | Add a new window (requires GlanceCam Pro; see here for [other methods](#newwindow))  |
@@ -385,6 +405,7 @@ tags: [glancecam]
 | ⌘ W       | Close current window (the app quits when you close the last one)                     |
 | ⌘ R       | Reload stream                                                                        |
 | ⌘ Y       | Toggle Always on top                                                                 |
+| A         | Switch to the [Alternate](#alternae) Glance, if one has been set                    |
 | C         | Toggle [Cycle mode](#cyclemode)                                                      |
 | R         | Toggle Roll Up (only show a camera title bar until the mouse enters its' area)       |
 | Z         | Toggle [Zoom mode](#zoom)                                                            |
