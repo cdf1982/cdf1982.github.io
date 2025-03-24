@@ -405,7 +405,7 @@ tags: [glancecam]
 | ⌘ W       | Close current window (the app quits when you close the last one)                     |
 | ⌘ R       | Reload stream                                                                        |
 | ⌘ Y       | Toggle Always on top                                                                 |
-| A         | Switch to the [Alternate](#alternae) Glance, if one has been set                    |
+| A         | Switch to the [Alternate](#alternate) Glance, if one has been set                    |
 | C         | Toggle [Cycle mode](#cyclemode)                                                      |
 | R         | Toggle Roll Up (only show a camera title bar until the mouse enters its' area)       |
 | Z         | Toggle [Zoom mode](#zoom)                                                            |
