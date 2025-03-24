@@ -5,7 +5,7 @@ description: GlanceCam is still the best IP camera viewer for Mac, and soon will
 image: assets/images/blog/2019-03-29-glancecam_is_one_year_old/glancecam_birthday.png
 tags: glancecam
 ---
-<b>7 years ago today, an IP camera viewer _you might know_ debuted in the Mac App Store</b>.
+<b>7 years ago today, an [IP camera viewer](https://www.glancecam.app) _you might know_ debuted in the [Mac App Store](https://itunes.apple.com/us/app/glancecam-ip-webcam-viewer/id1360797896?l=it&ls=1&mt=12)</b>.
 
 Back then, I would have never imagined many were looking for a native, privacy-focused app like the one I had built, and I want to take a moment today to <b>thank you all for your support</b>: your initial purchase, nice App Store reviews, upgrades to GlanceCam Pro, tips and great suggestions made it possible for me to keep working on GlanceCam and make it better, update after update <i>(this is the 42nd, and it brings a much-requested feature, as you'll see below)</i>.
 
