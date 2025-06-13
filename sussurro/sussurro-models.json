@@ -1,22 +1,10 @@
 {
   "whisperModels": [
     {
-      "modelName": "Great",
-      "internalName": "ggml-large-v3",
-      "description": "Whisper Large model with exceptional quality at the cost of speed",
-      "quality": 5,
-      "speed": 1,
-      "mac-only": true,
-      "recommended-mac": false,
-      "recommended-ios": false,
-      "modelURL": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v3.bin",
-      "mlmodelURL" : "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v3-encoder.mlmodelc.zip"
-    },
-    {
-      "modelName": "Good",
+      "modelName": "Excellent",
       "internalName": "ggml-medium",
-      "description": "Whisper Medium model with both good quality and performance",
-      "quality": 4,
+      "description": "Whisper model with very good quality and reasonable performance",
+      "quality": 5,
       "speed": 3,
       "recommended-mac": true,
       "recommended-ios": false,
