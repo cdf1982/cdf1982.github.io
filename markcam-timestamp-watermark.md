@@ -77,8 +77,9 @@ nav-menu: true
       <li><b>Text Watermarks</b> — Add custom text with your preferred font, color, and size</li>
       <li><b>Timestamps</b> — Automatically insert date and time in multiple formats</li>
       <li><b>GPS Coordinates</b> — Show exact coordinates or human-readable location</li>
-      <li><b>Flexible Positioning</b> — Place your watermark in any of 9 positions</li>
+      <li><b>Flexible Positioning</b> — Place your watermark in any of 7 positions</li>
       <li><b>Fully Customizable</b> — Adjust opacity, font, size, and background to fit your needs</li>
+      <li><b>Reuse watermarks</b> — Need to overlay the same text or timestamp multiple photos? You can with one toggle!</li>
     </ul>
 
     <p>
