@@ -12,17 +12,18 @@
 <!-- Menu -->
 <nav id="menu">
 	<ul class="links">
-        {% for page in site.pages %}
-		    {% if page.layout == "home" %}
-		        <li><a href="{{ absolute_url }}/">{{ page.title }}</a></li>
-	    	{% endif %}
-		{% endfor %}
+		<li><a href="{{ absolute_url }}/blog">Blog</a></li>
 		<li><a href="https://glancecam.app/">GlanceCam</a></li>
-		{% for page in site.pages %}
-		    {% if page.layout != "home" and page.nav-menu == true %}
-		        <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
-		    {% endif %}
-		{% endfor %}
+		<li><a href="{{ absolute_url }}/lifepace/lifepace.html">LifePace</a></li>
+		<li><a href="{{ absolute_url }}/sussurro-whisper-ai-transcription.html">Sussurro</a></li>
+		<li><a href="{{ absolute_url }}/link-hub.html">Link-HUB</a></li>
+		<li><a href="{{ absolute_url }}/markcam-timestamp-watermark.html">MarkCam</a></li>
+		<li><a href="{{ absolute_url }}/moushero-for-safari.html">MousHero</a></li>
+		<li><a href="{{ absolute_url }}/tametime.html">TameTime</a></li>
+		<li><a href="{{ absolute_url }}/clipbar.html">ClipBar</a></li>
+		<li><a href="{{ absolute_url }}/photosupload.html">PhotosUpload</a></li>
+		<li><a href="{{ absolute_url }}/walk-more.html">Walk More</a></li>
+		<li><a href="{{ absolute_url }}/support.html">Support</a></li>
 	</ul>
 	<!--
 	<ul class="actions vertical">
