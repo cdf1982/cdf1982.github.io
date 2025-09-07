@@ -176,6 +176,11 @@
       display: grid; gap: 12px;
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
+    /* Vertical stack for left facts column */
+    .stack { display: grid; gap: 12px; }
+    /* Video styling */
+    .landing-video { width: 100%; height: auto; display: block; border-radius: var(--radius); border: 1px solid var(--border); }
+    .video-card { display: flex; align-items: center; justify-content: center; }
     @media (max-width: 720px) { .grid { grid-template-columns: 1fr; } }
     .card {
       border: 1px solid var(--border); border-radius: var(--radius); background: var(--card); padding: 18px; box-shadow: var(--shadow);
@@ -273,42 +278,49 @@
       <section id="facts" aria-labelledby="facts-h">
         <h2 id="facts-h">Quick facts</h2>
         <div class="grid">
-          <div class="card">
-            <strong>Built for success</strong><br/>
-            A new and modern habit tracker designed to make you consistently achieve your goals, big and small
+          <div class="stack">
+            <div class="card">
+              <strong>Built for success</strong><br/>
+              A new and modern habit tracker designed to make you consistently achieve your goals, big and small
+            </div>
+            <div class="card">
+              <strong>Platforms</strong><br/>
+              iPhone, iPad, Mac, Apple Watch with great Shortcuts, Widgets (Lock-screen included) and Complications
+            </div>
+            <div class="card">
+              <strong>Sync & privacy</strong><br/>
+              Private iCloud sync. No analytics. No tracking. No ads. And with an optional Face ID unlock for absolute privacy
+            </div>
+            <div class="card">
+              <strong>Made for iOS 26, iPadOS 26, and macOS 26 Tahoe</strong><br/>
+              The right amount of cool Liquid Glass design and local Apple Intelligence (with a toggle to turn AI off)
+            </div>
+            <a id="highlights"></a>
+            <h2 id="highlights-h">Highlights</h2>
+            <div class="card">
+              <ul class="clean">
+                <li>Create and organize habits with smart schedules and reminders</li>
+                <li>One‑tap completion with streaks, subtle haptics, and gentle sounds</li>
+                <li>Skip when needed without guilt or breaking your streak</li>
+                <li>Optional "Hard mode" turns skips into misses, if you want to be strict</li>
+                <li>A clean dashboard makes the most of Liquid Glass across iPhone, iPad, Mac, and Apple Watch</li>
+                <li>Local FoundationModels provide motivating summaries and can recommend habits</li>
+                <li>Widgets, Lock Screen, and Watch complications at a glance, powered by Shortcuts</li>
+                <li>Choose how to look at your habits with List and Grid mode</li>
+                <li>Clear stats and graphs that make progress feel tangible</li>
+                <li>Private means private: iCloud sync, no analytics, no ads, no 3rd party code</li>
+              </ul>
+            </div>
           </div>
-          <div class="card">
-            <strong>Platforms</strong><br/>
-            iPhone, iPad, Mac, Apple Watch with great Shortcuts, Widgets (Lock-screen included) and Complications
-          </div>
-          <div class="card">
-            <strong>Sync & privacy</strong><br/>
-            Private iCloud sync. No analytics. No tracking. No ads. And with an optional Face ID unlock for absolute privacy
-          </div>
-          <div class="card">
-            <strong>Made for iOS 26, iPadOS 26, and macOS 26 Tahoe</strong><br/>
-            The right amount of cool Liquid Glass design and local Apple Intelligence (with a toggle to turn AI off)
+          <div class="card video-card">
+            <video class="landing-video" controls playsinline preload="metadata" poster="assets/promo-video-still.jpg">
+              <source src="assets/LifePace.mp4" type="video/mp4">
+            </video>
           </div>
         </div>
       </section>
 
-      <section id="highlights" aria-labelledby="highlights-h">
-        <h2 id="highlights-h">Highlights</h2>
-        <div class="card">
-          <ul class="clean">
-            <li>Create and organize habits with smart schedules and reminders</li>
-            <li>One‑tap completion with streaks, subtle haptics, and gentle sounds</li>
-            <li>Skip when needed without guilt or breaking your streak</li>
-            <li>Optional "Hard mode" turns skips into misses, if you want to be strict</li>
-            <li>A clean dashboard makes the most of Liquid Glass across iPhone, iPad, Mac, and Apple Watch</li>
-            <li>Local FoundationModels provide motivating summaries and can recommend habits</li>
-            <li>Widgets, Lock Screen, and Watch complications at a glance, powered by Shortcuts</li>
-            <li>Choose how to look at your habits with List and Grid mode</li>
-            <li>Clear stats and graphs that make progress feel tangible</li>
-            <li>Private means private: iCloud sync, no analytics, no ads, no 3rd party code</li>
-          </ul>
-        </div>
-      </section>
+      
 
       <section id="get-app" class="download-center" aria-labelledby="download-h">
         <h2 id="download-h">Try LifePace for free</h2>
