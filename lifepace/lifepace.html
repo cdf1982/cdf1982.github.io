@@ -1,0 +1,654 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LifePace — Build habits that last</title>
+  <meta name="description" content="LifePace helps you turn good intentions into lasting results with a modern Liquid Glass design across iPhone, iPad, Mac, and Apple Watch. Widgets, Siri, Shortcuts, and on‑device Apple Intelligence keep you on track every day." />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff" />
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0b0b0c" />
+
+  <!-- Open Graph (add og:image once screenshots are available) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="LifePace — Build habits that last" />
+  <meta property="og:description" content="A modern habit tracker for iPhone, iPad, Mac, and Apple Watch. Private iCloud sync. No analytics, no tracking, no ads." />
+  <meta property="og:url" content="https://cdf1982.com/lifepace/lifepace.html" />
+  <meta property="og:image" content="https://cdf1982.com/lifepace/assets/LifePace.png" />
+  <meta property="og:image:alt" content="LifePace — LifePace on iPhone, iPad, Mac, and Apple Watch" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <!-- Twitter Card (add image later) -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="LifePace — Build habits that last" />
+  <meta name="twitter:description" content="A modern habit tracker for iPhone, iPad, Mac, and Apple Watch. Private iCloud sync. No analytics, no tracking, no ads." />
+  <meta name="twitter:image" content="https://cdf1982.com/lifepace/assets/LifePace.png" />
+  <meta name="twitter:image:alt" content="LifePace — LifePace on iPhone, iPad, Mac, and Apple Watch" />
+  <link rel="canonical" href="https://cdf1982.com/lifepace/lifepace.html" />
+
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #0b0b0c;
+      --muted: #5b6169;
+      --accent: #FF2501;
+      --accent-2: #FF2501;
+      --border: #e6e7eb;
+      --card: #f7f8fa;
+      --ok: #16a34a;
+      --warn: #b45309;
+      --maxw: 960px;
+      --radius: 14px;
+      --shadow: 0 6px 24px rgba(0,0,0,0.06);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b0b0c;
+        --text: #eef2f7;
+        --muted: #a3a8b1;
+        --accent: #FF2501;
+        --accent-2: #FF2501;
+        --border: #1b1c20;
+        --card: #0f1115;
+        --shadow: 0 8px 28px rgba(0,0,0,0.5);
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0; padding: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .accent { color: var(--accent); }
+    .wrap { max-width: var(--maxw); margin: 0 auto; padding: 24px; }
+
+    header { display: flex; align-items: center; justify-content: space-between; gap: 16px; position: sticky; top: 0; z-index: 1000; background: var(--bg); border-bottom: 1px solid var(--border); padding: 6px 0; }
+    nav { display: flex; align-items: center; gap: 16px; flex-wrap: nowrap; }
+    nav a { margin-left: 0; color: var(--muted); }
+    nav a:hover { color: var(--text); }
+    /* Ensure nav button styling doesn't inherit link hover color */
+    nav a.btn,
+    nav a.btn:hover { color: #fff; text-decoration: none; }
+    .brand { font-weight: 700; letter-spacing: 0.2px; }
+    .header-left { display: flex; align-items: center; gap: 12px; }
+    .nav-badge { display: inline-flex; align-items: center; }
+    .nav-badge img { height: 44px; display: block; }
+    .muted { color: var(--muted); }
+
+    .hero {
+      margin-top: 28px;
+      padding: 28px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+    .hero h1 { margin: 0 0 6px; font-size: clamp(28px, 5vw, 40px); line-height: 1.15; }
+    .hero-header { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+    .hero-icon img { width: 64px; height: 64px; display: block; }
+    @media (max-width: 480px) { .hero-icon img { width: 48px; height: 48px; } }
+    .subtitle { font-size: 18px; margin: 6px 0 14px; color: var(--muted); }
+    .meta { display: flex; flex-wrap: wrap; gap: 10px 16px; font-size: 14px; color: var(--muted); margin-bottom: 16px; }
+    /* Enlarge hero description paragraph */
+    .hero p.muted { font-size: 18px; }
+
+    .hero-media { margin-top: 18px; }
+    .hero-media img { display: block; width: 100%; height: auto; border-radius: var(--radius); }
+
+    /* Screenshots */
+    .shots-group { margin-top: 18px; }
+    .shots-title { font-weight: 600; margin: 8px 0; }
+    .shots-grid { display: grid; gap: 12px; }
+    .shots-grid.cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    .shots-grid.cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .shots-grid.cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    @media (max-width: 900px) {
+      .shots-grid.cols-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .shots-grid.cols-3 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .shots-grid.cols-2 { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 560px) {
+      .shots-grid.cols-4 { grid-template-columns: 1fr; }
+      .shots-grid.cols-3 { grid-template-columns: 1fr; }
+    }
+    .shots-grid img { width: 100%; height: auto; border: 1px solid var(--border); border-radius: var(--radius); }
+    .shots-nav { display: flex; gap: 12px; white-space: nowrap; overflow-x: auto; padding-bottom: 6px; margin: 6px 0 12px; border-bottom: 1px solid var(--border); }
+    .shots-nav a { color: var(--muted); font-weight: 600; }
+    .shots-nav a:hover { color: var(--text); text-decoration: none; }
+    /* Collapsible screenshots */
+    details.shots-collapsible { margin-top: 18px; scroll-margin-top: 72px; }
+    details.shots-collapsible summary { font-weight: 600; margin: 8px 0; cursor: pointer; display: inline-flex; align-items: center; }
+    /* Hide default markers */
+    details.shots-collapsible summary::-webkit-details-marker { display: none; }
+    details.shots-collapsible summary::marker { content: ''; }
+    /* Custom arrow */
+    details.shots-collapsible summary::before {
+      content: '▸';
+      display: inline-block;
+      margin-right: 8px;
+      color: var(--accent);
+      font-size: 24px;
+      line-height: 1;
+      transform: translateY(1px) rotate(0deg);
+      transition: transform 0.2s ease;
+    }
+    details.shots-collapsible[open] summary::before {
+      transform: translateY(1px) rotate(90deg);
+    }
+
+    .cta { display: grid; grid-template-columns: 1fr; gap: 10px; margin-top: 12px; justify-items: center; }
+    .cta .btn { width: 100%; text-align: center; }
+    @media (max-width: 560px) { .cta { grid-template-columns: 1fr; } }
+    .appstore-badge img { height: 44px; display: block; }
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center;
+      gap: 8px; padding: 12px 16px; border-radius: 12px;
+      font-weight: 600; border: 1px solid var(--border); background: transparent; color: var(--text);
+      text-decoration: none; min-width: 44px; min-height: 44px;
+    }
+    .btn:hover { text-decoration: none; border-color: var(--accent); }
+    .btn-primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+    .btn-primary[aria-disabled="true"] { opacity: 1; cursor: not-allowed; }
+    .btn-secondary { background: transparent; }
+    .btn-ghost { color: var(--muted); }
+    .badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-size: 12px; padding: 6px 10px; border: 1px solid var(--border);
+      border-radius: 999px; background: transparent; color: var(--muted);
+    }
+
+    /* App Store CTA styling: black (light) / grey (dark) with white text */
+    .cta .btn-secondary { background: #000; color: #fff; border-color: #000; }
+    .cta .btn-secondary:hover { filter: brightness(1.05); }
+    @media (prefers-color-scheme: dark) {
+      .cta .btn-secondary { background: #6b7280; border-color: #6b7280; color: #fff; }
+    }
+
+    section { margin-top: 36px; }
+    h2 { font-size: 22px; margin: 0 0 14px; }
+    .grid {
+      display: grid; gap: 12px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    /* Vertical stack for left facts column */
+    .stack { display: grid; gap: 12px; }
+    /* Video styling */
+    .landing-video { width: 100%; height: auto; display: block; border-radius: var(--radius); border: 1px solid var(--border); }
+    .video-card { display: flex; align-items: center; justify-content: center; }
+    @media (max-width: 720px) { .grid { grid-template-columns: 1fr; } }
+    .card {
+      border: 1px solid var(--border); border-radius: var(--radius); background: var(--card); padding: 18px; box-shadow: var(--shadow);
+    }
+    ul.clean { margin: 0; padding-left: 18px; }
+    .small { font-size: 14px; }
+    .callout { border-left: 4px solid var(--accent-2); padding: 12px 14px; background: var(--card); border-radius: 12px; }
+
+    /* Lightbox */
+    body.lb-open { overflow: hidden; }
+    .lb[hidden] { display: none !important; }
+    .lb {
+      position: fixed; inset: 0; z-index: 10000;
+      display: flex; align-items: center; justify-content: center;
+      background: rgba(0,0,0,0.92); padding: 24px;
+    }
+    .lb-stage { max-width: 95vw; max-height: 90vh; display: flex; align-items: center; justify-content: center; }
+    .lb-img { max-width: 95vw; max-height: 90vh; border-radius: 10px; box-shadow: 0 8px 40px rgba(0,0,0,0.45); }
+    .lb-btn { position: absolute; display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.25); background: rgba(255,255,255,0.08); color: #fff; cursor: pointer; }
+    .lb-btn:hover { background: rgba(255,255,255,0.18); }
+    .lb-close { top: 16px; right: 16px; font-size: 22px; }
+    .lb-prev { left: 12px; top: 50%; transform: translateY(-50%); font-size: 28px; }
+    .lb-next { right: 12px; top: 50%; transform: translateY(-50%); font-size: 28px; }
+    @media (max-width: 560px) {
+      .lb-btn { width: 40px; height: 40px; }
+      .lb-prev { left: 8px; }
+      .lb-next { right: 8px; }
+      .lb-close { top: 8px; right: 8px; }
+    }
+
+    footer { margin: 36px 0 18px; color: var(--muted); font-size: 14px; }
+    /* Download section + footer layout */
+    .download-center h2 { text-align: center; margin: 0; }
+    footer .footer-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+    footer .right { display: flex; align-items: center; gap: 10px; }
+
+    @media (prefers-reduced-motion: reduce) {
+      * { transition: none !important; animation: none !important; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <div class="header-left">
+        <div class="brand">LifePace</div>
+      </div>
+      <nav aria-label="Sections">
+        <a href="#facts">Quick facts</a>
+        <a href="#highlights">Highlights</a>
+        <a href="#screenshots">Screenshots</a>
+        <a class="nav-badge" href="https://apps.apple.com/us/app/lifepace-habit-streaks-tracker/id6751773159" target="_blank" rel="noopener">
+          <picture>
+            <source srcset="assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" media="(prefers-color-scheme: dark)">
+            <img src="assets/Download_on_the_App_Store_Badge_US-UK_RGB_wht_092917.svg" alt="Download on the App Store">
+          </picture>
+        </a>
+      </nav>
+    </header>
+
+    <main id="content">
+      <section class="hero" aria-labelledby="title">
+        <div class="hero-header">
+          <h1 id="title"><span class="accent">LifePace</span> — Build Habits That Last</h1>
+          <picture class="hero-icon">
+            <source srcset="assets/lifepace_icon_dark.png" media="(prefers-color-scheme: dark)">
+            <img src="assets/lifepace_icon.png" alt="LifePace app icon" width="64" height="64">
+          </picture>
+        </div>
+        <p class="subtitle">The habit tracker that turns <span class="accent">good intentions</span> into <span class="accent">lasting results</span></p>
+        <div class="meta">
+          <span class="badge" title="Type">Category: Habit tracking</span>
+          <span class="badge" title="Platforms">iPhone, iPad, Mac, and Apple Watch</span>
+          <span class="badge" title="Attribution">Made in 🇮🇹 by<a href="https://cdf1982.com">Cesare Forelli</a></span>
+        </div>
+        <p class="muted">
+          LifePace helps you create routines that fit your life, stay motivated with clear progress, and enjoy a modern Liquid Glass design.
+          Widgets, Siri, Shortcuts, and on‑device Apple Intelligence keep you on track every day.
+        </p>
+        <div class="cta" role="group" aria-label="Primary calls to action">
+          <a class="appstore-badge" href="https://apps.apple.com/us/app/lifepace-habit-streaks-tracker/id6751773159" target="_blank" rel="noopener">
+            <picture>
+              <source srcset="assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" media="(prefers-color-scheme: dark)">
+              <img src="assets/Download_on_the_App_Store_Badge_US-UK_RGB_wht_092917.svg" alt="Download on the App Store" />
+            </picture>
+          </a>
+        </div>
+      </section>
+
+      <section class="hero-media" aria-label="Hero image">
+        <img src="assets/LifePace.png" alt="LifePace hero image" />
+      </section>
+
+      <section id="facts" aria-labelledby="facts-h">
+        <h2 id="facts-h">Quick facts</h2>
+        <div class="grid">
+          <div class="stack">
+            <div class="card">
+              <strong>Built for success</strong><br/>
+              A new and modern habit tracker designed to make you consistently achieve your goals, big and small
+            </div>
+            <div class="card">
+              <strong>Platforms</strong><br/>
+              iPhone, iPad, Mac, Apple Watch with great Shortcuts, Widgets (Lock-screen included) and Complications
+            </div>
+            <div class="card">
+              <strong>Sync & privacy</strong><br/>
+              Private iCloud sync. No analytics. No tracking. No ads. And with an optional Face ID unlock for absolute privacy
+            </div>
+            <div class="card">
+              <strong>Made for iOS 26, iPadOS 26, and macOS 26 Tahoe</strong><br/>
+              The right amount of cool Liquid Glass design and local Apple Intelligence (with a toggle to turn AI off)
+            </div>
+            <a id="highlights"></a>
+            <h2 id="highlights-h">Highlights</h2>
+            <div class="card">
+              <ul class="clean">
+                <li>Create and organize habits with smart schedules and reminders</li>
+                <li>One‑tap completion with streaks, subtle haptics, and gentle sounds</li>
+                <li>Skip when needed without guilt or breaking your streak</li>
+                <li>Optional "Hard mode" turns skips into misses, if you want to be strict</li>
+                <li>A clean dashboard makes the most of Liquid Glass across iPhone, iPad, Mac, and Apple Watch</li>
+                <li>Local FoundationModels provide motivating summaries and can recommend habits</li>
+                <li>Widgets, Lock Screen, and Watch complications at a glance, powered by Shortcuts</li>
+                <li>Choose how to look at your habits with List and Grid mode</li>
+                <li>Clear stats and graphs that make progress feel tangible</li>
+                <li>Private means private: iCloud sync, no analytics, no ads, no 3rd party code</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card video-card">
+            <video class="landing-video" controls playsinline preload="metadata" poster="assets/promo-video-still.jpg">
+              <source src="assets/LifePace.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </section>
+
+      
+
+      <section id="get-app" class="download-center" aria-labelledby="download-h">
+        <h2 id="download-h">Try LifePace for free</h2>
+        <div class="cta">
+          <a class="appstore-badge" href="https://apps.apple.com/us/app/lifepace-habit-streaks-tracker/id6751773159" target="_blank" rel="noopener">
+            <picture>
+              <source srcset="assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" media="(prefers-color-scheme: dark)">
+              <img src="assets/Download_on_the_App_Store_Badge_US-UK_RGB_wht_092917.svg" alt="Download on the App Store" />
+            </picture>
+          </a>
+        </div>
+      </section>
+
+      <section id="screenshots" aria-labelledby="shots-h">
+        <h2 id="shots-h">Screenshots</h2>
+        <div class="shots-nav" role="navigation" aria-label="Screenshots quick links">
+          <a href="#shots-ios">iOS</a> |
+          <a href="#shots-ipados">iPadOS</a> |
+          <a href="#shots-macos">macOS</a> |
+          <a href="#shots-watchos">watchOS</a> |
+          <a href="#shots-shortcuts">Shortcuts, Widgets, Lock Screen Widgets, Always‑On Display</a>
+        </div>
+        <details id="shots-ios" class="shots-collapsible" open>
+          <summary class="shots-title">iOS 26</summary>
+          <div class="shots-grid cols-3">
+            <img src="assets/screenshots/iPhone%2001%20App%20Store.jpg" alt="iPhone App Store screenshot 1" loading="lazy" />
+            <img src="assets/screenshots/iPhone%2002%20App%20Store.jpg" alt="iPhone App Store screenshot 2" loading="lazy" />
+            <img src="assets/screenshots/iPhone%2003%20App%20Store.jpg" alt="iPhone App Store screenshot 3" loading="lazy" />
+            <img src="assets/screenshots/iPhone%2004%20App%20Store.jpg" alt="iPhone App Store screenshot 4" loading="lazy" />
+            <img src="assets/screenshots/iPhone%2005%20App%20Store.jpg" alt="iPhone App Store screenshot 5" loading="lazy" />
+            <img src="assets/screenshots/iPhone%2006%20App%20Store.jpg" alt="iPhone App Store screenshot 6" loading="lazy" />
+            <img src="assets/screenshots/iPhone%2007%20App%20Store.jpg" alt="iPhone App Store screenshot 7" loading="lazy" />
+            <img src="assets/screenshots/iPhone%2008%20App%20Store.jpg" alt="iPhone App Store screenshot 8" loading="lazy" />
+            <img src="assets/screenshots/iPhone%2009%20App%20Store.jpg" alt="iPhone App Store screenshot 9" loading="lazy" />
+          </div>
+        </details>
+        <br>
+        <details id="shots-ipados" class="shots-collapsible">
+          <summary class="shots-title">iPadOS 26</summary>
+          <div class="shots-grid cols-2">
+            <img src="assets/screenshots/iPad%2001%20App%20Store.jpg" alt="iPad App Store screenshot 1" loading="lazy" />
+            <img src="assets/screenshots/iPad%2002%20App%20Store.jpg" alt="iPad App Store screenshot 2" loading="lazy" />
+            <img src="assets/screenshots/iPad%2003%20App%20Store.jpg" alt="iPad App Store screenshot 3" loading="lazy" />
+            <img src="assets/screenshots/iPad%2004%20App%20Store.jpg" alt="iPad App Store screenshot 4" loading="lazy" />
+            <img src="assets/screenshots/iPad%2005%20App%20Store.jpg" alt="iPad App Store screenshot 5" loading="lazy" />
+            <img src="assets/screenshots/iPad%2006%20App%20Store.jpg" alt="iPad App Store screenshot 6" loading="lazy" />
+            <img src="assets/screenshots/iPad%2007%20App%20Store.jpg" alt="iPad App Store screenshot 7" loading="lazy" />
+            <img src="assets/screenshots/iPad%2008%20App%20Store.jpg" alt="iPad App Store screenshot 8" loading="lazy" />
+          </div>
+        </details>
+        <br>
+        <details id="shots-macos" class="shots-collapsible">
+          <summary class="shots-title">macOS 26 Tahoe</summary>
+          <div class="shots-grid cols-2">
+            <img src="assets/screenshots/Mac%2001%20App%20Store.jpg" alt="Mac App Store screenshot 1" loading="lazy" />
+            <img src="assets/screenshots/Mac%2002%20App%20Store.jpg" alt="Mac App Store screenshot 2" loading="lazy" />
+            <img src="assets/screenshots/Mac%2003%20App%20Store.jpg" alt="Mac App Store screenshot 3" loading="lazy" />
+            <img src="assets/screenshots/Mac%2004%20App%20Store.jpg" alt="Mac App Store screenshot 4" loading="lazy" />
+            <img src="assets/screenshots/Mac%2005%20App%20Store.jpg" alt="Mac App Store screenshot 5" loading="lazy" />
+            <img src="assets/screenshots/Mac%2006%20App%20Store.jpg" alt="Mac App Store screenshot 6" loading="lazy" />
+            <img src="assets/screenshots/Mac%2007%20App%20Store.jpg" alt="Mac App Store screenshot 7" loading="lazy" />
+            <img src="assets/screenshots/Mac%2008%20App%20Store.jpg" alt="Mac App Store screenshot 8" loading="lazy" />
+          </div>
+        </details>
+        <br>
+        <details id="shots-watchos" class="shots-collapsible">
+          <summary class="shots-title">watchOS 26 + Complications</summary>
+          <div class="shots-grid cols-4">
+            <img src="assets/screenshots/Watch_01.png" alt="Apple Watch screenshot" loading="lazy" />
+            <img src="assets/screenshots/Watch_complications_01.png" alt="Apple Watch complications screenshot 1" loading="lazy" />
+            <img src="assets/screenshots/Watch_complications_02.png" alt="Apple Watch complications screenshot 2" loading="lazy" />
+            <img src="assets/screenshots/Watch_complications_03.png" alt="Apple Watch complications screenshot 3" loading="lazy" />
+          </div>
+        </details>
+        <br>
+        <details id="shots-shortcuts" class="shots-collapsible">
+          <summary class="shots-title">Shortcuts, Widgets, Lock Screen Widgets, Always‑On Display and Control Center</summary>
+          <div class="shots-grid cols-3">
+            <img src="assets/screenshots/Shortcuts.png" alt="Shortcuts" loading="lazy" />
+            <img src="assets/screenshots/Widget_light.png" alt="Widgets light" loading="lazy" />
+            <img src="assets/screenshots/Widgets_dark.png" alt="Widgets dark" loading="lazy" />
+            <img src="assets/screenshots/Widgets_clear.png" alt="Widgets clear" loading="lazy" />
+            <img src="assets/screenshots/Widgets_tinted.png" alt="Widgets tinted" loading="lazy" />
+            <img src="assets/screenshots/Always_on_display.png" alt="Always‑On Display" loading="lazy" />
+            <img src="assets/screenshots/Lockscreen_widgets.png" alt="Lock Screen widgets" loading="lazy" />
+            <img src="assets/screenshots/ControlCenter.png" alt="Control Center actions" loading="lazy" />
+          </div>
+        </details>
+
+      </section>
+
+      <section id="download" class="download-center" aria-labelledby="download-h">
+        <h2 id="download-h">Build Habits that Last with LifePace</h2>
+        <div class="cta">
+          <a class="appstore-badge" href="https://apps.apple.com/us/app/lifepace-habit-streaks-tracker/id6751773159" target="_blank" rel="noopener">
+            <picture>
+              <source srcset="assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" media="(prefers-color-scheme: dark)">
+              <img src="assets/Download_on_the_App_Store_Badge_US-UK_RGB_wht_092917.svg" alt="Download on the App Store" />
+            </picture>
+          </a>
+        </div>
+      </section>
+
+      <section id="details" class="app-desc" aria-labelledby="details-h">
+        <div class="card">
+          <p><strong>LifePace</strong> helps you turn good intentions into lasting results. Create routines that fit your life, stay motivated with clear progress, and enjoy a modern Liquid Glass design across iPhone, iPad, Mac, and Apple Watch. With support for Widgets, Siri, Shortcuts, and on‑device Apple Intelligence, LifePace keeps you motivated every day.</p>
+          <p><strong>Show up, build confidence, reduce stress</strong>, and see your progress come to life with LifePace — the habit tracker that makes sticking to habits simple and motivating.</p>
+          <p><strong>The free version</strong> of LifePace lets you fully explore all features while tracking 1 habit.</p>
+          <p><strong>Upgrade to LifePace Pro</strong> to unlock unlimited habits and support the continued development of this indie app. LifePace Pro is available as either a <em>one‑time lifetime unlock</em> or a <em>yearly auto‑renewing subscription</em>. Both options give you the same functionality — choose the commitment and purchase method that fits you best. <strong>Bonus:</strong> the lifetime unlock includes Family Sharing, so your loved ones can reach their goals too.</p>
+        </div>
+
+        <div class="grid" style="margin-top:12px;">
+          <div class="card">
+            <strong>STAY ON TRACK</strong>
+            <ul class="clean">
+              <li>Create, edit, and organize habits with full flexibility</li>
+              <li>Each day, a habit can be completed, skipped or missed</li>
+              <li>Forgot to update one day? Go back and fix it</li>
+              <li>Skip when needed, without guilt</li>
+              <li>Pause, archive, or resume without losing progress</li>
+            </ul>
+          </div>
+          <div class="card">
+            <strong>FLEXIBLE SCHEDULING & SMART REMINDERS</strong>
+            <ul class="clean">
+              <li>Daily, weekly, or monthly schedules that adapt to you</li>
+              <li>Advanced options like “first weekday” or “last weekday”</li>
+              <li>Start and end windows that match real‑life routines</li>
+              <li>Drag and drop ordering to keep priorities on top</li>
+            </ul>
+          </div>
+          <div class="card">
+            <strong>PROGRESS THAT FEELS GOOD</strong>
+            <ul class="clean">
+              <li>One‑tap complete and lots of actions on swipe and long‑press</li>
+              <li>Skip without breaking your streak; missed days are tracked automatically</li>
+              <li>Optional subtle haptics and gentle sounds reinforce momentum</li>
+            </ul>
+          </div>
+          <div class="card">
+            <strong>CLARITY EVERY DAY</strong>
+            <ul class="clean">
+              <li>Sections for Active, Paused, Expired, and Archived habits</li>
+              <li>Show and hide the sections you want</li>
+              <li>Quickly jump to recent dates and navigate everything with a calendar</li>
+              <li>Switch between list and grid layouts</li>
+            </ul>
+          </div>
+          <div class="card">
+            <strong>INSIGHTS THAT INSPIRE</strong>
+            <ul class="clean">
+              <li>Apple Intelligence on‑device summaries tell you what is working and where to improve</li>
+              <li>Don’t like AI? Turn it off in settings</li>
+              <li>Streaks that celebrate consistency</li>
+              <li>Swipe through time ranges and spot patterns with graphs</li>
+            </ul>
+          </div>
+          <div class="card">
+            <strong>MAKE IT YOURS</strong>
+            <ul class="clean">
+              <li>Modern Liquid Glass design, at home on the latest versions of iOS, iPadOS, macOS and watchOS</li>
+              <li>Looks beautiful in light mode, and stunning in dark mode</li>
+              <li>Choose a color, symbol and emoji that matches your style</li>
+            </ul>
+          </div>
+          <div class="card">
+            <strong>ALWAYS WITHIN REACH</strong>
+            <ul class="clean">
+              <li>Widgets for single or multiple habits with one‑tap completion</li>
+              <li>Daily summary widgets with counts and full lists</li>
+              <li>Lock Screen widgets and Apple Watch complications</li>
+            </ul>
+          </div>
+          <div class="card">
+            <strong>SIRI & SHORTCUTS</strong>
+            <ul class="clean">
+              <li>Ask for a habit’s status</li>
+              <li>List today’s habits</li>
+              <li>Mark complete or skip completely hands‑free</li>
+              <li>Works directly in Siri with your voice</li>
+            </ul>
+          </div>
+          <div class="card">
+            <strong>DESIGNED TO DELIGHT</strong>
+            <ul class="clean">
+              <li>The right amount of Liquid Glass: modern, expressive and consistent across devices</li>
+              <li>Quick actions let you Complete or Skip without opening the app</li>
+            </ul>
+          </div>
+          <div class="card">
+            <strong>PRIVACY AND SECURITY</strong>
+            <ul class="clean">
+              <li>Private iCloud sync across iPhone, iPad, Mac, Apple Watch and Widgets</li>
+              <li>Optional App Lock</li>
+              <li><strong></strong>No analytics. No tracking. No servers. No ads.</strong></li>
+            </ul>
+        </div>
+      </section>
+
+      <section id="download" class="download-center" aria-labelledby="download-h">
+        <h2 id="download-h">You've read everything there was to read, now download LifePace for free!</h2>
+        <div class="cta">
+          <a class="appstore-badge" href="https://apps.apple.com/us/app/lifepace-habit-streaks-tracker/id6751773159" target="_blank" rel="noopener">
+            <picture>
+              <source srcset="assets/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" media="(prefers-color-scheme: dark)">
+              <img src="assets/Download_on_the_App_Store_Badge_US-UK_RGB_wht_092917.svg" alt="Download on the App Store" />
+            </picture>
+          </a>
+        </div>
+      </section>
+
+    </main>
+    <footer>
+      <div class="footer-bar">
+        <div class="left">LifePace • 2025 Cesare Forelli</div>
+        <div class="right">
+          <a href="lifepace-presskit.html">Press Kit</a>
+          <span aria-hidden="true">•</span>
+          <a href="https://cdf1982.com/privacy/lifepace_terms_of_service.html" target="_blank" rel="noopener">Terms of Service</a>
+          <span aria-hidden="true">•</span>
+          <a href="http://cdf1982.com/privacy/lifepace_privacy_policy.html" target="_blank" rel="noopener">Privacy Policy</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Lightbox overlay -->
+  <div id="lightbox" class="lb" role="dialog" aria-modal="true" aria-label="Image viewer" hidden tabindex="-1">
+    <button class="lb-btn lb-close" aria-label="Close">×</button>
+    <button class="lb-btn lb-prev" aria-label="Previous image">‹</button>
+    <div class="lb-stage">
+      <img class="lb-img" alt="" />
+    </div>
+    <button class="lb-btn lb-next" aria-label="Next image">›</button>
+  </div>
+
+  <script>
+    // Minimal progressive enhancement: current year + dependency-free lightbox for screenshots
+    (function(){
+      try { document.getElementById('year').textContent = new Date().getFullYear(); } catch(e){}
+
+      var images = Array.prototype.slice.call(document.querySelectorAll('.hero-media img, #screenshots .shots-grid img'));
+      if (!images.length) return;
+
+      var lb = document.getElementById('lightbox');
+      var stageImg = lb.querySelector('.lb-img');
+      var btnPrev = lb.querySelector('.lb-prev');
+      var btnNext = lb.querySelector('.lb-next');
+      var btnClose = lb.querySelector('.lb-close');
+      var current = 0;
+      var touchX = null;
+
+      function update(){
+        var img = images[current];
+        if (!img) return;
+        stageImg.src = img.currentSrc || img.src;
+        stageImg.alt = img.alt || ('Screenshot ' + (current+1));
+      }
+
+      function open(index){
+        current = index;
+        update();
+        lb.removeAttribute('hidden');
+        document.body.classList.add('lb-open');
+        lb.focus();
+        window.addEventListener('keydown', onKey, true);
+      }
+
+      function close(){
+        if (lb.hasAttribute('hidden')) return;
+        lb.setAttribute('hidden','');
+        document.body.classList.remove('lb-open');
+        window.removeEventListener('keydown', onKey, true);
+      }
+
+      function prev(){ current = (current - 1 + images.length) % images.length; update(); }
+      function next(){ current = (current + 1) % images.length; update(); }
+
+      function onKey(e){
+        var k = e.key;
+        if (k === 'Escape') { e.preventDefault(); close(); }
+        else if (k === 'ArrowLeft') { e.preventDefault(); prev(); }
+        else if (k === 'ArrowRight') { e.preventDefault(); next(); }
+      }
+
+      // Click handlers
+      btnPrev.addEventListener('click', prev);
+      btnNext.addEventListener('click', next);
+      btnClose.addEventListener('click', close);
+      lb.addEventListener('click', function(ev){ if (ev.target === lb) close(); });
+
+      // Touch swipe (iOS/Android)
+      lb.addEventListener('touchstart', function(ev){
+        if (!ev.touches || !ev.touches.length) return;
+        touchX = ev.touches[0].clientX;
+      }, { passive: true });
+      lb.addEventListener('touchend', function(ev){
+        if (touchX == null) return;
+        var endX = (ev.changedTouches && ev.changedTouches.length) ? ev.changedTouches[0].clientX : touchX;
+        var dx = endX - touchX;
+        // horizontal swipe threshold ~40px
+        if (Math.abs(dx) > 40) { if (dx > 0) prev(); else next(); }
+        touchX = null;
+      }, { passive: true });
+
+      // Make gallery images focusable and openable via keyboard
+      images.forEach(function(img, idx){
+        img.style.cursor = 'zoom-in';
+        if (!img.hasAttribute('tabindex')) img.setAttribute('tabindex','0');
+        img.addEventListener('click', function(){ open(idx); });
+        img.addEventListener('keydown', function(e){
+          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(idx); }
+        });
+      });
+
+      // Expand collapsible section when navigating via hash
+      function expandFromHash(){
+        if (!location.hash) return;
+        var id = location.hash.slice(1);
+        var target = document.getElementById(id);
+        if (target && target.tagName && target.tagName.toLowerCase() === 'details') {
+          target.open = true;
+        }
+      }
+      window.addEventListener('hashchange', expandFromHash, false);
+      // Run on load too
+      expandFromHash();
+    })();
+  </script>
+</body>
+</html>
