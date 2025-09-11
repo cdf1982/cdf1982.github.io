@@ -154,7 +154,6 @@
     }
     .btn:hover { text-decoration: none; border-color: var(--accent); }
     .btn-primary { background: var(--accent); border-color: var(--accent); color: #fff; }
-    .btn-primary[aria-disabled="true"] { opacity: 1; cursor: not-allowed; }
     .btn-secondary { background: transparent; }
     .btn-ghost { color: var(--muted); }
     .badge {
@@ -162,6 +161,16 @@
       font-size: 12px; padding: 6px 10px; border: 1px solid var(--border);
       border-radius: 999px; background: transparent; color: var(--muted);
     }
+
+    /* Launch notice dialog */
+    .notice-overlay { position: fixed; inset: 0; z-index: 11000; background: rgba(0,0,0,0.45); display: none; align-items: center; justify-content: center; padding: 16px; }
+    .notice-overlay[aria-hidden="false"] { display: flex; }
+    .notice-dialog { width: min(92vw, 520px); border: 1px solid var(--border); border-radius: var(--radius); background: var(--bg); color: var(--text); box-shadow: var(--shadow); padding: 16px; }
+    .notice-dialog h3 { margin: 0 0 8px; font-size: 18px; }
+    .notice-dialog p { margin: 0; color: var(--muted); }
+    .notice-actions { margin-top: 12px; display: flex; gap: 10px; justify-content: flex-end; }
+    /* Launch banner */
+    .launch-banner { margin-top: 12px; padding: 12px 16px; background: var(--accent); color: #fff; border-radius: var(--radius); border: 1px solid var(--accent); text-align: center; font-weight: 600; }
 
     /* App Store CTA styling: black (light) / grey (dark) with white text */
     .cta .btn-secondary { background: #000; color: #fff; border-color: #000; }
@@ -270,6 +279,8 @@
           </a>
         </div>
       </section>
+
+      <div class="launch-banner" role="status" aria-live="polite">LifePace is launching with iOS 26 and macOS Tahoe on Monday, September 15 </div>
 
       <section class="hero-media" aria-label="Hero image">
         <img src="assets/LifePace.png" alt="LifePace hero image" />
@@ -547,6 +558,18 @@
     </footer>
   </div>
 
+  <!-- Launch notice (pre-launch App Store modal) -->
+  <div id="launch-notice" class="notice-overlay" aria-hidden="true">
+    <div class="notice-dialog" role="dialog" aria-modal="true" aria-labelledby="launch-title">
+      <h3 id="launch-title">LifePace will launch for free on Monday, September 15</h3>
+      <p><br>Please save the download URL or check back on launch day!</p>
+      <div class="notice-actions">
+        <button type="button" class="btn btn-primary" id="btn-copy-link">Copy App Store link</button>
+        <button type="button" class="btn" id="btn-close-notice">I'll remember to check on Monday...</button>
+      </div>
+    </div>
+  </div>
+
   <!-- Lightbox overlay -->
   <div id="lightbox" class="lb" role="dialog" aria-modal="true" aria-label="Image viewer" hidden tabindex="-1">
     <button class="lb-btn lb-close" aria-label="Close">×</button>
@@ -561,6 +584,56 @@
     // Minimal progressive enhancement: current year + dependency-free lightbox for screenshots
     (function(){
       try { document.getElementById('year').textContent = new Date().getFullYear(); } catch(e){}
+
+      // Temporarily disable App Store links until launch and show notice
+      // Launch: Monday, September 15, 2025
+      var LAUNCH_DATE = new Date(2025, 8, 15); // months are 0-indexed; local midnight
+      if (Date.now() < LAUNCH_DATE.getTime()) {
+        var APP_STORE_URL = 'https://apps.apple.com/us/app/lifepace-habit-streaks-tracker/id6751773159';
+        var overlay = document.getElementById('launch-notice');
+        var btnCopy = document.getElementById('btn-copy-link');
+        var btnClose = document.getElementById('btn-close-notice');
+
+        function showLaunchNotice(){
+          if (!overlay) return;
+          overlay.setAttribute('aria-hidden','false');
+          try { btnCopy && btnCopy.focus(); } catch(e){}
+        }
+        function hideLaunchNotice(){
+          if (!overlay) return;
+          overlay.setAttribute('aria-hidden','true');
+        }
+        function copyLink(){
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(APP_STORE_URL).then(function(){
+              hideLaunchNotice();
+              setTimeout(function(){ alert('Link copied to clipboard'); }, 10);
+            }).catch(function(){ fallbackCopy(); });
+          } else { fallbackCopy(); }
+        }
+        function fallbackCopy(){
+          try {
+            var ta = document.createElement('textarea');
+            ta.value = APP_STORE_URL; ta.setAttribute('readonly',''); ta.style.position='fixed'; ta.style.opacity='0';
+            document.body.appendChild(ta); ta.select(); document.execCommand('copy'); document.body.removeChild(ta);
+            hideLaunchNotice();
+            setTimeout(function(){ alert('Link copied to clipboard'); }, 10);
+          } catch(e) { /* ignore */ }
+        }
+        btnCopy && btnCopy.addEventListener('click', copyLink);
+        btnClose && btnClose.addEventListener('click', hideLaunchNotice);
+        overlay && overlay.addEventListener('click', function(ev){ if (ev.target === overlay) hideLaunchNotice(); });
+        window.addEventListener('keydown', function(ev){ if (ev.key === 'Escape') hideLaunchNotice(); }, true);
+
+        var storeLinks = Array.prototype.slice.call(document.querySelectorAll(
+          'a[href*="apps.apple.com"][href*="lifepace-habit-streaks-tracker"]'
+        ));
+        // Intercept and show modal
+        storeLinks.forEach(function(a){
+          a.addEventListener('click', function(ev){ ev.preventDefault(); ev.stopPropagation(); showLaunchNotice(); });
+          a.addEventListener('keydown', function(ev){ if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); showLaunchNotice(); } });
+        });
+      }
 
       var images = Array.prototype.slice.call(document.querySelectorAll('.hero-media img, #screenshots .shots-grid img'));
       if (!images.length) return;
