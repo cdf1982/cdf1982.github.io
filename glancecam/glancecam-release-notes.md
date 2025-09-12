@@ -5,6 +5,18 @@ description:
 image:
 tags: [glancecam]
 ---
+### GlanceCam is already compatible with macOS Tahoe
+#### September 12, 2025
+
+<i>Cesare from GlanceCam here with a quick positive note about macOS 26, which Apple will officially release on Monday, September 15. Not strictly a release note, but I thought of adding this message here in case you checked before updating...</i><br><br>
+<i>Throughout the summer, a good number of testers and I have run all Tahoe betas and I'm happy to report that GlanceCam is already fully compatible with the new macOS.</i><br><br>
+<i>Usually, I release an update of GlanceCam on the day a new macOS ships, but this year is different for 2 reasons:</i>
+<i>1. For the last couple of years, the last summer version of Xcode (the tool used to develop apps on Apple platforms) snuck in bugs at the very last minute; since GlanceCam is already working well on Tahoe, I don't feel that taking such a risk is worth it, and I prefer to wait for Xcode 26.1 to release the next update.</i>
+<i>2. GlanceCam is installed on Macs running recent and less-recent operating systems, so adopting Liquid Glass is not an option for a long while; it's also not something needed in an app designed to stay out of your way and let you see your cameras.</i>
+<i>I felt it was important to get in touch (it's actually the first time I've used the in-app messaging system I built a couple of years ago for the opposite scenario, to warn in case of compatibility issues) and let you know that – as far as I can tell after this very extensive testing by me and others – GlanceCam will work well on Tahoe, whenever you decide to update (personally, I'll wait at least 26.2).</i><br><br>
+<i>Obviously, I [remain available](mailto:support@cdf1982.com) if you experience any issues, or as always if you need anything else.</i><br><br>
+<i>Thank you for your time and continued support! –Cesare</i>
+
 <a name="4_5"></a>
 ### GlanceCam 4.5
 #### March 29, 2025
