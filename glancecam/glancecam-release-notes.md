@@ -13,7 +13,7 @@ tags: [glancecam]
 <i>Usually, I release an update of GlanceCam on the day a new macOS ships, but this year is different for 2 reasons:</i><br><br>
 <i>1. For the last couple of years, the last summer version of Xcode (the tool used to develop apps on Apple platforms) snuck in bugs at the very last minute; since GlanceCam is already working well on Tahoe, I don't feel that taking such a risk is worth it, and I prefer to wait for Xcode 26.1 to release the next update.</i><br><br>
 <i>2. GlanceCam is installed on Macs running recent and less-recent operating systems, so adopting Liquid Glass is not an option for a long while; it's also not something needed in an app designed to stay out of your way and let you see your cameras.</i><br><br>
-<i>I felt it was important to get in touch (it's actually the first time I've used the in-app messaging system I built a couple of years ago for the opposite scenario, to warn in case of compatibility issues) and let you know that – as far as I can tell after this very extensive testing by me and others – GlanceCam will work well on Tahoe, whenever you decide to update (personally, I'll wait at least 26.2).</i><br><br>
+<i>I felt it was important to let you know that – as far as I can tell after this very extensive testing by me and others – GlanceCam will work well on Tahoe, whenever you decide to update (personally, I'll wait at least 26.2).</i><br><br>
 <i>Obviously, I [remain available](mailto:support@cdf1982.com) if you experience any issues, or as always if you need anything else.</i><br><br>
 <i>Thank you for your time and continued support! –Cesare</i>
 
