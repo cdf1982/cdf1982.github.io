@@ -125,6 +125,7 @@
     }
     .btn:hover { text-decoration: none; border-color: var(--accent); }
     .btn-primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+    .btn-blue { background: #0a84ff; border-color: #0a84ff; color: #fff; }
     .btn-primary[aria-disabled="true"] { opacity: 1; cursor: not-allowed; }
     .btn-secondary { background: transparent; }
     .btn-ghost { color: var(--muted); }
@@ -140,6 +141,9 @@
     @media (prefers-color-scheme: dark) {
       .cta .btn-secondary { background: #6b7280; border-color: #6b7280; color: #fff; }
     }
+
+    /* Launch banner */
+    .launch-banner { margin-top: 12px; padding: 12px 16px; background: #009222; color: #fff; border-radius: var(--radius); border: 1px solid #009222; text-align: center; font-weight: 600; }
 
     section { margin-top: 36px; }
     h2 { font-size: 22px; margin: 0 0 14px; }
@@ -223,14 +227,21 @@
           Widgets, Siri, Shortcuts, and on‑device Apple Intelligence keep you on track every day.
         </p>
         <div class="cta" role="group" aria-label="Primary calls to action">
-          <a class="btn btn-primary" href="https://testflight.apple.com/join/bdYagFR9" target="_blank" rel="noopener">Join TestFlight</a>
-          <a class="btn btn-secondary" href="https://apps.apple.com/us/app/lifepace-habit-streaks-tracker/id6751773159">App Store (Coming soon)</a>
+          <a class="btn btn-blue" href="https://testflight.apple.com/join/bdYagFR9" target="_blank" rel="noopener">Join TestFlight</a>
+          <a class="btn btn-primary" href="https://apps.apple.com/us/app/lifepace-habit-streaks-tracker/id6751773159" target="_blank" rel="noopener">App Store</a>
         </div>
       </section>
+
+      <div class="launch-banner" role="status" aria-live="polite">LifePace launched with iOS 26 and macOS Tahoe and version 1.1 is already here! </div>
 
       <section class="hero-media" aria-label="Hero image">
         <img src="assets/LifePace.png" alt="LifePace hero image" />
       </section>
+
+      <br>
+      <br>
+
+      <div class="callout">A quick note to the beta testers who provided essential feedback: <b>thank you for your help!</b></div>
 
       <section id="facts" aria-labelledby="facts-h">
         <h2 id="facts-h">Quick facts</h2>
@@ -285,7 +296,20 @@
         </div>
       </section>
 
-      
+      <section id="whats-new" aria-labelledby="whatsnew-h">
+        <h2 id="whatsnew-h">Updates are already rolling in! Here's what's new in LifePace 1.1:</h2>
+        <div class="grid">
+          <div class="card">
+            <p><strong>Much faster performance</strong></p>
+            <p>You know how they say about the best plans not resisting an encounter with reality?<br>Turns out that Users importing a decade of data from other apps stress-test your app on a whole different level, and that's a good thing for everyone:<br>Now - in just 5 days - scrolling through long histories, checking stats, and completing habits is smoother and more responsive for everyone.</p>
+          </div>
+          <div class="card">
+            <p><strong>Full-screen alarms</strong></p>
+            <p>On iOS 26 and iPadOS 26, you can now enable AlarmKit-based <strong>full-screen alarms</strong> for habits you never want to miss, just like wake-up alarms.</p>
+            <p>On devices that don’t support AlarmKit (like the Mac), LifePace continues to use standard notifications. By default, reminders remain gentle everywhere: you decide which habits deserve an alarm by toggling <strong>Alarms</strong> on in each habit’s configuration.</p>
+          </div>
+        </div>
+      </section>
 
       <section id="press" aria-labelledby="press-h">
         <h2 id="press-h">Press</h2>
@@ -313,7 +337,7 @@
             <a href="https://testflight.apple.com/join/bdYagFR9" target="_blank" rel="noopener"><strong>TestFlight</strong></a>
           </div>
           <div class="card">
-            <a href="https://apps.apple.com/us/app/lifepace-habit-streaks-tracker/id6751773159" target="_blank" rel="noopener"><strong>App Store (Coming soon)</strong></a>
+            <a href="https://apps.apple.com/us/app/lifepace-habit-streaks-tracker/id6751773159" target="_blank" rel="noopener"><strong>App Store</strong></a>
           </div>
           <div class="card">
             <a href="https://cdf1982.com/privacy/lifepace_terms_of_service.html" target="_blank" rel="noopener"><strong>Terms of Service</strong></a>
