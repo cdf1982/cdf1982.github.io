@@ -5,9 +5,6 @@ description: Terms of Service for the SendScan application
 image:
 nav-menu: false
 ---
-
-# SendScan Terms of Service
-
 ## Introduction
 The SendScan application (the "App") is made available to you by **Cesare Forelli** ("I", "Me" or "My") subject to these Terms of Service (the "Terms"), along with the Privacy Policy, which together form the complete agreement between you and Me regarding the App.
 
