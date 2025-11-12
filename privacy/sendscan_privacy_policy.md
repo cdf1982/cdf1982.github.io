@@ -33,4 +33,4 @@ For questions about this document, please email: [support@cdf1982.com](mailto:su
 ## Changes to this policy
 I may modify this document and will publish changes here with an updated modification date.  
 
-*Last revision: September 30, 2025*
+*Last revision: November 12, 2025*
