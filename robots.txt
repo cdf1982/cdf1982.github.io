@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cdf1982.com/sitemap.xml
