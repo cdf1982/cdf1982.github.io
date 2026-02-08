@@ -5,6 +5,77 @@ description:
 image:
 tags: [glancecam]
 ---
+<a name="4_6"></a>
+### GlanceCam 4.6
+#### February 11, 2026
+
+GlanceCam 4.6 is a feature-packed update with one of the most requested improvements, many quality-of-life additions, and important bug fixes. Let's dive in!
+
+<ol>
+  <li>
+    <b>Minimalistic GlanceGrids</b><br>
+    This will make many of you happy: <b>GlanceGrids now fully support the Minimalistic user interface style</b>.<br>
+    When you select Minimalistic in <i>Settings</i> &gt; <i>Appearance</i>, your GlanceGrid windows will now hide their titlebar and window controls, just like single camera windows do. Move your mouse into the grid window to reveal the titlebar and controls; move it out to hide them again.<br>
+    The popup button and alternate button on each tile have been repositioned to remain fully visible when the titlebar appears.<br>
+    This feature works seamlessly with all existing GlanceGrid functionality: full-screen mode, InstaZoom, Roll-Up, window snapping, and dynamic resizing all behave exactly as you'd expect.<br>
+    A heartfelt thank you to Keith, Mark, and James for being the first to request this feature and to all of you who have patiently waited for it!
+  </li>
+	<br>
+  <li>
+    <b>Smarter settings reloads</b>: saving Settings no longer reloads every camera window or grid tile when it isn't necessary. GlanceCam now refreshes only the cameras you edited, while still performing full reloads for structural changes (like adding, removing, or reordering cameras) and when applying global settings (toggling audio and swipe gestures, or changing the theme or UI style). Thanks for the nudge in this direction, Rob!
+  </li>
+	<br>
+  <li>
+    <b>Custom window size</b>: you can now save your preferred window width and height and quickly apply them to any camera window or GlanceGrid.<br>
+    To save a custom size, resize any window to your desired dimensions, then select <i>Window</i> &gt; <i>Save custom size</i>.<br>
+    Once saved, you can apply that size to any active window by pressing <b>⌘4</b> or selecting <i>Window</i> &gt; <i>Custom size</i>.<br>
+    This is useful when you want a specific window size that doesn't match the predefined Postcard, Regular, or Large options, and want to quickly restore it after resizing or apply it consistently across different windows.<br>
+    Your custom size is remembered across app launches, and you can update it anytime.
+  </li>
+	<br>
+  <li>
+    <b>GlanceGrid audio button</b>: grid tiles now show a dedicated audio button in the bottom right corner so you no longer need to rely on the contextual menu <i>(though CMD + click on tiles still provides that and other useful functions, try it out if you haven't before!)</i>. Thanks to Martijn for suggesting a more visible way to toggle audio for cameras included in GlanceGrids.
+  </li>
+	<br>
+  <li>
+    <b>Shorter Cycle mode intervals</b>: the minimum time a camera is displayed before the next one starts loading in the loop has been reduced from 10 to 5 seconds, as requested by Nicholas. Such short intervals are recommended only for cameras on the local network, not for those accessed over the Internet.
+  </li>
+	<br>
+  <li>
+    <b>No more semaphore hide and seek</b>: fixed a bug where, with the Minimalistic user interface and the window in full-screen mode, the titlebar buttons (close, exit full-screen) would briefly appear and then immediately disappear when moving the mouse to the top of the screen; now they remain visible and clickable.
+  </li>
+	<br>
+  <li>
+    <b>StoreKit 2 and a new minimum macOS requirement</b>: there's a major change under the hood with the adoption of Apple's StoreKit 2, which keeps offline installations of GlanceCam Pro on Tahoe more reliably unlocked (thanks for confirming this, Darren!); a consequence of adopting the new StoreKit version is that <b>GlanceCam now requires macOS 10.15 Catalina</b>.
+  </li>
+	<br>
+  <li>
+    <b>Prevent screensaver</b>: a new option <i>(suggested by Suzanne)</i> in <i>Settings</i> &gt; <i>Behavior</i> allows you to prevent the screensaver from starting and the display from sleeping due to inactivity while GlanceCam is running. If you decide to enable this option, GlanceCam will remember your preference across app launches. You can disable it at any time by returning to <i>Settings</i> &gt; <i>Behavior</i>. <b>Important</b>: This setting is disabled by default and <b>should only be enabled if you fully understand and accept the associated risks</b>:
+    <ul>
+      <li><b>Security risk</b>: Keeping your screen unlocked may allow others to access your Mac without being prompted for a password.</li>
+      <li><b>Hardware risk</b>: Preventing the screensaver from starting may damage your screen over time, especially if the same static image is displayed for long periods on certain display technologies (such as OLED).</li>
+    </ul>
+  </li>
+  <li>
+    <b>GlanceGrid improvements and fixes all around!</b> I kept a long list of improvements at the end, and I realize these release notes are getting long, but if you got here you want to know, so here are all the details:
+    <ul>
+      <li>Changing cameras via the dropdown menu or reordering tiles could occasionally result in unexpected positioning after relaunch; these issues should now be resolved, thanks to the valuable bug reports from Edo, Craig, and Geraint.</li>
+      <li>GlanceGrids are now also more tolerant of duplicated cameras in the grid: if you decide you want one camera twice, you can now do so more reliably.</li>
+      <li>Addressed an issue where a GlanceGrid window could remain floating above all other windows after an InstaZoom, even with Always on Top disabled; GlanceCam now detects and corrects a stuck window level after InstaZoom completes.</li>
+      <li>In GlanceGrids, the popup button listing your cameras and the button to switch to the Alternate camera (if one has been configured) could disappear or get misplaced; thanks to Jay reporting the issue, the problem should now be resolved.</li>
+      <li>Roll-Up and Full-Screen now play nicely together! Thanks to Eric for reporting a bug where Roll-Up behaved erratically after exiting full-screen mode.</li>
+      <li>Exiting full-screen with the Esc key, the green semaphore button, or by double-clicking a tile now always correctly restores all grid tiles.</li>
+      <li>The A keyboard shortcut for switching to the Alternate camera now only works in single camera windows.</li>
+      <li>Fixed a rare crash on launch for sessions that had only GlanceGrid windows.</li>
+      <li>In GlanceGrids, pressing the C key to toggle Cycle mode now correctly turns it off if it's already running.</li>
+    </ul>
+  </li>
+</ol>
+
+<b>If GlanceCam is useful to you, 5-star reviews, GlanceCam Pro upgrades or tips are very appreciated and keep development going</b>... and if you have any suggestions or need assistance, I'd love to [hear from you](mailto:support@cdf1982.com)!
+
+My best, <i>Cesare</i>
+
 ### GlanceCam is already compatible with macOS Tahoe
 #### September 12, 2025
 
