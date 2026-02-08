@@ -183,7 +183,7 @@ tags: [glancecam]
 >There is **no set limit to the number of concurrently playing cameras** (except for network bandwidth and CPU power, of course, but I'm proud to report that GlanceCam 4 is even more efficient, especially on Apple Silicon) and just like with multi-windows, you can open separate GlanceGrids, each with a different preset and layout; is also **possible to mix single-camera windows, GlanceGrids and USB-cameras**.<br>
 > Beloved features like Always on Top, keyboard shortcuts, action buttons, and Insta-zoom are still available with GlanceGrids; you can even customize Insta-zoom's behavior to temporarily maximize just one "tile" of your grid, or make the whole grid as big as possible while you hold down your mouse's right button. And what you can customize for GlanceGrids doesn't stop there: you can tweak the inter-camera black space, set a maximum number of columns, and have a GlanceGrid window "auto-snap" when resizing it to avoid black space below the last row of cameras.<br>
 > **When you're ready to try GlanceGrids, which are included in GlanceCam Pro, just click on File > Add GlanceGrid window (or use the CMD + G keyboard shortcut).** And don't forget that, just like with any other feature, each interface element has a _tooltip_ that appears when you leave your mouse pointer still on it for a moment, and that will explain everything you need to know to take maximum advantage of every powerful feature.
-> A couple of implementation notes about GlanceGrids: they do not currently support the Minimalistic interface; cameras included in grids default to 16:9 (custom aspect ratios forced in Settings remain applied when a camera is displayed in a single window); the keyboard shortcuts for quickly resizing a window have been tweaked just for GlanceGrids, so their behavior differs slightly from what you're used to with single-camera windows but is more appropriate for this use case; finally, you may notice some flickering occur occasionally while resizing a grid window, and then going away as soon as you're done resizing.
+> A couple of implementation notes about GlanceGrids: starting with version 4.6, GlanceGrids fully support the Minimalistic user interface style — the titlebar and window controls hide when your mouse is outside the grid and reappear when you move in (note: while Roll-Up is enabled, the window temporarily uses Standard UI to ensure the titlebar is always available for roll-up functionality). Each grid tile also has a dedicated audio button in the bottom right corner for quick access. Cameras included in grids default to 16:9 (custom aspect ratios forced in Settings remain applied when a camera is displayed in a single window); the keyboard shortcuts for quickly resizing a window have been tweaked just for GlanceGrids, so their behavior differs slightly from what you're used to with single-camera windows but is more appropriate for this use case; finally, you may notice some flickering occur occasionally while resizing a grid window, and then going away as soon as you're done resizing.
 <a name="remote"></a>
 
 ---
@@ -217,7 +217,7 @@ tags: [glancecam]
 
 #### What are GlanceCam's system requirements?
 > To work with GlanceCam, **your IP cameras must support standard streaming protocols**: RTSP, HTTP(s) or RTMP.<br>
-> GlanceCam requires **a Mac** running at least **macOS 10.14 Mojave, or a newer version of macOS** (and obviously the app is fully at home and **works great on Tahoe**, including with Stage Manager!).<br>
+> GlanceCam requires **a Mac** running at least **macOS 10.15 Catalina, or a newer version of macOS** (and obviously the app is fully at home and **works great on Tahoe**, including with Stage Manager!).<br>
 > Any computer capable of running these operating systems should have plenty of power to stream IP cameras with GlanceCam, but obviously multiple 4K streams or 30 cameras open at the same time, while rendering videos in background, might require reasonably fast machines. It's almost impossible for me to give you an estimate of how many cameras you'll be able to stream at the same time on your hardware: on a 2017 iMac I can easily have more than 20 and everything stays super-snappy, but on very old Macs running High Sierra I prefer to limit myself to 4 or 5; the resolution of the streams and what else is your computer doing while streaming are also factors.<br>
 > Finally, **a solid connection between the computer and the cameras, be it LAN or WiFi, is recommended** both for performances and stability (slow or intermittent connections might cause frames to be dropped and even the stream to freeze).
 <a name="applesilicon"></a>
@@ -321,7 +321,7 @@ tags: [glancecam]
 > While only one window can be put in Cycle mode, you can still keep as many others "single camera" windows open while this rotation is enabled.
 > 
 > By default, all cameras are included in Cycle mode with a 30 seconds time interval dedicated to each one, but you are free to decide which Glances you want to include and for how long they should remain on screen.
-> Intervals can be configured in the 10 to 60 seconds range, in steps of 10 seconds, and can be different between cameras included in the cycle. Please note that longer intervals are preferable, especially for remote cameras, as the timer starts when loading the stream begins, not when the image appears; so, if a camera takes 5 seconds to show the image and the cycle is set to 10 seconds, you'd only see the image for 5 seconds before switching to the next one.
+> Intervals can be configured in the 5 to 60 seconds range, in steps of 5 seconds, and can be different between cameras included in the cycle. Such short intervals are recommended only for cameras on the local network. Please note that longer intervals are preferable, especially for remote cameras, as the timer starts when loading the stream begins, not when the image appears; so, if a camera takes 5 seconds to show the image and the cycle is set to 10 seconds, you'd only see the image for 5 seconds before switching to the next one.
 > 
 > You can enable Cycle mode by selecting the Glance menu > Enable Cycle mode, or by pressing the C key without modifiers while the window you want to enable it for is active; the same menu item or keyboard shortcut disables it, as it does saving any change to Settings or quitting GlanceCam (Cycle mode is not persisted between launches of the app).
 > 
@@ -405,7 +405,7 @@ tags: [glancecam]
 | ⌘ W       | Close current window (the app quits when you close the last one)                     |
 | ⌘ R       | Reload stream                                                                        |
 | ⌘ Y       | Toggle Always on top                                                                 |
-| A         | Switch to the [Alternate](#alternate) Glance, if one has been set                    |
+| A         | Switch to the [Alternate](#alternate) Glance, if one has been set (single-camera windows only) |
 | C         | Toggle [Cycle mode](#cyclemode)                                                      |
 | R         | Toggle Roll Up (only show a camera title bar until the mouse enters its' area)       |
 | Z         | Toggle [Zoom mode](#zoom)                                                            |
@@ -414,6 +414,7 @@ tags: [glancecam]
 | ⌘ 1       | Resize current window to the 'Regular' size                                          |
 | ⌘ 2       | Resize current window to the 'Large' size                                            |
 | ⌘ 3       | Resize current window to the 'As big as possible' size                               |
+| ⌘ 4       | Apply your saved Custom size to the current window                                   |
 > 
 > When you're inside the Settings window, there are additional shortcuts:
 >
@@ -426,6 +427,7 @@ tags: [glancecam]
 | ⌘ ↓       | Move the currently selected Glance down in the list                                  |
 | Return    | Save Settings                                                                        |
 >
+> In _Settings_ > _Behavior_, you can also prevent the screensaver from starting and the display from sleeping while GlanceCam is running; this option is disabled by default and should only be enabled if you understand and accept the associated security and hardware risks described in the in-app alert.<br>
 > In the Behavior tab, inside Settings, you can configure 2 _global keyboard shortcuts_ (combinations of keys of your choice that are then available both when GlanceCam is active and when it is open in background and you're working in a different app) that can provide fast access to 2 convenient features:
 - Bring all GlanceCam windows to front;
 - Insta-zoom the last window or one specific Glance.
