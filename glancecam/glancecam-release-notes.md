@@ -5,6 +5,16 @@ description:
 image:
 tags: [glancecam]
 ---
+<a name="4_7_1"></a>
+### GlanceCam 4.7.1
+#### February 28, 2026
+
+GlanceCam 4.7.1 fixes a bug that could cause windows with forced custom aspect ratios to resize slightly each time the app was launched.<br>
+Ratios wider than 16:9 caused the window to slowly grow at each launch; narrower ratios caused it to shrink.<br>
+Now window size remains consistent when you quit and relaunch, no matter the custom aspect ratios.<br><br>
+Please check out GlanceCam 4.7 release notes below to see what else is new, it's a really good release!<br><br>
+My best, <i>Cesare</i>
+
 <a name="4_7"></a>
 ### GlanceCam 4.7
 #### February 27, 2026
