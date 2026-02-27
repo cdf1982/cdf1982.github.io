@@ -5,6 +5,64 @@ description:
 image:
 tags: [glancecam]
 ---
+<a name="4_7"></a>
+### GlanceCam 4.7
+#### February 27, 2026
+
+GlanceCam 4.7 is more stable while bringing aspect ratio improvements to both GlanceGrids and single camera windows, to perfectly and reliably accommodate even more use cases and cameras. Here's what's new:
+
+<ol>
+  <li>
+    Usually features come first in release notes, with "bug fixes and improvements" relegated to the end. Not today, because today I can announce <b>I've finally caught my white whale!</b><br><br>
+    95% of Users have never experienced the issue I've finally fixed in this release, but those who dealt with it occasionally know it was pretty annoying: sometimes, when GlanceCam was running with several cameras streaming and the screensaver started and ran for a while, when the screen unlocked some cameras had frozen and a reload attempt might cause the app to hang, with the beachball spinning indefinitely. At that point, force-quitting the app was the only solution.<br><br>
+    I've chased this bug for years, even if it was rarely reported in support emails. Not only is it basically impossible to reproduce on demand, it might happen 1 out of 100 screensaver runs, maybe less, this elusive criminal covered its tracks. Contrary to a crash, in which macOS produces a somewhat actionable crash report for me to analyze, force quitting an app after a hang gets rid of all the evidence and leaves nothing to investigate.<br><br>
+    A few days ago, the hang finally happened to me while I was debugging one of the new features described below, and for the first time all the necessary tools were in place at the right time to catch the elusive offender.<br><br>
+    If you're curious and not easily bored, it turns out it was a pretty obscure concurrency issue connected to the video engine's internal reload mechanism that could lead to a deadlock.<br><br>
+    Fixed now, bug squashed, developer happy.
+  </li>
+  <br>
+  <li>
+    <b>Per-grid tile aspect ratio (16:9 default, optional 4:3)</b><br><br>
+    Each GlanceGrid now includes a dedicated setting to choose tile ratio: 16:9 (default) or 4:3. Special thanks to Keith and Robert for first requesting this feature.<br><br>
+    The existing default works great for most Users, but if you have cameras showing 4:3 streams, this is for you.<br><br>
+    The selection is saved per grid. Switching between GlanceGrid presets also applies each grid's own ratio immediately.<br><br>
+    It's important to note that <b>the selected aspect ratio is applied to all tiles in that grid</b>. This is a technical requirement that derives from the dynamic layout of GlanceGrids: GlanceCam allows you to resize grids to any desired configuration, 1x6 rows, 5x1 columns, 4x4 grids, and so on, but the significant amount of math going on behind the scenes every time you drag to resize requires consistency between tiles. Mixing different aspect ratios in one grid will never be supported.<br><br>
+    Also worth noting, a couple of design decisions on resizing and Insta-zoom:
+    <ul>
+      <li>Some GridWindow size shortcuts, ⌘ + 0 for Postcard, ⌘ + 1 for Regular, ⌘ + 2 for Large, maintain a 16:9 window layout independently from the tile aspect ratio. At the end of the day, every Mac screen is wider than 4:3, so this choice guarantees taking advantage of more horizontal space when resizing.</li>
+      <li>GlanceGrids that have Insta-zoom configured to temporarily maximize the whole grid also keep the existing 16:9 ratio while zoomed in, to use as much horizontal space as possible and therefore make all tiles bigger.</li>
+      <li>Grids that are configured to Insta-zoom just one tile will instead maximize it respecting the actual aspect ratio of the tile. Maximizing a single 4:3 tile to 16:9 would not make sense.</li>
+    </ul>
+  </li>
+  <br>
+  <li>
+    <b>Stretch video to fill the window</b><br><br>
+    Still on the topic of aspect ratios, single camera windows now offer an optional Stretch capability designed to significantly reduce the instances in which a camera shows black bars.<br><br>
+    Black bars on the sides, or above and below, are already extremely rare thanks to GlanceCam's advanced auto-detection system, but some camera models with non-standard aspect ratios might display them, especially when auto-detection has been manually disabled in Settings for specific reasons.<br><br>
+    Provided that such bars are not "baked into" the video frames by the camera or NVR, GlanceCam now has an option to stretch the image to match the aspect ratio of the containing window.<br><br>
+    This is entirely optional and off by default. Without it, GlanceCam continues to honor each stream's native format, which 99% of the time does not produce any black bars.<br><br>
+    If you need to force a specific aspect ratio in Settings and you notice black bars inside the window, this update will likely fix that for you, at the cost of stretching the image to fit the available area.<br><br>
+    To try it, please click on the Aspect Ratio button in Settings. The redesigned Aspect Ratio view includes a new "Stretch video to fill window" checkbox.<br><br>
+    The option is only available when a fixed ratio is selected, not for Automatic, Freeform, or Delayed, and it's a GlanceCam Pro feature, just like setting a custom aspect ratio.
+  </li>
+  <br>
+  <li>
+    <b>Stretch cameras to fill tiles</b><br><br>
+    The same stretch concept is now available for GlanceGrids too. A new checkbox in Grid Settings, "Stretch cameras that don't match the grid aspect ratio", lets you fill every tile edge to edge by stretching streams whose native ratio differs from the tile's selected ratio. For example, a 4:3 camera in a 16:9 grid will be stretched to fill the whole tile, with no black bars on the sides.<br><br>
+    This is entirely optional and off by default. When the checkbox is unchecked, GlanceCam continues to honor each stream's native aspect ratio, and black bars remain where the camera and tile ratios don't match.<br><br>
+    Thanks to Robert for requesting this feature.
+  </li>
+  <br>
+  <li>
+    <b>Updated Release notes window</b><br><br>
+    This  window had a couple issues on macOS Tahoe (list points were repeated in version 4.6 release notes), so it's been redesigned and provides a more readable presentation of GlanceCam's (let's say <i>detailed</i> instead of <i>long</i>) release notes.<br><br>
+  </li>
+</ol>
+
+I am constantly grateful for people using GlanceCam, and I hope you'll appreciate the continued commitment <i>(this is the 44th update since 2018)</i> to make it the best Mac app possible; if you do, <b>please leave a 5-star review</b> and <b>consider upgrading to GlanceCam Pro</b> or, if you already did <i>(thank you for the extra support!)</i>, to <b>leave a tip</b>! There are buttons to do these things below 😉.<br><br>
+As always, <b>all feedback is very welcome, as well as any request for help you might have</b>; please [get in touch](mailto:support@cdf1982.com) and I'll get back to you as soon as possible!<br><br>
+Ciao e grazie! <i>–Cesare</i>
+
 <a name="4_6"></a>
 ### GlanceCam 4.6
 #### February 11, 2026
