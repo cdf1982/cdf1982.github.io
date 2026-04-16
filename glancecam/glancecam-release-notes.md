@@ -5,6 +5,35 @@ description:
 image:
 tags: [glancecam]
 ---
+<a name="4_8"></a>
+### GlanceCam 4.8
+#### April 15, 2026
+
+GlanceCam 4.8 is a nerdy update, all about under-the-hood work to improve reliability: cameras that silently freeze are now detected and reconnected automatically in most cases, and the video engine has been updated with targeted stability improvements.
+
+<ol>
+  <li>
+    <b>Frozen-frame detection.</b><br><br>
+    "Stuck" frames are really tricky: from a User standpoint, it's hard to tell at a glance that a camera is frozen, and from GlanceCam's point of view a frozen stream can look identical to one that is delivering new frames as expected.<br><br>
+    Thankfully, this is not a common issue, but in this update I put a lot of work into making GlanceCam capable of monitoring whether a camera that appears to be streaming is actually delivering new frames.<br><br>
+    When GlanceCam 4.8 detects (usually within 30 to 60 seconds) that a stream is actually stuck on a still image, it reloads it automatically.<br><br>
+    While no single mechanism can catch every possible way a stream can stall for every camera out there, this update should make an appreciable difference in detecting frozen images for most models.
+  </li>
+  <br>
+  <li>
+    <b>Updated video engine.</b><br><br>
+    GlanceCam uses an updated version of the video engine, which I've customised with RTSP-cameras specific stability improvements and bug fixes that should make the app more reliable for everybody, and especially for those streaming many cameras or using less reliable network connections.
+  </li>
+  <br>
+  <li>
+    <b>Stability and responsiveness improvements.</b><br><br>
+    With the help of very patient Users, I've fixed an issue where the app could become temporarily unresponsive when many cameras reconnected at the same time, for instance after a network interruption in a large GlanceGrid. This update also addresses a rare crash that could occur when a camera accumulates a very large number of buffered packets (most likely due to a buggy RTSP implementation from a camera manufacturer).
+  </li>
+</ol>
+
+<b>If GlanceCam is useful to you, 5-star reviews, GlanceCam Pro upgrades or tips are very appreciated and keep development going</b>... and if you have any suggestions or need assistance, I'd love to [hear from you](mailto:support@cdf1982.com)!<br><br>
+My best, <i>Cesare</i>
+
 <a name="4_7_1"></a>
 ### GlanceCam 4.7.1
 #### February 28, 2026
