@@ -62,7 +62,7 @@ GlanceCam is distributed with the following third party software. Open source co
 
 - [Pow](https://github.com/EmergeTools/Pow) is licensed under the [MIT License](https://opensource.org/licenses/MIT)
 
-- [SplineRuntime](https://github.com/splinetool/spline-ios) is licensed under the [MIT License](https://opensource.org/licenses/MIT)
+- [SplineRuntime](https://github.com/splinetool/spline-ios) is distributed under Spline's [Terms & Conditions](https://spline.design/terms)
 
 - [SymbolPicker](https://github.com/xnth97/SymbolPicker) is licensed under the [MIT License](https://opensource.org/licenses/MIT)
 
