@@ -30,7 +30,7 @@ Subscriptions automatically renew unless canceled at least 24 hours before the e
 
 All purchases are final. I cannot issue refunds for purchases charged by Apple to your Apple ID.
 
-GlanceCam for Mac and GlanceCam Pro purchases / subscriptions do only include the macOS version of the app, written in Cocoa specifically for the Mac; possible future versions, if ever released, of GlanceCam developed from the ground up for different platforms (iOS, iPadOS, watchOS, tvOS, etc.) will require separate purchases / subscriptions that were and are not included with any purchase of the stand-alone Mac version.
+GlanceCam for Mac and GlanceCam Pro purchases / subscriptions do only include the macOS version of the app, written in Cocoa specifically for the Mac. GlanceCam for iOS, iPadOS, watchOS and tvOS is a separate application on the App Store and requires its own separate subscription, which is not included with any purchase of GlanceCam for Mac.
 <br>
 <br>
 <br>
@@ -90,4 +90,4 @@ If you have any questions regarding this document, please contact me via email a
 
 I reserved the right to modify this document; when I do, I will publish those changes on this page, updating the following modification date.
 
-*Last revision: June 4, 2024*
+*Last revision: April 19, 2026*
