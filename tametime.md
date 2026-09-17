@@ -12,7 +12,8 @@ nav-menu: true
     "@type": "SoftwareApplication",
     "name": "TameTime",
     "applicationCategory": "UtilitiesApplication",
-    "operatingSystem": "macOS",
+    "operatingSystem": "macOS 14.6 or later",
+    "softwareVersion": "1.7",
     "description": "Break timer for Mac to prevent RSI, computer vision syndrome and other computer-related stress",
     "offers": {
         "@type": "Offer",
@@ -98,7 +99,7 @@ nav-menu: true
 		<div class="content">
 			<div class="inner">
 				<h2>Compatibility and Performance</h2>
-				<p>TameTime can launch automatically when your Mac starts, does not require special permissions, uses almost no CPU or memory resources, and is very modern: it is compatible and fully at home on macOS Sequoia (including support for Dark Mode and native compatibility with Apple Silicon), but also works on older versions of macOS up to 10.14 Mojave; the app is native, built with the latest version of Swift, and does not include any analytics framework or other privacy-invading stuff (please see the <a href="{{ site.baseurl }}/privacy/tametime_privacy_policy.html">Privacy Policy</a>).<br><br>
+				<p>TameTime can launch automatically when your Mac starts, does not require special permissions, uses almost no CPU or memory resources, and is very modern: it is fully at home on macOS 27 Golden Gate (including support for Dark Mode and native compatibility with Apple Silicon) and requires macOS 14.6 Sonoma or newer; the app is native, built with the latest version of Swift, and does not include any analytics framework or other privacy-invading stuff (please see the <a href="{{ site.baseurl }}/privacy/tametime_privacy_policy.html">Privacy Policy</a>).<br><br>
 					Please be advised that <b>TameTime is not a medical device and does not offer medical advice</b>; <b>if you're experiencing discomfort or pain, please don't hesitate to consult a doctor.</b>
 				</p>
 			</div>
@@ -113,7 +114,7 @@ nav-menu: true
 		<div class="content">
 			<div class="inner">
 				<h2>Pricing and Support</h2>
-				<p>TameTime in an <i>indie</i> app that does not include in-app purchases or subscriptions: you just buy the app once (<b>thank you!</b>) for a very convenient price and <b>keep it forever on all your Macs</b> while also supporting its future development.<br><br>
+				<p>TameTime is an <i>indie</i> app that does not include in-app purchases or subscriptions: you just buy the app once (<b>thank you!</b>) for a very convenient price and <b>keep it forever on all your Macs</b> while also supporting its future development.<br><br>
 					Support is available from the developer - me, Cesare - at <a href="mailto:support@cdf1982.com">support@cdf1982.com</a> and your reviews and word of mouth are really, really appreciated!
 				</p>
 			</div>
