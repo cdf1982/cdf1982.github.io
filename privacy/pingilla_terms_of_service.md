@@ -62,7 +62,7 @@ Please review the [Privacy Policy](https://cdf1982.com/privacy/pingilla_privacy_
 - The App is provided **"as is"** and without warranties of any kind, express or implied.
 - I do not guarantee that the App will be error-free, uninterrupted, accurate, or suitable for your particular needs; for example, device names, manufacturers, open ports and online status are determined from what devices and the network report, and may be incomplete or wrong.
 - Device manufacturers are looked up in a copy of the public IEEE registry of MAC address assignments included in the App. It is provided as is and may be incomplete or out of date.
-- All your data is stored only on your Mac. You are responsible for backing it up, for example with Time Machine; data loss may occur, and I cannot recover data that was never stored anywhere else.
+- All your data is stored only on your Mac. You are responsible for backing it up, for example with Time Machine or with the App's own backup export; data loss may occur, and I cannot recover data that was never stored anywhere else. Importing a backup replaces the App's current data; the App saves a copy of the replaced data first, but you are responsible for keeping your backups safe.
 - To the maximum extent permitted by law, I shall not be liable for any direct, indirect, incidental, special, or consequential damages arising from your use of the App, including damages from outages the App did not detect or report.
 - You use the App at your own risk.
 

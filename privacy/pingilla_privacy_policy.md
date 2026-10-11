@@ -14,6 +14,7 @@ By using Pingilla, you consent to this Privacy Policy and to the [Terms of Servi
 - Everything Pingilla knows is stored **locally on your Mac**, inside the app's private sandbox container: the sites you monitor and their uptime history and incidents, the networks and devices found by the LAN Scanner, the names, notes and tags you give them, your recent ping addresses and all preferences.
 - Pingilla does not sync your data to iCloud or to any other service, and the developer has no copy of it.
 - Deleting the app and its container removes all of this data.
+- If you export a backup, a list of devices or a site report, or print them, Pingilla saves the file where you choose (or sends it to your printer). From then on that file is yours to keep: Pingilla doesn't upload it anywhere.
 
 ## Analytics and tracking
 Pingilla does not include analytics, telemetry, crash reporting or third‑party tracking libraries of any kind. I'm the developer (Cesare Forelli, hi!) and I cannot see how you use the app, which sites you monitor or what is on your network.
