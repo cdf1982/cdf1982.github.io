@@ -92,6 +92,7 @@ section{margin-top:110px;position:relative;scroll-margin-top:96px;}
 .hero-shot-wrap{grid-area:shot;}
 .hero-shot{display:block;padding:10px;border-radius:22px;}
 .hero-shot .menu-ph{width:100%;height:auto;aspect-ratio:330 / 580;}
+.hero-shot img{width:100%;height:auto;display:block;}
 .aapl{width:.92em;height:.92em;display:inline-block;vertical-align:-.1em;margin-right:.34em;fill:currentColor;}
 .hero h1{font-size:clamp(3.4rem,11vw,7.6rem);font-weight:800;letter-spacing:-.05em;line-height:1;margin:18px auto 10px;
   background:linear-gradient(120deg,#fff 0%,#fff 40%,var(--pink-2) 75%,var(--pink) 100%);
