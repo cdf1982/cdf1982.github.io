@@ -1,0 +1,473 @@
+---
+layout: null
+permalink: /pingilla-uptime-monitor-lan-scanner.html
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Pingilla: Uptime Monitor &amp; LAN Scanner for Mac</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	<meta name="description" content="Pingilla is a Mac menu bar app that watches your websites, scans your local network and pings any address. Free download, Pro is $7.99 once. No subscription, no account, no analytics.">
+	<link rel="canonical" href="https://cdf1982.com/pingilla-uptime-monitor-lan-scanner.html">
+	<meta name="color-scheme" content="dark">
+	<meta name="theme-color" content="#040912">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="me" href="https://iosdev.space/@cdf1982">
+
+	<!-- Open Graph -->
+	<!-- TODO: replace og:image / twitter:image with a 1200x630 banner (and switch twitter:card to summary_large_image) once screenshots exist -->
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Pingilla: Uptime Monitor &amp; LAN Scanner for Mac">
+	<meta property="og:description" content="Watches your sites. Sniffs your network. Uptime monitor, LAN scanner and ping in one Mac menu bar app, with no subscription and no analytics.">
+	<meta property="og:url" content="https://cdf1982.com/pingilla-uptime-monitor-lan-scanner.html">
+	<meta property="og:image" content="https://cdf1982.com/pingilla/pingilla-icon-512.jpg">
+	<meta property="og:image:width" content="512">
+	<meta property="og:image:height" content="512">
+	<meta property="og:image:alt" content="Pingilla app icon: Milla the husky at her desk, watching a radar on a laptop">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Pingilla: Uptime Monitor &amp; LAN Scanner for Mac">
+	<meta name="twitter:description" content="Uptime monitor, LAN scanner and ping in one Mac menu bar app. Free download, Pro is $7.99 once.">
+	<meta name="twitter:image" content="https://cdf1982.com/pingilla/pingilla-icon-512.jpg">
+	<meta name="twitter:image:alt" content="Pingilla app icon: Milla the husky at her desk, watching a radar on a laptop">
+
+	<script>document.documentElement.classList.add('js');</script>
+	<link rel="stylesheet" href="/pingilla/pingilla.css">
+
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "SoftwareApplication",
+		"name": "Pingilla",
+		"alternateName": "Pingilla: Uptime & LAN Scanner",
+		"applicationCategory": "UtilitiesApplication",
+		"operatingSystem": "macOS 27 Golden Gate, macOS 26 Tahoe",
+		"description": "Mac menu bar app that monitors website uptime, scans the local network and pings any address",
+		"image": "https://cdf1982.com/pingilla/pingilla-icon-512.jpg",
+		"offers": [
+			{ "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Free download with 3 monitored sites, LAN scans and ping" },
+			{ "@type": "Offer", "price": "7.99", "priceCurrency": "USD", "description": "Pingilla Pro, one-time in-app purchase" }
+		],
+		"author": { "@type": "Person", "name": "Cesare Forelli" }
+	}
+	</script>
+	{% include analytics.html %}
+</head>
+
+<body>
+	<div class="progress" id="progress"></div>
+	<div class="bg-fall" aria-hidden="true">
+		<span class="blob b1"></span>
+		<span class="blob b2"></span>
+		<span class="blob b3"></span>
+	</div>
+	<div class="grain" aria-hidden="true"></div>
+
+	<main>
+		<nav class="topnav" aria-label="Sections">
+			<a href="#why">Why Pingilla</a>
+			<a href="#sites">Site Monitor</a>
+			<a href="#lan">LAN Scanner</a>
+			<a href="#ping">Ping</a>
+			<a href="#privacy">Privacy</a>
+			<a href="#pricing">Pricing</a>
+			<a href="#get">Download</a>
+			<a class="home" href="https://cdf1982.com">back to cdf1982.com</a>
+		</nav>
+
+		<!-- ============ HERO ============ -->
+		<header class="hero" id="top">
+			<div class="hero-grid">
+				<div class="hero-main">
+					<p class="eyebrow">Uptime <span class="sep">·</span> LAN Scanner <span class="sep">·</span> Ping</p>
+					<div class="title-row">
+						<a class="brand" href="https://apps.apple.com/us/app/pingilla-uptime-lan-scanner/id6821515638" aria-label="Pingilla on the Mac App Store">
+							<img src="/pingilla/pingilla-icon-256.jpg" srcset="/pingilla/pingilla-icon-256.jpg 1x, /pingilla/pingilla-icon-512.jpg 2x" alt="Pingilla app icon: Milla the husky at her desk, watching a radar on a laptop" width="132" height="132">
+						</a>
+						<h1>Pingilla</h1>
+					</div>
+					<p class="tagline">Watches your sites. <span>Sniffs your network.</span></p>
+					<p class="sub">An uptime monitor, a LAN scanner and a ping tool, together in one small menu bar app. Free to download, and Pro is a one-time $7.99.</p>
+
+					<div class="dl-row">
+						<a class="dl-btn" href="https://apps.apple.com/us/app/pingilla-uptime-lan-scanner/id6821515638" target="_blank" rel="noopener">
+							<svg class="aapl" viewBox="0 0 814 1000" aria-hidden="true"><path d="M788 348c-6 4-115 65-115 200 0 156 137 211 141 213-2 6-22 73-72 142-43 60-89 119-159 119s-87-37-167-37c-78 0-106 38-170 38s-110-55-156-122C1 766-31 658-31 555c0-166 108-254 214-254 69 0 127 47 170 47 41 0 105-50 184-50 30 0 137 3 207 104zM575 132c33-39 56-93 56-147 0-7-1-15-2-21-53 2-117 36-155 80-30 35-58 89-58 144 0 8 1 16 2 19 3 1 9 2 14 2 48 0 108-32 143-77z"/></svg>
+							<span class="t"><small>Download on the</small><b>Mac App Store</b></span>
+						</a>
+					</div>
+					<p class="req">Made for macOS 27 Golden Gate, also runs on macOS 26 Tahoe</p>
+				</div>
+				<div class="hero-shot-wrap">
+					<!-- TODO screenshot: menu bar menu in Pro mode with mock data: one site offline with red dot and "Offline for 12 minutes", LAN summary with "next in…", a few recent pings, no Upgrade item. Tall and narrow, about 330x580 at 1x. Replace the .shot-ph div with <img src="/pingilla/..." alt="..." width="330" height="580"> -->
+					<figure class="hero-shot glass">
+						<div class="shot-ph menu-ph"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="3" width="20" height="4" rx="1"/><path d="M14 7v6a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V7"/></svg><span>Screenshot: menu bar menu</span></div>
+					</figure>
+				</div>
+			</div>
+
+			<div class="stats">
+				<div class="stat lav glass">
+					<div class="num" data-to="3">3</div>
+					<div class="lbl">Tools in one menu bar app: uptime, LAN scanner and ping</div>
+				</div>
+				<div class="stat glass">
+					<div class="num" data-to="100" data-suffix="%">100%</div>
+					<div class="lbl">On your Mac: your sites, devices and history never leave it</div>
+				</div>
+				<div class="stat lav glass">
+					<div class="num" data-to="0">0</div>
+					<div class="lbl">Analytics, trackers or crash reporters inside the app</div>
+				</div>
+				<div class="stat pink glass">
+					<div class="num" data-prefix="$" data-to="7.99" data-decimals="2">$7.99</div>
+					<div class="lbl">Once, for Pro. No subscription and no account</div>
+				</div>
+			</div>
+
+		</header>
+
+		<!-- ============ 01 WHY ============ -->
+		<section id="why">
+			<div class="sec-head">
+				<div class="kicker"><span class="sec-no">01</span>Why Pingilla</div>
+				<h2>One app instead of three.</h2>
+				<p>For years I had a little app in my menu bar that told me when one of my websites went down. On the new macOS it started acting up, and an uptime monitor you can't trust is worse than no monitor at all, so I wrote my own.</p>
+				<p>While I was at it, I added the two things I kept opening other apps for: a scanner to see what's connected to my network, and a proper ping. The icon is Milla, my husky (glasses and bandana are artistic license). She notices anything that moves around the house; Pingilla tries to do the same with your sites and your network.</p>
+			</div>
+			<div class="hl-grid three">
+				<a class="hl-card tool glass reveal" href="#sites">
+					<div class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h4l2-5 4 10 2-5h6"/></svg></div>
+					<div class="tool-name">Site Monitor</div>
+					<div class="big">Is my site up?</div>
+					<p>Checks your websites in the background and tells you when one goes down, and when it's back.</p>
+					<span class="more">More on Site Monitor</span>
+				</a>
+				<a class="hl-card tool glass reveal" href="#lan">
+					<div class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="2" width="6" height="5" rx="1"/><rect x="2" y="17" width="6" height="5" rx="1"/><rect x="16" y="17" width="6" height="5" rx="1"/><path d="M12 7v5M5 17v-3h14v3"/></svg></div>
+					<div class="tool-name">LAN Scanner</div>
+					<div class="big">What's on my network?</div>
+					<p>Finds every device connected to your network in about 10 seconds, with names, makers and services.</p>
+					<span class="more">More on LAN Scanner</span>
+				</a>
+				<a class="hl-card tool glass reveal" href="#ping">
+					<div class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></div>
+					<div class="tool-name">Ping</div>
+					<div class="big">Does it answer?</div>
+					<p>A real ping to any address or host, local ones included, or a quick web check for a URL.</p>
+					<span class="more">More on Ping</span>
+				</a>
+			</div>
+		</section>
+
+		<!-- ============ 02 SITE MONITOR ============ -->
+		<section id="sites">
+			<div class="sec-head">
+				<div class="kicker"><span class="sec-no">02</span>Site Monitor</div>
+				<h2>Know when a site goes down, and when it's back.</h2>
+				<p>Add the websites you care about and Pingilla checks them in the background. When one stops answering you get a notification, and another one when it's back online, with how long it was down.</p>
+			</div>
+			<div class="hl-grid">
+				<div class="hl-card glass reveal">
+					<div class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg></div>
+					<div class="big">A red dot in the menu bar</div>
+					<p>While a site is down, the icon shows a red dot. Hover it to see which site and for how long, or click to see every site with its status, response time and last check.</p>
+				</div>
+				<div class="hl-card glass reveal">
+					<div class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><path d="M12 20h.01"/></svg></div>
+					<div class="big">No false alarms</div>
+					<p>Checks pause while your Mac sleeps or is offline. Before counting a failure, Pingilla also makes sure your Mac itself is online, so flaky Wi-Fi doesn't turn into a fake outage.</p>
+				</div>
+				<div class="hl-card glass reveal">
+					<div class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3v18h18"/><path d="M7 14l4-4 3 3 5-6"/></svg></div>
+					<div class="big">Uptime and incidents</div>
+					<p>Uptime over the last 24 hours, 7 days and 30 days, plus the list of incidents for each site: when it went down, for how long and why. <span class="pro-tag">7/30 DAYS: PRO</span></p>
+				</div>
+				<div class="hl-card glass reveal">
+					<div class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2 2"/><path d="M9 2h6"/></svg></div>
+					<div class="big">Slow is not down</div>
+					<p>Every site has its own slow threshold. A site that answers but takes too long turns yellow, without sending an alert for something that isn't an outage.</p>
+				</div>
+			</div>
+
+			<div class="shot-pair">
+				<!-- TODO screenshot: Site Monitor window with several sites, status, response time and the 24h / 7d / 30d uptime columns. Replace the .shot-ph div with <img src="/pingilla/..." alt="..." width="..." height="..."> -->
+				<figure class="shot  glass reveal">
+					<div class="shot-ph"><span class="win" aria-hidden="true"><i></i><i></i><i></i></span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h4l2-5 4 10 2-5h6"/></svg><span>Screenshot: Site Monitor</span></div>
+					<figcaption>Your sites, their response times and uptime.</figcaption>
+				</figure>
+				<!-- TODO screenshot: site detail sheet with uptime percentages and the list of incidents (Pro). Replace the .shot-ph div with <img src="/pingilla/..." alt="..." width="..." height="..."> -->
+				<figure class="shot  glass reveal">
+					<div class="shot-ph"><span class="win" aria-hidden="true"><i></i><i></i><i></i></span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3v18h18"/><path d="M7 14l4-4 3 3 5-6"/></svg><span>Screenshot: site incidents (Pro)</span></div>
+					<figcaption>Every outage of a site: when, how long and why.</figcaption>
+				</figure>
+			</div>
+
+			<div class="legend-card glass reveal">
+				<p class="sub-head">What the dots mean</p>
+				<ul class="legend-list">
+					<li><b><span class="dot g"></span>Up</b>The site answered as expected.</li>
+					<li><b><span class="dot y"></span>Slow</b>Up, but slower than the threshold you set for it.</li>
+					<li><b><span class="dot o"></span>Failing</b>Not answering, but not for enough checks in a row to alert you yet.</li>
+					<li><b><span class="dot r"></span>Down</b>Failed enough checks in a row: you got a notification.</li>
+					<li><b><span class="dot n"></span>Waiting</b>Not checked yet.</li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- ============ 03 LAN SCANNER ============ -->
+		<section id="lan">
+			<div class="sec-head">
+				<div class="kicker"><span class="sec-no">03</span>LAN Scanner</div>
+				<h2>See every device on your network.</h2>
+				<p>A scan takes about 10 seconds and lists what's connected: IP and MAC address, manufacturer (from an IEEE database that ships with the app, so no lookups online), names and ping time, plus services and open ports with Pro. Even iPhones and other devices that ignore ping show up.</p>
+			</div>
+
+			<ol class="steps">
+				<li class="step glass reveal"><span class="step-no">01</span><b>Ping every address</b><span class="step-txt">A quick sweep of your whole local network.</span></li>
+				<li class="step glass reveal"><span class="step-no">02</span><b>Knock on the quiet ones</b><span class="step-txt">Devices that ignore ping still give themselves away on common ports.</span></li>
+				<li class="step glass reveal"><span class="step-no">03</span><b>Read MAC addresses</b><span class="step-txt">From your Mac's own table, to tell devices apart and find their maker.</span></li>
+				<li class="step glass reveal"><span class="step-no">04</span><b>Names and services</b><span class="step-txt">From Bonjour and DNS: AirPlay, file sharing, printers, HomeKit, SSH, web and more.</span></li>
+			</ol>
+
+			<!-- TODO screenshot: LAN Scanner window with devices, manufacturer, services/ports, tags and Last Seen (Pro); use made-up device names if needed for privacy. Replace the .shot-ph div with <img src="/pingilla/..." alt="..." width="..." height="..."> -->
+			<figure class="shot wide glass reveal">
+				<div class="shot-ph"><span class="win" aria-hidden="true"><i></i><i></i><i></i></span><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="2" width="6" height="5" rx="1"/><rect x="2" y="17" width="6" height="5" rx="1"/><rect x="16" y="17" width="6" height="5" rx="1"/><path d="M12 7v5M5 17v-3h14v3"/></svg><span>Screenshot: LAN Scanner (Pro)</span></div>
+				<figcaption>The devices on your network, with your own names and tags.</figcaption>
+			</figure>
+
+			<div class="hl-grid">
+				<div class="hl-card glass reveal">
+					<div class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9v11h14V9"/><path d="M10 20v-6h4v6"/></svg></div>
+					<div class="big">Remembers each network <span class="pro-tag">PRO</span></div>
+					<p>Home, office, your parents' house: Pingilla keeps the devices of each network separately, with when they were last seen, so you can tell what's new and what has gone missing.</p>
+				</div>
+				<div class="hl-card glass reveal">
+					<div class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8z"/><path d="M7.5 7.5h.01"/></svg></div>
+					<div class="big">Your names, notes and tags <span class="pro-tag">PRO</span></div>
+					<p>Call that mystery box "Living room speaker", write a note, tag devices (also many at once). Filter and sort the list, and choose which columns to see and in what order.</p>
+				</div>
+				<div class="hl-card glass reveal">
+					<div class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg></div>
+					<div class="big">Scans on its own <span class="pro-tag">PRO</span></div>
+					<p>Turn on automatic scans for a network and Pingilla rescans it in the background every 15 or 30 minutes, 1 or 2 hours, only while your Mac is awake and on that network.</p>
+				</div>
+				<div class="hl-card glass reveal">
+					<div class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></div>
+					<div class="big">Honest results</div>
+					<p>Some Mac software, like DNS filters, answers certain ports for every address. Pingilla notices and leaves those results out, so a port shows as open only when it really is.</p>
+				</div>
+				<div class="hl-card glass reveal">
+					<div class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg></div>
+					<div class="big">Tells you what changed <span class="pro-tag">PRO</span></div>
+					<p>With automatic scans on, you can get a notification when a new device joins your network. Mark the devices you care about as watched, and Pingilla tells you when one goes offline and when it comes back.</p>
+				</div>
+				<div class="hl-card glass reveal">
+					<div class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 0 1 0 18a14 14 0 0 1 0-18"/></svg></div>
+					<div class="big">Fine with a VPN</div>
+					<p>With a VPN on, Pingilla still scans your local network, not the one at the other end of the tunnel, and still recognizes which network you're on.</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- ============ 04 PING ============ -->
+		<section id="ping">
+			<div class="sec-head">
+				<div class="kicker"><span class="sec-no">04</span>Ping</div>
+				<h2>A real ping, one click away.</h2>
+				<p>Type an IP address or a host name, local ones included, and Pingilla sends a real ICMP ping, like Terminal would. Paste a URL instead and it runs a series of web checks.</p>
+			</div>
+			<div class="split">
+				<!-- TODO screenshot: Ping window during a run (e.g. pinging the router), with per-reply times and loss / min / avg / max. Replace the .shot-ph div with <img src="/pingilla/..." alt="..." width="..." height="..."> -->
+				<figure class="shot  glass reveal">
+					<div class="shot-ph"><span class="win" aria-hidden="true"><i></i><i></i><i></i></span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg><span>Screenshot: Ping</span></div>
+					<figcaption>A real ping to any address, local ones included.</figcaption>
+				</figure>
+				<div class="stack">
+					<div class="hl-card glass reveal">
+						<div class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17 2l4 4-4 4"/><path d="M3 11v-1a4 4 0 0 1 4-4h14"/><path d="M7 22l-4-4 4-4"/><path d="M21 13v1a4 4 0 0 1-4 4H3"/></svg></div>
+						<div class="big">As many as you need</div>
+						<p>A short series, or keep going until you press Stop: handy while you move the router around the house. <span class="pro-tag">UNLIMITED: PRO</span></p>
+					</div>
+					<div class="hl-card glass reveal">
+						<div class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></div>
+						<div class="big">The numbers that matter</div>
+						<p>Time and TTL for every reply, then packet loss and min/avg/max when the run ends.</p>
+					</div>
+					<div class="hl-card glass reveal">
+						<div class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/><path d="M12 7v5l3 2"/></svg></div>
+						<div class="big">Recent addresses</div>
+						<p>The addresses you pinged last wait in the menu bar menu, so pinging the NAS again is one click.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- ============ 05 EVERYDAY ============ -->
+		<section id="everyday">
+			<div class="sec-head">
+				<div class="kicker"><span class="sec-no">05</span>Day to day</div>
+				<h2>It stays out of your way.</h2>
+				<p>Pingilla is meant to sit in a corner of your screen and speak up only when it has something to say.</p>
+			</div>
+			<div class="hl-grid three">
+				<div class="hl-card glass reveal">
+					<div class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="3" width="20" height="4" rx="1"/><path d="M14 7v6a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V7"/><path d="M16.5 10h2"/></svg></div>
+					<div class="big">Menu bar first</div>
+					<p>A left click shows your sites, the last LAN scan and your recent pings. Prefer the Dock? Put Pingilla there, or in both places, and let it start at login.</p>
+				</div>
+				<div class="hl-card glass reveal">
+					<div class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h4l2-5 4 10 2-5h6"/></svg></div>
+					<div class="big">Quiet until something's wrong</div>
+					<p>No window at launch, no noise. The icon grows a red dot when a site is down, and hovering it tells you which one and for how long.</p>
+				</div>
+				<div class="hl-card glass reveal">
+					<div class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></div>
+					<div class="big">Nothing leaves your Mac</div>
+					<p>No account, no analytics, no tracking. What you monitor and what's on your network stay on your Mac, in the free version and with Pro.</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- ============ 06 PRIVACY ============ -->
+		<section id="privacy">
+			<div class="sec-head">
+				<div class="kicker"><span class="sec-no">06</span>Privacy</div>
+				<h2>Your data stays on your Mac.</h2>
+				<p>I don't want to know which sites you monitor or what's connected to your network, and Pingilla doesn't tell me. There's no account to create, no analytics, no tracking and no crash reporting service inside the app. Same rules in the free version and with Pro.</p>
+			</div>
+			<div class="privacy-grid">
+				<div class="card glass reveal">
+					<p class="notes-intro">The only network traffic is what the features need:</p>
+					<ul class="notes">
+						<li><b>Your sites</b>, when Pingilla checks them.</li>
+						<li><b>Your local network</b>, when you scan it or ping a device.</li>
+						<li><b>A quick connectivity check</b> (Apple, then Google), only to confirm your Mac is online before calling a site down.</li>
+						<li><b>The App Store</b>, if you buy Pingilla Pro.</li>
+					</ul>
+				</div>
+				<div class="card glass reveal">
+					<p class="notes-intro">Where your data lives:</p>
+					<ul class="notes">
+						<li>Sites, uptime history, devices, names, notes and tags are saved in Pingilla's own folder on your Mac, and nowhere else.</li>
+						<li>There's no cloud sync and no server of mine in between.</li>
+						<li>The <a href="https://cdf1982.com/privacy/pingilla_privacy_policy.html">Privacy Policy</a> and the <a href="https://cdf1982.com/privacy/pingilla_terms_of_service.html">Terms of Service</a> are written by a human (me, Cesare) for other humans.</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<!-- ============ 07 PRICING ============ -->
+		<section id="pricing">
+			<div class="sec-head">
+				<div class="kicker"><span class="sec-no">07</span>Pricing</div>
+				<h2>Free to try. Pro is $7.99, once.</h2>
+				<p>The free version is a real app, not a demo: three sites with notifications, the LAN scanner and ping. If Pingilla earns its spot in your menu bar, Pingilla Pro unlocks everything with a single purchase. No subscription, and Family Sharing is included.</p>
+			</div>
+			<div class="price-grid with-shot">
+				<!-- TODO screenshot: the Pingilla Pro window (paywall); the IAP review screenshot in Work Files/ASC/1.0 could work. Replace the .shot-ph div with <img src="/pingilla/..." alt="..." width="..." height="..."> -->
+				<figure class="shot paywall glass reveal">
+					<div class="shot-ph"><span class="win" aria-hidden="true"><i></i><i></i><i></i></span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3 6.5 7 .8-5.2 4.8 1.4 7L12 17.6 5.8 21.1l1.4-7L2 9.3l7-.8z"/></svg><span>Screenshot: Pingilla Pro</span></div>
+					<figcaption>Pingilla Pro: one purchase, everything unlocked.</figcaption>
+				</figure>
+				<div class="price-card glass reveal">
+					<div class="pk">Free</div>
+					<div class="amt">$0</div>
+					<ul>
+						<li>Monitor <b>3 sites</b>, checked every 5 minutes or more</li>
+						<li>Notifications, false-alarm protection and the red dot in the menu bar</li>
+						<li>LAN scans showing the <b>first 20 devices</b></li>
+						<li>Ping, <b>up to 20</b> per run</li>
+						<li>No account, no analytics, data stays on your Mac</li>
+					</ul>
+				</div>
+				<div class="price-card feature glass reveal">
+					<div class="pk">Pingilla Pro, one-time purchase</div>
+					<div class="amt">$7.99 <small>once</small></div>
+					<ul>
+						<li><b>Unlimited sites</b>, checked as often as every 30 seconds</li>
+						<li>Uptime over <b>7 and 30 days</b>, with every incident</li>
+						<li><b>Every device</b>, remembered per network with names, notes and tags</li>
+						<li>Automatic scans, new and watched device alerts, open ports and services</li>
+						<li><b>Family Sharing</b> included, no subscription, ever</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="compare glass reveal">
+				<h3>Free and Pro, line by line</h3>
+				<table>
+					<thead>
+						<tr><th scope="col">Feature</th><th scope="col">Free</th><th scope="col" class="pro">Pro</th></tr>
+					</thead>
+					<tbody>
+						<tr><td>Sites monitored</td><td>3</td><td class="p">Unlimited</td></tr>
+						<tr><td>Check interval</td><td>Every 5 minutes or more</td><td class="p">Down to 30 seconds</td></tr>
+						<tr><td>Notifications, false-alarm protection, menu bar status</td><td><span class="cmp-yes" role="img" aria-label="Included"></span></td><td><span class="cmp-yes" role="img" aria-label="Included"></span></td></tr>
+						<tr><td>Uptime history</td><td>Last 24 hours</td><td class="p">7 and 30 days, incident list</td></tr>
+						<tr><td>LAN Scanner devices</td><td>First 20 of the current scan</td><td class="p">All</td></tr>
+						<tr><td>Device memory, Last Seen, names, notes, tags</td><td><span class="cmp-no" role="img" aria-label="Not included"></span></td><td><span class="cmp-yes" role="img" aria-label="Included"></span></td></tr>
+						<tr><td>Automatic scans, new and watched device alerts</td><td><span class="cmp-no" role="img" aria-label="Not included"></span></td><td><span class="cmp-yes" role="img" aria-label="Included"></span></td></tr>
+						<tr><td>Networks</td><td>Current only</td><td class="p">All your networks</td></tr>
+						<tr><td>Open ports and services</td><td><span class="cmp-no" role="img" aria-label="Not included"></span></td><td><span class="cmp-yes" role="img" aria-label="Included"></span></td></tr>
+						<tr><td>Ping</td><td>Up to 20 pings</td><td class="p">Unlimited, custom interval and timeout</td></tr>
+						<tr><td>No analytics, data stays on your Mac</td><td><span class="cmp-yes" role="img" aria-label="Included"></span></td><td><span class="cmp-yes" role="img" aria-label="Included"></span></td></tr>
+					</tbody>
+				</table>
+			</div>
+		</section>
+
+		<!-- ============ 08 GOOD TO KNOW ============ -->
+		<section id="notes">
+			<div class="sec-head">
+				<div class="kicker"><span class="sec-no">08</span>Good to know</div>
+				<h2>The small print, in plain words.</h2>
+			</div>
+			<div class="card glass reveal">
+				<ul class="notes">
+					<li>Pingilla is made for <b>macOS 27 Golden Gate</b> and also runs on <b>macOS 26 Tahoe</b>. It's available on the Mac App Store.</li>
+					<li>The first time you scan or ping a local device, macOS asks if Pingilla can access your local network: say yes, or it can't see your devices.</li>
+					<li>Uptime is what Pingilla actually observed: time your Mac spends asleep or offline doesn't count against a site.</li>
+					<li>Many phones and computers use private (randomized) MAC addresses, so their manufacturer can't be looked up; Pingilla labels them as private addresses.</li>
+					<li>Firewall apps that ask about new connections can hold the first packets for a moment, so the first pings to a new address may time out.</li>
+					<li>Nothing is deleted when you hit a free limit: extra sites are paused, and LAN data keeps being saved, ready when you upgrade.</li>
+					<li>Questions, bugs, ideas? Write to me, Cesare, at <a href="mailto:support@cdf1982.com">support@cdf1982.com</a>. Reviews and word of mouth are really, really appreciated!</li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- ============ DOWNLOAD ============ -->
+		<section id="get">
+			<div class="cta glass reveal">
+				<img src="/pingilla/pingilla-icon-256.jpg" alt="" width="84" height="84">
+				<h2>Let Pingilla keep an eye on things.</h2>
+				<p>Download Pingilla for free on the Mac App Store, and upgrade to Pro only if you love it.</p>
+				<div class="dl-row">
+					<a class="dl-btn" href="https://apps.apple.com/us/app/pingilla-uptime-lan-scanner/id6821515638" target="_blank" rel="noopener">
+						<svg class="aapl" viewBox="0 0 814 1000" aria-hidden="true"><path d="M788 348c-6 4-115 65-115 200 0 156 137 211 141 213-2 6-22 73-72 142-43 60-89 119-159 119s-87-37-167-37c-78 0-106 38-170 38s-110-55-156-122C1 766-31 658-31 555c0-166 108-254 214-254 69 0 127 47 170 47 41 0 105-50 184-50 30 0 137 3 207 104zM575 132c33-39 56-93 56-147 0-7-1-15-2-21-53 2-117 36-155 80-30 35-58 89-58 144 0 8 1 16 2 19 3 1 9 2 14 2 48 0 108-32 143-77z"/></svg>
+						<span class="t"><small>Download on the</small><b>Mac App Store</b></span>
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="foot-links">
+				<a href="https://apps.apple.com/us/app/pingilla-uptime-lan-scanner/id6821515638">Mac App Store</a>
+				<a href="https://cdf1982.com/privacy/pingilla_privacy_policy.html">Privacy Policy</a>
+				<a href="https://cdf1982.com/privacy/pingilla_terms_of_service.html">Terms of Service</a>
+				<a href="mailto:support@cdf1982.com">Support</a>
+				<a href="https://cdf1982.com">back to cdf1982.com</a>
+				<a rel="me" href="https://iosdev.space/@cdf1982">Mastodon</a>
+			</div>
+			<p class="byline"><strong>Pingilla</strong>, named after Milla, my husky. Made in sunny Italy 🇮🇹 by Cesare Forelli.</p>
+			<p class="copy">&copy; Cesare Forelli 2026.</p>
+		</footer>
+	</main>
+
+	<script src="/pingilla/pingilla.js" defer></script>
+</body>
+</html>
