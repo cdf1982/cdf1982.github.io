@@ -24,9 +24,9 @@ If, in your Mac's settings, you choose to share analytics with app developers, A
 ## Network activity performed by Pingilla
 Pingilla only connects to the network to do what you ask of it, and none of the requests below carry information about you:
 
-- **Site Monitor**: periodic requests to the websites you add, to check that they respond.
+- **Site Monitor**: periodic requests to the websites you add, to check that they respond. With Pingilla Pro, the expiry date of each site's security certificate is read from the same connection.
 - **Connectivity check**: before reporting a site as down, Pingilla makes a plain request to apple.com or google.com, to tell a real outage apart from your Mac being offline. Nothing about you or your sites is included.
-- **LAN Scanner**: on your local network only, Pingilla sends pings, short connection attempts to common ports, Bonjour (mDNS) queries and reverse DNS lookups, and reads your Mac's own ARP table to show device MAC addresses. Device manufacturers are looked up in a database included in the app, without contacting any server. macOS asks for your permission to access the local network the first time.
+- **LAN Scanner**: on your local network only, Pingilla sends pings, short connection attempts to common ports, Bonjour (mDNS) queries and reverse DNS lookups, and reads your Mac's own ARP table to show device MAC addresses. If you use Wake on LAN, Pingilla broadcasts a wake-up packet on your local network. Device manufacturers are looked up in a database included in the app, without contacting any server. macOS asks for your permission to access the local network the first time.
 - **Ping**: requests to the addresses you enter.
 - **App Store**: purchases of Pingilla Pro and their restoration are handled by Apple.
 

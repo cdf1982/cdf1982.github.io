@@ -43,7 +43,7 @@ These Terms supplement, and do not replace, Apple's [Licensed Application End Us
   • Site Monitor: up to 3 sites, checked every 5 minutes or less often, with 24 hours of uptime history
   • LAN Scanner: up to 20 devices from the latest scan of the current network
   • Ping: up to 20 pings per run
-- To remove these limits and unlock all features, including device memory, names, notes and tags, automatic scans and device notifications, multiple networks, port and service detection, 7- and 30-day uptime history with incidents, and unlimited ping, you may upgrade to **Pingilla Pro**, a **one-time purchase** (which includes Family Sharing). There is no subscription.
+- To remove these limits and unlock all features, including device memory, names, notes and tags, automatic scans and device notifications, multiple networks, port and service detection, Wake on LAN, 7- and 30-day uptime history with incidents, certificate expiry alerts, and unlimited ping, you may upgrade to **Pingilla Pro**, a **one-time purchase** (which includes Family Sharing). There is no subscription.
 - Features, pricing and availability may change.
 - All purchases are handled by **Apple via the App Store**. I do not process payments or store your payment details.
 - All sales are final. Refunds, if any, are subject to Apple's policies.
