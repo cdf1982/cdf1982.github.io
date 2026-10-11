@@ -11,6 +11,8 @@ The Pingilla application for Mac (the "App") is made available to you by **Cesar
 By downloading, accessing, or using the App, you agree to be bound by these Terms, as well as the Terms specified by Apple for the App Store, which is the sole distribution channel of Pingilla.
 If you do not agree with any of these Terms, please do not use the App.
 
+These Terms supplement, and do not replace, Apple's [Licensed Application End User License Agreement](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/), which also applies to your use of the App. These Terms are between you and Me only, not with Apple: Apple is not responsible for the App, its content, maintenance or support.
+
 ---
 
 ## License and Use
@@ -19,6 +21,13 @@ If you do not agree with any of these Terms, please do not use the App.
 - **Use the LAN Scanner and Ping only on networks and devices you own or are authorized to examine.** Scanning networks without permission may be prohibited by law or by the rules of the network you are connected to, and you are solely responsible for how you use these features.
 - You acknowledge and agree that the App, the Pingilla and Pingilla Pro names, its code, design, and all related intellectual property are owned by Me and protected by applicable laws.
 - All trademarks, logos, and service marks displayed in the App are the property of their respective owners.
+
+---
+
+## Third-Party Websites and Networks
+- The App sends requests to websites, devices and networks that belong to you or to third parties. You are responsible for having the right to check them.
+- I am not responsible for how those websites, devices, networks or their operators react to the App's requests, for example by blocking your connection, rate-limiting you, or raising alerts in firewalls or intrusion detection systems.
+- I am not responsible for the content, availability or behavior of third-party websites and devices.
 
 ---
 
@@ -34,7 +43,7 @@ If you do not agree with any of these Terms, please do not use the App.
   • Site Monitor: up to 3 sites, checked every 5 minutes or less often, with 24 hours of uptime history
   • LAN Scanner: up to 20 devices from the latest scan of the current network
   • Ping: up to 20 pings per run
-- To remove these limits and unlock all features — including device memory, names, notes and tags, automatic scans and device notifications, multiple networks, port and service detection, 7- and 30-day uptime history with incidents, and unlimited ping — you may upgrade to **Pingilla Pro**, a **one-time purchase** (which includes Family Sharing). There is no subscription.
+- To remove these limits and unlock all features, including device memory, names, notes and tags, automatic scans and device notifications, multiple networks, port and service detection, 7- and 30-day uptime history with incidents, and unlimited ping, you may upgrade to **Pingilla Pro**, a **one-time purchase** (which includes Family Sharing). There is no subscription.
 - Features, pricing and availability may change.
 - All purchases are handled by **Apple via the App Store**. I do not process payments or store your payment details.
 - All sales are final. Refunds, if any, are subject to Apple's policies.
@@ -52,7 +61,8 @@ Please review the [Privacy Policy](https://cdf1982.com/privacy/pingilla_privacy_
 ## Disclaimer of Warranties and Liability
 - The App is provided **"as is"** and without warranties of any kind, express or implied.
 - I do not guarantee that the App will be error-free, uninterrupted, accurate, or suitable for your particular needs; for example, device names, manufacturers, open ports and online status are determined from what devices and the network report, and may be incomplete or wrong.
-- You acknowledge that data loss may occur, and you remain responsible for keeping your own records of anything important.
+- Device manufacturers are looked up in a copy of the public IEEE registry of MAC address assignments included in the App. It is provided as is and may be incomplete or out of date.
+- All your data is stored only on your Mac. You are responsible for backing it up, for example with Time Machine; data loss may occur, and I cannot recover data that was never stored anywhere else.
 - To the maximum extent permitted by law, I shall not be liable for any direct, indirect, incidental, special, or consequential damages arising from your use of the App, including damages from outages the App did not detect or report.
 - You use the App at your own risk.
 
