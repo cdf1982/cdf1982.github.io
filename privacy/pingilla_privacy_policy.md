@@ -40,6 +40,8 @@ Pingilla requires no account. Purchases are handled by Apple via the App Store: 
 ## Contact the developer
 If you email me for support, I will receive your email address and whatever you decide to include in your message. Please don't send passwords or other sensitive details: they are never needed to help you.
 
+When you use Help › Contact Support in the app, Pingilla opens a new email in your own mail app with a short support report: the app and macOS versions, your settings, how many sites, networks and devices you have and how they are doing, and facts about the last network scan. It never contains your site addresses, device names, IP or MAC addresses. Nothing is sent until you send the email yourself, and you can read, edit or delete the report before sending it. Help › Copy Support Report copies the same report, for webmail.
+
 For the personal data in support emails, the data controller is Cesare Forelli, reachable at [support@cdf1982.com](mailto:support@cdf1982.com). These emails are used only to answer your request, on the basis of your request itself, and are deleted within one month after the request is closed. You can ask me at any time to access, correct or delete them by writing to the same address; you also have the right to lodge a complaint with your data protection authority.
 
 For questions about this document, please email [support@cdf1982.com](mailto:support@cdf1982.com).
