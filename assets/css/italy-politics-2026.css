@@ -1,0 +1,173 @@
+/* Italian polls visualizer — 2026-10-17 post */
+.itpol {
+	--itpol-ink: #ffffff;
+	--itpol-ink-2: rgba(244, 244, 255, 0.72);
+	--itpol-ink-3: rgba(244, 244, 255, 0.5);
+	--itpol-rule: rgba(244, 244, 255, 0.28);
+	--itpol-surface: #242943;
+	--itpol-card: #2a2f4a;
+	margin: 2em 0 2.5em 0;
+	color: var(--itpol-ink);
+	/* The site is always dark: keep scrollbars and controls dark too, whatever the system setting */
+	color-scheme: only dark;
+	line-height: 1.4;
+}
+
+.itpol-scroll {
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+.itpol-svg {
+	display: block;
+	width: 100%;
+	min-width: 760px;
+	height: auto;
+	font-family: inherit;
+}
+
+.itpol-hint {
+	display: none;
+	font-size: 0.75em;
+	color: var(--itpol-ink-3);
+	margin: 0.25em 0 0 0;
+}
+
+@media screen and (max-width: 800px) {
+	.itpol-hint { display: block; }
+}
+
+.itpol-svg text { fill: var(--itpol-ink); }
+.itpol-svg .itpol-muted { fill: var(--itpol-ink-2); }
+.itpol-svg .itpol-faint { fill: var(--itpol-ink-3); }
+
+.itpol-seg { transition: opacity 0.15s ease; cursor: default; }
+.itpol.is-focused .itpol-seg { opacity: 0.22; }
+.itpol.is-focused .itpol-seg.is-on { opacity: 1; }
+
+.itpol-note { transition: opacity 0.15s ease; cursor: default; }
+.itpol.is-focused .itpol-note { opacity: 0.3; }
+.itpol.is-focused .itpol-note.is-on { opacity: 1; }
+
+.itpol-brace { fill: none; stroke: var(--itpol-ink-2); stroke-width: 1.5; stroke-linecap: round; }
+.itpol-link { fill: none; stroke: var(--itpol-ink-2); stroke-width: 1.5; stroke-dasharray: 3 4; }
+
+.itpol-tip {
+	position: absolute;
+	pointer-events: none;
+	background: #1b1f36;
+	border: 1px solid var(--itpol-rule);
+	border-radius: 6px;
+	padding: 0.5em 0.75em;
+	font-size: 0.8em;
+	line-height: 1.35;
+	color: var(--itpol-ink);
+	white-space: nowrap;
+	opacity: 0;
+	transform: translate(-50%, calc(-100% - 10px));
+	transition: opacity 0.1s ease;
+	z-index: 10;
+}
+.itpol-tip.is-visible { opacity: 1; }
+.itpol-tip strong { color: var(--itpol-ink); }
+.itpol-tip span { color: var(--itpol-ink-2); }
+
+.itpol-tip ul { margin: 0.4em 0 0 0; padding: 0 0 0 1.1em; }
+.itpol-tip li { padding: 0; color: var(--itpol-ink); }
+
+.itpol-positions {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	gap: 1.5em;
+	margin: 1.5em 0 0 0;
+}
+@media screen and (max-width: 736px) {
+	.itpol-positions { grid-template-columns: 1fr; }
+}
+.itpol-pos-card {
+	background: var(--itpol-card);
+	border-radius: 6px;
+	padding: 1.25em 1.5em;
+	font-size: 0.85em;
+}
+.itpol-pos-card h4 {
+	font-size: 0.85em;
+	letter-spacing: 0.1em;
+	margin: 0;
+	color: var(--itpol-ink-2);
+}
+.itpol-pos-big {
+	font-size: 2.4em;
+	font-weight: 700;
+	line-height: 1.1;
+	margin: 0.15em 0 0.5em 0;
+	font-variant-numeric: tabular-nums;
+}
+.itpol-pos-card ul { list-style: none; margin: 0; padding: 0; }
+.itpol-pos-card li {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	padding: 0.35em 0;
+}
+.itpol-pos-card li .itpol-name { flex: 1; }
+.itpol-pos-card li .itpol-val { font-variant-numeric: tabular-nums; font-weight: 600; }
+.itpol-meter {
+	flex-basis: 100%;
+	height: 4px;
+	border-radius: 2px;
+	background: rgba(244, 244, 255, 0.08);
+	margin-top: 0.3em;
+	overflow: hidden;
+}
+.itpol-meter span { display: block; height: 100%; border-radius: 2px; background: #ffffff; }
+.itpol-sub { flex-basis: 100%; font-size: 0.9em; color: var(--itpol-ink-2); margin-top: 0.2em; }
+.itpol-pos-note { font-size: 0.85em; color: var(--itpol-ink-3); margin: 0.75em 0 0 0; }
+
+.itpol-callout {
+	border-left: 3px solid #ffffff;
+	padding: 0.5em 0 0.5em 1em;
+	margin: 1.5em 0;
+	font-size: 0.95em;
+	color: var(--itpol-ink-2);
+}
+.itpol-callout strong { color: var(--itpol-ink); }
+
+.itpol-key {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(14em, 1fr));
+	gap: 1.25em 2em;
+	margin-top: 1.5em;
+	font-size: 0.85em;
+}
+.itpol-key h4 {
+	font-size: 0.85em;
+	letter-spacing: 0.1em;
+	margin: 0 0 0.5em 0;
+	color: var(--itpol-ink-2);
+}
+.itpol-key ul { list-style: none; margin: 0; padding: 0; }
+.itpol-key li {
+	display: flex;
+	align-items: center;
+	gap: 0.6em;
+	padding: 0.15em 0;
+	cursor: default;
+}
+.itpol-key li .itpol-sw {
+	flex: none;
+	width: 0.9em;
+	height: 0.9em;
+	border-radius: 3px;
+}
+.itpol-key li .itpol-name { flex: 1; }
+.itpol-key li .itpol-val { font-variant-numeric: tabular-nums; color: var(--itpol-ink-2); }
+.itpol-key li.itpol-total { border-top: 1px solid var(--itpol-rule); margin-top: 0.3em; padding-top: 0.35em; font-weight: 600; }
+.itpol-key li.itpol-total .itpol-val { color: var(--itpol-ink); }
+
+.itpol-source {
+	margin-top: 1.25em;
+	font-size: 0.75em;
+	color: var(--itpol-ink-3);
+}
+.itpol-source a { color: var(--itpol-ink-2); }
