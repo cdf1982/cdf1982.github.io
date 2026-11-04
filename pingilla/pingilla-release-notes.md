@@ -5,6 +5,18 @@ description:
 image:
 tags: [pingilla]
 ---
+<a name="1_2"></a>
+### Pingilla 1.2
+#### November 7, 2026
+
+Pingilla now runs on macOS Sequoia too _(thanks to John for suggesting it!)_.
+
+1. **macOS 15.** Site Monitor, LAN Scanner and Ping work the same as on the latest macOS, minus the glass. Which isn't really _a minus_ ;)
+
+2. **More ping times in LAN Scanner.** Devices that miss the first ping get a second one during the scan, so fewer of them show "—" in the Ping column, especially on the very first scan.
+
+If you have ideas or run into anything, I'd love to hear about it at support@cdf1982.com. –Cesare
+
 <a name="1_1"></a>
 ### Pingilla 1.1
 #### October 31, 2026
